@@ -5,8 +5,7 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 obj = Root(
     my_element1_or_my_element2_or_my_element3=DerivedElement(
         qname="myElement2",
-        value="test data",
-        type=None
+        value="test data"
     ),
     local_attributes={
         "local": "local attribute",

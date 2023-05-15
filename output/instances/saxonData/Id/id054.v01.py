@@ -6,13 +6,11 @@ obj = Doc(
     emp=[
         EmpType(
             name="John",
-            nr=23,
-            manager=None
+            nr=23
         ),
         EmpType(
             name="Mary",
-            nr=29,
-            manager=None
+            nr=29
         ),
         EmpType(
             name="Ahmed",

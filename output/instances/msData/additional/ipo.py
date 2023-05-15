@@ -21,7 +21,6 @@ obj = PurchaseOrder(
         state=Usstate.PA,
         zip=95819
     ),
-    comment=None,
     items=Items(
         item=[
             Items.Item(

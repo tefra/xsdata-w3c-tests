@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = A(
     any_element=AnyElement(
         qname="time",
-        text="14:25:00",
-        tail=None,
-        children=[],
-        attributes={}
+        text="14:25:00"
     )
 )

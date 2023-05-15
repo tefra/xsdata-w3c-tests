@@ -4,7 +4,6 @@ from output.models.ms_data.identity_constraint.id_h022_xsd.id_h022_imp import Ii
 
 
 obj = Root(
-    uid=[],
     iid=[
         Iid(
             val="1"

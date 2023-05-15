@@ -7,19 +7,12 @@ obj = Root(
     choice=[
         Item(
             any_element=AnyElement(
-                qname=None,
-                text="abc",
-                tail=None,
-                children=[],
-                attributes={}
+                text="abc"
             )
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="123",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}int",
                 }
@@ -27,10 +20,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="4.56",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}float",
                 }
@@ -38,10 +28,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="this is a string",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}string",
                 }
@@ -49,10 +36,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="false",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}boolean",
                 }
@@ -60,10 +44,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="45",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}decimal",
                 }
@@ -71,10 +52,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="P1347Y",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}duration",
                 }
@@ -82,10 +60,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="1999-05-31T13:20:00-05:00",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}dateTime",
                 }
@@ -93,10 +68,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="13:20:00-05:00",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}time",
                 }
@@ -104,10 +76,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="1999-05-31",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}date",
                 }
@@ -115,10 +84,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="1999",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}gYear",
                 }
@@ -126,10 +92,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="--02-13",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}gMonthDay",
                 }
@@ -137,10 +100,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="abcd",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}hexBinary",
                 }
@@ -148,10 +108,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="http://tempuri",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyURI",
                 }
@@ -159,10 +116,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="123",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anySimpleType",
                 }
@@ -170,10 +124,7 @@ obj = Root(
         ),
         Item(
             any_element=AnyElement(
-                qname=None,
                 text="123",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}anyType",
                 }

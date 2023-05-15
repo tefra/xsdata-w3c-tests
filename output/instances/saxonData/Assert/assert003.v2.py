@@ -5,6 +5,5 @@ obj = Temp(
     a=Temp.A(
         b=""
     ),
-    x="205",
-    y=None
+    x="205"
 )

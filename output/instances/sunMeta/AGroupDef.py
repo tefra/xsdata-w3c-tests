@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -17,1103 +16,671 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute is declared in attribute group by reference with QName. (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute is declared in attribute group by reference with QName. (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute Use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_p.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_p.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AG_attrUseNS00101m1_p",
-                version=[],
-                other_attributes={}
+                name="AG_attrUseNS00101m1_p"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1.xml",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
             ],
-            name="ag_attrusens00101m1_p",
-            version=[],
-            other_attributes={}
+            name="ag_attrusens00101m1_p"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute is declared in attribute group by reference with QName. (invalid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute is declared in attribute group by reference with QName. (invalid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute Use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_n.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_attrUse/AG_attrUseNS00101m/AG_attrUseNS00101m1_n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AG_attrUseNS00101m1_n",
-                version=[],
-                other_attributes={}
+                name="AG_attrUseNS00101m1_n"
             ),
-            instance_test=[],
-            name="ag_attrusens00101m1_n",
-            version=[],
-            other_attributes={}
+            name="ag_attrusens00101m1_n"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute wildcard is declared in attribute group.  (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute wildcard is declared in attribute group.  (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="According to declared attribute wildcard content of the attributes in the &#10;                                 document should not be processed.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="According to declared attribute wildcard content of the attributes in the &#10;                                 document should not be processed."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AG_attrWCard00101m1",
-                version=[],
-                other_attributes={}
+                name="AG_attrWCard00101m1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1_p.xml",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_attrWCard/AG_attrWCard00101m/AG_attrWCard00101m1_p.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
             ],
-            name="ag_attrwcard00101m1",
-            version=[],
-            other_attributes={}
+            name="ag_attrwcard00101m1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute group declaration. (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute group declaration. (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Group use should has proper ref value to be resolved to its declaration.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute Group use should has proper ref value to be resolved to its declaration."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_p.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_p.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AG_name00101m1_p",
-                version=[],
-                other_attributes={}
+                name="AG_name00101m1_p"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1.xml",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
             ],
-            name="ag_name00101m1_p",
-            version=[],
-            other_attributes={}
+            name="ag_name00101m1_p"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute group declaration. (invalid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute group declaration. (invalid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Group use should has proper ref value to be resolved to its declaration.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute Group use should has proper ref value to be resolved to its declaration."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_n.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_name/AG_name00101m/AG_name00101m1_n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AG_name00101m1_n",
-                version=[],
-                other_attributes={}
+                name="AG_name00101m1_n"
             ),
-            instance_test=[],
-            name="ag_name00101m1_n",
-            version=[],
-            other_attributes={}
+            name="ag_name00101m1_n"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute group reference with QName. (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute group reference with QName. (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Group use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute Group use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_p.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_p.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AG_targetNS00101m1_p",
-                version=[],
-                other_attributes={}
+                name="AG_targetNS00101m1_p"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1.xml",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
             ],
-            name="ag_targetns00101m1_p",
-            version=[],
-            other_attributes={}
+            name="ag_targetns00101m1_p"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute group reference with QName. (invalid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute group reference with QName. (invalid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute Group use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute Group use should has proper namespace prefix in the ref value &#10;                                 to be resolved to its declaration."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_n.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/AG_targetNS/AG_targetNS00101m/AG_targetNS00101m1_n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AG_targetNS00101m1_n",
-                version=[],
-                other_attributes={}
+                name="AG_targetNS00101m1_n"
             ),
-            instance_test=[],
-            name="ag_targetns00101m1_n",
-            version=[],
-            other_attributes={}
+            name="ag_targetns00101m1_n"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted  annotation for an attribute group definition (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="human-targeted  annotation for an attribute group definition (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="annotation00101m1",
-                version=[],
-                other_attributes={}
+                name="annotation00101m1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1_p.xml",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m1_p.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
             ],
-            name="annotation00101m1",
-            version=[],
-            other_attributes={}
+            name="annotation00101m1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted double annotation for an attribute group definition (invalid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="human-targeted double annotation for an attribute group definition (invalid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is specified twice.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is specified twice."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m2.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m2.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="annotation00101m2",
-                version=[],
-                other_attributes={}
+                name="annotation00101m2"
             ),
-            instance_test=[],
-            name="annotation00101m2",
-            version=[],
-            other_attributes={}
+            name="annotation00101m2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="human-targeted misplaced annotation for an attribute group definition (invalid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="human-targeted misplaced annotation for an attribute group definition (invalid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is misplaced.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the human-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is misplaced."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m3.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m3.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="annotation00101m3",
-                version=[],
-                other_attributes={}
+                name="annotation00101m3"
             ),
-            instance_test=[],
-            name="annotation00101m3",
-            version=[],
-            other_attributes={}
+            name="annotation00101m3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted  annotation for an attribute group definition (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="machine-targeted  annotation for an attribute group definition (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="annotation00101m4",
-                version=[],
-                other_attributes={}
+                name="annotation00101m4"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4_p.xml",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m4_p.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
             ],
-            name="annotation00101m4",
-            version=[],
-            other_attributes={}
+            name="annotation00101m4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted double annotation for an attribute group definition (invalid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="machine-targeted double annotation for an attribute group definition (invalid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is specified twice.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is specified twice."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m5.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m5.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="annotation00101m5",
-                version=[],
-                other_attributes={}
+                name="annotation00101m5"
             ),
-            instance_test=[],
-            name="annotation00101m5",
-            version=[],
-            other_attributes={}
+            name="annotation00101m5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="machine-targeted misplaced annotation for an attribute group definition (invalid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="machine-targeted misplaced annotation for an attribute group definition (invalid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is misplaced.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Annotations provide for human- and machine-targeted &#10;                             annotations of schema components.&#10;                              In the test the machine-targeted annotation &#10;                             is provided for an attribute group definition.&#10;                             The annotation is misplaced."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m6.xsd",
-                        other_attributes={}
+                        href="../sunData/AGroupDef/annotation/annotation00101m/annotation00101m6.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="annotation00101m6",
-                version=[],
-                other_attributes={}
+                name="annotation00101m6"
             ),
-            instance_test=[],
-            name="annotation00101m6",
-            version=[],
-            other_attributes={}
+            name="annotation00101m6"
         ),
     ],
     contributor="SUN",
     name="AGroupDef",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

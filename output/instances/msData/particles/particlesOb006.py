@@ -8,18 +8,12 @@ obj = Doc(
         any_element=AnyElement(
             qname="{bar}bar",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{bar}e1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
-            ],
-            attributes={}
-        ),
-        foo_bar_element=None
+            ]
+        )
     )
 )

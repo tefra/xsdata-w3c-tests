@@ -9,16 +9,10 @@ obj = Doc(
     f2="",
     c1_or_c2=AnyElement(
         qname="c1",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     ),
     d1_or_d2=AnyElement(
         qname="d1",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     )
 )

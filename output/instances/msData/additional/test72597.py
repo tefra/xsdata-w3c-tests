@@ -6,12 +6,10 @@ obj = Root(
     a=A(
         part=[
             A.Part(
-                value="",
                 number=1,
                 number2=2
             ),
             A.Part(
-                value="",
                 number=2,
                 number2=1
             ),

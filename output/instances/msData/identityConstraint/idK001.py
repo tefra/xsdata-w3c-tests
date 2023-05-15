@@ -20,20 +20,16 @@ obj = Root(
     ],
     kid=[
         Kid(
-            elem="1",
-            val=None
+            elem="1"
         ),
         Kid(
-            elem="11",
-            val=None
+            elem="11"
         ),
         Kid(
-            elem="111",
-            val=None
+            elem="111"
         ),
         Kid(
-            elem="1.0",
-            val=None
+            elem="1.0"
         ),
     ]
 )

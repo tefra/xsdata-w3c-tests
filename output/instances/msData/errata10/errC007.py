@@ -6,14 +6,10 @@ obj = Root(
     local_element1=AnyElement(
         qname="localElement1",
         text="",
-        tail=None,
         children=[
             AnyElement(
                 qname="{http://www.tempuri.org}testContent",
-                text="123",
-                tail=None,
-                children=[],
-                attributes={}
+                text="123"
             ),
         ],
         attributes={
@@ -23,21 +19,14 @@ obj = Root(
     local_element2=AnyElement(
         qname="localElement2",
         text="",
-        tail=None,
         children=[
             AnyElement(
                 qname="testContent",
-                text="any text",
-                tail=None,
-                children=[],
-                attributes={}
+                text="any text"
             ),
             AnyElement(
                 qname="{http://www.tempuri.org}testContent",
-                text="456",
-                tail=None,
-                children=[],
-                attributes={}
+                text="456"
             ),
         ],
         attributes={

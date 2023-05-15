@@ -6,10 +6,7 @@ obj = Root(
     content=[
         AnyElement(
             qname="e",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

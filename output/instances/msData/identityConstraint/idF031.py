@@ -8,8 +8,7 @@ obj = Root(
         T(
             r2_or_r=DerivedElement(
                 qname="r",
-                value=" 1 ",
-                type=None
+                value=" 1 "
             )
         ),
         T(
@@ -18,8 +17,7 @@ obj = Root(
         T(
             r2_or_r=DerivedElement(
                 qname="r",
-                value=" 3 ",
-                type=None
+                value=" 3 "
             )
         ),
         T(

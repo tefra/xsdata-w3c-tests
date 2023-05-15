@@ -2,5 +2,5 @@ from output.models.sun_data.elem_decl.abstract.abstract00201m.abstract00201m2_xs
 
 
 obj = Root(
-    any_element=None
+
 )

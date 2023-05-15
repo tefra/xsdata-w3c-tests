@@ -7,12 +7,10 @@ obj = Section(
     section=[
         Section(
             head="Bumph",
-            section=[],
             nr=Decimal("1.1")
         ),
         Section(
             head="More Bumph",
-            section=[],
             nr=Decimal("1.2")
         ),
     ],

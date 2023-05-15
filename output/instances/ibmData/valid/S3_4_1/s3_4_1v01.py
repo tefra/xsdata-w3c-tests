@@ -4,14 +4,10 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    any_element=None,
     p=C(
         any_element=AnyElement(
             qname="a",
-            text="1",
-            tail=None,
-            children=[],
-            attributes={}
+            text="1"
         )
     )
 )

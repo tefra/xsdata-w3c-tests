@@ -9,18 +9,12 @@ obj = Root(
             "&#10;&#9;mixed content&#10;&#9;",
             AnyElement(
                 qname="child_1",
-                text="info",
-                tail=None,
-                children=[],
-                attributes={}
+                text="info"
             ),
             "&#10;        for fooTest&#10;&#9;",
             AnyElement(
                 qname="child_2",
-                text="3",
-                tail=None,
-                children=[],
-                attributes={}
+                text="3"
             ),
         ]
     )

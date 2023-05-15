@@ -6,6 +6,5 @@ obj = Doc(
         "ping": "pong",
         "peng": "pyng",
         "ok": "true",
-    },
-    local_attributes={}
+    }
 )

@@ -6,10 +6,10 @@ from output.models.ms_data.identity_constraint.id_h015_xsd.id_h015 import Uid
 obj = Root(
     uid=[
         Uid(
-            val="test"
+
         ),
         Uid(
-            val="test"
+
         ),
     ],
     kid=[

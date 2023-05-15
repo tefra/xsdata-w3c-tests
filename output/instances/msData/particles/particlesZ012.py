@@ -8,28 +8,23 @@ obj = Root(
     e2_or_e1_or_e3=[
         DerivedElement(
             qname="{http://xsdtesting}E1",
-            value=1,
-            type=None
+            value=1
         ),
         DerivedElement(
             qname="{http://xsdtesting}E1",
-            value=True,
-            type=None
+            value=True
         ),
         DerivedElement(
             qname="{http://xsdtesting}E1",
-            value=False,
-            type=None
+            value=False
         ),
         DerivedElement(
             qname="{http://xsdtesting}E1",
-            value=MyType10Value.X,
-            type=None
+            value=MyType10Value.X
         ),
         DerivedElement(
             qname="{http://xsdtesting}E1",
-            value=MyType10Value.Y,
-            type=None
+            value=MyType10Value.Y
         ),
         1,
         E3(

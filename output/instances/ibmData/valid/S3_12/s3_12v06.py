@@ -28,7 +28,6 @@ obj = Root(
             number_of_children=7
         ),
         CtBase(
-            child=[],
             number_of_children=-5
         ),
     ]

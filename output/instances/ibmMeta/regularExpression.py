@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -21,8 +20,6 @@ obj = TestSet(
         Annotation(
             appinfo_or_documentation=[
                 Documentation(
-                    source=None,
-                    lang=None,
                     other_attributes={
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#regexs",
                     },
@@ -30,8 +27,7 @@ obj = TestSet(
                         "substitutionGroup ",
                     ]
                 ),
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     test_group=[
@@ -40,757 +36,476 @@ obj = TestSet(
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "use of hyphens within square brackets in regular expressions [a-c] ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D6_G/d6_gv01.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D6_G/d6_gv01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d6_gv01s",
-                version=[],
-                other_attributes={}
+                name="d6_gv01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D6_G/d6_gv01.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D6_G/d6_gv01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d6_gv01i",
-                    version=[],
-                    other_attributes={}
+                    name="d6_gv01i"
                 ),
             ],
             name="d6_gv01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "use of hyphens within square brackets in regular expressions [abc-[c]] ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D6_G/d6_gv02.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D6_G/d6_gv02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d6_gv02s",
-                version=[],
-                other_attributes={}
+                name="d6_gv02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D6_G/d6_gv02.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D6_G/d6_gv02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d6_gv02i",
-                    version=[],
-                    other_attributes={}
+                    name="d6_gv02i"
                 ),
             ],
             name="d6_gv02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "use of hyphens within square brackets in regular expressions [-abc] ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D6_G/d6_gv03.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D6_G/d6_gv03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d6_gv03s",
-                version=[],
-                other_attributes={}
+                name="d6_gv03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D6_G/d6_gv03.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D6_G/d6_gv03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d6_gv03i",
-                    version=[],
-                    other_attributes={}
+                    name="d6_gv03i"
                 ),
             ],
             name="d6_gv03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "use of hyphens within square brackets in regular expressions [bc-] ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D6_G/d6_gv04.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D6_G/d6_gv04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d6_gv04s",
-                version=[],
-                other_attributes={}
+                name="d6_gv04s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D6_G/d6_gv04.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D6_G/d6_gv04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d6_gv04i",
-                    version=[],
-                    other_attributes={}
+                    name="d6_gv04i"
                 ),
             ],
             name="d6_gv04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "invalid instance use of hyphens within square brackets in regular expressions [a-c] ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D6_G/d6_gii01.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D6_G/d6_gii01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d6_gii01s",
-                version=[],
-                other_attributes={}
+                name="d6_gii01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D6_G/d6_gii01.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D6_G/d6_gii01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d6_gii01i",
-                    version=[],
-                    other_attributes={}
+                    name="d6_gii01i"
                 ),
             ],
             name="d6_gii01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "invalid instance use of hyphens within square brackets in regular expressions [abc-[c]] ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D6_G/d6_gii02.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D6_G/d6_gii02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d6_gii02s",
-                version=[],
-                other_attributes={}
+                name="d6_gii02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D6_G/d6_gii02.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D6_G/d6_gii02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d6_gii02i",
-                    version=[],
-                    other_attributes={}
+                    name="d6_gii02i"
                 ),
             ],
             name="d6_gii02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 " invalid instance use of hyphens within square brackets in regular expressions [-abc] ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D6_G/d6_gii03.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D6_G/d6_gii03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d6_gii03s",
-                version=[],
-                other_attributes={}
+                name="d6_gii03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D6_G/d6_gii03.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D6_G/d6_gii03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d6_gii03i",
-                    version=[],
-                    other_attributes={}
+                    name="d6_gii03i"
                 ),
             ],
             name="d6_gii03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "invalid instance use of hyphens within square brackets in regular expressions [bc-] ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#regexs",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#regexs"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D6_G/d6_gii04.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D6_G/d6_gii04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d6_gii04s",
-                version=[],
-                other_attributes={}
+                name="d6_gii04s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D6_G/d6_gii04.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D6_G/d6_gii04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d6_gii04i",
-                    version=[],
-                    other_attributes={}
+                    name="d6_gii04i"
                 ),
             ],
             name="d6_gii04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="IBM",
     name="RegularExpression",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

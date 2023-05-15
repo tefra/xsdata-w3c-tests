@@ -9,7 +9,5 @@ obj = Doc(
     extra_date=XmlDate(2008, 3, 12),
     a=AType(
 
-    ),
-    b=None,
-    c=None
+    )
 )

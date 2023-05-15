@@ -6,45 +6,27 @@ obj = Foo(
     target_namespace_w3_org_1999_xhtml_element=[
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}foo",
-            text="foo bar",
-            tail=None,
-            children=[],
-            attributes={}
+            text="foo bar"
         ),
         AnyElement(
             qname="{http://xsdtesting}b",
-            text="testing",
-            tail=None,
-            children=[],
-            attributes={}
+            text="testing"
         ),
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}foo",
-            text="foo bar",
-            tail=None,
-            children=[],
-            attributes={}
+            text="foo bar"
         ),
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}foo",
-            text="foo bar",
-            tail=None,
-            children=[],
-            attributes={}
+            text="foo bar"
         ),
         AnyElement(
             qname="{http://xsdtesting}b",
-            text="testing",
-            tail=None,
-            children=[],
-            attributes={}
+            text="testing"
         ),
         AnyElement(
             qname="{http://xsdtesting}b",
-            text="testing",
-            tail=None,
-            children=[],
-            attributes={}
+            text="testing"
         ),
     ]
 )

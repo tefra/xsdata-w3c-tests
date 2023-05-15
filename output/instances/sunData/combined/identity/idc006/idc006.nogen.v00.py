@@ -8,23 +8,18 @@ obj = Root(
             AnyElement(
                 qname="{http://www.publishing.org}a",
                 text="",
-                tail=None,
                 children=[
                     AnyElement(
                         qname="{http://www.publishing.org}a",
                         text="",
-                        tail=None,
                         children=[
                             AnyElement(
                                 qname="{http://www.publishing.org}b",
                                 text="",
-                                tail=None,
                                 children=[
                                     AnyElement(
                                         qname="{http://www.publishing.org}b",
                                         text="",
-                                        tail=None,
-                                        children=[],
                                         attributes={
                                             "id": "id2",
                                         }
@@ -34,11 +29,9 @@ obj = Root(
                                     "id": "id1",
                                 }
                             ),
-                        ],
-                        attributes={}
+                        ]
                     ),
-                ],
-                attributes={}
+                ]
             ),
         ]
     ),

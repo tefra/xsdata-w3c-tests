@@ -4,16 +4,11 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = A(
     any_element=AnyElement(
-        qname=None,
         text="&#10;1242&#10;        ",
-        tail=None,
         children=[
             AnyElement(
                 qname="b",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
         ],
         attributes={

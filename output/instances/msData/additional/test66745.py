@@ -6,26 +6,20 @@ obj = Foo(
     any_element=AnyElement(
         qname="{foo}bar",
         text="",
-        tail=None,
         children=[
             AnyElement(
                 qname="{foo1}foo1",
                 text="",
-                tail=None,
                 children=[
                     AnyElement(
                         qname="{foo}bar",
-                        text="",
-                        tail=None,
-                        children=[],
-                        attributes={}
+                        text=""
                     ),
                 ],
                 attributes={
                     "x": "1",
                 }
             ),
-        ],
-        attributes={}
+        ]
     )
 )

@@ -7,7 +7,6 @@ obj = BookCatalogue(
             title="My Life and Times",
             author="Paul McCartney",
             date="1998",
-            isbn=None,
             publisher="McMillin Publishing"
         ),
         BookCatalogue.Book(

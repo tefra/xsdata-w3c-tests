@@ -7,7 +7,6 @@ obj = Root(
     t=[
         T(
             c=Ctype2(
-                val=None,
                 content=[
                     " 1 ",
                 ],
@@ -16,7 +15,6 @@ obj = Root(
         ),
         T(
             c=Ctype2(
-                val=None,
                 content=[
                     " 2 ",
                 ],
@@ -25,7 +23,6 @@ obj = Root(
         ),
         T(
             c=Ctype2(
-                val=None,
                 content=[
                     " 3 ",
                 ],

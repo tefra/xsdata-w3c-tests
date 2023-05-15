@@ -27,7 +27,6 @@ obj = PurchaseOrder(
                 product_name="777 Model",
                 quantity=1,
                 usprice=Decimal("99.95"),
-                customer_comment_or_ship_comment_or_comment=[],
                 ship_date=XmlDate(1999, 12, 5),
                 part_num="777-BA",
                 weight_kg=Decimal("4.5"),
@@ -37,11 +36,8 @@ obj = PurchaseOrder(
                 product_name="833 Model",
                 quantity=1,
                 usprice=Decimal("199.95"),
-                customer_comment_or_ship_comment_or_comment=[],
                 ship_date=XmlDate(2000, 2, 28),
-                part_num="833-AA",
-                weight_kg=None,
-                ship_by=None
+                part_num="833-AA"
             ),
         ]
     ),

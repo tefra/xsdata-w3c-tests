@@ -8,29 +8,24 @@ obj = Root(
             type="text",
             content=[
                 "My News",
-            ],
-            value=""
+            ]
         ),
         MixedTitleType(
             type="number",
             content=[
                 "122323",
-            ],
-            value=""
+            ]
         ),
         MixedTitleType(
             type="mixed",
             content=[
                 "D413",
-            ],
-            value=""
+            ]
         ),
         MixedTitleType(
-            type=None,
             content=[
                 "My News",
-            ],
-            value=""
+            ]
         ),
     ]
 )

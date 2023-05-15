@@ -2,5 +2,5 @@ from output.models.sun_data.elem_decl.nillable.nillable00302m.nillable00302m_xsd
 
 
 obj = Root(
-    local=None
+
 )

@@ -7,9 +7,6 @@ obj = Root(
     a=XmlDate(2010, 10, 16),
     local_element=AnyElement(
         qname="a",
-        text="42",
-        tail=None,
-        children=[],
-        attributes={}
+        text="42"
     )
 )

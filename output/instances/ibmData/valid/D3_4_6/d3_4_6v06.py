@@ -6,8 +6,7 @@ obj = Root(
     choice=[
         DerivedElement(
             qname="{a}_-",
-            value="_-",
-            type=None
+            value="_-"
         ),
     ]
 )

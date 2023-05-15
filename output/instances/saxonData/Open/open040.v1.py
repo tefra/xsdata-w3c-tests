@@ -9,10 +9,7 @@ obj = Doc(
         Alpha(
             open_com_element=AnyElement(
                 qname="{http://open.com/}extra",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             )
         ),
         Beta(

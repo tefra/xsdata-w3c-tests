@@ -6,14 +6,12 @@ from xsdata.models.datatype import XmlDate
 
 obj = Data(
     timer=TimerType(
-        time=30,
-        iterations=None
+        time=30
     ),
     parent=ParentType(
         child=ParentType.Child(
             name="abc",
             dob=XmlDate(1997, 1, 1)
-        ),
-        grandchild=None
+        )
     )
 )

@@ -4,6 +4,6 @@ from output.models.ms_data.attribute.att_p022_xsd.att_p022 import Doc
 
 obj = Doc(
     elem=AttRef(
-        att="37"
+
     )
 )

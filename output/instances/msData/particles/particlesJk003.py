@@ -6,1456 +6,1179 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem=R(
-        other_element=[],
         imp_elem1=[
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
                 any_element=AnyElement(
-                    qname=None,
-                    text="&#10;testing&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;testing&#10;"
                 )
             ),
             ImpElem1(
-                any_element=None
+
             ),
         ]
     )

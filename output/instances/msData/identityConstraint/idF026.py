@@ -8,26 +8,22 @@ obj = Root(
     t=[
         T(
             r2_or_r=R(
-                value=" 1 ",
-                val=None
+                value=" 1 "
             )
         ),
         T(
             r2_or_r=R2(
-                value=" 2 ",
-                val=None
+                value=" 2 "
             )
         ),
         T(
             r2_or_r=R(
-                value=" 3 ",
-                val=None
+                value=" 3 "
             )
         ),
         T(
             r2_or_r=R2(
-                value=" 4 ",
-                val=None
+                value=" 4 "
             )
         ),
     ]

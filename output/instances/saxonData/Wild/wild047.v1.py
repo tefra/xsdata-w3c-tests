@@ -7,11 +7,7 @@ obj = Computer(
     local_element=[
         AnyElement(
             qname="f",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
-    ],
-    extra_com_element=[]
+    ]
 )

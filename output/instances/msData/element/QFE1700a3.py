@@ -7,13 +7,10 @@ obj = Root(
     any_element=AnyElement(
         qname="e2",
         text="abc",
-        tail=None,
         children=[
             AnyElement(
                 qname="e3",
                 text="1234523057892759275760972ankahf",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}nil": "true",
                 }

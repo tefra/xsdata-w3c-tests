@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -19,79 +18,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional simple type: example based on spec",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Conditional simple type: example based on spec"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple type of message depends on enumerated kind attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple type of message depends on enumerated kind attribute"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0001.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 12)
                 ),
-                prior=[],
-                name="cta0001",
-                version=[],
-                other_attributes={}
+                name="cta0001"
             ),
             instance_test=[
                 InstanceTest(
@@ -99,282 +69,177 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Valid, message with kind="date".&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 12)
                     ),
-                    prior=[],
-                    name="cta0001.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0001.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Valid, message with kind="time".&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0001.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0001.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 12)
                     ),
-                    prior=[],
-                    name="cta0001.v02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0001.v02"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, multiple messages at inner level.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0001.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0001.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 12)
                     ),
-                    prior=[],
-                    name="cta0001.v03",
-                    version=[],
-                    other_attributes={}
+                    name="cta0001.v03"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Invalid, message with kind="date" but content is a time&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 12)
                     ),
-                    prior=[],
-                    name="cta0001.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0001.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Invalid, message with kind="date" at inner level&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 12)
                     ),
-                    prior=[],
-                    name="cta0001.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0001.n02"
                 ),
             ],
-            name="cta0001",
-            version=[],
-            other_attributes={}
+            name="cta0001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional complex type with namespaces",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Conditional complex type with namespaces"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Complex type of message depends on enumerated min attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Complex type of message depends on enumerated min attribute"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0002.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 19)
                 ),
-                prior=[],
-                name="cta0002",
-                version=[],
-                other_attributes={}
+                name="cta0002"
             ),
             instance_test=[
                 InstanceTest(
@@ -382,159 +247,99 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, various messages.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0002.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0002.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0002.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0002.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, message with min=1 but no child elements&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0002.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0002.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0002.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0002.n01"
                 ),
             ],
-            name="cta0002",
-            version=[],
-            other_attributes={}
+            name="cta0002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional complex type with namespaces",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Conditional complex type with namespaces"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Trivial reference to the name of the element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Trivial reference to the name of the element"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0003.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 19)
                 ),
-                prior=[],
-                name="cta0003",
-                version=[],
-                other_attributes={}
+                name="cta0003"
             ),
             instance_test=[
                 InstanceTest(
@@ -542,161 +347,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, various messages.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0003.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0003.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0003.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0003.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, message with min=1 but no child elements&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0003.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0003.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0003.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0003.n01"
                 ),
             ],
             name="cta0003",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional complex type with namespaces",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Conditional complex type with namespaces"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of cta0003 (same instance documents) using xpathDefaultNamespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Variant of cta0003 (same instance documents) using xpathDefaultNamespace"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0004.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 19)
                 ),
-                prior=[],
-                name="cta0004",
-                version=[],
-                other_attributes={}
+                name="cta0004"
             ),
             instance_test=[
                 InstanceTest(
@@ -704,161 +450,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, various messages.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0003.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0003.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0004.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0004.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, message with min=1 but no child elements&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0003.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0003.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0004.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0004.n01"
                 ),
             ],
             name="cta0004",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional complex type with namespaces",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Conditional complex type with namespaces"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of cta0003 (same instance documents) using xpathDefaultNamespace&#10;                         at the schema level",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Variant of cta0003 (same instance documents) using xpathDefaultNamespace&#10;                         at the schema level"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-ImpactOfXPathDefaultNS"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0005.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 19)
                 ),
-                prior=[],
-                name="cta0005",
-                version=[],
-                other_attributes={}
+                name="cta0005"
             ),
             instance_test=[
                 InstanceTest(
@@ -866,141 +553,90 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, various messages.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0003.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0003.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0005.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0005.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, message with min=1 but no child elements&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0003.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0003.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0005.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0005.n01"
                 ),
             ],
             name="cta0005",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional simple type: selecting a branch of a union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Conditional simple type: selecting a branch of a union"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple type of message depends on enumerated kind attribute, value is&#10;                 a QName identifying the branch of a union (xsi:type simulation)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple type of message depends on enumerated kind attribute, value is&#10;                 a QName identifying the branch of a union (xsi:type simulation)"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0006.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0006.xsd"
                     ),
                 ],
                 expected=[
@@ -1008,15 +644,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -1024,34 +658,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
                 ],
-                name="cta0006",
-                version=[],
-                other_attributes={}
+                name="cta0006"
             ),
             instance_test=[
                 InstanceTest(
@@ -1059,182 +682,116 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid messages&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0006.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0006.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0006.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0006.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Invalid message with kind="xs:int"&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0006.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0006.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0006.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0006.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Invalid message with kind="xs:QName (namespace not declared"&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0006.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0006.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="cta0006.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0006.n02"
                 ),
             ],
             name="cta0006",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Variant of cta0006 using xs:error",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Variant of cta0006 using xs:error"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Chosen alternative has a type of xs:error",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Chosen alternative has a type of xs:error"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0007.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0007.xsd"
                     ),
                 ],
                 expected=[
@@ -1242,15 +799,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -1258,34 +813,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 7, 30),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 7, 30)
                     ),
                 ],
-                name="cta0007",
-                version=[],
-                other_attributes={}
+                name="cta0007"
             ),
             instance_test=[
                 InstanceTest(
@@ -1293,107 +837,69 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Invalid message with kind="xs:anyURI" leading to selection of type xs:error&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0007.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0007.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 7, 30),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 7, 30)
                     ),
-                    prior=[],
-                    name="cta0007.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0007.n01"
                 ),
             ],
             name="cta0007",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Inline type alternative",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Inline type alternative"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type alternative is an anonymous type defined as child of xs:alternative",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative is an anonymous type defined as child of xs:alternative"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0008.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
@@ -1401,34 +907,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;                  Changed 'eq' operator in CTA to '=' to stay within minimal XPath subset.&#10;                  Bug 13455.&#10;                ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 10, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 10, 17)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2009, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2009, 5, 5)
                     ),
                 ],
-                name="cta0008",
-                version=[],
-                other_attributes={}
+                name="cta0008"
             ),
             instance_test=[
                 InstanceTest(
@@ -1436,161 +931,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0008.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0008.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 5)
                     ),
-                    prior=[],
-                    name="cta0008.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0008.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                inalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0008.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0008.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 5)
                     ),
-                    prior=[],
-                    name="cta0008.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0008.n01"
                 ),
             ],
             name="cta0008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type alternative is an anonymous type defined as child of xs:alternative",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative is an anonymous type defined as child of xs:alternative"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0009",
-                version=[],
-                other_attributes={}
+                name="cta0009"
             ),
             instance_test=[
                 InstanceTest(
@@ -1598,249 +1034,157 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0009.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0009.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0009.v02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0009.v02"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0009.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0009.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0009.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0009.n02"
                 ),
             ],
             name="cta0009",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Type alternative is an anonymous type defined as child of xs:alternative",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative is an anonymous type defined as child of xs:alternative"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0010.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0010",
-                version=[],
-                other_attributes={}
+                name="cta0010"
             ),
             instance_test=[
                 InstanceTest(
@@ -1848,243 +1192,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0010.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0010.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0010.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0010.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0010.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0010.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0010.v02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0010.v02"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0010.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0010.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0010.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0010.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0010.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0010.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0010.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0010.n02"
                 ),
             ],
             name="cta0010",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Inheritability differs between attribute declaration and use: attribute use wins",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Inheritability differs between attribute declaration and use: attribute use wins"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0011.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0011",
-                version=[],
-                other_attributes={}
+                name="cta0011"
             ),
             instance_test=[
                 InstanceTest(
@@ -2092,243 +1347,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0011.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0011.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0011.v02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0011.v02"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0011.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0011.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0009.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0009.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0011.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0011.n02"
                 ),
             ],
             name="cta0011",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Inheritability differs between attribute declaration and use: attribute use wins",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Inheritability differs between attribute declaration and use: attribute use wins"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0012.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0012",
-                version=[],
-                other_attributes={}
+                name="cta0012"
             ),
             instance_test=[
                 InstanceTest(
@@ -2336,167 +1502,105 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0012.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0012.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0012.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0012.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0012.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0012.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0012.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0012.n01"
                 ),
             ],
             name="cta0012",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A non-inheritable attribute does not mask an inheritable attribute on an ancestor",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A non-inheritable attribute does not mask an inheritable attribute on an ancestor"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XSErrorType"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0013.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0013",
-                version=[],
-                other_attributes={}
+                name="cta0013"
             ),
             instance_test=[
                 InstanceTest(
@@ -2504,243 +1608,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0013.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0013.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0013.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0013.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0013.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0013.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0013.v02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0013.v02"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0013.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0013.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0013.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0013.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0013.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0013.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0013.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0013.n02"
                 ),
             ],
             name="cta0013",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Explicit default alternative as last alternative",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Explicit default alternative as last alternative"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0014",
-                version=[],
-                other_attributes={}
+                name="cta0014"
             ),
             instance_test=[
                 InstanceTest(
@@ -2748,243 +1763,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0014.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0014.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0014.v02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0014.v02"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0014.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0014.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0014.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0014.n02"
                 ),
             ],
             name="cta0014",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Implicit default alternative as last alternative",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Implicit default alternative as last alternative"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DefaultBranch"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0015.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0015",
-                version=[],
-                other_attributes={}
+                name="cta0015"
             ),
             instance_test=[
                 InstanceTest(
@@ -2992,243 +1918,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0015.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0015.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0015.v02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0015.v02"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0015.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0015.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0015.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0015.n02"
                 ),
             ],
             name="cta0015",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Error in XPath evaluation treated as false",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Error in XPath evaluation treated as false"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DynamicErrInXPathEval"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0016.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0016",
-                version=[],
-                other_attributes={}
+                name="cta0016"
             ),
             instance_test=[
                 InstanceTest(
@@ -3236,223 +2073,142 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0016.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0016.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0016.v02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0016.v02"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0016.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0016.n01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0014.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0014.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0016.n02",
-                    version=[],
-                    other_attributes={}
+                    name="cta0016.n02"
                 ),
             ],
             name="cta0016",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression can only access attributes",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="XPath expression can only access attributes"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0017.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0017.xsd"
                     ),
                 ],
                 expected=[
@@ -3460,15 +2216,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -3476,34 +2230,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0017",
-                version=[],
-                other_attributes={}
+                name="cta0017"
             ),
             instance_test=[
                 InstanceTest(
@@ -3511,100 +2254,64 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0017.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0017.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0017.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0017.v01"
                 ),
             ],
             name="cta0017",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression sees untyped data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="XPath expression sees untyped data"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0018.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0018.xsd"
                     ),
                 ],
                 expected=[
@@ -3612,15 +2319,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -3628,34 +2333,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0018",
-                version=[],
-                other_attributes={}
+                name="cta0018"
             ),
             instance_test=[
                 InstanceTest(
@@ -3663,100 +2357,64 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0017.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0017.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0018.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0018.v01"
                 ),
             ],
             name="cta0018",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression sees untyped data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="XPath expression sees untyped data"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0019.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0019.xsd"
                     ),
                 ],
                 expected=[
@@ -3764,15 +2422,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -3780,34 +2436,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0019",
-                version=[],
-                other_attributes={}
+                name="cta0019"
             ),
             instance_test=[
                 InstanceTest(
@@ -3815,120 +2460,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0017.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0017.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0019.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0019.v01"
                 ),
             ],
             name="cta0019",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression sees name of element node",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="XPath expression sees name of element node"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0020.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0020",
-                version=[],
-                other_attributes={}
+                name="cta0020"
             ),
             instance_test=[
                 InstanceTest(
@@ -3936,100 +2537,64 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0017.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0017.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0020.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0020.v01"
                 ),
             ],
             name="cta0020",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="XPath expression sees base URI of element node",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="XPath expression sees base URI of element node"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-XPathExprAttrOnly"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0021.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0021.xsd"
                     ),
                 ],
                 expected=[
@@ -4037,15 +2602,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -4053,34 +2616,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0021",
-                version=[],
-                other_attributes={}
+                name="cta0021"
             ),
             instance_test=[
                 InstanceTest(
@@ -4088,141 +2640,90 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0021.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0021.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0021.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0021.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid message: base URI does not match the test, so the error alternative is chosen&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0021.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0021.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0021.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0021.n01"
                 ),
             ],
             name="cta0021",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Dynamic context of XPath expression",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Dynamic context of XPath expression"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0022.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0022.xsd"
                     ),
                 ],
                 expected=[
@@ -4230,15 +2731,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -4246,34 +2745,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0022",
-                version=[],
-                other_attributes={}
+                name="cta0022"
             ),
             instance_test=[
                 InstanceTest(
@@ -4281,120 +2769,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0017.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0017.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0022.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0022.v01"
                 ),
             ],
             name="cta0022",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Static context of XPath expression"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0023.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0023",
-                version=[],
-                other_attributes={}
+                name="cta0023"
             ),
             instance_test=[
                 InstanceTest(
@@ -4402,100 +2846,64 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0023.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0023.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0023.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0023.v01"
                 ),
             ],
             name="cta0023",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Static context of XPath expression"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0024.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0024.xsd"
                     ),
                 ],
                 expected=[
@@ -4503,15 +2911,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -4519,34 +2925,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0024",
-                version=[],
-                other_attributes={}
+                name="cta0024"
             ),
             instance_test=[
                 InstanceTest(
@@ -4554,120 +2949,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0023.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0023.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0024.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0024.v01"
                 ),
             ],
             name="cta0024",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Static context of XPath expression"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0025.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0025",
-                version=[],
-                other_attributes={}
+                name="cta0025"
             ),
             instance_test=[
                 InstanceTest(
@@ -4675,120 +3026,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0023.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0023.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0025.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0025.v01"
                 ),
             ],
             name="cta0025",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Static context of XPath expression"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0026.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0026.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0026",
-                version=[],
-                other_attributes={}
+                name="cta0026"
             ),
             instance_test=[
                 InstanceTest(
@@ -4796,100 +3103,64 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0023.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0023.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0026.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0026.v01"
                 ),
             ],
             name="cta0026",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Static context of XPath expression"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0027.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0027.xsd"
                     ),
                 ],
                 expected=[
@@ -4897,15 +3168,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -4913,34 +3182,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0027",
-                version=[],
-                other_attributes={}
+                name="cta0027"
             ),
             instance_test=[
                 InstanceTest(
@@ -4948,100 +3206,64 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0023.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0023.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0027.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0027.v01"
                 ),
             ],
             name="cta0027",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Static context of XPath expression",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Static context of XPath expression"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticDynamicContextOfXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0028.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0028.xsd"
                     ),
                 ],
                 expected=[
@@ -5049,15 +3271,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.FULL_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.RESTRICTED_XPATH_IN_CTA,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -5065,34 +3285,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Added conditional results (bug 13455)",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
                 ],
-                name="cta0028",
-                version=[],
-                other_attributes={}
+                name="cta0028"
             ),
             instance_test=[
                 InstanceTest(
@@ -5100,120 +3309,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0023.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0023.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0028.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0028.v01"
                 ),
             ],
             name="cta0028",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative - substitutability",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative - substitutability"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid substitution in a substitution group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid substitution in a substitution group"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0040.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0040.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0040",
-                version=[],
-                other_attributes={}
+                name="cta0040"
             ),
             instance_test=[
                 InstanceTest(
@@ -5221,161 +3386,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0040.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0040.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0040.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0040.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid message - appendix dateTime has no timezone&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0040.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0040.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0040.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0040.n01"
                 ),
             ],
             name="cta0040",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative - substitutability",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative - substitutability"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid substitution in a substitution group - detected only at validation time, by particular instances",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid substitution in a substitution group - detected only at validation time, by particular instances"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0041.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0041.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0041",
-                version=[],
-                other_attributes={}
+                name="cta0041"
             ),
             instance_test=[
                 InstanceTest(
@@ -5383,161 +3489,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0041.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0041.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0041.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0041.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid message - appendix dateTime has no timezone, which is OK for an appendix&#10;&#9;&#9;                but not for a chap, making it an invalid substitution.&#10;&#9;&#9;                &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0041.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0041.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0041.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0041.n01"
                 ),
             ],
             name="cta0041",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Declarations Consistent",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element Declarations Consistent"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two particles in a content model have the same name; permitted because they have the same type table",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Two particles in a content model have the same name; permitted because they have the same type table"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0042.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0042.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta0042",
-                version=[],
-                other_attributes={}
+                name="cta0042"
             ),
             instance_test=[
                 InstanceTest(
@@ -5545,107 +3592,69 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0042.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0042.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 15)
                     ),
-                    prior=[],
-                    name="cta0042.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0042.v01"
                 ),
             ],
             name="cta0042",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative - substitutability",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative - substitutability"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid substitution in a restricted type - detected only at validation time, by particular instances",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid substitution in a restricted type - detected only at validation time, by particular instances"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0043.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0043.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
@@ -5653,113 +3662,72 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;                  Changed status to invalid (and dropped instance tests);&#10;                  reflects resolution of spec bug 12185 requiring&#10;                  the type tables of the elements in base type and&#10;                  derived type content models to be equivalent.&#10;                ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 10, 8)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 8)
                     ),
                 ],
-                name="cta0043",
-                version=[],
-                other_attributes={}
+                name="cta0043"
             ),
-            instance_test=[],
             name="cta0043",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternatives - restricting attributes",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternatives - restricting attributes"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute allowed in one alternative but not allowed in another",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute allowed in one alternative but not allowed in another"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0044.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0044.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 14),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 14)
                 ),
-                prior=[],
-                name="cta0044",
-                version=[],
-                other_attributes={}
+                name="cta0044"
             ),
             instance_test=[
                 InstanceTest(
@@ -5767,958 +3735,597 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid message&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0044.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0044.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 14),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 14)
                     ),
-                    prior=[],
-                    name="cta0044.v01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0044.v01"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid message - attribute is prohibited in this type alternative&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0044.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0044.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 14),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 14)
                     ),
-                    prior=[],
-                    name="cta0044.n01",
-                    version=[],
-                    other_attributes={}
+                    name="cta0044.n01"
                 ),
             ],
             name="cta0044",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Declarations Consistent",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element Declarations Consistent"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two particles in a content model have the same type table; one of the type alternatives has no condition",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Two particles in a content model have the same type table; one of the type alternatives has no condition"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta0045.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta0045.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2013, 9, 22),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2013, 9, 22)
                 ),
-                prior=[],
-                name="cta0042",
-                version=[],
-                other_attributes={}
+                name="cta0042"
             ),
-            instance_test=[],
             name="cta0045",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional simple type: example based on spec",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Conditional simple type: example based on spec"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test attribute missing on non-final alternative",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test attribute missing on non-final alternative"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-Basic"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9001err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9001err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 12)
                 ),
-                prior=[],
-                name="cta9001err",
-                version=[],
-                other_attributes={}
+                name="cta9001err"
             ),
-            instance_test=[],
             name="cta9001err",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Conditional simple type: example based on spec",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Conditional simple type: example based on spec"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid XPath expression - reference to undeclared variable (also uses XPath syntax outside the CTA subset)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid XPath expression - reference to undeclared variable (also uses XPath syntax outside the CTA subset)"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9002err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9002err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 19)
                 ),
-                prior=[],
-                name="cta9002err",
-                version=[],
-                other_attributes={}
+                name="cta9002err"
             ),
-            instance_test=[],
             name="cta9002err",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Error case - reference to user-defined type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Error case - reference to user-defined type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="User-defined types are not part of the static context",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="User-defined types are not part of the static context"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-StaticErrorsInXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9003err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9003err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 19)
                 ),
-                prior=[],
-                name="cta9003err",
-                version=[],
-                other_attributes={}
+                name="cta9003err"
             ),
-            instance_test=[],
             name="cta9003err",
             version=[
                 KnownToken.FULL_XPATH_IN_CTA,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid complex type description: inheritability varies between base type and restricted type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid complex type description: inheritability varies between base type and restricted type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9004err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9004err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta9004err",
-                version=[],
-                other_attributes={}
+                name="cta9004err"
             ),
-            instance_test=[],
             name="cta9004err",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid complex type description: inheritability varies between base type and restricted type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid complex type description: inheritability varies between base type and restricted type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9005err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9005err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta9005err",
-                version=[],
-                other_attributes={}
+                name="cta9005err"
             ),
-            instance_test=[],
             name="cta9005err",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Non-boolean value for "inheritable"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Non-boolean value for "inheritable"'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9006err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9006err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta9006err",
-                version=[],
-                other_attributes={}
+                name="cta9006err"
             ),
-            instance_test=[],
             name="cta9006err",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type alternative using an inherited attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type alternative using an inherited attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Non-boolean value for "inheritable"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Non-boolean value for "inheritable"'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-InheritableAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9007err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9007err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta9007err",
-                version=[],
-                other_attributes={}
+                name="cta9007err"
             ),
-            instance_test=[],
             name="cta9007err",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Error, alternative is not substitutable for the declared type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Error, alternative is not substitutable for the declared type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Each alternative must be substitutable for declared type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Each alternative must be substitutable for declared type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-AltsSubstitable"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9008err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9008err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta9008err",
-                version=[],
-                other_attributes={}
+                name="cta9008err"
             ),
-            instance_test=[],
             name="cta9008err",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Declarations Consistent",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element Declarations Consistent"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two particles in a content model have the same name; disallowed because they have different type tables",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Two particles in a content model have the same name; disallowed because they have different type tables"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9009err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9009err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta9009err",
-                version=[],
-                other_attributes={}
+                name="cta9009err"
             ),
-            instance_test=[],
             name="cta9009err",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element Declarations Consistent",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element Declarations Consistent"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Two particles in a content model have the same name; disallowed because they have different type tables",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Two particles in a content model have the same name; disallowed because they have different type tables"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cTypeAlternative"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA-TypeTablesConsistentInEDC"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/CTA/cta9010err.xsd",
-                        other_attributes={}
+                        href="../saxonData/CTA/cta9010err.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 15)
                 ),
-                prior=[],
-                name="cta9010err",
-                version=[],
-                other_attributes={}
+                name="cta9010err"
             ),
-            instance_test=[],
             name="cta9010err",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

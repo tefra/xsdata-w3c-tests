@@ -3,6 +3,5 @@ from output.models.sun_data.combined.xsd024.xsd024_xsd.xsd024_xsdmod import Simp
 
 
 obj = Root(
-    root=None,
     att=SimpleType.YES
 )

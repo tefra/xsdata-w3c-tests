@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -17,652 +16,405 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;    Demonstrates XML Schema 1.1 type-alternatives.&#10;&#9;&#9; ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test1.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 12)
                 ),
-                prior=[],
-                name="typeAlternatives_001_1",
-                version=[],
-                other_attributes={}
+                name="typeAlternatives_001_1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test1.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_001_2",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_001_2"
                 ),
             ],
             name="typeAlternatives_001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;    Demonstrates XML Schema 1.1 type-alternatives.&#10;&#9;&#9; ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test2.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test2.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 12)
                 ),
-                prior=[],
-                name="typeAlternatives_002_1",
-                version=[],
-                other_attributes={}
+                name="typeAlternatives_002_1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test2.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_002_2",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_002_2"
                 ),
             ],
             name="typeAlternatives_002",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;    Demonstrates XML Schema 1.1 type-alternatives. In this example, schema type definition's are provided&#10;&#9;&#9;&#9;as children of xs:alternative instructions.&#10;&#9;&#9; ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test2_1.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test2_1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 12)
                 ),
-                prior=[],
-                name="typeAlternatives_003_1",
-                version=[],
-                other_attributes={}
+                name="typeAlternatives_003_1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test2.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_003_2",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_003_2"
                 ),
             ],
             name="typeAlternatives_003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;    Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes and assertions along&#10;&#9;&#9;&#9;with type-alternatives.&#10;&#9;&#9; ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test3.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test3.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 12)
                 ),
-                prior=[],
-                name="typeAlternatives_004_1",
-                version=[],
-                other_attributes={}
+                name="typeAlternatives_004_1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test3_1.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test3_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_004_2",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_004_2"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test3_2.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test3_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_004_3",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_004_3"
                 ),
             ],
             name="typeAlternatives_004",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;    Demonstrates XML Schema 1.1 type-alternatives. Using inheritable attributes in this example.&#10;&#9;&#9; ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test4.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test4.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 12)
                 ),
-                prior=[],
-                name="typeAlternatives_005_1",
-                version=[],
-                other_attributes={}
+                name="typeAlternatives_005_1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test4_1.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test4_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_005_2",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_005_2"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test4_2.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test4_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_005_3",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_005_3"
                 ),
             ],
             name="typeAlternatives_005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;    Demonstrates XML Schema 1.1 type-alternatives.&#10;&#9;&#9; ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-CTA"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test5.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test5.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 12)
                 ),
-                prior=[],
-                name="typeAlternatives_006_1",
-                version=[],
-                other_attributes={}
+                name="typeAlternatives_006_1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test5_1.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test5_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_006_2",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_006_2"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/type-alternatives/test5_2.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/type-alternatives/test5_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="typeAlternatives_006_3",
-                    version=[],
-                    other_attributes={}
+                    name="typeAlternatives_006_3"
                 ),
             ],
             name="typeAlternatives_006",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="IBM",

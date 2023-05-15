@@ -11,8 +11,6 @@ obj = Root(
     local_element=AnyElement(
         qname="a",
         text="93.7",
-        tail=None,
-        children=[],
         attributes={
             "type": "2",
         }

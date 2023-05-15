@@ -7,17 +7,12 @@ obj = Doc(
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}html",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{http://www.w3.org/1999/xhtml}body",
-                    text="&#10;Hey this is html&#10;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;Hey this is html&#10;"
                 ),
-            ],
-            attributes={}
+            ]
         ),
     ],
     d="",

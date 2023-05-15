@@ -6,21 +6,17 @@ obj = Root(
     child=[
         ChildType(
             type1=True,
-            type2=None,
             content=[
                 "true",
             ]
         ),
         ChildType(
-            type1=None,
             type2=True,
             content=[
                 "1234",
             ]
         ),
         ChildType(
-            type1=None,
-            type2=None,
             content=[
                 "childType",
             ]

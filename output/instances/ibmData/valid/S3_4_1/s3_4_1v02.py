@@ -6,14 +6,10 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
-    any_element=None,
     p=C(
         any_element=AnyElement(
             qname="qwe",
-            text="s",
-            tail=None,
-            children=[],
-            attributes={}
+            text="s"
         ),
         x=1
     ),
@@ -21,27 +17,19 @@ obj = Root(
         any_element=AnyElement(
             qname="wer",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="g",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         z=2
     ),
     r=E(
         any_element=AnyElement(
             qname="lj",
-            text="we",
-            tail=None,
-            children=[],
-            attributes={}
+            text="we"
         ),
         y=1
     )

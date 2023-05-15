@@ -4,40 +4,24 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     open_com_element=AnyElement(
-        qname=None,
-        text=None,
-        tail=None,
         children=[
             AnyElement(
                 qname="{http://open.com/}extra",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://open.com/}extra",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://open.com/}extra",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://open.com/}extra",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
-        ],
-        attributes={}
+        ]
     ),
     a=[
         "",
@@ -50,6 +34,5 @@ obj = Doc(
         "",
         "",
         "",
-    ],
-    b=None
+    ]
 )

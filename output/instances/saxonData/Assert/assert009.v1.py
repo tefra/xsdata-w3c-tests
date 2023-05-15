@@ -7,440 +7,308 @@ obj = Doc(
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
                             text="",
-                            tail=None,
                             children=[
                                 AnyElement(
                                     qname="allowed",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
-                            ],
-                            attributes={}
+                            ]
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
                             text="",
-                            tail=None,
                             children=[
                                 AnyElement(
                                     qname="allowed",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
-                            ],
-                            attributes={}
+                            ]
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
-                            text="asdasas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="asdasas"
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="a",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="c",
                             text="",
-                            tail=None,
                             children=[
                                 AnyElement(
                                     qname="allowed",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
-                            ],
-                            attributes={}
+                            ]
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         ),
     ]
 )

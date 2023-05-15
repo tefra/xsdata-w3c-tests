@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -17,8759 +16,5045 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/001/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/001/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/001/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/001/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/001/test.2.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/001/test.2.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.n"
                 ),
             ],
-            name="test001",
-            version=[],
-            other_attributes={}
+            name="test001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/002/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/002/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/002/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/002/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/002/test.2.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/002/test.2.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/002/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/002/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/002/test.4.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/002/test.4.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.4.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.4.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/002/test.5.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/002/test.5.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.5.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.5.n"
                 ),
             ],
-            name="test002",
-            version=[],
-            other_attributes={}
+            name="test002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/003/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/003/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/003/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/003/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/003/test.2.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/003/test.2.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/003/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/003/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/003/test.4.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/003/test.4.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.4.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.4.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/003/test.5.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/003/test.5.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.5.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.5.n"
                 ),
             ],
-            name="test003",
-            version=[],
-            other_attributes={}
+            name="test003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/004/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/004/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/004/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/004/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/004/test.2.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/004/test.2.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/004/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/004/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/004/test.4.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/004/test.4.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.4.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.4.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/004/test.5.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/004/test.5.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.5.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.5.n"
                 ),
             ],
-            name="test004",
-            version=[],
-            other_attributes={}
+            name="test004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/005/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/005/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/005/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/005/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/005/test.2.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/005/test.2.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/005/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/005/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/005/test.4.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/005/test.4.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.4.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.4.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/005/test.5.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/005/test.5.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.5.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.5.n"
                 ),
             ],
-            name="test005",
-            version=[],
-            other_attributes={}
+            name="test005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.10.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.10.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.10.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.10.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.11.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.11.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.11.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.11.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.12.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.12.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.12.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.12.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.13.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.13.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.13.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.13.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.14.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.14.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.14.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.14.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.15.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.15.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.15.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.15.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.16.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.16.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.16.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.16.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.17.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.17.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.17.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.17.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.18.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.18.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.18.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.18.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.19.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.19.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.19.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.19.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.2.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.2.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.20.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.20.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.20.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.20.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.21.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.21.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.21.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.21.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.22.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.22.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.22.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.22.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.23.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.23.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.23.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.23.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.24.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.24.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.24.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.24.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.25.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.25.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.25.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.25.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.26.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.26.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.26.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.26.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.27.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.27.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.27.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.27.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.28.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.28.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.28.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.28.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.29.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.29.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.29.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.29.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.30.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.30.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.30.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.30.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.31.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.31.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.31.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.31.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.32.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.32.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.32.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.32.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.33.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.33.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.33.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.33.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.34.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.34.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.34.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.34.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.4.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.4.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.4.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.4.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.5.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.5.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.5.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.5.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.6.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.6.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.6.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.6.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.7.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.7.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.7.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.7.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.8.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.8.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.8.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.8.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/006/test.9.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/006/test.9.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.9.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.9.n"
                 ),
             ],
-            name="test006",
-            version=[],
-            other_attributes={}
+            name="test006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.6.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.6.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.6.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.6.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.2.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.2.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.4.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.4.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.4.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.4.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.5.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.5.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.5.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.5.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.7.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.7.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.7.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.7.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/007/test.8.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/007/test.8.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.8.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.8.n"
                 ),
             ],
-            name="test007",
-            version=[],
-            other_attributes={}
+            name="test007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.1.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.1.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.10.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.10.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.10.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.10.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.11.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.11.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.11.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.11.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.12.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.12.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.12.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.12.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.5.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.5.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.5.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.5.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.7.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.7.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.7.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.7.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.8.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.8.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.8.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.8.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.9.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.9.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.9.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.9.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.2.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.2.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.3.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.3.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.4.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.4.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.4.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.4.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/008/test.6.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/008/test.6.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.6.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.6.v"
                 ),
             ],
-            name="test008",
-            version=[],
-            other_attributes={}
+            name="test008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.13.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.13.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.13.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.13.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.8.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.8.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.8.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.8.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.10.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.10.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.10.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.10.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.11.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.11.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.11.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.11.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.12.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.12.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.12.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.12.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.2.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.2.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.3.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.3.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.4.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.4.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.4.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.4.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.5.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.5.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.5.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.5.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.6.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.6.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.6.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.6.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.7.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.7.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.7.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.7.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/009/test.9.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/009/test.9.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.9.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.9.v"
                 ),
             ],
-            name="test009",
-            version=[],
-            other_attributes={}
+            name="test009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/001/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/001/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/001/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/001/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/001/test.2.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/001/test.2.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.n"
                 ),
             ],
-            name="identitytestsuitetest001",
-            version=[],
-            other_attributes={}
+            name="identitytestsuitetest001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/002/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/002/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/002/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/002/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/002/test.2.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/002/test.2.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/002/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/002/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
             ],
-            name="identitytestsuitetest002",
-            version=[],
-            other_attributes={}
+            name="identitytestsuitetest002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/003/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/003/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/003/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/003/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/003/test.2.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/003/test.2.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/003/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/003/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
             ],
-            name="identitytestsuitetest003",
-            version=[],
-            other_attributes={}
+            name="identitytestsuitetest003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="test",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="test"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=""
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/004/test.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/004/test.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="test",
-                version=[],
-                other_attributes={}
+                name="test"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/004/test.1.v.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/004/test.1.v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.1.v",
-                    version=[],
-                    other_attributes={}
+                    name="test.1.v"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/004/test.2.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/004/test.2.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.2.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.2.n"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/IdentityTestSuite/004/test.3.n.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/IdentityTestSuite/004/test.3.n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="test.3.n",
-                    version=[],
-                    other_attributes={}
+                    name="test.3.n"
                 ),
             ],
-            name="identitytestsuitetest004",
-            version=[],
-            other_attributes={}
+            name="identitytestsuitetest004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc001.nogen",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="idc001.nogen"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID Constraints."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc001/idc001.nogen.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc001/idc001.nogen.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="idc001.nogen",
-                version=[],
-                other_attributes={}
+                name="idc001.nogen"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc001/idc001.nogen.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc001/idc001.nogen.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc001.nogen.n00",
-                    version=[],
-                    other_attributes={}
+                    name="idc001.nogen.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc001/idc001.nogen.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc001/idc001.nogen.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc001.nogen.v00",
-                    version=[],
-                    other_attributes={}
+                    name="idc001.nogen.v00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc001/idc001.nogen.v01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc001/idc001.nogen.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc001.nogen.v01",
-                    version=[],
-                    other_attributes={}
+                    name="idc001.nogen.v01"
                 ),
             ],
-            name="idc001.nogen",
-            version=[],
-            other_attributes={}
+            name="idc001.nogen"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc002.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="idc002.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. Reference to an undeclared key",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID Constraints. Reference to an undeclared key"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc002/idc002.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc002/idc002.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="idc002.e",
-                version=[],
-                other_attributes={}
+                name="idc002.e"
             ),
-            instance_test=[],
-            name="idc002.e",
-            version=[],
-            other_attributes={}
+            name="idc002.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc002b.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="idc002b.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. Reference to an undeclared key in an undeclared namespace.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID Constraints. Reference to an undeclared key in an undeclared namespace."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc002b/idc002b.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc002b/idc002b.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="idc002b.e",
-                version=[],
-                other_attributes={}
+                name="idc002b.e"
             ),
-            instance_test=[],
-            name="idc002b.e",
-            version=[],
-            other_attributes={}
+            name="idc002b.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc003.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="idc003.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. Reference to non-key constraint.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID Constraints. Reference to non-key constraint."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc003/idc003.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc003/idc003.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="idc003.e",
-                version=[],
-                other_attributes={}
+                name="idc003.e"
             ),
-            instance_test=[],
-            name="idc003.e",
-            version=[],
-            other_attributes={}
+            name="idc003.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc004.nogen",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="idc004.nogen"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID Constraints."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc004/idc004.nogen.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc004/idc004.nogen.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="idc004.nogen",
-                version=[],
-                other_attributes={}
+                name="idc004.nogen"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc004/idc004.nogen.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc004/idc004.nogen.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc004.nogen.n00",
-                    version=[],
-                    other_attributes={}
+                    name="idc004.nogen.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc004/idc004.nogen.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc004/idc004.nogen.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc004.nogen.n01",
-                    version=[],
-                    other_attributes={}
+                    name="idc004.nogen.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc004/idc004.nogen.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc004/idc004.nogen.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc004.nogen.n02",
-                    version=[],
-                    other_attributes={}
+                    name="idc004.nogen.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc004/idc004.nogen.n03.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc004/idc004.nogen.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc004.nogen.n03",
-                    version=[],
-                    other_attributes={}
+                    name="idc004.nogen.n03"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc004/idc004.nogen.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc004/idc004.nogen.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc004.nogen.v00",
-                    version=[],
-                    other_attributes={}
+                    name="idc004.nogen.v00"
                 ),
             ],
-            name="idc004.nogen",
-            version=[],
-            other_attributes={}
+            name="idc004.nogen"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc004a.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="idc004a.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. Key/keyref field size mismatch.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID Constraints. Key/keyref field size mismatch."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc004a/idc004a.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc004a/idc004a.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="idc004a.e",
-                version=[],
-                other_attributes={}
+                name="idc004a.e"
             ),
-            instance_test=[],
-            name="idc004a.e",
-            version=[],
-            other_attributes={}
+            name="idc004a.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc005.nogen",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="idc005.nogen"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID Constraints. very naive test of identity constraint.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID Constraints. very naive test of identity constraint."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc005/idc005.nogen.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc005/idc005.nogen.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="idc005.nogen",
-                version=[],
-                other_attributes={}
+                name="idc005.nogen"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc005/idc005.nogen.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc005/idc005.nogen.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc005.nogen.n00",
-                    version=[],
-                    other_attributes={}
+                    name="idc005.nogen.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc005/idc005.nogen.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc005/idc005.nogen.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc005.nogen.n01",
-                    version=[],
-                    other_attributes={}
+                    name="idc005.nogen.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc005/idc005.nogen.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc005/idc005.nogen.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc005.nogen.v00",
-                    version=[],
-                    other_attributes={}
+                    name="idc005.nogen.v00"
                 ),
             ],
-            name="idc005.nogen",
-            version=[],
-            other_attributes={}
+            name="idc005.nogen"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="idc006.nogen",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="idc006.nogen"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='ID Constaints. XPath engine test:  ".//a/*/b" and use of "." for both selector and field.',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='ID Constaints. XPath engine test:  ".//a/*/b" and use of "." for both selector and field.'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc006/idc006.nogen.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc006/idc006.nogen.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="idc006.nogen",
-                version=[],
-                other_attributes={}
+                name="idc006.nogen"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc006/idc006.nogen.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc006/idc006.nogen.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc006.nogen.n00",
-                    version=[],
-                    other_attributes={}
+                    name="idc006.nogen.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc006/idc006.nogen.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc006/idc006.nogen.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc006.nogen.n01",
-                    version=[],
-                    other_attributes={}
+                    name="idc006.nogen.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/identity/idc006/idc006.nogen.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/identity/idc006/idc006.nogen.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="idc006.nogen.v00",
-                    version=[],
-                    other_attributes={}
+                    name="idc006.nogen.v00"
                 ),
             ],
-            name="idc006.nogen",
-            version=[],
-            other_attributes={}
+            name="idc006.nogen"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd001",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd001"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='- use of elementFormDefault="unqualified"&#10;                                     - unusual minOccurs/maxOccurs (3 and 7 respectively)&#10;                                     - complexType with simpleContent, and restriction.&#10;                                     - simpleType within restriction.',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='- use of elementFormDefault="unqualified"&#10;                                     - unusual minOccurs/maxOccurs (3 and 7 respectively)&#10;                                     - complexType with simpleContent, and restriction.&#10;                                     - simpleType within restriction.'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd001",
-                version=[],
-                other_attributes={}
+                name="xsd001"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.n02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.n03.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.n03",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.n03"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.n04.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.n04",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.n04"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.n05.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.n05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.n05",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.n05"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.n06.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.n06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.n06",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.n06"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.n07.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.n07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.n07",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.n07"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.v00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.v01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.v01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.v01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.v02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.v02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.v02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd001/xsd001.v03.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd001/xsd001.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd001.v03",
-                    version=[],
-                    other_attributes={}
+                    name="xsd001.v03"
                 ),
             ],
-            name="xsd001",
-            version=[],
-            other_attributes={}
+            name="xsd001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd002",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd002"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='- use of elementFormDefault="unqualified".&#10;                                     - use of elementFormDefault and form attribute.&#10;                                     - implicit use of "ur-type" as the content model of element.',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='- use of elementFormDefault="unqualified".&#10;                                     - use of elementFormDefault and form attribute.&#10;                                     - implicit use of "ur-type" as the content model of element.'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd002/xsd002.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd002/xsd002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd002",
-                version=[],
-                other_attributes={}
+                name="xsd002"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd002/xsd002.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd002/xsd002.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd002.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd002.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd002/xsd002.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd002/xsd002.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd002.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd002.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd002/xsd002.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd002/xsd002.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd002.n02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd002.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd002/xsd002.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd002/xsd002.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd002.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd002.v00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd002/xsd002.v01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd002/xsd002.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd002.v01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd002.v01"
                 ),
             ],
-            name="xsd002",
-            version=[],
-            other_attributes={}
+            name="xsd002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003-1.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd003-1.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element redefinition. Unable to redefine element.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element redefinition. Unable to redefine element."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003/xsd003-1.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003/xsd003-1.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd003-1.e",
-                version=[],
-                other_attributes={}
+                name="xsd003-1.e"
             ),
-            instance_test=[],
-            name="xsd003-1.e",
-            version=[],
-            other_attributes={}
+            name="xsd003-1.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003-2.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd003-2.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element redefinition. Unable to redefine element.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element redefinition. Unable to redefine element."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003/xsd003-2.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003/xsd003-2.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd003-2.e",
-                version=[],
-                other_attributes={}
+                name="xsd003-2.e"
             ),
-            instance_test=[],
-            name="xsd003-2.e",
-            version=[],
-            other_attributes={}
+            name="xsd003-2.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003a",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd003a"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element redefinition. Test without redefinition.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element redefinition. Test without redefinition."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003a/xsd003a.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003a/xsd003a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd003a",
-                version=[],
-                other_attributes={}
+                name="xsd003a"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003a/xsd003a.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003a/xsd003a.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd003a.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd003a.v00"
                 ),
             ],
-            name="xsd003a",
-            version=[],
-            other_attributes={}
+            name="xsd003a"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003b.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd003b.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test with redefinition with self-reference.&#10;                             Undefined name. For some reason, this breaks MSV.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test with redefinition with self-reference.&#10;                             Undefined name. For some reason, this breaks MSV."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003b/xsd003b.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003b/xsd003b.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd003b.e",
-                version=[],
-                other_attributes={}
+                name="xsd003b.e"
             ),
-            instance_test=[],
-            name="xsd003b.e",
-            version=[],
-            other_attributes={}
+            name="xsd003b.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd003b",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd003b"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element redefinition. Test with redefinition with self-reference.&#10;                             @add in xsd003b.n00.xml must be number.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element redefinition. Test with redefinition with self-reference.&#10;                             @add in xsd003b.n00.xml must be number."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003b/xsd003b.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003b/xsd003b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd003b",
-                version=[],
-                other_attributes={}
+                name="xsd003b"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003b/xsd003b.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003b/xsd003b.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd003b.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd003b.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003b/xsd003b.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003b/xsd003b.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd003b.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd003b.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003b/xsd003b.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003b/xsd003b.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd003b.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd003b.v00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd003b/xsd003b.v01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd003b/xsd003b.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd003b.v01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd003b.v01"
                 ),
             ],
-            name="xsd003b",
-            version=[],
-            other_attributes={}
+            name="xsd003b"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd004",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd004"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use of three different type of any element with different @namespace.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use of three different type of any element with different @namespace."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd004",
-                version=[],
-                other_attributes={}
+                name="xsd004"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n03.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n03",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n03"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n04.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n04",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n04"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n05.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n05",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n05"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n06.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n06",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n06"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n07.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n07",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n07"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n08.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n08.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n08",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n08"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n09.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n09.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n09",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n09"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n10.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n10",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n10"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n11.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n11.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n11",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n11"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.n12.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.n12.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.n12",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.n12"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd004/xsd004.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd004/xsd004.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd004.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd004.v00"
                 ),
             ],
-            name="xsd004",
-            version=[],
-            other_attributes={}
+            name="xsd004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd005",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd005"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Complex type derivation. Missing content model.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Complex type derivation. Missing content model."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd005",
-                version=[],
-                other_attributes={}
+                name="xsd005"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd005.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd005.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd005.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd005.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd005.n02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd005.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.n03.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd005.n03",
-                    version=[],
-                    other_attributes={}
+                    name="xsd005.n03"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.n04.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd005.n04",
-                    version=[],
-                    other_attributes={}
+                    name="xsd005.n04"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.n05.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.n05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd005.n05",
-                    version=[],
-                    other_attributes={}
+                    name="xsd005.n05"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.n06.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.n06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd005.n06",
-                    version=[],
-                    other_attributes={}
+                    name="xsd005.n06"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd005/xsd005.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd005/xsd005.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd005.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd005.v00"
                 ),
             ],
-            name="xsd005",
-            version=[],
-            other_attributes={}
+            name="xsd005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd006",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd006"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="minOccurs/maxOccurs. Various combinations.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="minOccurs/maxOccurs. Various combinations."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd006",
-                version=[],
-                other_attributes={}
+                name="xsd006"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n03.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n03",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n03"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n04.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n04",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n04"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n05.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n05",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n05"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n06.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n06",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n06"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n07.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n07",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n07"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n08.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n08.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n08",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n08"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n09.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n09.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n09",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n09"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n10.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n10",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n10"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.n11.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.n11.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.n11",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.n11"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd006/xsd006.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd006/xsd006.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd006.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd006.v00"
                 ),
             ],
-            name="xsd006",
-            version=[],
-            other_attributes={}
+            name="xsd006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd007.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd007.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cyclic complexType derivation.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Cyclic complexType derivation."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd007/xsd007.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd007/xsd007.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd007.e",
-                version=[],
-                other_attributes={}
+                name="xsd007.e"
             ),
-            instance_test=[],
-            name="xsd007.e",
-            version=[],
-            other_attributes={}
+            name="xsd007.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd008",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd008"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Abstract element and element substitution group.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Abstract element and element substitution group."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd008/xsd008.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd008/xsd008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd008",
-                version=[],
-                other_attributes={}
+                name="xsd008"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd008/xsd008.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd008/xsd008.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd008.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd008.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd008/xsd008.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd008/xsd008.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd008.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd008.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd008/xsd008.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd008/xsd008.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd008.n02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd008.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd008/xsd008.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd008/xsd008.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd008.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd008.v00"
                 ),
             ],
-            name="xsd008",
-            version=[],
-            other_attributes={}
+            name="xsd008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd009.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd009.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cyclic substitution group.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Cyclic substitution group."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd009/xsd009.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd009/xsd009.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd009.e",
-                version=[],
-                other_attributes={}
+                name="xsd009.e"
             ),
-            instance_test=[],
-            name="xsd009.e",
-            version=[],
-            other_attributes={}
+            name="xsd009.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd010.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd010.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cyclic substitution group (3 hop cycle).",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Cyclic substitution group (3 hop cycle)."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd010/xsd010.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd010/xsd010.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd010.e",
-                version=[],
-                other_attributes={}
+                name="xsd010.e"
             ),
-            instance_test=[],
-            name="xsd010.e",
-            version=[],
-            other_attributes={}
+            name="xsd010.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd011",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd011"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Nillable.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Nillable."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd011/xsd011.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd011/xsd011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd011",
-                version=[],
-                other_attributes={}
+                name="xsd011"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd011/xsd011.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd011/xsd011.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd011.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd011.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd011/xsd011.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd011/xsd011.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd011.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd011.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd011/xsd011.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd011/xsd011.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd011.n02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd011.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd011/xsd011.n03.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd011/xsd011.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd011.n03",
-                    version=[],
-                    other_attributes={}
+                    name="xsd011.n03"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd011/xsd011.n04.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd011/xsd011.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd011.n04",
-                    version=[],
-                    other_attributes={}
+                    name="xsd011.n04"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd011/xsd011.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd011/xsd011.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd011.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd011.v00"
                 ),
             ],
-            name="xsd011",
-            version=[],
-            other_attributes={}
+            name="xsd011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd012",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd012"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Mixed content model.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Mixed content model."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd012/xsd012.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd012/xsd012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd012",
-                version=[],
-                other_attributes={}
+                name="xsd012"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd012/xsd012.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd012/xsd012.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd012.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd012.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd012/xsd012.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd012/xsd012.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd012.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd012.v00"
                 ),
             ],
-            name="xsd012",
-            version=[],
-            other_attributes={}
+            name="xsd012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd013.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd013.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared element.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared element."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd013/xsd013.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd013/xsd013.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd013.e",
-                version=[],
-                other_attributes={}
+                name="xsd013.e"
             ),
-            instance_test=[],
-            name="xsd013.e",
-            version=[],
-            other_attributes={}
+            name="xsd013.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd014.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd014.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared element.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared element."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd014/xsd014.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd014/xsd014.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd014.e",
-                version=[],
-                other_attributes={}
+                name="xsd014.e"
             ),
-            instance_test=[],
-            name="xsd014.e",
-            version=[],
-            other_attributes={}
+            name="xsd014.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd015.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd015.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference  to undeclared type (it may be simple or complex).",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference  to undeclared type (it may be simple or complex)."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd015/xsd015.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd015/xsd015.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.QUERIED,
                     date=XmlDate(2015, 8, 26),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
                 ],
-                name="xsd015.e",
-                version=[],
-                other_attributes={}
+                name="xsd015.e"
             ),
-            instance_test=[],
-            name="xsd015.e",
-            version=[],
-            other_attributes={}
+            name="xsd015.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd016.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd016.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference  to undeclared type (it may be simple or complex).",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference  to undeclared type (it may be simple or complex)."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd016/xsd016.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd016/xsd016.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.QUERIED,
                     date=XmlDate(2015, 8, 26),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=29085"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
                 ],
-                name="xsd016.e",
-                version=[],
-                other_attributes={}
+                name="xsd016.e"
             ),
-            instance_test=[],
-            name="xsd016.e",
-            version=[],
-            other_attributes={}
+            name="xsd016.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd017.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd017.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared complex type.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared complex type."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd017/xsd017.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd017/xsd017.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd017.e",
-                version=[],
-                other_attributes={}
+                name="xsd017.e"
             ),
-            instance_test=[],
-            name="xsd017.e",
-            version=[],
-            other_attributes={}
+            name="xsd017.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd018.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd018.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared complex type.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared complex type."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd018/xsd018.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd018/xsd018.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd018.e",
-                version=[],
-                other_attributes={}
+                name="xsd018.e"
             ),
-            instance_test=[],
-            name="xsd018.e",
-            version=[],
-            other_attributes={}
+            name="xsd018.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd019.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd019.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared simple type.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared simple type."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd019/xsd019.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd019/xsd019.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd019.e",
-                version=[],
-                other_attributes={}
+                name="xsd019.e"
             ),
-            instance_test=[],
-            name="xsd019.e",
-            version=[],
-            other_attributes={}
+            name="xsd019.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd020-2.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd020-2.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared attribute.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared attribute."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd020/xsd020-2.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd020/xsd020-2.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd020-2.e",
-                version=[],
-                other_attributes={}
+                name="xsd020-2.e"
             ),
-            instance_test=[],
-            name="xsd020-2.e",
-            version=[],
-            other_attributes={}
+            name="xsd020-2.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd020-3.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd020-3.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared model group.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared model group."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd020/xsd020-3.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd020/xsd020-3.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd020-3.e",
-                version=[],
-                other_attributes={}
+                name="xsd020-3.e"
             ),
-            instance_test=[],
-            name="xsd020-3.e",
-            version=[],
-            other_attributes={}
+            name="xsd020-3.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd020-4.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd020-4.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared attribute group.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared attribute group."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd020/xsd020-4.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd020/xsd020-4.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd020-4.e",
-                version=[],
-                other_attributes={}
+                name="xsd020-4.e"
             ),
-            instance_test=[],
-            name="xsd020-4.e",
-            version=[],
-            other_attributes={}
+            name="xsd020-4.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd020.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd020.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Reference to undeclared simple type.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Reference to undeclared simple type."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd020/xsd020.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd020/xsd020.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd020.e",
-                version=[],
-                other_attributes={}
+                name="xsd020.e"
             ),
-            instance_test=[],
-            name="xsd020.e",
-            version=[],
-            other_attributes={}
+            name="xsd020.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd021",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd021"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="anyOtherAttribute.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="anyOtherAttribute."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd021",
-                version=[],
-                other_attributes={}
+                name="xsd021"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n01.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n01",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n01"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n02.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n02",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n02"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n03.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n03",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n03"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n04.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n04",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n04"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n05.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n05",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n05"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n06.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n06",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n06"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n07.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n07",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n07"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n08.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n08.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n08",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n08"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n09.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n09.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n09",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n09"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n10.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n10",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n10"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.n11.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.n11.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.n11",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.n11"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd021/xsd021.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd021/xsd021.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd021.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd021.v00"
                 ),
             ],
-            name="xsd021",
-            version=[],
-            other_attributes={}
+            name="xsd021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd022",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd022"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Various forms of forward reference to the simple type.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Various forms of forward reference to the simple type."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd022/xsd022.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd022/xsd022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd022",
-                version=[],
-                other_attributes={}
+                name="xsd022"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd022/xsd022.n00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd022/xsd022.n00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd022.n00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd022.n00"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd022/xsd022.v00.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd022/xsd022.v00.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd022.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd022.v00"
                 ),
             ],
-            name="xsd022",
-            version=[],
-            other_attributes={}
+            name="xsd022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd023.e",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd023.e"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple type. Recursive definition.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple type. Recursive definition."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd023/xsd023.e.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd023/xsd023.e.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd023.e",
-                version=[],
-                other_attributes={}
+                name="xsd023.e"
             ),
-            instance_test=[],
-            name="xsd023.e",
-            version=[],
-            other_attributes={}
+            name="xsd023.e"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsd024",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsd024"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Use of the chameleon schema and "smart reference reparing"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Use of the chameleon schema and "smart reference reparing"'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd024/xsd024.xsd",
-                        other_attributes={}
+                        href="../sunData/combined/xsd024/xsd024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="xsd024",
-                version=[],
-                other_attributes={}
+                name="xsd024"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/combined/xsd024/xsd024.xml",
-                        other_attributes={}
+                        href="../sunData/combined/xsd024/xsd024.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="xsd024.v00",
-                    version=[],
-                    other_attributes={}
+                    name="xsd024.v00"
                 ),
             ],
-            name="xsd024",
-            version=[],
-            other_attributes={}
+            name="xsd024"
         ),
     ],
     contributor="SUN",
     name="suntest",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

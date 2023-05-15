@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     any_element=AnyElement(
         qname="{ns-b}abc",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     )
 )

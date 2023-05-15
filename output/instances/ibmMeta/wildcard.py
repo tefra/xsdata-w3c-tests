@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -21,8 +20,6 @@ obj = TestSet(
         Annotation(
             appinfo_or_documentation=[
                 Documentation(
-                    source=None,
-                    lang=None,
                     other_attributes={
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
                     },
@@ -30,8 +27,7 @@ obj = TestSet(
                         "wildcard&#10;&#9;    ",
                     ]
                 ),
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     test_group=[
@@ -40,1531 +36,949 @@ obj = TestSet(
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'Tests notQName="##defined" ',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefined"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v01.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1v01s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1v01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v01.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1v01i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1v01i"
                 ),
             ],
             name="s3_10_1v01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests notQName and notNamespace list ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v02.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1v02s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1v02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v02.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1v02i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1v02i"
                 ),
             ],
             name="s3_10_1v02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests namespace attribute in wildcard",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v03.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1v03s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1v03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v03.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1v03i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1v03i"
                 ),
             ],
             name="s3_10_1v03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests weakened wildcard (tests whether error occurs on violation of UPA) ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-RelaxationOfUPA"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v04.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1v04s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1v04s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v04.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1v04i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1v04i"
                 ),
             ],
             name="s3_10_1v04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v05.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v05.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1v05s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1v05s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v05.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1v05i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1v05i"
                 ),
             ],
             name="s3_10_1v05",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v06.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v06.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1v06s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1v06s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v06.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1v06i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1v06i"
                 ),
             ],
             name="s3_10_1v06",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "skip wildcards now excluded from EDC constraint",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-TighterMatchingRuleForEDC"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v07.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v07.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1v07s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1v07s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_10_1/s3_10_1v07.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_10_1/s3_10_1v07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1v07i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1v07i"
                 ),
             ],
             name="s3_10_1v07",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "invalid element in instance document as it does not match ns of wildcard",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1ii01s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1ii01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1ii01i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1ii01i"
                 ),
             ],
-            name="s3_10_1ii01",
-            version=[],
-            other_attributes={}
+            name="s3_10_1ii01"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "invalid element in instance document as it does not match ns of wildcard ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1ii02s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1ii02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1ii02i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1ii02i"
                 ),
             ],
             name="s3_10_1ii02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "invalid element in instance document as it does not match ns of wildcard ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1ii03s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1ii03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1ii03i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1ii03i"
                 ),
             ],
-            name="s3_10_1ii03",
-            version=[],
-            other_attributes={}
+            name="s3_10_1ii03"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "invalid element in instance document as it does not match ns of wildcard",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1ii04s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1ii04s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1ii04i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1ii04i"
                 ),
             ],
-            name="s3_10_1ii04",
-            version=[],
-            other_attributes={}
+            name="s3_10_1ii04"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "invalid element in instance document as it matches the namespace in notNamespace list in wildcard",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1ii06s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1ii06s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1ii06i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1ii06i"
                 ),
             ],
             name="s3_10_1ii06",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests namespace attribute in wildcard",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotNS"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1ii07s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1ii07s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1ii07i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1ii07i"
                 ),
             ],
-            name="s3_10_1ii07",
-            version=[],
-            other_attributes={}
+            name="s3_10_1ii07"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1ii08s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1ii08s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii08.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1ii08i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1ii08i"
                 ),
             ],
-            name="s3_10_1ii08",
-            version=[],
-            other_attributes={}
+            name="s3_10_1ii08"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "the keyword ##definedSibling can be used to exclude all elements explicitly mentioned in a content model (and all elements substitutable for those elements)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotXDefineSibling"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1ii09s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1ii09s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_10_1/s3_10_1ii09.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_10_1ii09i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_10_1ii09i"
                 ),
             ],
-            name="s3_10_1ii09",
-            version=[],
-            other_attributes={}
+            name="s3_10_1ii09"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Wildcard, schema invalid test case",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_10_1/s3_10_1si01.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_10_1/s3_10_1si01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1si01s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1si01s"
             ),
-            instance_test=[],
-            name="s3_10_1si01",
-            version=[],
-            other_attributes={}
+            name="s3_10_1si01"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "3.10.6.1.4 - The namespace of each QName in disallowed is allowed by the namespace constraint",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Wildcard_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Wildcards-NotQName"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_10_1/s3_10_1si02.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_10_1/s3_10_1si02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_10_1si02s",
-                version=[],
-                other_attributes={}
+                name="s3_10_1si02s"
             ),
-            instance_test=[],
-            name="s3_10_1si02",
-            version=[],
-            other_attributes={}
+            name="s3_10_1si02"
         ),
     ],
     contributor="IBM",
     name="wildcard",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

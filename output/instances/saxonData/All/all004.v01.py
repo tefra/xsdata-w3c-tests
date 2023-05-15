@@ -6,73 +6,44 @@ obj = Doc(
     content=[
         AnyElement(
             qname="a",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="b",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="d",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="c",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="a",
             text="",
-            tail="strawberries&#10;  ",
-            children=[],
-            attributes={}
+            tail="strawberries&#10;  "
         ),
         AnyElement(
             qname="c",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="c",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="a",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="a",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="b",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

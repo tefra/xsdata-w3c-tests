@@ -4,7 +4,6 @@ from output.models.sun_data.id_constr_defs.name.name00201m.name00201m1_xsd.name0
 obj = Name(
     name=[
         Name.NameInner(
-            value="",
             name="name"
         ),
     ]

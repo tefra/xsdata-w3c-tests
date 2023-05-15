@@ -6,35 +6,22 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     elem=R(
         foo="",
-        any_element=[],
         e1_or_e2=[
             AnyElement(
                 qname="e2",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="e1",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="e1",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="e2",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
         ]
     )

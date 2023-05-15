@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Out(
     any_element=AnyElement(
         qname="{NISTSchema-SV-IV-list-ID-maxLength-1-NS}NISTSchema-SV-IV-list-ID-maxLength-1",
-        text="bthe.known.compu mthose_with.and. caddition_availa _to_acting_is_de _incorporated-fo",
-        tail=None,
-        children=[],
-        attributes={}
+        text="bthe.known.compu mthose_with.and. caddition_availa _to_acting_is_de _incorporated-fo"
     )
 )

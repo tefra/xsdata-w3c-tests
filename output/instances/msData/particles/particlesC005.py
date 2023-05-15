@@ -10,24 +10,16 @@ obj = Doc(
                 AnyElement(
                     qname="{http://xsdtesting}foo",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="abc",
-                            text="",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text=""
                         ),
                         AnyElement(
                             qname="{http://xsdtesting}doc",
-                            text="",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text=""
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
             ]
         ),

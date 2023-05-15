@@ -7,20 +7,17 @@ obj = Root(
         T(
             row=[
                 " 1 ",
-            ],
-            col=None
+            ]
         ),
         T(
             row=[
                 " 2 ",
-            ],
-            col=None
+            ]
         ),
         T(
             row=[
                 " 11 ",
-            ],
-            col=None
+            ]
         ),
     ],
     kid=[

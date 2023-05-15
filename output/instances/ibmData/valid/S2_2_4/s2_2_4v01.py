@@ -7,8 +7,7 @@ obj = Root(
     hi1=T0(
         e1=[
             T1(
-                a1=0,
-                a2=None
+                a1=0
             ),
             T1(
                 a1=1,
@@ -35,8 +34,7 @@ obj = Root(
     hi2=T0(
         e1=[
             T1(
-                a1=0,
-                a2=None
+                a1=0
             ),
             T1(
                 a1=1,

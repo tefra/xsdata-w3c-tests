@@ -9,27 +9,21 @@ obj = Root(
     generic=Generic(
         choice=[
             YesNo(
-                annotation=None,
                 value=True
             ),
             YesNo(
-                annotation=None,
                 value=False
             ),
             Long(
-                annotation=None,
                 value=52
             ),
             Long(
-                annotation=None,
                 value=-55555
             ),
             Int(
-                annotation=None,
                 value=52
             ),
             Int(
-                annotation=None,
                 value=-55555
             ),
         ]
@@ -37,19 +31,15 @@ obj = Root(
     restricted=Root.Restricted(
         int_or_long=[
             Long(
-                annotation=None,
                 value=52
             ),
             Long(
-                annotation=None,
                 value=-55555
             ),
             Int(
-                annotation=None,
                 value=52
             ),
             Int(
-                annotation=None,
                 value=-55555
             ),
         ]

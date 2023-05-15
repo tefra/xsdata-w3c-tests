@@ -7,10 +7,7 @@ obj = A(
         "Date:",
         AnyElement(
             qname="date",
-            text="2002-04-12",
-            tail=None,
-            children=[],
-            attributes={}
+            text="2002-04-12"
         ),
     ]
 )

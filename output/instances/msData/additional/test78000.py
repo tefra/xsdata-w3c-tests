@@ -13,8 +13,6 @@ obj = Doc(
                 other_element=AnyElement(
                     qname="{b}test",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "b1": "a",
                     }
@@ -24,8 +22,6 @@ obj = Doc(
                 other_element=AnyElement(
                     qname="{b}test",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "b1": "a",
                     }
@@ -34,10 +30,7 @@ obj = Doc(
             skip_container=SkipContainer(
                 other_element=AnyElement(
                     qname="{other}anyOtherGarbage",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 )
             )
         ),
@@ -46,8 +39,6 @@ obj = Doc(
                 other_element=AnyElement(
                     qname="{b}test",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "b1": "a",
                     }
@@ -56,19 +47,13 @@ obj = Doc(
             lax_container=LaxContainer(
                 other_element=AnyElement(
                     qname="{other}anyOtherGarbage",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 )
             ),
             skip_container=SkipContainer(
                 other_element=AnyElement(
                     qname="{other}anyOtherGarbage",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 )
             )
         ),
@@ -77,8 +62,6 @@ obj = Doc(
                 other_element=AnyElement(
                     qname="{b}test",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "b1": "a",
                     }
@@ -88,8 +71,6 @@ obj = Doc(
                 other_element=AnyElement(
                     qname="{b}test",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "b1": "a",
                     }
@@ -98,10 +79,7 @@ obj = Doc(
             skip_container=SkipContainer(
                 other_element=AnyElement(
                     qname="{b}test",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 )
             )
         ),

@@ -6,17 +6,11 @@ obj = A(
     ns_test1_ns_test2_element=[
         AnyElement(
             qname="{ns_test1}date",
-            text="2002-04-29",
-            tail=None,
-            children=[],
-            attributes={}
+            text="2002-04-29"
         ),
         AnyElement(
             qname="{ns_test2}time",
-            text="15:15:00",
-            tail=None,
-            children=[],
-            attributes={}
+            text="15:15:00"
         ),
     ]
 )

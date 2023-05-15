@@ -10,31 +10,19 @@ obj = Doc(
     any_element=[
         AnyElement(
             qname="{http://n1}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{http://n2}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{http://n3}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{http://n4}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

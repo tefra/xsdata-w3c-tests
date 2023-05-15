@@ -7,7 +7,6 @@ obj = Test(
     x=X(
         a="hello",
         b="world",
-        c=None,
         d="world.."
     ),
     y=Y(

@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -18,7178 +17,4457 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute id = 'foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA001",
-                version=[],
-                other_attributes={}
+                name="stA001"
             ),
-            instance_test=[],
-            name="stA001",
-            version=[],
-            other_attributes={}
+            name="stA001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute id = 'foo123' , another object with an ID ='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA002",
-                version=[],
-                other_attributes={}
+                name="stA002"
             ),
-            instance_test=[],
-            name="stA002",
-            version=[],
-            other_attributes={}
+            name="stA002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute id = 'foo123' , an included object with and ID='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA003",
-                version=[],
-                other_attributes={}
+                name="stA003"
             ),
-            instance_test=[],
-            name="stA003",
-            version=[],
-            other_attributes={}
+            name="stA003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute id = ''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA004",
-                version=[],
-                other_attributes={}
+                name="stA004"
             ),
-            instance_test=[],
-            name="stA004",
-            version=[],
-            other_attributes={}
+            name="stA004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute id = '123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA005",
-                version=[],
-                other_attributes={}
+                name="stA005"
             ),
-            instance_test=[],
-            name="stA005",
-            version=[],
-            other_attributes={}
+            name="stA005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute id = 'foo123' , name attribute='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA006",
-                version=[],
-                other_attributes={}
+                name="stA006"
             ),
-            instance_test=[],
-            name="stA006",
-            version=[],
-            other_attributes={}
+            name="stA006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'fooType'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA007",
-                version=[],
-                other_attributes={}
+                name="stA007"
             ),
-            instance_test=[],
-            name="stA007",
-            version=[],
-            other_attributes={}
+            name="stA007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'fooType' , simpleType not global, parent is simpleType restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA008",
-                version=[],
-                other_attributes={}
+                name="stA008"
             ),
-            instance_test=[],
-            name="stA008",
-            version=[],
-            other_attributes={}
+            name="stA008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'fooType' , simpleType not global, parent is list",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA009",
-                version=[],
-                other_attributes={}
+                name="stA009"
             ),
-            instance_test=[],
-            name="stA009",
-            version=[],
-            other_attributes={}
+            name="stA009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'fooType' , simpleType not global, parent is union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA010",
-                version=[],
-                other_attributes={}
+                name="stA010"
             ),
-            instance_test=[],
-            name="stA010",
-            version=[],
-            other_attributes={}
+            name="stA010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'fooType' , simpleType not global, parent is attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA011",
-                version=[],
-                other_attributes={}
+                name="stA011"
             ),
-            instance_test=[],
-            name="stA011",
-            version=[],
-            other_attributes={}
+            name="stA011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'fooType' , simpleType not global, parent is element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA012",
-                version=[],
-                other_attributes={}
+                name="stA012"
             ),
-            instance_test=[],
-            name="stA012",
-            version=[],
-            other_attributes={}
+            name="stA012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'fooType' , simpleType not global, parent is simpleContent restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA013",
-                version=[],
-                other_attributes={}
+                name="stA013"
             ),
-            instance_test=[],
-            name="stA013",
-            version=[],
-            other_attributes={}
+            name="stA013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'a:b'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA014",
-                version=[],
-                other_attributes={}
+                name="stA014"
             ),
-            instance_test=[],
-            name="stA014",
-            version=[],
-            other_attributes={}
+            name="stA014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = ''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA015",
-                version=[],
-                other_attributes={}
+                name="stA015"
             ),
-            instance_test=[],
-            name="stA015",
-            version=[],
-            other_attributes={}
+            name="stA015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = 'xmlns'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA016",
-                version=[],
-                other_attributes={}
+                name="stA016"
             ),
-            instance_test=[],
-            name="stA016",
-            version=[],
-            other_attributes={}
+            name="stA016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = '1foo'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA017",
-                version=[],
-                other_attributes={}
+                name="stA017"
             ),
-            instance_test=[],
-            name="stA017",
-            version=[],
-            other_attributes={}
+            name="stA017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = '_foo'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA018",
-                version=[],
-                other_attributes={}
+                name="stA018"
             ),
-            instance_test=[],
-            name="stA018",
-            version=[],
-            other_attributes={}
+            name="stA018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Declaration with optional attribute name = '_1'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA019.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA019",
-                version=[],
-                other_attributes={}
+                name="stA019"
             ),
-            instance_test=[],
-            name="stA019",
-            version=[],
-            other_attributes={}
+            name="stA019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : attribute with non-schema namespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stA020.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stA020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stA020",
-                version=[],
-                other_attributes={}
+                name="stA020"
             ),
-            instance_test=[],
-            name="stA020",
-            version=[],
-            other_attributes={}
+            name="stA020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content of single annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB001",
-                version=[],
-                other_attributes={}
+                name="stB001"
             ),
-            instance_test=[],
-            name="stB001",
-            version=[],
-            other_attributes={}
+            name="stB001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with two annotations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB002",
-                version=[],
-                other_attributes={}
+                name="stB002"
             ),
-            instance_test=[],
-            name="stB002",
-            version=[],
-            other_attributes={}
+            name="stB002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB003",
-                version=[],
-                other_attributes={}
+                name="stB003"
             ),
-            instance_test=[],
-            name="stB003",
-            version=[],
-            other_attributes={}
+            name="stB003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with two restrctions",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB004",
-                version=[],
-                other_attributes={}
+                name="stB004"
             ),
-            instance_test=[],
-            name="stB004",
-            version=[],
-            other_attributes={}
+            name="stB004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with restriction then annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB005",
-                version=[],
-                other_attributes={}
+                name="stB005"
             ),
-            instance_test=[],
-            name="stB005",
-            version=[],
-            other_attributes={}
+            name="stB005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with annotation then restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB006",
-                version=[],
-                other_attributes={}
+                name="stB006"
             ),
-            instance_test=[],
-            name="stB006",
-            version=[],
-            other_attributes={}
+            name="stB006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with restriction then attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB007",
-                version=[],
-                other_attributes={}
+                name="stB007"
             ),
-            instance_test=[],
-            name="stB007",
-            version=[],
-            other_attributes={}
+            name="stB007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with list",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB008",
-                version=[],
-                other_attributes={}
+                name="stB008"
             ),
-            instance_test=[],
-            name="stB008",
-            version=[],
-            other_attributes={}
+            name="stB008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with two lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB009",
-                version=[],
-                other_attributes={}
+                name="stB009"
             ),
-            instance_test=[],
-            name="stB009",
-            version=[],
-            other_attributes={}
+            name="stB009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with list then annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB010",
-                version=[],
-                other_attributes={}
+                name="stB010"
             ),
-            instance_test=[],
-            name="stB010",
-            version=[],
-            other_attributes={}
+            name="stB010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with annotation then list",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB011",
-                version=[],
-                other_attributes={}
+                name="stB011"
             ),
-            instance_test=[],
-            name="stB011",
-            version=[],
-            other_attributes={}
+            name="stB011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB012",
-                version=[],
-                other_attributes={}
+                name="stB012"
             ),
-            instance_test=[],
-            name="stB012",
-            version=[],
-            other_attributes={}
+            name="stB012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with two unions",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB013",
-                version=[],
-                other_attributes={}
+                name="stB013"
             ),
-            instance_test=[],
-            name="stB013",
-            version=[],
-            other_attributes={}
+            name="stB013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with union then annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB014",
-                version=[],
-                other_attributes={}
+                name="stB014"
             ),
-            instance_test=[],
-            name="stB014",
-            version=[],
-            other_attributes={}
+            name="stB014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with annotation then union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB015",
-                version=[],
-                other_attributes={}
+                name="stB015"
             ),
-            instance_test=[],
-            name="stB015",
-            version=[],
-            other_attributes={}
+            name="stB015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with two annotations then restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB016",
-                version=[],
-                other_attributes={}
+                name="stB016"
             ),
-            instance_test=[],
-            name="stB016",
-            version=[],
-            other_attributes={}
+            name="stB016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with two annotations then list",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB017",
-                version=[],
-                other_attributes={}
+                name="stB017"
             ),
-            instance_test=[],
-            name="stB017",
-            version=[],
-            other_attributes={}
+            name="stB017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with two annotations then union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB018",
-                version=[],
-                other_attributes={}
+                name="stB018"
             ),
-            instance_test=[],
-            name="stB018",
-            version=[],
-            other_attributes={}
+            name="stB018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with list then restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB019.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB019",
-                version=[],
-                other_attributes={}
+                name="stB019"
             ),
-            instance_test=[],
-            name="stB019",
-            version=[],
-            other_attributes={}
+            name="stB019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with list then union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB020.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB020",
-                version=[],
-                other_attributes={}
+                name="stB020"
             ),
-            instance_test=[],
-            name="stB020",
-            version=[],
-            other_attributes={}
+            name="stB020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with restriction then list",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB021.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB021",
-                version=[],
-                other_attributes={}
+                name="stB021"
             ),
-            instance_test=[],
-            name="stB021",
-            version=[],
-            other_attributes={}
+            name="stB021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with restriction then union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB022.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB022",
-                version=[],
-                other_attributes={}
+                name="stB022"
             ),
-            instance_test=[],
-            name="stB022",
-            version=[],
-            other_attributes={}
+            name="stB022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with union then list",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB023.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB023",
-                version=[],
-                other_attributes={}
+                name="stB023"
             ),
-            instance_test=[],
-            name="stB023",
-            version=[],
-            other_attributes={}
+            name="stB023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : content with union then restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stB024.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stB024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stB024",
-                version=[],
-                other_attributes={}
+                name="stB024"
             ),
-            instance_test=[],
-            name="stB024",
-            version=[],
-            other_attributes={}
+            name="stB024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute base = 'xsd:string'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC001",
-                version=[],
-                other_attributes={}
+                name="stC001"
             ),
-            instance_test=[],
-            name="stC001",
-            version=[],
-            other_attributes={}
+            name="stC001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute base = 'xsd:something'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC002",
-                version=[],
-                other_attributes={}
+                name="stC002"
             ),
-            instance_test=[],
-            name="stC002",
-            version=[],
-            other_attributes={}
+            name="stC002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute base = 'xsd:anyType'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC003",
-                version=[],
-                other_attributes={}
+                name="stC003"
             ),
-            instance_test=[],
-            name="stC003",
-            version=[],
-            other_attributes={}
+            name="stC003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute base = 'foo:string' foo is not defined",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC004",
-                version=[],
-                other_attributes={}
+                name="stC004"
             ),
-            instance_test=[],
-            name="stC004",
-            version=[],
-            other_attributes={}
+            name="stC004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute id = 'foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC005",
-                version=[],
-                other_attributes={}
+                name="stC005"
             ),
-            instance_test=[],
-            name="stC005",
-            version=[],
-            other_attributes={}
+            name="stC005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute id = 'foo123' , another object with an ID ='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC006",
-                version=[],
-                other_attributes={}
+                name="stC006"
             ),
-            instance_test=[],
-            name="stC006",
-            version=[],
-            other_attributes={}
+            name="stC006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute id = 'foo123' , an included object with and ID='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC007",
-                version=[],
-                other_attributes={}
+                name="stC007"
             ),
-            instance_test=[],
-            name="stC007",
-            version=[],
-            other_attributes={}
+            name="stC007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute id = ''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC008",
-                version=[],
-                other_attributes={}
+                name="stC008"
             ),
-            instance_test=[],
-            name="stC008",
-            version=[],
-            other_attributes={}
+            name="stC008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction with optional attribute id = '123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC009",
-                version=[],
-                other_attributes={}
+                name="stC009"
             ),
-            instance_test=[],
-            name="stC009",
-            version=[],
-            other_attributes={}
+            name="stC009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. content of simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC010",
-                version=[],
-                other_attributes={}
+                name="stC010"
             ),
-            instance_test=[],
-            name="stC010",
-            version=[],
-            other_attributes={}
+            name="stC010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. content of two simpleTypes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC011",
-                version=[],
-                other_attributes={}
+                name="stC011"
             ),
-            instance_test=[],
-            name="stC011",
-            version=[],
-            other_attributes={}
+            name="stC011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of duration",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC012",
-                version=[],
-                other_attributes={}
+                name="stC012"
             ),
-            instance_test=[],
-            name="stC012",
-            version=[],
-            other_attributes={}
+            name="stC012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of encoding",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC013",
-                version=[],
-                other_attributes={}
+                name="stC013"
             ),
-            instance_test=[],
-            name="stC013",
-            version=[],
-            other_attributes={}
+            name="stC013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of enumeration",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC014",
-                version=[],
-                other_attributes={}
+                name="stC014"
             ),
-            instance_test=[],
-            name="stC014",
-            version=[],
-            other_attributes={}
+            name="stC014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of length",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC015",
-                version=[],
-                other_attributes={}
+                name="stC015"
             ),
-            instance_test=[],
-            name="stC015",
-            version=[],
-            other_attributes={}
+            name="stC015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxExclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC016",
-                version=[],
-                other_attributes={}
+                name="stC016"
             ),
-            instance_test=[],
-            name="stC016",
-            version=[],
-            other_attributes={}
+            name="stC016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxInclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC017",
-                version=[],
-                other_attributes={}
+                name="stC017"
             ),
-            instance_test=[],
-            name="stC017",
-            version=[],
-            other_attributes={}
+            name="stC017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of maxLength",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC018",
-                version=[],
-                other_attributes={}
+                name="stC018"
             ),
-            instance_test=[],
-            name="stC018",
-            version=[],
-            other_attributes={}
+            name="stC018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minExclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC019.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC019",
-                version=[],
-                other_attributes={}
+                name="stC019"
             ),
-            instance_test=[],
-            name="stC019",
-            version=[],
-            other_attributes={}
+            name="stC019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minInclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC020.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC020",
-                version=[],
-                other_attributes={}
+                name="stC020"
             ),
-            instance_test=[],
-            name="stC020",
-            version=[],
-            other_attributes={}
+            name="stC020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of minLength",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC021.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC021",
-                version=[],
-                other_attributes={}
+                name="stC021"
             ),
-            instance_test=[],
-            name="stC021",
-            version=[],
-            other_attributes={}
+            name="stC021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of pattern",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC022.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC022",
-                version=[],
-                other_attributes={}
+                name="stC022"
             ),
-            instance_test=[],
-            name="stC022",
-            version=[],
-            other_attributes={}
+            name="stC022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of period",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC023.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC023",
-                version=[],
-                other_attributes={}
+                name="stC023"
             ),
-            instance_test=[],
-            name="stC023",
-            version=[],
-            other_attributes={}
+            name="stC023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of totalDigits",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC024.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC024",
-                version=[],
-                other_attributes={}
+                name="stC024"
             ),
-            instance_test=[],
-            name="stC024",
-            version=[],
-            other_attributes={}
+            name="stC024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of fractionDigits",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC025.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC025",
-                version=[],
-                other_attributes={}
+                name="stC025"
             ),
-            instance_test=[],
-            name="stC025",
-            version=[],
-            other_attributes={}
+            name="stC025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of whiteSpace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC026.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC026.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC026",
-                version=[],
-                other_attributes={}
+                name="stC026"
             ),
-            instance_test=[],
-            name="stC026",
-            version=[],
-            other_attributes={}
+            name="stC026"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base is valid for restriction facet and content of attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC027.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC027",
-                version=[],
-                other_attributes={}
+                name="stC027"
             ),
-            instance_test=[],
-            name="stC027",
-            version=[],
-            other_attributes={}
+            name="stC027"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. content of attributeGroup",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC028.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC028.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC028",
-                version=[],
-                other_attributes={}
+                name="stC028"
             ),
-            instance_test=[],
-            name="stC028",
-            version=[],
-            other_attributes={}
+            name="stC028"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. content of anyAttribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC029.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC029.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC029",
-                version=[],
-                other_attributes={}
+                name="stC029"
             ),
-            instance_test=[],
-            name="stC029",
-            version=[],
-            other_attributes={}
+            name="stC029"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base = 'xsd:string and content of annotation and length=5",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC030.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC030.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC030",
-                version=[],
-                other_attributes={}
+                name="stC030"
             ),
-            instance_test=[],
-            name="stC030",
-            version=[],
-            other_attributes={}
+            name="stC030"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. base = 'xsd:string' and content of simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC031.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC031.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC031",
-                version=[],
-                other_attributes={}
+                name="stC031"
             ),
-            instance_test=[],
-            name="stC031",
-            version=[],
-            other_attributes={}
+            name="stC031"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. content of simpleType and length=5",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC032.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC032.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC032",
-                version=[],
-                other_attributes={}
+                name="stC032"
             ),
-            instance_test=[],
-            name="stC032",
-            version=[],
-            other_attributes={}
+            name="stC032"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Restriction. attribute with non-schema namespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC033.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC033.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC033",
-                version=[],
-                other_attributes={}
+                name="stC033"
             ),
-            instance_test=[],
-            name="stC033",
-            version=[],
-            other_attributes={}
+            name="stC033"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : error for duration value that is not conformed to the duration format.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC034.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC034.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC034",
-                version=[],
-                other_attributes={}
+                name="stC034"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC034.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stC034.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stC034.i",
-                    version=[],
-                    other_attributes={}
+                    name="stC034.i"
                 ),
             ],
-            name="stC034",
-            version=[],
-            other_attributes={}
+            name="stC034"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : fraction of second for the duration datatype",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stC035.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stC035.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stC035",
-                version=[],
-                other_attributes={}
+                name="stC035"
             ),
-            instance_test=[],
-            name="stC035",
-            version=[],
-            other_attributes={}
+            name="stC035"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute id = 'foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD001",
-                version=[],
-                other_attributes={}
+                name="stD001"
             ),
-            instance_test=[],
-            name="stD001",
-            version=[],
-            other_attributes={}
+            name="stD001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute id = 'foo123' , another object with an ID ='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD002",
-                version=[],
-                other_attributes={}
+                name="stD002"
             ),
-            instance_test=[],
-            name="stD002",
-            version=[],
-            other_attributes={}
+            name="stD002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute id = 'foo123' , an included object with and ID='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD003",
-                version=[],
-                other_attributes={}
+                name="stD003"
             ),
-            instance_test=[],
-            name="stD003",
-            version=[],
-            other_attributes={}
+            name="stD003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute id = ''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD004",
-                version=[],
-                other_attributes={}
+                name="stD004"
             ),
-            instance_test=[],
-            name="stD004",
-            version=[],
-            other_attributes={}
+            name="stD004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute id = '123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD005",
-                version=[],
-                other_attributes={}
+                name="stD005"
             ),
-            instance_test=[],
-            name="stD005",
-            version=[],
-            other_attributes={}
+            name="stD005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = 'myInteger' itemType is unique",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD006",
-                version=[],
-                other_attributes={}
+                name="stD006"
             ),
-            instance_test=[],
-            name="stD006",
-            version=[],
-            other_attributes={}
+            name="stD006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = 'xsd:Integer' xsd is properly defined",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD007",
-                version=[],
-                other_attributes={}
+                name="stD007"
             ),
-            instance_test=[],
-            name="stD007",
-            version=[],
-            other_attributes={}
+            name="stD007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = 'foo:myInteger' foo is properly defined",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD008",
-                version=[],
-                other_attributes={}
+                name="stD008"
             ),
-            instance_test=[],
-            name="stD008",
-            version=[],
-            other_attributes={}
+            name="stD008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = 'foo:myInteger' foo is not defined",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD009",
-                version=[],
-                other_attributes={}
+                name="stD009"
             ),
-            instance_test=[],
-            name="stD009",
-            version=[],
-            other_attributes={}
+            name="stD009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = ''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD010",
-                version=[],
-                other_attributes={}
+                name="stD010"
             ),
-            instance_test=[],
-            name="stD010",
-            version=[],
-            other_attributes={}
+            name="stD010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List attribute with non-schema namespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD011",
-                version=[],
-                other_attributes={}
+                name="stD011"
             ),
-            instance_test=[],
-            name="stD011",
-            version=[],
-            other_attributes={}
+            name="stD011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List content is empty",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD012",
-                version=[],
-                other_attributes={}
+                name="stD012"
             ),
-            instance_test=[],
-            name="stD012",
-            version=[],
-            other_attributes={}
+            name="stD012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List content of single annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD013",
-                version=[],
-                other_attributes={}
+                name="stD013"
             ),
-            instance_test=[],
-            name="stD013",
-            version=[],
-            other_attributes={}
+            name="stD013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List content of single annotation then simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD014",
-                version=[],
-                other_attributes={}
+                name="stD014"
             ),
-            instance_test=[],
-            name="stD014",
-            version=[],
-            other_attributes={}
+            name="stD014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List content of two simpleTypes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD015",
-                version=[],
-                other_attributes={}
+                name="stD015"
             ),
-            instance_test=[],
-            name="stD015",
-            version=[],
-            other_attributes={}
+            name="stD015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List content of two annotations then simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD016",
-                version=[],
-                other_attributes={}
+                name="stD016"
             ),
-            instance_test=[],
-            name="stD016",
-            version=[],
-            other_attributes={}
+            name="stD016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List content of simpleType then annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD017",
-                version=[],
-                other_attributes={}
+                name="stD017"
             ),
-            instance_test=[],
-            name="stD017",
-            version=[],
-            other_attributes={}
+            name="stD017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = 'xsd:Integer' content of simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD018",
-                version=[],
-                other_attributes={}
+                name="stD018"
             ),
-            instance_test=[],
-            name="stD018",
-            version=[],
-            other_attributes={}
+            name="stD018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = 'myTest' myTest is a complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD019.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD019",
-                version=[],
-                other_attributes={}
+                name="stD019"
             ),
-            instance_test=[],
-            name="stD019",
-            version=[],
-            other_attributes={}
+            name="stD019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = 'myTest' myTest is a Union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD020.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD020",
-                version=[],
-                other_attributes={}
+                name="stD020"
             ),
-            instance_test=[],
-            name="stD020",
-            version=[],
-            other_attributes={}
+            name="stD020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : List with optional attribute itemType = 'myTest' myTest a simpleType restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stD021.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stD021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stD021",
-                version=[],
-                other_attributes={}
+                name="stD021"
             ),
-            instance_test=[],
-            name="stD021",
-            version=[],
-            other_attributes={}
+            name="stD021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with optional attribute id = 'foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE001",
-                version=[],
-                other_attributes={}
+                name="stE001"
             ),
-            instance_test=[],
-            name="stE001",
-            version=[],
-            other_attributes={}
+            name="stE001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with optional attribute id = 'foo123' , another object with an ID ='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE002",
-                version=[],
-                other_attributes={}
+                name="stE002"
             ),
-            instance_test=[],
-            name="stE002",
-            version=[],
-            other_attributes={}
+            name="stE002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with optional attribute id = 'foo123' , an included object with and ID='foo123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE003",
-                version=[],
-                other_attributes={}
+                name="stE003"
             ),
-            instance_test=[],
-            name="stE003",
-            version=[],
-            other_attributes={}
+            name="stE003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with optional attribute id = ''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE004",
-                version=[],
-                other_attributes={}
+                name="stE004"
             ),
-            instance_test=[],
-            name="stE004",
-            version=[],
-            other_attributes={}
+            name="stE004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with optional attribute id = '123'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE005",
-                version=[],
-                other_attributes={}
+                name="stE005"
             ),
-            instance_test=[],
-            name="stE005",
-            version=[],
-            other_attributes={}
+            name="stE005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with optional attribute memberTypes = 'States listMyInt' memberTypes is unique",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE006",
-                version=[],
-                other_attributes={}
+                name="stE006"
             ),
-            instance_test=[],
-            name="stE006",
-            version=[],
-            other_attributes={}
+            name="stE006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with optional attribute memberTypes = 'xsd:Integer foo:listMyInt' namespaces are defined",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE007",
-                version=[],
-                other_attributes={}
+                name="stE007"
             ),
-            instance_test=[],
-            name="stE007",
-            version=[],
-            other_attributes={}
+            name="stE007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with optional attribute memberTypes = 'xsd:Integer foo:listMyInt' foo namespace is not defined",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE008",
-                version=[],
-                other_attributes={}
+                name="stE008"
             ),
-            instance_test=[],
-            name="stE008",
-            version=[],
-            other_attributes={}
+            name="stE008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union attribute with non-schema namespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE009",
-                version=[],
-                other_attributes={}
+                name="stE009"
             ),
-            instance_test=[],
-            name="stE009",
-            version=[],
-            other_attributes={}
+            name="stE009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union content is empty",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE010",
-                version=[],
-                other_attributes={}
+                name="stE010"
             ),
-            instance_test=[],
-            name="stE010",
-            version=[],
-            other_attributes={}
+            name="stE010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union memberTypes attribute and content of single annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE011",
-                version=[],
-                other_attributes={}
+                name="stE011"
             ),
-            instance_test=[],
-            name="stE011",
-            version=[],
-            other_attributes={}
+            name="stE011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union no attributes and content of single annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE012",
-                version=[],
-                other_attributes={}
+                name="stE012"
             ),
-            instance_test=[],
-            name="stE012",
-            version=[],
-            other_attributes={}
+            name="stE012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union content of single annotation then simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE013",
-                version=[],
-                other_attributes={}
+                name="stE013"
             ),
-            instance_test=[],
-            name="stE013",
-            version=[],
-            other_attributes={}
+            name="stE013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union content of two simpleTypes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE014",
-                version=[],
-                other_attributes={}
+                name="stE014"
             ),
-            instance_test=[],
-            name="stE014",
-            version=[],
-            other_attributes={}
+            name="stE014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union content of two annotations then simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE015",
-                version=[],
-                other_attributes={}
+                name="stE015"
             ),
-            instance_test=[],
-            name="stE015",
-            version=[],
-            other_attributes={}
+            name="stE015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union content of simpleType then annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE016",
-                version=[],
-                other_attributes={}
+                name="stE016"
             ),
-            instance_test=[],
-            name="stE016",
-            version=[],
-            other_attributes={}
+            name="stE016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union memberTypes attribute and content of simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE017",
-                version=[],
-                other_attributes={}
+                name="stE017"
             ),
-            instance_test=[],
-            name="stE017",
-            version=[],
-            other_attributes={}
+            name="stE017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union derived from complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE018",
-                version=[],
-                other_attributes={}
+                name="stE018"
             ),
-            instance_test=[],
-            name="stE018",
-            version=[],
-            other_attributes={}
+            name="stE018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE050.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE050.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE050",
-                version=[],
-                other_attributes={}
+                name="stE050"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE050.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE050.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE050.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE050.v"
                 ),
             ],
-            name="stE050",
-            version=[],
-            other_attributes={}
+            name="stE050"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE051.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE051.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE051",
-                version=[],
-                other_attributes={}
+                name="stE051"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE051.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE051.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE051.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE051.i"
                 ),
             ],
-            name="stE051",
-            version=[],
-            other_attributes={}
+            name="stE051"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (3)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE052.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE052.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE052",
-                version=[],
-                other_attributes={}
+                name="stE052"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE052.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE052.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE052.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE052.v"
                 ),
             ],
-            name="stE052",
-            version=[],
-            other_attributes={}
+            name="stE052"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (4)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "In XSD 1.1, xs:simpleType is not allowed as a member type of a union (see note in Part 2 section 2.4.1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE053.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE053.xsd"
                     ),
                 ],
                 expected=[
@@ -7197,10651 +4475,6596 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE053",
-                version=[],
-                other_attributes={}
+                name="stE053"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE053.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE053.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
                     name="stE053.i",
                     version=[
                         KnownToken.VALUE_1_0,
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            name="stE053",
-            version=[],
-            other_attributes={}
+            name="stE053"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (5)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE054.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE054.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE054",
-                version=[],
-                other_attributes={}
+                name="stE054"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE054.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE054.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE054.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE054.i"
                 ),
             ],
-            name="stE054",
-            version=[],
-            other_attributes={}
+            name="stE054"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (6)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE055.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE055.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE055",
-                version=[],
-                other_attributes={}
+                name="stE055"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE055.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE055.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE055.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE055.v"
                 ),
             ],
-            name="stE055",
-            version=[],
-            other_attributes={}
+            name="stE055"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (7)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE056.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE056.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE056",
-                version=[],
-                other_attributes={}
+                name="stE056"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE056.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE056.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE056.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE056.i"
                 ),
             ],
-            name="stE056",
-            version=[],
-            other_attributes={}
+            name="stE056"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (8)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE057.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE057.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE057",
-                version=[],
-                other_attributes={}
+                name="stE057"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE057.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE057.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE057.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE057.v"
                 ),
             ],
-            name="stE057",
-            version=[],
-            other_attributes={}
+            name="stE057"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (9)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE058.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE058.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE058",
-                version=[],
-                other_attributes={}
+                name="stE058"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE058.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE058.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE058.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE058.v"
                 ),
             ],
-            name="stE058",
-            version=[],
-            other_attributes={}
+            name="stE058"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (10)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE059.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE059.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE059",
-                version=[],
-                other_attributes={}
+                name="stE059"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE059.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE059.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE059.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE059.v"
                 ),
             ],
-            name="stE059",
-            version=[],
-            other_attributes={}
+            name="stE059"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (11)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE060.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE060.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE060",
-                version=[],
-                other_attributes={}
+                name="stE060"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE060.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE060.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE060.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE060.v"
                 ),
             ],
-            name="stE060",
-            version=[],
-            other_attributes={}
+            name="stE060"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (12)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE061.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE061.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE061",
-                version=[],
-                other_attributes={}
+                name="stE061"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE061.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE061.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE061.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE061.v"
                 ),
             ],
-            name="stE061",
-            version=[],
-            other_attributes={}
+            name="stE061"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (13)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE062.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE062.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE062",
-                version=[],
-                other_attributes={}
+                name="stE062"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE062.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE062.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE062.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE062.v"
                 ),
             ],
-            name="stE062",
-            version=[],
-            other_attributes={}
+            name="stE062"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (14)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE063.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE063.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE063",
-                version=[],
-                other_attributes={}
+                name="stE063"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE063.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE063.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE063.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE063.i"
                 ),
             ],
-            name="stE063",
-            version=[],
-            other_attributes={}
+            name="stE063"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (15)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE064.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE064.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE064",
-                version=[],
-                other_attributes={}
+                name="stE064"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE064.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE064.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE064.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE064.v"
                 ),
             ],
-            name="stE064",
-            version=[],
-            other_attributes={}
+            name="stE064"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (16)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE065.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE065.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE065",
-                version=[],
-                other_attributes={}
+                name="stE065"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE065.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE065.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE065.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE065.v"
                 ),
             ],
-            name="stE065",
-            version=[],
-            other_attributes={}
+            name="stE065"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (17)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE066.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE066.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE066",
-                version=[],
-                other_attributes={}
+                name="stE066"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE066.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE066.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE066.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE066.v"
                 ),
             ],
-            name="stE066",
-            version=[],
-            other_attributes={}
+            name="stE066"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (18)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE067.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE067.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE067",
-                version=[],
-                other_attributes={}
+                name="stE067"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE067.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE067.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE067.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE067.v"
                 ),
             ],
-            name="stE067",
-            version=[],
-            other_attributes={}
+            name="stE067"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (19)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE068.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE068.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE068",
-                version=[],
-                other_attributes={}
+                name="stE068"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE068.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE068.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE068.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE068.v"
                 ),
             ],
-            name="stE068",
-            version=[],
-            other_attributes={}
+            name="stE068"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (20)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE069.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE069.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE069",
-                version=[],
-                other_attributes={}
+                name="stE069"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE069.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE069.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE069.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE069.v"
                 ),
             ],
-            name="stE069",
-            version=[],
-            other_attributes={}
+            name="stE069"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (21)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE070.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE070.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE070",
-                version=[],
-                other_attributes={}
+                name="stE070"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE070.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE070.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE070.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE070.i"
                 ),
             ],
-            name="stE070",
-            version=[],
-            other_attributes={}
+            name="stE070"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (22)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE071.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE071.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE071",
-                version=[],
-                other_attributes={}
+                name="stE071"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE071.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE071.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE071.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE071.i"
                 ),
             ],
-            name="stE071",
-            version=[],
-            other_attributes={}
+            name="stE071"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (23)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Changed to add a wrapper element to avoid problems with having an ID in the outermost element - MHK 2010-07-10",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "But schema is possibly invalid in XSD 1.0 because ID cannot have a fixed value.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE072.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE072.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE072",
-                version=[],
-                other_attributes={}
+                name="stE072"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE072.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE072.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 7, 10),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 7, 10)
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2006, 7, 16),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2006, 7, 16)
                         ),
                         Prior(
-                            annotation=[],
                             status=Status.QUERIED,
                             date=XmlDate(2010, 7, 9),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=10111",
-                            other_attributes={}
+                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=10111"
                         ),
                     ],
-                    name="stE072.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE072.v"
                 ),
             ],
-            name="stE072",
-            version=[],
-            other_attributes={}
+            name="stE072"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (24)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE073.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE073.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE073",
-                version=[],
-                other_attributes={}
+                name="stE073"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE073.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE073.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE073.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE073.i"
                 ),
             ],
-            name="stE073",
-            version=[],
-            other_attributes={}
+            name="stE073"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (25)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE073v.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE073v.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE073v",
-                version=[],
-                other_attributes={}
+                name="stE073v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE073v.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE073v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE073v.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE073v.v"
                 ),
             ],
-            name="stE073v",
-            version=[],
-            other_attributes={}
+            name="stE073v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (26)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE074.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE074.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE074",
-                version=[],
-                other_attributes={}
+                name="stE074"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE074.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE074.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE074.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE074.i"
                 ),
             ],
-            name="stE074",
-            version=[],
-            other_attributes={}
+            name="stE074"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (27)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste074v.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/ste074v.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="ste074v",
-                version=[],
-                other_attributes={}
+                name="ste074v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste074v.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/ste074v.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="ste074v.v",
-                    version=[],
-                    other_attributes={}
+                    name="ste074v.v"
                 ),
             ],
-            name="ste074v",
-            version=[],
-            other_attributes={}
+            name="ste074v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (28)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE075.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE075.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
-                current=None,
-                prior=[],
-                name="stE075",
-                version=[],
-                other_attributes={}
+                name="stE075"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE075.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE075.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE075.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE075.i"
                 ),
             ],
-            name="stE075",
-            version=[],
-            other_attributes={}
+            name="stE075"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (29)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE076.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE076.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE076",
-                version=[],
-                other_attributes={}
+                name="stE076"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE076.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE076.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE076.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE076.i"
                 ),
             ],
-            name="stE076",
-            version=[],
-            other_attributes={}
+            name="stE076"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (30)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE077.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE077.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE077",
-                version=[],
-                other_attributes={}
+                name="stE077"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE077.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE077.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE077.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE077.v"
                 ),
             ],
-            name="stE077",
-            version=[],
-            other_attributes={}
+            name="stE077"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (31)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE078.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE078.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE078",
-                version=[],
-                other_attributes={}
+                name="stE078"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE078.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE078.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE078.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE078.i"
                 ),
             ],
-            name="stE078",
-            version=[],
-            other_attributes={}
+            name="stE078"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (32)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE079.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE079.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE079",
-                version=[],
-                other_attributes={}
+                name="stE079"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE079.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE079.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE079.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE079.v"
                 ),
             ],
-            name="stE079",
-            version=[],
-            other_attributes={}
+            name="stE079"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (33)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE080.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE080.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE080",
-                version=[],
-                other_attributes={}
+                name="stE080"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE080.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE080.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE080.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE080.v"
                 ),
             ],
-            name="stE080",
-            version=[],
-            other_attributes={}
+            name="stE080"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (34)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE081.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE081.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE081",
-                version=[],
-                other_attributes={}
+                name="stE081"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE081.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE081.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE081.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE081.v"
                 ),
             ],
-            name="stE081",
-            version=[],
-            other_attributes={}
+            name="stE081"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (35)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE082.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE082.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE082",
-                version=[],
-                other_attributes={}
+                name="stE082"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE082.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE082.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE082.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE082.i"
                 ),
             ],
-            name="stE082",
-            version=[],
-            other_attributes={}
+            name="stE082"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (36)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE090.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE090.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE090",
-                version=[],
-                other_attributes={}
+                name="stE090"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE090.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE090.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE090.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE090.v"
                 ),
             ],
-            name="stE090",
-            version=[],
-            other_attributes={}
+            name="stE090"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (37)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE091.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE091.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE091",
-                version=[],
-                other_attributes={}
+                name="stE091"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE091.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE091.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE091.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE091.v"
                 ),
             ],
-            name="stE091",
-            version=[],
-            other_attributes={}
+            name="stE091"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (38)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE092.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE092.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE092",
-                version=[],
-                other_attributes={}
+                name="stE092"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE092.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE092.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE092.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE092.v"
                 ),
             ],
-            name="stE092",
-            version=[],
-            other_attributes={}
+            name="stE092"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (39)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE093.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE093.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE093",
-                version=[],
-                other_attributes={}
+                name="stE093"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE093.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE093.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE093.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE093.v"
                 ),
             ],
-            name="stE093",
-            version=[],
-            other_attributes={}
+            name="stE093"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (40)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE094.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE094.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE094",
-                version=[],
-                other_attributes={}
+                name="stE094"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE094.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE094.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE094.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE094.v"
                 ),
             ],
-            name="stE094",
-            version=[],
-            other_attributes={}
+            name="stE094"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (41)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE095.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE095.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE095",
-                version=[],
-                other_attributes={}
+                name="stE095"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE095.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE095.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stE095.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE095.i"
                 ),
             ],
-            name="stE095",
-            version=[],
-            other_attributes={}
+            name="stE095"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (42)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE096.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE096.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE096",
-                version=[],
-                other_attributes={}
+                name="stE096"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE096.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE096.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="stE096.v",
-                    version=[],
-                    other_attributes={}
+                    name="stE096.v"
                 ),
             ],
-            name="stE096",
-            version=[],
-            other_attributes={}
+            name="stE096"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (43)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE097.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE097.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stE097",
-                version=[],
-                other_attributes={}
+                name="stE097"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE097.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stE097.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 12),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901"
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2006, 7, 16),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="stE097.i",
-                    version=[],
-                    other_attributes={}
+                    name="stE097.i"
                 ),
             ],
-            name="stE097",
-            version=[],
-            other_attributes={}
+            name="stE097"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (44)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste098.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/ste098.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="ste098",
-                version=[],
-                other_attributes={}
+                name="ste098"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste098.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/ste098.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="ste098.i",
-                    version=[],
-                    other_attributes={}
+                    name="ste098.i"
                 ),
             ],
-            name="ste098",
-            version=[],
-            other_attributes={}
+            name="ste098"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (45)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste099.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/ste099.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="ste099",
-                version=[],
-                other_attributes={}
+                name="ste099"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste099.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/ste099.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="ste099.v",
-                    version=[],
-                    other_attributes={}
+                    name="ste099.v"
                 ),
             ],
-            name="ste099",
-            version=[],
-            other_attributes={}
+            name="ste099"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Union with Fixed Value (46)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste100.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/ste100.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="ste100",
-                version=[],
-                other_attributes={}
+                name="ste100"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste100.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/ste100.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="ste100.i",
-                    version=[],
-                    other_attributes={}
+                    name="ste100.i"
                 ),
             ],
-            name="ste100",
-            version=[],
-            other_attributes={}
+            name="ste100"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : test circular union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stE110.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stE110.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.QUERIED,
                     date=XmlDate(2007, 8, 17),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4957",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4957"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="ste110",
-                version=[],
-                other_attributes={}
+                name="ste110"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/ste100.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/ste100.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="ste110.i",
-                    version=[],
-                    other_attributes={}
+                    name="ste110.i"
                 ),
             ],
-            name="ste110",
-            version=[],
-            other_attributes={}
+            name="ste110"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of length",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF001",
-                version=[],
-                other_attributes={}
+                name="stF001"
             ),
-            instance_test=[],
-            name="stF001",
-            version=[],
-            other_attributes={}
+            name="stF001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxLength",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF002",
-                version=[],
-                other_attributes={}
+                name="stF002"
             ),
-            instance_test=[],
-            name="stF002",
-            version=[],
-            other_attributes={}
+            name="stF002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minLength",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF003",
-                version=[],
-                other_attributes={}
+                name="stF003"
             ),
-            instance_test=[],
-            name="stF003",
-            version=[],
-            other_attributes={}
+            name="stF003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of enumeration",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF004",
-                version=[],
-                other_attributes={}
+                name="stF004"
             ),
-            instance_test=[],
-            name="stF004",
-            version=[],
-            other_attributes={}
+            name="stF004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of whitespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF005",
-                version=[],
-                other_attributes={}
+                name="stF005"
             ),
-            instance_test=[],
-            name="stF005",
-            version=[],
-            other_attributes={}
+            name="stF005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of pattern",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF006",
-                version=[],
-                other_attributes={}
+                name="stF006"
             ),
-            instance_test=[],
-            name="stF006",
-            version=[],
-            other_attributes={}
+            name="stF006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of duration",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF007",
-                version=[],
-                other_attributes={}
+                name="stF007"
             ),
-            instance_test=[],
-            name="stF007",
-            version=[],
-            other_attributes={}
+            name="stF007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of encoding",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF008",
-                version=[],
-                other_attributes={}
+                name="stF008"
             ),
-            instance_test=[],
-            name="stF008",
-            version=[],
-            other_attributes={}
+            name="stF008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxExclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF009",
-                version=[],
-                other_attributes={}
+                name="stF009"
             ),
-            instance_test=[],
-            name="stF009",
-            version=[],
-            other_attributes={}
+            name="stF009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of maxInclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF010",
-                version=[],
-                other_attributes={}
+                name="stF010"
             ),
-            instance_test=[],
-            name="stF010",
-            version=[],
-            other_attributes={}
+            name="stF010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minExclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF011",
-                version=[],
-                other_attributes={}
+                name="stF011"
             ),
-            instance_test=[],
-            name="stF011",
-            version=[],
-            other_attributes={}
+            name="stF011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of minInclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF012",
-                version=[],
-                other_attributes={}
+                name="stF012"
             ),
-            instance_test=[],
-            name="stF012",
-            version=[],
-            other_attributes={}
+            name="stF012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of period",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF013",
-                version=[],
-                other_attributes={}
+                name="stF013"
             ),
-            instance_test=[],
-            name="stF013",
-            version=[],
-            other_attributes={}
+            name="stF013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of precision",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF014",
-                version=[],
-                other_attributes={}
+                name="stF014"
             ),
-            instance_test=[],
-            name="stF014",
-            version=[],
-            other_attributes={}
+            name="stF014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from List with constraining facet of scale",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF015",
-                version=[],
-                other_attributes={}
+                name="stF015"
             ),
-            instance_test=[],
-            name="stF015",
-            version=[],
-            other_attributes={}
+            name="stF015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of pattern",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF016",
-                version=[],
-                other_attributes={}
+                name="stF016"
             ),
-            instance_test=[],
-            name="stF016",
-            version=[],
-            other_attributes={}
+            name="stF016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of enumeration",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF017",
-                version=[],
-                other_attributes={}
+                name="stF017"
             ),
-            instance_test=[],
-            name="stF017",
-            version=[],
-            other_attributes={}
+            name="stF017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of length",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF018",
-                version=[],
-                other_attributes={}
+                name="stF018"
             ),
-            instance_test=[],
-            name="stF018",
-            version=[],
-            other_attributes={}
+            name="stF018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxLength",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF019.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF019",
-                version=[],
-                other_attributes={}
+                name="stF019"
             ),
-            instance_test=[],
-            name="stF019",
-            version=[],
-            other_attributes={}
+            name="stF019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minLength",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF020.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF020",
-                version=[],
-                other_attributes={}
+                name="stF020"
             ),
-            instance_test=[],
-            name="stF020",
-            version=[],
-            other_attributes={}
+            name="stF020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of whitespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF021.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF021",
-                version=[],
-                other_attributes={}
+                name="stF021"
             ),
-            instance_test=[],
-            name="stF021",
-            version=[],
-            other_attributes={}
+            name="stF021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of duration",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF022.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF022",
-                version=[],
-                other_attributes={}
+                name="stF022"
             ),
-            instance_test=[],
-            name="stF022",
-            version=[],
-            other_attributes={}
+            name="stF022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of encoding",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF023.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF023",
-                version=[],
-                other_attributes={}
+                name="stF023"
             ),
-            instance_test=[],
-            name="stF023",
-            version=[],
-            other_attributes={}
+            name="stF023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxExclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF024.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF024",
-                version=[],
-                other_attributes={}
+                name="stF024"
             ),
-            instance_test=[],
-            name="stF024",
-            version=[],
-            other_attributes={}
+            name="stF024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of maxInclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF025.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF025",
-                version=[],
-                other_attributes={}
+                name="stF025"
             ),
-            instance_test=[],
-            name="stF025",
-            version=[],
-            other_attributes={}
+            name="stF025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minExclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF026.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF026.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF026",
-                version=[],
-                other_attributes={}
+                name="stF026"
             ),
-            instance_test=[],
-            name="stF026",
-            version=[],
-            other_attributes={}
+            name="stF026"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of minInclusive",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF027.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF027",
-                version=[],
-                other_attributes={}
+                name="stF027"
             ),
-            instance_test=[],
-            name="stF027",
-            version=[],
-            other_attributes={}
+            name="stF027"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of period",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF028.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF028.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF028",
-                version=[],
-                other_attributes={}
+                name="stF028"
             ),
-            instance_test=[],
-            name="stF028",
-            version=[],
-            other_attributes={}
+            name="stF028"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of precision",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF029.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF029.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF029",
-                version=[],
-                other_attributes={}
+                name="stF029"
             ),
-            instance_test=[],
-            name="stF029",
-            version=[],
-            other_attributes={}
+            name="stF029"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Derived datatype from Union with constraining facet of scale",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF030.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF030.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF030",
-                version=[],
-                other_attributes={}
+                name="stF030"
             ),
-            instance_test=[],
-            name="stF030",
-            version=[],
-            other_attributes={}
+            name="stF030"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for list, union and restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF031.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF031.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF031",
-                version=[],
-                other_attributes={}
+                name="stF031"
             ),
-            instance_test=[],
-            name="stF031",
-            version=[],
-            other_attributes={}
+            name="stF031"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for #all",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF032.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF032.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF032",
-                version=[],
-                other_attributes={}
+                name="stF032"
             ),
-            instance_test=[],
-            name="stF032",
-            version=[],
-            other_attributes={}
+            name="stF032"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Check that simpleType final works for #all",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF033.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF033.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF033",
-                version=[],
-                other_attributes={}
+                name="stF033"
             ),
-            instance_test=[],
-            name="stF033",
-            version=[],
-            other_attributes={}
+            name="stF033"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = list stops simpleType derivations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF034.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF034.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF034",
-                version=[],
-                other_attributes={}
+                name="stF034"
             ),
-            instance_test=[],
-            name="stF034",
-            version=[],
-            other_attributes={}
+            name="stF034"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = list stops simpleType derivations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF035.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF035.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF035",
-                version=[],
-                other_attributes={}
+                name="stF035"
             ),
-            instance_test=[],
-            name="stF035",
-            version=[],
-            other_attributes={}
+            name="stF035"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = union stops simpleType derivations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF036.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF036.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF036",
-                version=[],
-                other_attributes={}
+                name="stF036"
             ),
-            instance_test=[],
-            name="stF036",
-            version=[],
-            other_attributes={}
+            name="stF036"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Check that use of finalDefault = union stops simpleType derivations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stF037.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stF037.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stF037",
-                version=[],
-                other_attributes={}
+                name="stF037"
             ),
-            instance_test=[],
-            name="stF037",
-            version=[],
-            other_attributes={}
+            name="stF037"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of atomic type instance document contains items of the same atomic type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG001",
-                version=[],
-                other_attributes={}
+                name="stG001"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG001.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG001.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG001.v",
-                    version=[],
-                    other_attributes={}
+                    name="stG001.v"
                 ),
             ],
-            name="stG001",
-            version=[],
-            other_attributes={}
+            name="stG001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of atomic type with facet of 'maxLength' value = '3' instance document has 3 items",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG002",
-                version=[],
-                other_attributes={}
+                name="stG002"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG002.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG002.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG002.v",
-                    version=[],
-                    other_attributes={}
+                    name="stG002.v"
                 ),
             ],
-            name="stG002",
-            version=[],
-            other_attributes={}
+            name="stG002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of atomic type with facet of 'maxLength' value = '3' instance document has 4 items",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG003",
-                version=[],
-                other_attributes={}
+                name="stG003"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG003.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG003.i",
-                    version=[],
-                    other_attributes={}
+                    name="stG003.i"
                 ),
             ],
-            name="stG003",
-            version=[],
-            other_attributes={}
+            name="stG003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : schema is a list derived from a union of integer and NMTOKEN instance document contains valid items of integer and NMTOKEN",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG004",
-                version=[],
-                other_attributes={}
+                name="stG004"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG004.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG004.v",
-                    version=[],
-                    other_attributes={}
+                    name="stG004.v"
                 ),
             ],
-            name="stG004",
-            version=[],
-            other_attributes={}
+            name="stG004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : schema is a list derived from a union of integer and NMTOKEN instance document contains float",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG005",
-                version=[],
-                other_attributes={}
+                name="stG005"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG005.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG005.i",
-                    version=[],
-                    other_attributes={}
+                    name="stG005.i"
                 ),
             ],
-            name="stG005",
-            version=[],
-            other_attributes={}
+            name="stG005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of atomic type with facet of 'length' value = '2' instance document has 2 items",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG006",
-                version=[],
-                other_attributes={}
+                name="stG006"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG006.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG006.v",
-                    version=[],
-                    other_attributes={}
+                    name="stG006.v"
                 ),
             ],
-            name="stG006",
-            version=[],
-            other_attributes={}
+            name="stG006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of atomic type with facet of 'length' value = '2' instance document has 1 item",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG007",
-                version=[],
-                other_attributes={}
+                name="stG007"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG007.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG007.i",
-                    version=[],
-                    other_attributes={}
+                    name="stG007.i"
                 ),
             ],
-            name="stG007",
-            version=[],
-            other_attributes={}
+            name="stG007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of atomic type with facet of 'minLength' value = '2' instance document has 3 items",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG008",
-                version=[],
-                other_attributes={}
+                name="stG008"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG008.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG008.v",
-                    version=[],
-                    other_attributes={}
+                    name="stG008.v"
                 ),
             ],
-            name="stG008",
-            version=[],
-            other_attributes={}
+            name="stG008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of atomic type with facet of 'minLength' value = '2' instance document has 1 item",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG009",
-                version=[],
-                other_attributes={}
+                name="stG009"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG009.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG009.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG009.i",
-                    version=[],
-                    other_attributes={}
+                    name="stG009.i"
                 ),
             ],
-            name="stG009",
-            version=[],
-            other_attributes={}
+            name="stG009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of NMTOKEN type with facet of 'enumeration' value = 'CA' instance document has 'CA' value",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG010",
-                version=[],
-                other_attributes={}
+                name="stG010"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG010.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG010.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG010.v",
-                    version=[],
-                    other_attributes={}
+                    name="stG010.v"
                 ),
             ],
-            name="stG010",
-            version=[],
-            other_attributes={}
+            name="stG010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of NMTOKEN type with facet of 'enumeration' value = 'CA' instance document has 'WA' value",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG011",
-                version=[],
-                other_attributes={}
+                name="stG011"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG011.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG011.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG011.i",
-                    version=[],
-                    other_attributes={}
+                    name="stG011.i"
                 ),
             ],
-            name="stG011",
-            version=[],
-            other_attributes={}
+            name="stG011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of string type with facet of 'pattern' value = '[A-C]{0,2}' instance document has 'CA' value",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG012",
-                version=[],
-                other_attributes={}
+                name="stG012"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG012.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG012.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG012.v",
-                    version=[],
-                    other_attributes={}
+                    name="stG012.v"
                 ),
             ],
-            name="stG012",
-            version=[],
-            other_attributes={}
+            name="stG012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list of string type with facet of 'pattern' value = '[A-C]{0,2}' instance document has 'WA' value",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stG013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stG013",
-                version=[],
-                other_attributes={}
+                name="stG013"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stG013.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stG013.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stG013.i",
-                    version=[],
-                    other_attributes={}
+                    name="stG013.i"
                 ),
             ],
-            name="stG013",
-            version=[],
-            other_attributes={}
+            name="stG013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : schema defines a union of positiveInteger with minInclusive and maxInclusive restrictions and NMTOKEN with enumeration instance document has valid values",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stH001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stH001",
-                version=[],
-                other_attributes={}
+                name="stH001"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH001.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stH001.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stH001.v",
-                    version=[],
-                    other_attributes={}
+                    name="stH001.v"
                 ),
             ],
-            name="stH001",
-            version=[],
-            other_attributes={}
+            name="stH001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : schema defines a union of positiveInteger with minInclusive and maxInclusive restrictions and NMTOKEN with enumeration instance document an invalid value",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stH002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stH002",
-                version=[],
-                other_attributes={}
+                name="stH002"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH002.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stH002.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stH002.i",
-                    version=[],
-                    other_attributes={}
+                    name="stH002.i"
                 ),
             ],
-            name="stH002",
-            version=[],
-            other_attributes={}
+            name="stH002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : schema defines a union with memberTypes of a list of states(restricted strings) and a list of zip codes(restricted positiveIntegers) instance document has valid values",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stH003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stH003",
-                version=[],
-                other_attributes={}
+                name="stH003"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH003.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stH003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stH003.v",
-                    version=[],
-                    other_attributes={}
+                    name="stH003.v"
                 ),
             ],
-            name="stH003",
-            version=[],
-            other_attributes={}
+            name="stH003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : schema defines a union with memberTypes of a list of states(restricted strings) and a list of zip codes(restricted positiveIntegers) instance document has zip code out of range",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stH004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stH004",
-                version=[],
-                other_attributes={}
+                name="stH004"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH004.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stH004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stH004.i",
-                    version=[],
-                    other_attributes={}
+                    name="stH004.i"
                 ),
             ],
-            name="stH004",
-            version=[],
-            other_attributes={}
+            name="stH004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union derived from list of zip codes with restriction facet 'pattern' with a value of '[0-8]{5}' instance document has zip code='12345'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stH005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stH005",
-                version=[],
-                other_attributes={}
+                name="stH005"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH005.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stH005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stH005.v",
-                    version=[],
-                    other_attributes={}
+                    name="stH005.v"
                 ),
             ],
-            name="stH005",
-            version=[],
-            other_attributes={}
+            name="stH005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union derived from list of zip codes with restriction facet 'pattern' with a value of '[0-8]{5}' instance document has zip code = '98765'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stH006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stH006",
-                version=[],
-                other_attributes={}
+                name="stH006"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH006.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stH006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stH006.i",
-                    version=[],
-                    other_attributes={}
+                    name="stH006.i"
                 ),
             ],
-            name="stH006",
-            version=[],
-            other_attributes={}
+            name="stH006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union derived from list of states with restriction facet 'enumeration' with a value of 'CA' instance document has state = 'CA'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stH007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stH007",
-                version=[],
-                other_attributes={}
+                name="stH007"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH007.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stH007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stH007.v",
-                    version=[],
-                    other_attributes={}
+                    name="stH007.v"
                 ),
             ],
-            name="stH007",
-            version=[],
-            other_attributes={}
+            name="stH007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union derived from list of states with restriction facet 'enumeration' with a value of 'CA' instance document has state = 'WA'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stH008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stH008",
-                version=[],
-                other_attributes={}
+                name="stH008"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stH008.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stH008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stH008.i",
-                    version=[],
-                    other_attributes={}
+                    name="stH008.i"
                 ),
             ],
-            name="stH008",
-            version=[],
-            other_attributes={}
+            name="stH008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is atomic",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stI001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stI001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stI001",
-                version=[],
-                other_attributes={}
+                name="stI001"
             ),
-            instance_test=[],
-            name="stI001",
-            version=[],
-            other_attributes={}
+            name="stI001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stI002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stI002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stI002",
-                version=[],
-                other_attributes={}
+                name="stI002"
             ),
-            instance_test=[],
-            name="stI002",
-            version=[],
-            other_attributes={}
+            name="stI002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is list",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stI003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stI003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stI003",
-                version=[],
-                other_attributes={}
+                name="stI003"
             ),
-            instance_test=[],
-            name="stI003",
-            version=[],
-            other_attributes={}
+            name="stI003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : atomic. base type definition is complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stI004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stI004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stI004",
-                version=[],
-                other_attributes={}
+                name="stI004"
             ),
-            instance_test=[],
-            name="stI004",
-            version=[],
-            other_attributes={}
+            name="stI004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : atomic. derived facet value is outside base facet acceptable restriction.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stI005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stI005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stI005",
-                version=[],
-                other_attributes={}
+                name="stI005"
             ),
-            instance_test=[],
-            name="stI005",
-            version=[],
-            other_attributes={}
+            name="stI005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to atomic type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ001",
-                version=[],
-                other_attributes={}
+                name="stJ001"
             ),
-            instance_test=[],
-            name="stJ001",
-            version=[],
-            other_attributes={}
+            name="stJ001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to union type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ002",
-                version=[],
-                other_attributes={}
+                name="stJ002"
             ),
-            instance_test=[],
-            name="stJ002",
-            version=[],
-            other_attributes={}
+            name="stJ002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ003",
-                version=[],
-                other_attributes={}
+                name="stJ003"
             ),
-            instance_test=[],
-            name="stJ003",
-            version=[],
-            other_attributes={}
+            name="stJ003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. length facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ004",
-                version=[],
-                other_attributes={}
+                name="stJ004"
             ),
-            instance_test=[],
-            name="stJ004",
-            version=[],
-            other_attributes={}
+            name="stJ004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. minLength facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ005",
-                version=[],
-                other_attributes={}
+                name="stJ005"
             ),
-            instance_test=[],
-            name="stJ005",
-            version=[],
-            other_attributes={}
+            name="stJ005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. maxLength facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ006",
-                version=[],
-                other_attributes={}
+                name="stJ006"
             ),
-            instance_test=[],
-            name="stJ006",
-            version=[],
-            other_attributes={}
+            name="stJ006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. pattern facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ007",
-                version=[],
-                other_attributes={}
+                name="stJ007"
             ),
-            instance_test=[],
-            name="stJ007",
-            version=[],
-            other_attributes={}
+            name="stJ007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. enumeration facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ008",
-                version=[],
-                other_attributes={}
+                name="stJ008"
             ),
-            instance_test=[],
-            name="stJ008",
-            version=[],
-            other_attributes={}
+            name="stJ008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. whiteSpace facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ009",
-                version=[],
-                other_attributes={}
+                name="stJ009"
             ),
-            instance_test=[],
-            name="stJ009",
-            version=[],
-            other_attributes={}
+            name="stJ009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. maxInclusive facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ010",
-                version=[],
-                other_attributes={}
+                name="stJ010"
             ),
-            instance_test=[],
-            name="stJ010",
-            version=[],
-            other_attributes={}
+            name="stJ010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. maxExclusive facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ011",
-                version=[],
-                other_attributes={}
+                name="stJ011"
             ),
-            instance_test=[],
-            name="stJ011",
-            version=[],
-            other_attributes={}
+            name="stJ011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. minExclusive facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ012",
-                version=[],
-                other_attributes={}
+                name="stJ012"
             ),
-            instance_test=[],
-            name="stJ012",
-            version=[],
-            other_attributes={}
+            name="stJ012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. minInclusive facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ013",
-                version=[],
-                other_attributes={}
+                name="stJ013"
             ),
-            instance_test=[],
-            name="stJ013",
-            version=[],
-            other_attributes={}
+            name="stJ013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. precision facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ014",
-                version=[],
-                other_attributes={}
+                name="stJ014"
             ),
-            instance_test=[],
-            name="stJ014",
-            version=[],
-            other_attributes={}
+            name="stJ014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. scale facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ015",
-                version=[],
-                other_attributes={}
+                name="stJ015"
             ),
-            instance_test=[],
-            name="stJ015",
-            version=[],
-            other_attributes={}
+            name="stJ015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. encoding facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ016",
-                version=[],
-                other_attributes={}
+                name="stJ016"
             ),
-            instance_test=[],
-            name="stJ016",
-            version=[],
-            other_attributes={}
+            name="stJ016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. duration facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ017",
-                version=[],
-                other_attributes={}
+                name="stJ017"
             ),
-            instance_test=[],
-            name="stJ017",
-            version=[],
-            other_attributes={}
+            name="stJ017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. period facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ018",
-                version=[],
-                other_attributes={}
+                name="stJ018"
             ),
-            instance_test=[],
-            name="stJ018",
-            version=[],
-            other_attributes={}
+            name="stJ018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : list. item type definition refers to listType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stJ019.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stJ019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stJ019",
-                version=[],
-                other_attributes={}
+                name="stJ019"
             ),
-            instance_test=[],
-            name="stJ019",
-            version=[],
-            other_attributes={}
+            name="stJ019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to atomic type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK001",
-                version=[],
-                other_attributes={}
+                name="stK001"
             ),
-            instance_test=[],
-            name="stK001",
-            version=[],
-            other_attributes={}
+            name="stK001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to union type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK002",
-                version=[],
-                other_attributes={}
+                name="stK002"
             ),
-            instance_test=[],
-            name="stK002",
-            version=[],
-            other_attributes={}
+            name="stK002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK003",
-                version=[],
-                other_attributes={}
+                name="stK003"
             ),
-            instance_test=[],
-            name="stK003",
-            version=[],
-            other_attributes={}
+            name="stK003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. memberTypes definition refers to list type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK004",
-                version=[],
-                other_attributes={}
+                name="stK004"
             ),
-            instance_test=[],
-            name="stK004",
-            version=[],
-            other_attributes={}
+            name="stK004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. length facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK005",
-                version=[],
-                other_attributes={}
+                name="stK005"
             ),
-            instance_test=[],
-            name="stK005",
-            version=[],
-            other_attributes={}
+            name="stK005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. minLength facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK006",
-                version=[],
-                other_attributes={}
+                name="stK006"
             ),
-            instance_test=[],
-            name="stK006",
-            version=[],
-            other_attributes={}
+            name="stK006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. maxLength facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK007",
-                version=[],
-                other_attributes={}
+                name="stK007"
             ),
-            instance_test=[],
-            name="stK007",
-            version=[],
-            other_attributes={}
+            name="stK007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. pattern facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK008",
-                version=[],
-                other_attributes={}
+                name="stK008"
             ),
-            instance_test=[],
-            name="stK008",
-            version=[],
-            other_attributes={}
+            name="stK008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. enumeration facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK009",
-                version=[],
-                other_attributes={}
+                name="stK009"
             ),
-            instance_test=[],
-            name="stK009",
-            version=[],
-            other_attributes={}
+            name="stK009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. whiteSpace facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK010",
-                version=[],
-                other_attributes={}
+                name="stK010"
             ),
-            instance_test=[],
-            name="stK010",
-            version=[],
-            other_attributes={}
+            name="stK010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. maxInclusive facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK011",
-                version=[],
-                other_attributes={}
+                name="stK011"
             ),
-            instance_test=[],
-            name="stK011",
-            version=[],
-            other_attributes={}
+            name="stK011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. maxExclusive facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK012",
-                version=[],
-                other_attributes={}
+                name="stK012"
             ),
-            instance_test=[],
-            name="stK012",
-            version=[],
-            other_attributes={}
+            name="stK012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. minExclusive facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK013",
-                version=[],
-                other_attributes={}
+                name="stK013"
             ),
-            instance_test=[],
-            name="stK013",
-            version=[],
-            other_attributes={}
+            name="stK013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. minInclusive facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK014",
-                version=[],
-                other_attributes={}
+                name="stK014"
             ),
-            instance_test=[],
-            name="stK014",
-            version=[],
-            other_attributes={}
+            name="stK014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. precision facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK015",
-                version=[],
-                other_attributes={}
+                name="stK015"
             ),
-            instance_test=[],
-            name="stK015",
-            version=[],
-            other_attributes={}
+            name="stK015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. scale facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK016",
-                version=[],
-                other_attributes={}
+                name="stK016"
             ),
-            instance_test=[],
-            name="stK016",
-            version=[],
-            other_attributes={}
+            name="stK016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. encoding facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK017",
-                version=[],
-                other_attributes={}
+                name="stK017"
             ),
-            instance_test=[],
-            name="stK017",
-            version=[],
-            other_attributes={}
+            name="stK017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. duration facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK018",
-                version=[],
-                other_attributes={}
+                name="stK018"
             ),
-            instance_test=[],
-            name="stK018",
-            version=[],
-            other_attributes={}
+            name="stK018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : union. period facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stK019.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stK019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stK019",
-                version=[],
-                other_attributes={}
+                name="stK019"
             ),
-            instance_test=[],
-            name="stK019",
-            version=[],
-            other_attributes={}
+            name="stK019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : simpleType does not support final attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ001.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ001",
-                version=[],
-                other_attributes={}
+                name="stZ001"
             ),
-            instance_test=[],
-            name="stZ001",
-            version=[],
-            other_attributes={}
+            name="stZ001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: enumeration valid restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ002.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ002",
-                version=[],
-                other_attributes={}
+                name="stZ002"
             ),
-            instance_test=[],
-            name="stZ002",
-            version=[],
-            other_attributes={}
+            name="stZ002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : test simpleType final attribute and extension enumeration",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ003.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ003",
-                version=[],
-                other_attributes={}
+                name="stZ003"
             ),
-            instance_test=[],
-            name="stZ003",
-            version=[],
-            other_attributes={}
+            name="stZ003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd:can not specify HalfWidth-KANA to Instance documents when schema has pattern facet including Japanese character.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ004.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ004",
-                version=[],
-                other_attributes={}
+                name="stZ004"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ004.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ004.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ004.v"
                 ),
             ],
-            name="stZ004",
-            version=[],
-            other_attributes={}
+            name="stZ004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : rename a simpleType to anySimpleType using restriction, xml has valid data",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ005.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ005",
-                version=[],
-                other_attributes={}
+                name="stZ005"
             ),
-            instance_test=[],
-            name="stZ005",
-            version=[],
-            other_attributes={}
+            name="stZ005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : rename a SimpleTypeype to anySimpleType using restriction, xml has an element (invalid because anySimpleType cannot be element)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ006.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ006",
-                version=[],
-                other_attributes={}
+                name="stZ006"
             ),
-            instance_test=[],
-            name="stZ006",
-            version=[],
-            other_attributes={}
+            name="stZ006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using extension, and restrict it to another complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ007.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ007.xsd"
                     ),
                 ],
                 expected=[
@@ -17849,2839 +11072,1767 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 11, 30),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ007",
-                version=[],
-                other_attributes={}
+                name="stZ007"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ007.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
                     name="stZ007.v",
                     version=[
                         KnownToken.VALUE_1_0,
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            name="stZ007",
-            version=[],
-            other_attributes={}
+            name="stZ007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using extension, and extend it to another complexType with attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ008.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ008",
-                version=[],
-                other_attributes={}
+                name="stZ008"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ008.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ008.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ008.v"
                 ),
             ],
-            name="stZ008",
-            version=[],
-            other_attributes={}
+            name="stZ008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : rename a complexType to anySimpleType using restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ009.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ009",
-                version=[],
-                other_attributes={}
+                name="stZ009"
             ),
-            instance_test=[],
-            name="stZ009",
-            version=[],
-            other_attributes={}
+            name="stZ009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : derive from a type renamed to anySimpleType, with minLength Facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ010.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ010",
-                version=[],
-                other_attributes={}
+                name="stZ010"
             ),
-            instance_test=[],
-            name="stZ010",
-            version=[],
-            other_attributes={}
+            name="stZ010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : use a typed renamed to anySimpleType in UNION and LIST with valid XML",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ011.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ011",
-                version=[],
-                other_attributes={}
+                name="stZ011"
             ),
-            instance_test=[],
-            name="stZ011",
-            version=[],
-            other_attributes={}
+            name="stZ011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : use substitutionGroup with a type renamed to anySimpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ012.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ012",
-                version=[],
-                other_attributes={}
+                name="stZ012"
             ),
-            instance_test=[],
-            name="stZ012",
-            version=[],
-            other_attributes={}
+            name="stZ012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xs:whitespace is preserve and the xs:whitespace of the parent is replaced.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ013.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ013",
-                version=[],
-                other_attributes={}
+                name="stZ013"
             ),
-            instance_test=[],
-            name="stZ013",
-            version=[],
-            other_attributes={}
+            name="stZ013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : TotalDigits facet values on derived types should not be greater than those on the base type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ014.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ014",
-                version=[],
-                other_attributes={}
+                name="stZ014"
             ),
-            instance_test=[],
-            name="stZ014",
-            version=[],
-            other_attributes={}
+            name="stZ014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : The value of totalDigits facet on a base simple type carrying forward to the derivedType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ015.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ015",
-                version=[],
-                other_attributes={}
+                name="stZ015"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ015.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ015.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ015.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ015.v"
                 ),
             ],
-            name="stZ015",
-            version=[],
-            other_attributes={}
+            name="stZ015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : minExclusive and minInclusive facets when they are defined on base and derived types resp.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ016.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ016",
-                version=[],
-                other_attributes={}
+                name="stZ016"
             ),
-            instance_test=[],
-            name="stZ016",
-            version=[],
-            other_attributes={}
+            name="stZ016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=collapse",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ017.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ017",
-                version=[],
-                other_attributes={}
+                name="stZ017"
             ),
-            instance_test=[],
-            name="stZ017",
-            version=[],
-            other_attributes={}
+            name="stZ017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=replace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ018.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ018",
-                version=[],
-                other_attributes={}
+                name="stZ018"
             ),
-            instance_test=[],
-            name="stZ018",
-            version=[],
-            other_attributes={}
+            name="stZ018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=collapse, derived=preserve",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ019.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ019",
-                version=[],
-                other_attributes={}
+                name="stZ019"
             ),
-            instance_test=[],
-            name="stZ019",
-            version=[],
-            other_attributes={}
+            name="stZ019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=collapse",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ020.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ020",
-                version=[],
-                other_attributes={}
+                name="stZ020"
             ),
-            instance_test=[],
-            name="stZ020",
-            version=[],
-            other_attributes={}
+            name="stZ020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=replace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ021.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ021",
-                version=[],
-                other_attributes={}
+                name="stZ021"
             ),
-            instance_test=[],
-            name="stZ021",
-            version=[],
-            other_attributes={}
+            name="stZ021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=replace, derived=preserve",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ022.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ022",
-                version=[],
-                other_attributes={}
+                name="stZ022"
             ),
-            instance_test=[],
-            name="stZ022",
-            version=[],
-            other_attributes={}
+            name="stZ022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=collapse",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ023.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ023",
-                version=[],
-                other_attributes={}
+                name="stZ023"
             ),
-            instance_test=[],
-            name="stZ023",
-            version=[],
-            other_attributes={}
+            name="stZ023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=replace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ024.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ024",
-                version=[],
-                other_attributes={}
+                name="stZ024"
             ),
-            instance_test=[],
-            name="stZ024",
-            version=[],
-            other_attributes={}
+            name="stZ024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid restriction, base=preserve, derived=preserve",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ025.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ025",
-                version=[],
-                other_attributes={}
+                name="stZ025"
             ),
-            instance_test=[],
-            name="stZ025",
-            version=[],
-            other_attributes={}
+            name="stZ025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=collapse, derived=replace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ026.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ026.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ026",
-                version=[],
-                other_attributes={}
+                name="stZ026"
             ),
-            instance_test=[],
-            name="stZ026",
-            version=[],
-            other_attributes={}
+            name="stZ026"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=collapse, derived=preserve",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ027.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ027",
-                version=[],
-                other_attributes={}
+                name="stZ027"
             ),
-            instance_test=[],
-            name="stZ027",
-            version=[],
-            other_attributes={}
+            name="stZ027"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=replace, derived=preserve",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ028.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ028.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ028",
-                version=[],
-                other_attributes={}
+                name="stZ028"
             ),
-            instance_test=[],
-            name="stZ028",
-            version=[],
-            other_attributes={}
+            name="stZ028"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Schema Component Constraint: whiteSpace valid inline restriction, base=preserve, derived=replace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ029.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ029.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ029",
-                version=[],
-                other_attributes={}
+                name="stZ029"
             ),
-            instance_test=[],
-            name="stZ029",
-            version=[],
-            other_attributes={}
+            name="stZ029"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd: facet minExclusive in restricted type while minInclusive is in base type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ030.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ030.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ030",
-                version=[],
-                other_attributes={}
+                name="stZ030"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ030.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ030.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ030.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ030.v"
                 ),
             ],
-            name="stZ030",
-            version=[],
-            other_attributes={}
+            name="stZ030"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd: we should not parser Name as QName.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ031.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ031.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ031",
-                version=[],
-                other_attributes={}
+                name="stZ031"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ031.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ031.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ031.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ031.v"
                 ),
             ],
-            name="stZ031",
-            version=[],
-            other_attributes={}
+            name="stZ031"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ032.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ032.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ032",
-                version=[],
-                other_attributes={}
+                name="stZ032"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ032.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ032.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ032.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ032.i"
                 ),
             ],
-            name="stZ032",
-            version=[],
-            other_attributes={}
+            name="stZ032"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ033.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ033.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ033",
-                version=[],
-                other_attributes={}
+                name="stZ033"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ033.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ033.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ033.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ033.i"
                 ),
             ],
-            name="stZ033",
-            version=[],
-            other_attributes={}
+            name="stZ033"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd: redefine should persist the last redefine in multiple document or multiple redefine.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ033.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ033.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ034",
-                version=[],
-                other_attributes={}
+                name="stZ034"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ034.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ034.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ034.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ034.i"
                 ),
             ],
-            name="stZ034",
-            version=[],
-            other_attributes={}
+            name="stZ034"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ035.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ035.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ035",
-                version=[],
-                other_attributes={}
+                name="stZ035"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ035.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ035.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ035.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ035.i"
                 ),
             ],
-            name="stZ035",
-            version=[],
-            other_attributes={}
+            name="stZ035"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ035.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ035.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ036",
-                version=[],
-                other_attributes={}
+                name="stZ036"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ036.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ036.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ036.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ036.v"
                 ),
             ],
-            name="stZ036",
-            version=[],
-            other_attributes={}
+            name="stZ036"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : xsd: simpleType restriction with pattern should be the intersaction of the base type and the derived type.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ035.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ035.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ037",
-                version=[],
-                other_attributes={}
+                name="stZ037"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ037.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ037.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ037.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ037.i"
                 ),
             ],
-            name="stZ037",
-            version=[],
-            other_attributes={}
+            name="stZ037"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for simpleType Declaration : id="86521" description="missing name on simpleType',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ038.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ038.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ038",
-                version=[],
-                other_attributes={}
+                name="stZ038"
             ),
-            instance_test=[],
-            name="stZ038",
-            version=[],
-            other_attributes={}
+            name="stZ038"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Defining a simpleType by restricting another simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ039.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ039.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ039",
-                version=[],
-                other_attributes={}
+                name="stZ039"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ039.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ039.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ039.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ039.i"
                 ),
             ],
-            name="stZ039",
-            version=[],
-            other_attributes={}
+            name="stZ039"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Using an xsd union in the definition of another",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ040.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ040.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ040",
-                version=[],
-                other_attributes={}
+                name="stZ040"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ040.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ040.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ040.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ040.v"
                 ),
             ],
-            name="stZ040",
-            version=[],
-            other_attributes={}
+            name="stZ040"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : test extension on final for simpletypes",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "WG decided this was invalid",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ041.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ041.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4064",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4064"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4064",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4064"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ041",
-                version=[],
-                other_attributes={}
+                name="stZ041"
             ),
-            instance_test=[],
-            name="stZ041",
-            version=[],
-            other_attributes={}
+            name="stZ041"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: enumeration of list of QName(s)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ042.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ042.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ042",
-                version=[],
-                other_attributes={}
+                name="stZ042"
             ),
-            instance_test=[],
-            name="stZ042",
-            version=[],
-            other_attributes={}
+            name="stZ042"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_a.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ043",
-                version=[],
-                other_attributes={}
+                name="stZ043"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_1.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 10, 12),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=6901"
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2006, 7, 16),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="stZ043.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ043.v"
                 ),
             ],
-            name="stZ043",
-            version=[],
-            other_attributes={}
+            name="stZ043"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, head has abstract=true.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_b.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ044",
-                version=[],
-                other_attributes={}
+                name="stZ044"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_1.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ044.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ044.i"
                 ),
             ],
-            name="stZ044",
-            version=[],
-            other_attributes={}
+            name="stZ044"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, Lists and Unions",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_c.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_c.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ045",
-                version=[],
-                other_attributes={}
+                name="stZ045"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_2.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ045.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ045.v"
                 ),
             ],
-            name="stZ045",
-            version=[],
-            other_attributes={}
+            name="stZ045"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, substituting anyST with anyST",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_d.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_d.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ046",
-                version=[],
-                other_attributes={}
+                name="stZ046"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_3.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ046.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ046.v"
                 ),
             ],
-            name="stZ046",
-            version=[],
-            other_attributes={}
+            name="stZ046"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, CT with simpleContent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_e.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_e.xsd"
                     ),
                 ],
                 expected=[
@@ -20689,650 +12840,408 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 11, 30),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ047",
-                version=[],
-                other_attributes={}
+                name="stZ047"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_4.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
                     name="stZ047.v",
                     version=[
                         KnownToken.VALUE_1_0,
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            name="stZ047",
-            version=[],
-            other_attributes={}
+            name="stZ047"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, CT with complexContent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_f.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_f.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ048",
-                version=[],
-                other_attributes={}
+                name="stZ048"
             ),
-            instance_test=[],
-            name="stZ048",
-            version=[],
-            other_attributes={}
+            name="stZ048"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, complexcontent restr anyType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_g.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_g.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ049",
-                version=[],
-                other_attributes={}
+                name="stZ049"
             ),
-            instance_test=[],
-            name="stZ049",
-            version=[],
-            other_attributes={}
+            name="stZ049"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, anySimpleType substituting anyType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_h.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_h.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ050",
-                version=[],
-                other_attributes={}
+                name="stZ050"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_5.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_5.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ050.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ050.v"
                 ),
             ],
-            name="stZ050",
-            version=[],
-            other_attributes={}
+            name="stZ050"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with block=#all",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_i.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_i.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ051",
-                version=[],
-                other_attributes={}
+                name="stZ051"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_1.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ051.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ051.i"
                 ),
             ],
-            name="stZ051",
-            version=[],
-            other_attributes={}
+            name="stZ051"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (basic types)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_a.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ052",
-                version=[],
-                other_attributes={}
+                name="stZ052"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_6.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_6.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ052.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ052.v"
                 ),
             ],
-            name="stZ052",
-            version=[],
-            other_attributes={}
+            name="stZ052"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (anyType)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_h.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_h.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ053",
-                version=[],
-                other_attributes={}
+                name="stZ053"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_7.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_7.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ053.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ053.v"
                 ),
             ],
-            name="stZ053",
-            version=[],
-            other_attributes={}
+            name="stZ053"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (List Unions)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_c.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_c.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ054",
-                version=[],
-                other_attributes={}
+                name="stZ054"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_8.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_8.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ054.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ054.v"
                 ),
             ],
-            name="stZ054",
-            version=[],
-            other_attributes={}
+            name="stZ054"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type (CT with simplecontent)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_e.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_e.xsd"
                     ),
                 ],
                 expected=[
@@ -21340,1572 +13249,999 @@ obj = TestSet(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
                     date=XmlDate(2011, 11, 30),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=14559"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="stZ055",
-                version=[],
-                other_attributes={}
+                name="stZ055"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_9.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_9.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
                     name="stZ055.v",
                     version=[
                         KnownToken.VALUE_1_0,
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            name="stZ055",
-            version=[],
-            other_attributes={}
+            name="stZ055"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anySimpleType as a valid data type for the head element of a substitution group, with xsi:type=anyType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_a.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ056",
-                version=[],
-                other_attributes={}
+                name="stZ056"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_10.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ056.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ056.i"
                 ),
             ],
-            name="stZ056",
-            version=[],
-            other_attributes={}
+            name="stZ056"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Need to permit anyType as a valid data type for the head element of a substitution group",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_j.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_j.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ057",
-                version=[],
-                other_attributes={}
+                name="stZ057"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test107331_10.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test107331_10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ057.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ057.v"
                 ),
             ],
-            name="stZ057",
-            version=[],
-            other_attributes={}
+            name="stZ057"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test102159_1.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test102159_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ058.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ058.v"
                 ),
             ],
-            name="stZ058",
-            version=[],
-            other_attributes={}
+            name="stZ058"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test102159_2.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test102159_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ059.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ059.i"
                 ),
             ],
-            name="stZ059",
-            version=[],
-            other_attributes={}
+            name="stZ059"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test102159_3.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test102159_3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ060.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ060.i"
                 ),
             ],
-            name="stZ060",
-            version=[],
-            other_attributes={}
+            name="stZ060"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test102159_4.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test102159_4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ061.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ061.i"
                 ),
             ],
-            name="stZ061",
-            version=[],
-            other_attributes={}
+            name="stZ061"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test102159_5.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test102159_5.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ062.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ062.v"
                 ),
             ],
-            name="stZ062",
-            version=[],
-            other_attributes={}
+            name="stZ062"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test102159_6.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test102159_6.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ063.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ063.v"
                 ),
             ],
-            name="stZ063",
-            version=[],
-            other_attributes={}
+            name="stZ063"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test102159_7.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test102159_7.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ064.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ064.i"
                 ),
             ],
-            name="stZ064",
-            version=[],
-            other_attributes={}
+            name="stZ064"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : Facet and value constraint validation in lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test102159_9.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test102159_9.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ066.i",
-                    version=[],
-                    other_attributes={}
+                    name="stZ066.i"
                 ),
             ],
-            name="stZ066",
-            version=[],
-            other_attributes={}
+            name="stZ066"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType-&gt;union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test109339_1.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test109339_1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ067",
-                version=[],
-                other_attributes={}
+                name="stZ067"
             ),
-            instance_test=[],
-            name="stZ067",
-            version=[],
-            other_attributes={}
+            name="stZ067"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType-&gt;union(2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test109339_2.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test109339_2.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ068",
-                version=[],
-                other_attributes={}
+                name="stZ068"
             ),
-            instance_test=[],
-            name="stZ068",
-            version=[],
-            other_attributes={}
+            name="stZ068"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: Valid restriction of a particle anySimpleType-&gt;union(3)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test109339_3.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test109339_3.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ069",
-                version=[],
-                other_attributes={}
+                name="stZ069"
             ),
-            instance_test=[],
-            name="stZ069",
-            version=[],
-            other_attributes={}
+            name="stZ069"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: test an invalid fixed value for a union",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ070.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ070.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ070",
-                version=[],
-                other_attributes={}
+                name="stZ070"
             ),
-            instance_test=[],
-            name="stZ070",
-            version=[],
-            other_attributes={}
+            name="stZ070"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : adding chameleon schemas that have unions without memberTypes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test298668_a.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/test298668_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ071",
-                version=[],
-                other_attributes={}
+                name="stZ071"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/test298668.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/test298668.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ071.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ071.v"
                 ),
             ],
-            name="stZ071",
-            version=[],
-            other_attributes={}
+            name="stZ071"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: valid default value of a list of union with enumeration facet",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ072.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ072.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ072",
-                version=[],
-                other_attributes={}
+                name="stZ072"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ072.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ072.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ072.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ072.v"
                 ),
             ],
-            name="stZ072",
-            version=[],
-            other_attributes={}
+            name="stZ072"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: valid xsi:type on a union type(2)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Instance test awaiting disposition of 5784, which in turn may or may&#10;not require schema test to change",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ073b.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ073b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 4, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.DISPUTED_TEST,
                         date=XmlDate(2009, 1, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2009, 1, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
                 name="stZ073b",
                 version=[
                     KnownToken.VALUE_1_0,
-                ],
-                other_attributes={}
+                ]
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ073.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ073.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.DISPUTED_SPEC,
                         date=XmlDate(2010, 4, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.DISPUTED_SPEC,
                             date=XmlDate(2009, 1, 14),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                            other_attributes={}
+                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                         ),
                         Prior(
-                            annotation=[],
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                            other_attributes={}
+                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                         ),
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2006, 7, 16),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2006, 7, 16)
                         ),
                     ],
                     name="stZ073b.i",
                     version=[
                         KnownToken.VALUE_1_0,
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            name="stZ073b",
-            version=[],
-            other_attributes={}
+            name="stZ073b"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: valid xsi:type on a union type(2)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Instance test awaiting disposition of 5784, which in turn may or may&#10;not require schema test to change",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ073b.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ073b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 4, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.DISPUTED_TEST,
                         date=XmlDate(2009, 1, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2009, 1, 14),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
                 name="stZ073b",
                 version=[
                     KnownToken.VALUE_1_1,
-                ],
-                other_attributes={}
+                ]
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ073.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ073.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.STABLE,
                         date=XmlDate(2010, 4, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.DISPUTED_SPEC,
                             date=XmlDate(2009, 1, 14),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                            other_attributes={}
+                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                         ),
                         Prior(
-                            annotation=[],
                             status=Status.QUERIED,
                             date=XmlDate(2006, 12, 22),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065",
-                            other_attributes={}
+                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4065"
                         ),
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2006, 7, 16),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2006, 7, 16)
                         ),
                     ],
                     name="stZ073b.i",
                     version=[
                         KnownToken.VALUE_1_1,
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            name="stZ073ba",
-            version=[],
-            other_attributes={}
+            name="stZ073ba"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : chameleon lists and union of lists",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ074_a.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ074_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ074",
-                version=[],
-                other_attributes={}
+                name="stZ074"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ074.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ074.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ074.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ074.v"
                 ),
             ],
-            name="stZ074",
-            version=[],
-            other_attributes={}
+            name="stZ074"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for simpleType Declaration : XSD: xs:NOTATION type on elements",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Simple_Type_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ075.xsd",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ075.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="stZ075",
-                version=[],
-                other_attributes={}
+                name="stZ075"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/simpleType/stZ075.xml",
-                        other_attributes={}
+                        href="../msData/simpleType/stZ075.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="stZ075.v",
-                    version=[],
-                    other_attributes={}
+                    name="stZ075.v"
                 ),
             ],
-            name="stZ075",
-            version=[],
-            other_attributes={}
+            name="stZ075"
         ),
     ],
     contributor="Microsoft",
     name="MS-SimpleType2006-07-15",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

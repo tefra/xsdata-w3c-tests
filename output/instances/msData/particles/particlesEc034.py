@@ -6,24 +6,15 @@ obj = Doc(
     a_or_b=[
         AnyElement(
             qname="{http://xsdtesting}b",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{http://xsdtesting}a",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{http://xsdtesting}b",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

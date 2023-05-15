@@ -8,10 +8,7 @@ obj = Doc(
         Part(
             chap=[
                 Chap(
-                    value="",
-                    de="",
-                    lang=None,
-                    fr=None
+                    de=""
                 ),
             ],
             lang="fr"
@@ -19,8 +16,6 @@ obj = Doc(
         Part(
             chap=[
                 Chap(
-                    value="",
-                    de=None,
                     lang="fr",
                     fr=""
                 ),

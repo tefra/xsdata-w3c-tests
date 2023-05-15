@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -21,8 +20,6 @@ obj = TestSet(
         Annotation(
             appinfo_or_documentation=[
                 Documentation(
-                    source=None,
-                    lang=None,
                     other_attributes={
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
                     },
@@ -30,8 +27,7 @@ obj = TestSet(
                         "yearMonthDuration.",
                     ]
                 ),
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     test_group=[
@@ -40,2019 +36,1275 @@ obj = TestSet(
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests the simpleType yearMonthDuration and its facets and its use in elements ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v01.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26v01s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26v01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v01.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26v01i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26v01i"
                 ),
             ],
             name="d3_4_26v01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests the simpleType decimal and its facets and its use in attributes ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v02.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26v02s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26v02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v02.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26v02i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26v02i"
                 ),
             ],
             name="d3_4_26v02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests yearMonthDuration used in unions ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v03.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26v03s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26v03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v03.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26v03i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26v03i"
                 ),
             ],
             name="d3_4_26v03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v04.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26v04s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26v04s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v04.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26v04i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26v04i"
                 ),
             ],
             name="d3_4_26v04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Additional tests for yearMonth Duration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v05.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v05.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26v05s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26v05s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v05.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26v05i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26v05i"
                 ),
             ],
             name="d3_4_26v05",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Pattern is a valid facet for yearMonthDuration ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v06.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v06.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26v06s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26v06s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/D3_4_26/d3_4_26v06.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/D3_4_26/d3_4_26v06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26v06i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26v06i"
                 ),
             ],
             name="d3_4_26v06",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Invalid yearMonthDuration values ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26ii01s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26ii01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26ii01i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26ii01i"
                 ),
             ],
             name="d3_4_26ii01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Invalid yearMonthDuration enumeration values  ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26ii02s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26ii02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26ii02i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26ii02i"
                 ),
             ],
             name="d3_4_26ii02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Invalid yearMonthDuration Min/Max Inclusive ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26ii03s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26ii03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26ii03i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26ii03i"
                 ),
             ],
             name="d3_4_26ii03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Invalid yearMonthDuration Min/Max Exclusive ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26ii04s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26ii04s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26ii04i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26ii04i"
                 ),
             ],
             name="d3_4_26ii04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Invalid values of yearMonthDuration and invalid instance of its facets used in attributes ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26ii05s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26ii05s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26ii05i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26ii05i"
                 ),
             ],
             name="d3_4_26ii05",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests yearMonthDuration used in unions ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26ii06s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26ii06s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26ii06i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26ii06i"
                 ),
             ],
             name="d3_4_26ii06",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests the simpleType yearMonthDuration and its facets with (min|max) (Inclusive|Exclusive) constraint checks in derivations of simpleTypes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26ii07s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26ii07s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/D3_4_26/d3_4_26ii07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="d3_4_26ii07i",
-                    version=[],
-                    other_attributes={}
+                    name="d3_4_26ii07i"
                 ),
             ],
             name="d3_4_26ii07",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "length is an invalid facet for yearMonthDuration ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si01.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si01s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si01s"
             ),
-            instance_test=[],
             name="d3_4_26si01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "(min|max)? (Inclusive|Exclusive) are not of the base type specification  ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si02.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si02s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si02s"
             ),
-            instance_test=[],
             name="d3_4_26si02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "min(Inclusive|Exclusive) cannot be greater max(Inclusive|Exclusive) ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si03.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si03s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si03s"
             ),
-            instance_test=[],
             name="d3_4_26si03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Both min(Inclusive|Exclusive) or max(Inclusive|Exclusive) cannot be specified for the same simpleType ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si04.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si04s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si04s"
             ),
-            instance_test=[],
             name="d3_4_26si04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The value of minInclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si05.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si05.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si05s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si05s"
             ),
-            instance_test=[],
             name="d3_4_26si05",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The value of minExclusive in base type is greater than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si06.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si06.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si06s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si06s"
             ),
-            instance_test=[],
             name="d3_4_26si06",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The value of maxInclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si07.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si07.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si07s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si07s"
             ),
-            instance_test=[],
             name="d3_4_26si07",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The value of maxExclusive in base type is lesser than the values of minInclusive, minExclusive, maxInclusive, maxExclusive in the base type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si08.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si08.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si08s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si08s"
             ),
-            instance_test=[],
             name="d3_4_26si08",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Enumeration values are incorrect yearMonthDuration values ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si09.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si09.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si09s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si09s"
             ),
-            instance_test=[],
             name="d3_4_26si09",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The value of whiteSpace facet can only be collapse ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si10.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si10.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si10s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si10s"
             ),
-            instance_test=[],
             name="d3_4_26si10",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests if fixed=true then the derived type cannot specify a value for the facet other than the base type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si11.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si11.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si11s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si11s"
             ),
-            instance_test=[],
             name="d3_4_26si11",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests negative boundary values and equality.&#10; (min)(Inclusive|Exclusive) &gt; (max)(Inclusive|Exclusive) ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si12.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/D3_4_26/d3_4_26si12.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="d3_4_26si12s",
-                version=[],
-                other_attributes={}
+                name="d3_4_26si12s"
             ),
-            instance_test=[],
             name="d3_4_26si12",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="IBM",
     name="yearMonthDuration",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

@@ -7,16 +7,8 @@ obj = Root(
     choice=[
         Sa3(
             any_element=AnyElement(
-                qname=None,
-                text="1",
-                tail=None,
-                children=[],
-                attributes={}
+                text="1"
             )
         ),
-    ],
-    test2=None,
-    test3=None,
-    test4=None,
-    test5=None
+    ]
 )

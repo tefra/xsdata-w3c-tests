@@ -5,7 +5,6 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 obj = Doc(
     e1_or_e2=DerivedElement(
         qname="{http://xsdtesting}e2",
-        value=12,
-        type=None
+        value=12
     )
 )

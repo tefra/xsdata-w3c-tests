@@ -8,10 +8,7 @@ obj = Doc(
     elem2=A(
         a1_or_a2=AnyElement(
             qname="{http://xsdtesting}a1",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         )
     )
 )

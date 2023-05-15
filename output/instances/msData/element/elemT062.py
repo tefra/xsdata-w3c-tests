@@ -9,9 +9,5 @@ obj = Root(
             value=A.VALUE_1,
             att=123
         ),
-    ],
-    test2=None,
-    test3=None,
-    test4=None,
-    test5=None
+    ]
 )

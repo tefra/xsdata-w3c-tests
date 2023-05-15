@@ -7,10 +7,7 @@ obj = Doc(
     elem=Elem(
         choice=AnyElement(
             qname="b4",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         )
     )
 )

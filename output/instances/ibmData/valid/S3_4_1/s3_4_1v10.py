@@ -7,10 +7,7 @@ obj = Root(
     p=D(
         any_element=AnyElement(
             qname="qwe",
-            text="asd",
-            tail=None,
-            children=[],
-            attributes={}
+            text="asd"
         ),
         x=1,
         y=2,

@@ -5,16 +5,11 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Doc(
     open_com_element=AnyElement(
         qname="{http://open.com/}x",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     ),
     a=[
         "",
     ],
     b=23,
-    c=None,
-    d="",
-    any_element=None
+    d=""
 )

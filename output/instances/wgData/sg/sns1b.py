@@ -6,20 +6,16 @@ obj = Test(
     choice=[
         DerivedElement(
             qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}s",
-            value="Test case for interaction of substitution groups and &#10;   #definedSibling.",
-            type=None
+            value="Test case for interaction of substitution groups and &#10;   #definedSibling."
         ),
         DerivedElement(
             qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}n",
-            value="",
-            type=None
+            value=""
         ),
         "",
         DerivedElement(
             qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}b",
-            value="",
-            type=None
+            value=""
         ),
-    ],
-    c=None
+    ]
 )

@@ -8,20 +8,19 @@ from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp2 impo
 obj = Doc(
     elem=R(
         foo="",
-        target_namespace_foo_bar_element=[],
         choice=[
             E2(
-                any_element=None
+
             ),
             E2(
-                any_element=None
+
             ),
             E2(
-                any_element=None
+
             ),
         ],
         e2_2=E2(
-            any_element=None
+
         )
     )
 )

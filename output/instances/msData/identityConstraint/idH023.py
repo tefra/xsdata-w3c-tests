@@ -6,25 +6,21 @@ from output.models.ms_data.identity_constraint.id_h023_xsd.id_h023 import Uidtyp
 obj = Root(
     uid=[
         Uidtype(
-            hid=None,
             iid=Uidtype.Iid(
                 val="1"
             )
         ),
         Uidtype(
-            hid=None,
             iid=Uidtype.Iid(
                 val="11"
             )
         ),
         Uidtype(
-            hid=None,
             iid=Uidtype.Iid(
                 val="111"
             )
         ),
         Uidtype(
-            hid=None,
             iid=Uidtype.Iid(
                 val="1.0"
             )

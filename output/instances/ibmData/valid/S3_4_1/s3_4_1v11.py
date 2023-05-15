@@ -9,10 +9,7 @@ obj = Root(
         "&#10;&#9;&#9;123abc12133b&#10;&#9;&#9;",
         AnyElement(
             qname="{a}element",
-            text="xk",
-            tail=None,
-            children=[],
-            attributes={}
+            text="xk"
         ),
         "&#10;&#9;&#9;23123124noifew&#10;",
     ]

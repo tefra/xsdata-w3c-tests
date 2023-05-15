@@ -16,24 +16,15 @@ obj = Invoice(
                     content=[
                         AnyElement(
                             qname="state",
-                            text="Texas",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="Texas"
                         ),
                         AnyElement(
                             qname="currency",
-                            text="USD",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="USD"
                         ),
                         AnyElement(
                             qname="zip",
-                            text="75244",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="75244"
                         ),
                     ]
                 ),
@@ -43,24 +34,15 @@ obj = Invoice(
                     content=[
                         AnyElement(
                             qname="province",
-                            text="ON",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="ON"
                         ),
                         AnyElement(
                             qname="currency",
-                            text="CDN",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="CDN"
                         ),
                         AnyElement(
                             qname="postal",
-                            text="M1V4K9",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="M1V4K9"
                         ),
                     ]
                 ),
@@ -74,24 +56,15 @@ obj = Invoice(
                     content=[
                         AnyElement(
                             qname="province",
-                            text="ON",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="ON"
                         ),
                         AnyElement(
                             qname="currency",
-                            text="CDN",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="CDN"
                         ),
                         AnyElement(
                             qname="postal",
-                            text="L3S3H6",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="L3S3H6"
                         ),
                     ]
                 ),
@@ -101,24 +74,15 @@ obj = Invoice(
                     content=[
                         AnyElement(
                             qname="province",
-                            text="ON",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="ON"
                         ),
                         AnyElement(
                             qname="currency",
-                            text="CDN",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="CDN"
                         ),
                         AnyElement(
                             qname="postal",
-                            text="M3F2W5",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="M3F2W5"
                         ),
                     ]
                 ),

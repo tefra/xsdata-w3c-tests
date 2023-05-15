@@ -31,8 +31,7 @@ obj = PurchaseOrder(
     ],
     customer_comment_or_ship_comment_or_comment=DerivedElement(
         qname="{http://www.example.com/IPO}comment",
-        value="Hurry, my sister loves Boeing!",
-        type=None
+        value="Hurry, my sister loves Boeing!"
     ),
     items=ItemsType(
         content=[
@@ -43,8 +42,7 @@ obj = PurchaseOrder(
                 customer_comment_or_ship_comment_or_comment=[
                     DerivedElement(
                         qname="{http://www.example.com/IPO}shipComment",
-                        value=" Use gold wrap if possible ",
-                        type=None
+                        value=" Use gold wrap if possible "
                     ),
                     " Want this for the holidays! ",
                 ],
@@ -60,8 +58,7 @@ obj = PurchaseOrder(
                 customer_comment_or_ship_comment_or_comment=[
                     DerivedElement(
                         qname="{http://www.example.com/IPO}comment",
-                        value="This is a comment...",
-                        type=None
+                        value="This is a comment..."
                     ),
                 ],
                 ship_date=XmlDate(2000, 2, 28),

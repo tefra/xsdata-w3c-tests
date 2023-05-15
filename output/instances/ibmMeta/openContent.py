@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -21,8 +20,6 @@ obj = TestSet(
         Annotation(
             appinfo_or_documentation=[
                 Documentation(
-                    source=None,
-                    lang=None,
                     other_attributes={
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
                     },
@@ -30,8 +27,7 @@ obj = TestSet(
                         "openContent.",
                     ]
                 ),
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     test_group=[
@@ -40,2037 +36,1284 @@ obj = TestSet(
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'Tests defaultOpenContent: appliesToEmpty="true" ',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v01.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v01s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v01.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v01i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v01i"
                 ),
             ],
             name="s3_4_1v01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests defaultOpenContent for CT not empty  ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v02.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v02s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v02.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v02i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v02i"
                 ),
             ],
             name="s3_4_1v02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests openContent for empty content model ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v03.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v03s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v03.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v03i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v03i"
                 ),
             ],
             name="s3_4_1v03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests defaultOpenContent in suffix mode ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v04.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v04s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v04s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v04.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v04i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v04i"
                 ),
             ],
             name="s3_4_1v04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests openContent in complexType derived by restriction ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v05.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v05.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v05s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v05s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v05.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v05i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v05i"
                 ),
             ],
             name="s3_4_1v05",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests openContent in complexType derived by extension ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v06.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v06.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v06s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v06s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v06.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v06i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v06i"
                 ),
             ],
             name="s3_4_1v06",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests derivation by extension with openContent mode suffix in both type and its derived type ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v07.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v07.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v07s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v07s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v07.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v07i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v07i"
                 ),
             ],
             name="s3_4_1v07",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests derivation by extension with openContent mode interleave in derived type and suffix in its base type ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v08.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v08.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v08s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v08s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v08.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v08.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v08i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v08i"
                 ),
             ],
             name="s3_4_1v08",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests derivation by restriction with openContent mode interleave in base type  ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v09.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v09.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v09s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v09s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v09.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v09.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v09i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v09i"
                 ),
             ],
             name="s3_4_1v09",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests derivation by extension with openContent mode interleave in both type and its derived type  ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v10.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v10.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v10s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v10s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v10.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v10i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v10i"
                 ),
             ],
             name="s3_4_1v10",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "complexType/@mixed ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v11.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v11.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1v11s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1v11s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_1/s3_4_1v11.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_1/s3_4_1v11.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1v11i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1v11i"
                 ),
             ],
             name="s3_4_1v11",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;            3.4.4.3 Element Sequence Locally valid (Complex Content) Validation rule 2. (openContent)&#10;            mode = suffix BUT wildcard inserted in front of and in between CT group particles &#10;            ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1ii01s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1ii01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1ii01i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1ii01i"
                 ),
             ],
             name="s3_4_1ii01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'Tests defaultOpenContent: appliesToEmpty="false" ',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1ii02s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1ii02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1ii02i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1ii02i"
                 ),
             ],
             name="s3_4_1ii02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests defaultOpenContent: when openContent is present in CT, defaultOpenContent should not be used ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1ii03s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1ii03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1ii03i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1ii03i"
                 ),
             ],
             name="s3_4_1ii03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests wildcard in opencontent with restrictions (notQName)  ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1ii04s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1ii04s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1ii04i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1ii04i"
                 ),
             ],
             name="s3_4_1ii04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests derivation by restriction with openContent mode suffix in base type ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-Suffix"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1ii05s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1ii05s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_1/s3_4_1ii05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_1ii05i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_1ii05i"
                 ),
             ],
             name="s3_4_1ii05",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "3.4.3 Schema Representation Constraint: ComplexType Definition Representation OK&#10;          [openContent] has mode not 'none' AND no [any] in its children&#10;          [openContent] has mode 'none' AND [any] in its children (which is ok) ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-Interleave",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-Interleave"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si01.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1si01s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1si01s"
             ),
-            instance_test=[],
             name="s3_4_1si01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "defaultOpenContent in wrong place",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-DefaultOCTopLevel",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#xsd1_1-OpenContent-DefaultOCTopLevel"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si02.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1si02s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1si02s"
             ),
-            instance_test=[],
             name="s3_4_1si02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "not wildcard inside openContent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si03.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1si03s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1si03s"
             ),
-            instance_test=[],
             name="s3_4_1si03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests openContent in complexType derived by extension&#10;          Fails because the derived type takes the defaultOpenContent which has&#10;          mode of suffix while base type openContent has mode interleave. And their modes have to be the same.&#10;          According to the spec, for derived types, defaultOpenContent takes&#10;          predecence over base type's openContent. ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si04.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si04.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1si04s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1si04s"
             ),
-            instance_test=[],
             name="s3_4_1si04",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests derivation by extension with openContent mode suffix in derived type and mode interleave in base type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si05.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si05.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1si05s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1si05s"
             ),
-            instance_test=[],
             name="s3_4_1si05",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Tests 1.4.3.2.2.4 - baseType wildcard is not a subset of derived type's wildcard in extension ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si06.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si06.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1si06s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1si06s"
             ),
-            instance_test=[],
             name="s3_4_1si06",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The content type of a derived type and that of its base must both be mixed or both be element-only. Type '#AnonType_root' is mixed, but its base type is not.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si08.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si08.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1si08s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1si08s"
             ),
-            instance_test=[],
             name="s3_4_1si08",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "complexType/@mixed and complexContent/@mixed must not conflict",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Complex_Type_Definition_details"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si09.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_1/s3_4_1si09.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_1si09s",
-                version=[],
-                other_attributes={}
+                name="s3_4_1si09s"
             ),
-            instance_test=[],
             name="s3_4_1si09",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="IBM",
     name="PopenContent",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

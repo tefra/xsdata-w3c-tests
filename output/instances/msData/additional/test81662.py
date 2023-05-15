@@ -13,10 +13,7 @@ obj = Test(
         Ct1(
             any_element=AnyElement(
                 qname="element1",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             element1=""
         ),
@@ -26,10 +23,7 @@ obj = Test(
             element1="",
             any_element=AnyElement(
                 qname="element1",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             )
         ),
     ],
@@ -38,24 +32,15 @@ obj = Test(
             element1_or_any_element=[
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),
@@ -65,24 +50,15 @@ obj = Test(
             any_element_or_element1=[
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),
@@ -93,17 +69,11 @@ obj = Test(
             any_element=[
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),
@@ -114,17 +84,11 @@ obj = Test(
             any_element=[
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="element1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),

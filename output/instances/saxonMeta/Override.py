@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -19,79 +18,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override overriding an element declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override overriding an element declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override overriding an element declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override overriding an element declaration"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over001.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over001.xsd",
-                version=[],
-                other_attributes={}
+                name="over001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -99,202 +69,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over001.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over001.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over001.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over001.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over001.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over001.n02.xml"
                 ),
             ],
             name="over001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override overriding an element declaration which is referenced in the overridden schema doc",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override overriding an element declaration which is referenced in the overridden schema doc"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override overriding an element declaration which is referenced in the overridden schema doc",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override overriding an element declaration which is referenced in the overridden schema doc"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over002.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over002.xsd",
-                version=[],
-                other_attributes={}
+                name="over002.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -302,202 +198,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over002.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over002.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over002.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over002.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over002.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over002.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over002.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over002.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over002.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over002.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over002.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over002.n02.xml"
                 ),
             ],
             name="over002",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override including a declaration which overrides nothing in the overridden schema",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override including a declaration which overrides nothing in the overridden schema"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override including a declaration which overrides nothing in the overridden schema",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override including a declaration which overrides nothing in the overridden schema"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over003.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over003.xsd",
-                version=[],
-                other_attributes={}
+                name="over003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -505,202 +327,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over003.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over003.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over003.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over003.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over003.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over003.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over003.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over003.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over003.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over003.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over003.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over003.n02.xml"
                 ),
             ],
             name="over003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override including a declaration outside the xs:override. Depends on over003",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override including a declaration outside the xs:override. Depends on over003"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override including a declaration outside the xs:override",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override including a declaration outside the xs:override"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over004.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over004.xsd",
-                version=[],
-                other_attributes={}
+                name="over004.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -708,202 +456,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over003.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over003.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over004.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over004.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over003.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over003.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over004.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over004.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over003.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over003.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over004.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over004.n02.xml"
                 ),
             ],
             name="over004",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override of an attribute declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override of an attribute declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override of an attribute declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override of an attribute declaration"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over005.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over005.xsd",
-                version=[],
-                other_attributes={}
+                name="over005.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -911,202 +585,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over005.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over005.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over005.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over005.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over005.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over005.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over005.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over005.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over005.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over005.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over005.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over005.n02.xml"
                 ),
             ],
             name="over005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override of a self-referential element declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override of a self-referential element declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override of self-referential element declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override of self-referential element declaration"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over006.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over006.xsd",
-                version=[],
-                other_attributes={}
+                name="over006.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1114,202 +714,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over006.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over006.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over006.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over006.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over006.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over006.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over006.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over006.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over006.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over006.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over006.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over006.n02.xml"
                 ),
             ],
             name="over006",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override of a model group declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override of a model group declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override of model group declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override of model group declaration"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over007.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over007.xsd",
-                version=[],
-                other_attributes={}
+                name="over007.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1317,202 +843,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over007.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over007.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over007.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over007.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over007.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over007.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over007.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over007.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over007.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over007.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over007.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over007.n02.xml"
                 ),
             ],
             name="over007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:override of an attribute group declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override of an attribute group declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:override of an attribute group declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:override of an attribute group declaration"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over008.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over008.xsd",
-                version=[],
-                other_attributes={}
+                name="over008.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1520,202 +972,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over008.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over008.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over008.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over008.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over008.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over008.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over008.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over008.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over008.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over008.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over008.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over008.n02.xml"
                 ),
             ],
             name="over008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Double override",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Double override"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Double override. Depends on schema documents in over003",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Double override. Depends on schema documents in over003"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over009.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over009.xsd",
-                version=[],
-                other_attributes={}
+                name="over009.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1723,202 +1101,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over009.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over009.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over009.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over009.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over009.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over009.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over009.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over009.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over009.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over009.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over009.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over009.n02.xml"
                 ),
             ],
             name="over009",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a simple type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over010.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over010.xsd",
-                version=[],
-                other_attributes={}
+                name="over010.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1926,281 +1230,177 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over010.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over010.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over010.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over010.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over010.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over010.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over010.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over010.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over010.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over010.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over010.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over010.n02.xml"
                 ),
             ],
             name="over010",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a simple type incorrectly by restricting its former self",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a simple type incorrectly by restricting its former self"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a simple type incorrectly by restricting its former self",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a simple type incorrectly by restricting its former self"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over011.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over011.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over011.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over011.bad.xsd"
             ),
-            instance_test=[],
             name="over011",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a complex type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a complex type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a complex type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a complex type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over012.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over012.xsd",
-                version=[],
-                other_attributes={}
+                name="over012.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2208,189 +1408,121 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over012.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over012.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over012.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over012.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over012.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over012.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over012.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over012.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over012.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over012.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over012.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over012.n02.xml"
                 ),
             ],
             name="over012",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a complex type incorrectly with a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a complex type incorrectly with a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a complex type with a simple type. &#10;                This is not in fact an error: the override is simply ignored.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a complex type with a simple type. &#10;                This is not in fact an error: the override is simply ignored."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over013.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over013.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
@@ -2398,192 +1530,121 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;                  Changed status to valid. See bug 14442.&#10;                ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 11, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
                 ],
-                name="over013.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over013.bad.xsd"
             ),
-            instance_test=[],
             name="over013",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a complex type by self-restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a complex type by self-restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a complex type by self-restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a complex type by self-restriction"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over014.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over014.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over014.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over014.bad.xsd"
             ),
-            instance_test=[],
             name="over014",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a notation",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a notation"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a notation",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a notation"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over015.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over015.xsd",
-                version=[],
-                other_attributes={}
+                name="over015.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2591,401 +1652,252 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over015.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over015.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over015.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over015.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over015.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over015.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 10, 10),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 10, 10)
                     ),
-                    prior=[],
-                    name="over015.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over015.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over015.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over015.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over015.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over015.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over015.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over015.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over015.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over015.n02.xml"
                 ),
             ],
             name="over015",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override schema with wrong namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override schema with wrong namespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override schema with wrong namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override schema with wrong namespace"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over016.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over016.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over016.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over016.bad.xsd"
             ),
-            instance_test=[],
             name="over016",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override schema with wrong namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override schema with wrong namespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override schema with wrong namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override schema with wrong namespace"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over017.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over017.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over017.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over017.bad.xsd"
             ),
-            instance_test=[],
             name="over017",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override declaration in a target namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override declaration in a target namespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override declaration in a target namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override declaration in a target namespace"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over018.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over018.xsd",
-                version=[],
-                other_attributes={}
+                name="over018.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2993,202 +1905,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over018.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over018.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over018.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over018.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over018.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over018.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over018.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over018.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over018.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over018.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over018.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over018.n02.xml"
                 ),
             ],
             name="over018",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Chameleon Override declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Chameleon Override declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Chameleon Override declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Chameleon Override declaration"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over019.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over019.xsd",
-                version=[],
-                other_attributes={}
+                name="over019.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3196,202 +2034,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over019.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over019.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over019.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over019.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over019.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over019.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over019.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over019.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over019.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over019.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over019.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over019.n02.xml"
                 ),
             ],
             name="over019",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Indirect chameleon Override declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Indirect chameleon Override declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Indirect chameleon Override declaration (uses over019)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Indirect chameleon Override declaration (uses over019)"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over020.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over020.xsd",
-                version=[],
-                other_attributes={}
+                name="over020.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3399,360 +2163,226 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over019.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over019.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over020.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over020.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over019.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over019.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over020.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over020.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over019.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over019.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over020.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over020.n02.xml"
                 ),
             ],
             name="over020",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override the same thing twice",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override the same thing twice"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override the same thing twice",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override the same thing twice"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over021.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over021.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over021.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over021.bad.xsd"
             ),
-            instance_test=[],
             name="over021",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override the same thing twice",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override the same thing twice"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override the same thing twice",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override the same thing twice"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over022.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over022.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over022.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over022.bad.xsd"
             ),
-            instance_test=[],
             name="over022",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A permissible circular xs:override",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A permissible circular xs:override"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A permissible circular xs:override (doesn't work in Saxon 9.3)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A permissible circular xs:override (doesn't work in Saxon 9.3)"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over023.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over023.xsd",
-                version=[],
-                other_attributes={}
+                name="over023.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3760,445 +2390,278 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the overriding declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over023.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over023.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses content model before override.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over023.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over023.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown element declaration.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over023.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over023.n02.xml"
                 ),
             ],
             name="over023",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Disallowed circular xs:override",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Disallowed circular xs:override"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Disallowed circular xs:override",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Disallowed circular xs:override"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-CyclicDependenciesRedefineIncludeImportOverride",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-CyclicDependenciesRedefineIncludeImportOverride"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over024.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over024.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over024.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over024.bad.xsd"
             ),
-            instance_test=[],
             name="over024",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Import is not transitive",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Import is not transitive"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Can't reference components unless the namespace is imported",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Can't reference components unless the namespace is imported"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over025.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over025.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 11, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 11, 17)
                 ),
-                prior=[],
-                name="over025.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over025.bad.xsd"
             ),
-            instance_test=[],
             name="over025",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Overrides ignored if there's nothing to override",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Overrides ignored if there's nothing to override"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A child of xs:override that doesn't override anything is ignored, so the reference&#10;                to it is a dangling references which makes the schema invalid",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A child of xs:override that doesn't override anything is ignored, so the reference&#10;                to it is a dangling references which makes the schema invalid"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-NSRefRequiresImport"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over026.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over026.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 10, 10),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 10, 10)
                 ),
-                prior=[],
-                name="over026.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="over026.bad.xsd"
             ),
-            instance_test=[],
             name="over026",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a notation",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a notation"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a notation. Was over015. See bug 14388",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a notation. Was over015. See bug 14388"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over027.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 5)
                 ),
-                prior=[],
-                name="over027.xsd",
-                version=[],
-                other_attributes={}
+                name="over027.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4206,120 +2669,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, cannot validate against xs:NOTATION directly, only against a subtype with&#10;&#9;&#9;                an enumeration facet.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over015.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over015.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="over027.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over027.n01.xml"
                 ),
             ],
             name="over027",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple override test. Test case from Priscilla Walmsley",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple override test. Test case from Priscilla Walmsley"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Override a simpleType",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a simpleType"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over028a.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over028a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 19)
                 ),
-                prior=[],
-                name="over028.xsd",
-                version=[],
-                other_attributes={}
+                name="over028.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4327,161 +2746,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, value of simple type is out of range.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over028.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over028.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 19)
                     ),
-                    prior=[],
-                    name="over028.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over028.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, value of simple type is in range.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over028.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over028.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 19)
                     ),
-                    prior=[],
-                    name="over028.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over028.v01.xml"
                 ),
             ],
             name="over028",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Interaction of xs:override and xs:import. Test case from Priscilla Walmsley",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Interaction of xs:override and xs:import. Test case from Priscilla Walmsley"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The xs:override contains a reference to a type in an imported schema&#10;                document, which is not imported into the overridden schema document. See&#10;                Saxon bug 1505 and W3C bug 17574",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The xs:override contains a reference to a type in an imported schema&#10;                document, which is not imported into the overridden schema document. See&#10;                Saxon bug 1505 and W3C bug 17574"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over029.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over029.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 6, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 6, 25)
                 ),
-                prior=[],
-                name="over029.xsd",
-                version=[],
-                other_attributes={}
+                name="over029.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4489,275 +2849,173 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, child elements are in the wrong order.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over029.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over029.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 6, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 6, 25)
                     ),
-                    prior=[],
-                    name="over029.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over029.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, child elements are in the right order.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over029.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over029.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 6, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 6, 25)
                     ),
-                    prior=[],
-                    name="over029.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over029.v01.xml"
                 ),
             ],
             name="over029",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Override a schema document with top-level annotation",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Override a schema document with top-level annotation"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="See W3C bug 20784. Test case supplied by Norm Walsh.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="See W3C bug 20784. Test case supplied by Norm Walsh."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over030.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over030.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2013, 1, 27),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2013, 1, 27)
                 ),
-                prior=[],
-                name="over030.xsd",
-                version=[],
-                other_attributes={}
+                name="over030.xsd"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over030.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Override/over030.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2013, 1, 27),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2013, 1, 27)
                     ),
-                    prior=[],
-                    name="over030.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="over030.v01.xml"
                 ),
             ],
             name="over030",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Saxon bug 4518, from Octavian Nadolu",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Saxon bug 4518, from Octavian Nadolu"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Saxon 9.9 complains "xs:schema element must be top-level',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Saxon 9.9 complains "xs:schema element must be top-level'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#override-schema"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Override/over031.xsd",
-                        other_attributes={}
+                        href="../saxonData/Override/over031.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2020, 4, 14),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2020, 4, 14)
                 ),
-                prior=[],
-                name="over031.xsd",
-                version=[],
-                other_attributes={}
+                name="over031.xsd"
             ),
-            instance_test=[],
             name="over031",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

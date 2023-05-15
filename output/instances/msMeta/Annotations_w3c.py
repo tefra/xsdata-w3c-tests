@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -15,4675 +14,2907 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Empty annotation in schema element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA001.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA001",
-                version=[],
-                other_attributes={}
+                name="annotA001"
             ),
-            instance_test=[],
-            name="annotA001",
-            version=[],
-            other_attributes={}
+            name="annotA001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in schema, all, complexType, element element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA002.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA002",
-                version=[],
-                other_attributes={}
+                name="annotA002"
             ),
-            instance_test=[],
-            name="annotA002",
-            version=[],
-            other_attributes={}
+            name="annotA002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in any, sequence Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA003.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA003",
-                version=[],
-                other_attributes={}
+                name="annotA003"
             ),
-            instance_test=[],
-            name="annotA003",
-            version=[],
-            other_attributes={}
+            name="annotA003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in anyAttribute, simpleContent, extension element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA004.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA004",
-                version=[],
-                other_attributes={}
+                name="annotA004"
             ),
-            instance_test=[],
-            name="annotA004",
-            version=[],
-            other_attributes={}
+            name="annotA004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in appinfo element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA005.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA005",
-                version=[],
-                other_attributes={}
+                name="annotA005"
             ),
-            instance_test=[],
-            name="annotA005",
-            version=[],
-            other_attributes={}
+            name="annotA005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in attribute element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA006.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA006",
-                version=[],
-                other_attributes={}
+                name="annotA006"
             ),
-            instance_test=[],
-            name="annotA006",
-            version=[],
-            other_attributes={}
+            name="annotA006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in attributeGroup element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA007.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA007",
-                version=[],
-                other_attributes={}
+                name="annotA007"
             ),
-            instance_test=[],
-            name="annotA007",
-            version=[],
-            other_attributes={}
+            name="annotA007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in choice element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA008.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA008",
-                version=[],
-                other_attributes={}
+                name="annotA008"
             ),
-            instance_test=[],
-            name="annotA008",
-            version=[],
-            other_attributes={}
+            name="annotA008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in complexContent element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA009.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA009",
-                version=[],
-                other_attributes={}
+                name="annotA009"
             ),
-            instance_test=[],
-            name="annotA009",
-            version=[],
-            other_attributes={}
+            name="annotA009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in documentation element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA010.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA010",
-                version=[],
-                other_attributes={}
+                name="annotA010"
             ),
-            instance_test=[],
-            name="annotA010",
-            version=[],
-            other_attributes={}
+            name="annotA010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in field element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA011.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA011",
-                version=[],
-                other_attributes={}
+                name="annotA011"
             ),
-            instance_test=[],
-            name="annotA011",
-            version=[],
-            other_attributes={}
+            name="annotA011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in group element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA012.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA012",
-                version=[],
-                other_attributes={}
+                name="annotA012"
             ),
-            instance_test=[],
-            name="annotA012",
-            version=[],
-            other_attributes={}
+            name="annotA012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in import element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA013.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA013",
-                version=[],
-                other_attributes={}
+                name="annotA013"
             ),
-            instance_test=[],
-            name="annotA013",
-            version=[],
-            other_attributes={}
+            name="annotA013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in include element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA014.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA014",
-                version=[],
-                other_attributes={}
+                name="annotA014"
             ),
-            instance_test=[],
-            name="annotA014",
-            version=[],
-            other_attributes={}
+            name="annotA014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in key element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA015.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA015",
-                version=[],
-                other_attributes={}
+                name="annotA015"
             ),
-            instance_test=[],
-            name="annotA015",
-            version=[],
-            other_attributes={}
+            name="annotA015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in keyref element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA016.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA016",
-                version=[],
-                other_attributes={}
+                name="annotA016"
             ),
-            instance_test=[],
-            name="annotA016",
-            version=[],
-            other_attributes={}
+            name="annotA016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in list element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA017.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA017",
-                version=[],
-                other_attributes={}
+                name="annotA017"
             ),
-            instance_test=[],
-            name="annotA017",
-            version=[],
-            other_attributes={}
+            name="annotA017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in notation element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA018.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA018",
-                version=[],
-                other_attributes={}
+                name="annotA018"
             ),
-            instance_test=[],
-            name="annotA018",
-            version=[],
-            other_attributes={}
+            name="annotA018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in redefine element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA019.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA019",
-                version=[],
-                other_attributes={}
+                name="annotA019"
             ),
-            instance_test=[],
-            name="annotA019",
-            version=[],
-            other_attributes={}
+            name="annotA019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in restriction, simpleType element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA020.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA020",
-                version=[],
-                other_attributes={}
+                name="annotA020"
             ),
-            instance_test=[],
-            name="annotA020",
-            version=[],
-            other_attributes={}
+            name="annotA020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in selector element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA021.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA021",
-                version=[],
-                other_attributes={}
+                name="annotA021"
             ),
-            instance_test=[],
-            name="annotA021",
-            version=[],
-            other_attributes={}
+            name="annotA021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in union element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA022.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA022",
-                version=[],
-                other_attributes={}
+                name="annotA022"
             ),
-            instance_test=[],
-            name="annotA022",
-            version=[],
-            other_attributes={}
+            name="annotA022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Basic annotation in unique element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotA023.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotA023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotA023",
-                version=[],
-                other_attributes={}
+                name="annotA023"
             ),
-            instance_test=[],
-            name="annotA023",
-            version=[],
-            other_attributes={}
+            name="annotA023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Annotation within Annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB001.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB001",
-                version=[],
-                other_attributes={}
+                name="annotB001"
             ),
-            instance_test=[],
-            name="annotB001",
-            version=[],
-            other_attributes={}
+            name="annotB001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation with appinfo's source=&quot;&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB002.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB002",
-                version=[],
-                other_attributes={}
+                name="annotB002"
             ),
-            instance_test=[],
-            name="annotB002",
-            version=[],
-            other_attributes={}
+            name="annotB002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation with documentation's source=&quot;&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB003.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB003",
-                version=[],
-                other_attributes={}
+                name="annotB003"
             ),
-            instance_test=[],
-            name="annotB003",
-            version=[],
-            other_attributes={}
+            name="annotB003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the all Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB004.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB004",
-                version=[],
-                other_attributes={}
+                name="annotB004"
             ),
-            instance_test=[],
-            name="annotB004",
-            version=[],
-            other_attributes={}
+            name="annotB004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the annotation Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB005.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB005",
-                version=[],
-                other_attributes={}
+                name="annotB005"
             ),
-            instance_test=[],
-            name="annotB005",
-            version=[],
-            other_attributes={}
+            name="annotB005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the any Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB006.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB006",
-                version=[],
-                other_attributes={}
+                name="annotB006"
             ),
-            instance_test=[],
-            name="annotB006",
-            version=[],
-            other_attributes={}
+            name="annotB006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the anyAttribute Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB007.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB007",
-                version=[],
-                other_attributes={}
+                name="annotB007"
             ),
-            instance_test=[],
-            name="annotB007",
-            version=[],
-            other_attributes={}
+            name="annotB007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the appInfo Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB008.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB008",
-                version=[],
-                other_attributes={}
+                name="annotB008"
             ),
-            instance_test=[],
-            name="annotB008",
-            version=[],
-            other_attributes={}
+            name="annotB008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the attribute Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB009.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB009",
-                version=[],
-                other_attributes={}
+                name="annotB009"
             ),
-            instance_test=[],
-            name="annotB009",
-            version=[],
-            other_attributes={}
+            name="annotB009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the attributeGroup Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB010.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB010",
-                version=[],
-                other_attributes={}
+                name="annotB010"
             ),
-            instance_test=[],
-            name="annotB010",
-            version=[],
-            other_attributes={}
+            name="annotB010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the choice Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB011.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB011",
-                version=[],
-                other_attributes={}
+                name="annotB011"
             ),
-            instance_test=[],
-            name="annotB011",
-            version=[],
-            other_attributes={}
+            name="annotB011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the complexContent Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB012.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB012",
-                version=[],
-                other_attributes={}
+                name="annotB012"
             ),
-            instance_test=[],
-            name="annotB012",
-            version=[],
-            other_attributes={}
+            name="annotB012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the complexType Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB013.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB013",
-                version=[],
-                other_attributes={}
+                name="annotB013"
             ),
-            instance_test=[],
-            name="annotB013",
-            version=[],
-            other_attributes={}
+            name="annotB013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the documentation Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB014.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB014",
-                version=[],
-                other_attributes={}
+                name="annotB014"
             ),
-            instance_test=[],
-            name="annotB014",
-            version=[],
-            other_attributes={}
+            name="annotB014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the element Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB015.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB015",
-                version=[],
-                other_attributes={}
+                name="annotB015"
             ),
-            instance_test=[],
-            name="annotB015",
-            version=[],
-            other_attributes={}
+            name="annotB015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the extension Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB016.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB016",
-                version=[],
-                other_attributes={}
+                name="annotB016"
             ),
-            instance_test=[],
-            name="annotB016",
-            version=[],
-            other_attributes={}
+            name="annotB016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the field Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB017.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB017",
-                version=[],
-                other_attributes={}
+                name="annotB017"
             ),
-            instance_test=[],
-            name="annotB017",
-            version=[],
-            other_attributes={}
+            name="annotB017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the group Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB018.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB018",
-                version=[],
-                other_attributes={}
+                name="annotB018"
             ),
-            instance_test=[],
-            name="annotB018",
-            version=[],
-            other_attributes={}
+            name="annotB018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the import Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB019.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB019",
-                version=[],
-                other_attributes={}
+                name="annotB019"
             ),
-            instance_test=[],
-            name="annotB019",
-            version=[],
-            other_attributes={}
+            name="annotB019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the include Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB020.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB020",
-                version=[],
-                other_attributes={}
+                name="annotB020"
             ),
-            instance_test=[],
-            name="annotB020",
-            version=[],
-            other_attributes={}
+            name="annotB020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the key Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB021.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB021",
-                version=[],
-                other_attributes={}
+                name="annotB021"
             ),
-            instance_test=[],
-            name="annotB021",
-            version=[],
-            other_attributes={}
+            name="annotB021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the keyRef Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB022.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB022",
-                version=[],
-                other_attributes={}
+                name="annotB022"
             ),
-            instance_test=[],
-            name="annotB022",
-            version=[],
-            other_attributes={}
+            name="annotB022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the list Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB023.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB023",
-                version=[],
-                other_attributes={}
+                name="annotB023"
             ),
-            instance_test=[],
-            name="annotB023",
-            version=[],
-            other_attributes={}
+            name="annotB023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the Notation Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB024.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB024",
-                version=[],
-                other_attributes={}
+                name="annotB024"
             ),
-            instance_test=[],
-            name="annotB024",
-            version=[],
-            other_attributes={}
+            name="annotB024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the redefine Element",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TSTF and author agree this is valid",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB025.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2008, 6, 20),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2006, 12, 22),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=3991"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="annotB025",
-                version=[],
-                other_attributes={}
+                name="annotB025"
             ),
-            instance_test=[],
-            name="annotB025",
-            version=[],
-            other_attributes={}
+            name="annotB025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the restriction Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB026.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB026.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB026",
-                version=[],
-                other_attributes={}
+                name="annotB026"
             ),
-            instance_test=[],
-            name="annotB026",
-            version=[],
-            other_attributes={}
+            name="annotB026"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the schema Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB027.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB027",
-                version=[],
-                other_attributes={}
+                name="annotB027"
             ),
-            instance_test=[],
-            name="annotB027",
-            version=[],
-            other_attributes={}
+            name="annotB027"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the selector Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB028.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB028.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB028",
-                version=[],
-                other_attributes={}
+                name="annotB028"
             ),
-            instance_test=[],
-            name="annotB028",
-            version=[],
-            other_attributes={}
+            name="annotB028"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the sequence Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB029.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB029.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB029",
-                version=[],
-                other_attributes={}
+                name="annotB029"
             ),
-            instance_test=[],
-            name="annotB029",
-            version=[],
-            other_attributes={}
+            name="annotB029"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the simpleContent Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB030.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB030.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB030",
-                version=[],
-                other_attributes={}
+                name="annotB030"
             ),
-            instance_test=[],
-            name="annotB030",
-            version=[],
-            other_attributes={}
+            name="annotB030"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the simpleType Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB031.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB031.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB031",
-                version=[],
-                other_attributes={}
+                name="annotB031"
             ),
-            instance_test=[],
-            name="annotB031",
-            version=[],
-            other_attributes={}
+            name="annotB031"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the union Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB032.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB032.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB032",
-                version=[],
-                other_attributes={}
+                name="annotB032"
             ),
-            instance_test=[],
-            name="annotB032",
-            version=[],
-            other_attributes={}
+            name="annotB032"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare annotation twice under the unique Element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotB033.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotB033.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotB033",
-                version=[],
-                other_attributes={}
+                name="annotB033"
             ),
-            instance_test=[],
-            name="annotB033",
-            version=[],
-            other_attributes={}
+            name="annotB033"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML Content &lt;b/&gt; tags",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotC001.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotC001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotC001",
-                version=[],
-                other_attributes={}
+                name="annotC001"
             ),
-            instance_test=[],
-            name="annotC001",
-            version=[],
-            other_attributes={}
+            name="annotC001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with appinfo with well-formed XML content a:b tags",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotC002.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotC002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotC002",
-                version=[],
-                other_attributes={}
+                name="annotC002"
             ),
-            instance_test=[],
-            name="annotC002",
-            version=[],
-            other_attributes={}
+            name="annotC002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotC003.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotC003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotC003",
-                version=[],
-                other_attributes={}
+                name="annotC003"
             ),
-            instance_test=[],
-            name="annotC003",
-            version=[],
-            other_attributes={}
+            name="annotC003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with appinfo with source=http://www.w3.org/TR/Schema-0/ and text content",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotC004.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotC004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotC004",
-                version=[],
-                other_attributes={}
+                name="annotC004"
             ),
-            instance_test=[],
-            name="annotC004",
-            version=[],
-            other_attributes={}
+            name="annotC004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with two appinfos with text",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotC005.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotC005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotC005",
-                version=[],
-                other_attributes={}
+                name="annotC005"
             ),
-            instance_test=[],
-            name="annotC005",
-            version=[],
-            other_attributes={}
+            name="annotC005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML Content &lt;b/&gt; tags",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotD001.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotD001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotD001",
-                version=[],
-                other_attributes={}
+                name="annotD001"
             ),
-            instance_test=[],
-            name="annotD001",
-            version=[],
-            other_attributes={}
+            name="annotD001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with documentation with well-formed XML content a:b tags",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotD002.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotD002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotD002",
-                version=[],
-                other_attributes={}
+                name="annotD002"
             ),
-            instance_test=[],
-            name="annotD002",
-            version=[],
-            other_attributes={}
+            name="annotD002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotD003.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotD003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotD003",
-                version=[],
-                other_attributes={}
+                name="annotD003"
             ),
-            instance_test=[],
-            name="annotD003",
-            version=[],
-            other_attributes={}
+            name="annotD003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with documentation with source=http://www.w3.org/TR/Schema-0/ and text content",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotD004.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotD004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotD004",
-                version=[],
-                other_attributes={}
+                name="annotD004"
             ),
-            instance_test=[],
-            name="annotD004",
-            version=[],
-            other_attributes={}
+            name="annotD004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with two documentations with text",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotD005.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotD005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotD005",
-                version=[],
-                other_attributes={}
+                name="annotD005"
             ),
-            instance_test=[],
-            name="annotD005",
-            version=[],
-            other_attributes={}
+            name="annotD005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with text",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotE001.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotE001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotE001",
-                version=[],
-                other_attributes={}
+                name="annotE001"
             ),
-            instance_test=[],
-            name="annotE001",
-            version=[],
-            other_attributes={}
+            name="annotE001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : Declare Annotation with two appinfos and two documentations with well-formed XML",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotE002.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotE002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotE002",
-                version=[],
-                other_attributes={}
+                name="annotE002"
             ),
-            instance_test=[],
-            name="annotE002",
-            version=[],
-            other_attributes={}
+            name="annotE002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang=""',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF001.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF001",
-                version=[],
-                other_attributes={}
+                name="annotF001"
             ),
-            instance_test=[],
-            name="annotF001",
-            version=[],
-            other_attributes={}
+            name="annotF001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="english"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF002.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF002",
-                version=[],
-                other_attributes={}
+                name="annotF002"
             ),
-            instance_test=[],
-            name="annotF002",
-            version=[],
-            other_attributes={}
+            name="annotF002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang=" "',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF003.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF003",
-                version=[],
-                other_attributes={}
+                name="annotF003"
             ),
-            instance_test=[],
-            name="annotF003",
-            version=[],
-            other_attributes={}
+            name="annotF003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="en"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF004.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF004",
-                version=[],
-                other_attributes={}
+                name="annotF004"
             ),
-            instance_test=[],
-            name="annotF004",
-            version=[],
-            other_attributes={}
+            name="annotF004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="jp"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF005.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF005",
-                version=[],
-                other_attributes={}
+                name="annotF005"
             ),
-            instance_test=[],
-            name="annotF005",
-            version=[],
-            other_attributes={}
+            name="annotF005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="ar"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF006.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF006",
-                version=[],
-                other_attributes={}
+                name="annotF006"
             ),
-            instance_test=[],
-            name="annotF006",
-            version=[],
-            other_attributes={}
+            name="annotF006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Annotation Tests : Annotation with documentation source="http://foo.com" xml:lang="d"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF007.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF007",
-                version=[],
-                other_attributes={}
+                name="annotF007"
             ),
-            instance_test=[],
-            name="annotF007",
-            version=[],
-            other_attributes={}
+            name="annotF007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : If required test documentation element with xml:lang= list of codes listed under HKEY_CLASSES_ROOT\MIME\Database\Rfc1766",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF008.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF008",
-                version=[],
-                other_attributes={}
+                name="annotF008"
             ),
-            instance_test=[],
-            name="annotF008",
-            version=[],
-            other_attributes={}
+            name="annotF008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Annotation Tests : Annotation with an arbit attribute foo="bar"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotF009.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotF009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotF009",
-                version=[],
-                other_attributes={}
+                name="annotF009"
             ),
-            instance_test=[],
-            name="annotF009",
-            version=[],
-            other_attributes={}
+            name="annotF009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : ID attribute in annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotZ001.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotZ001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotZ001",
-                version=[],
-                other_attributes={}
+                name="annotZ001"
             ),
-            instance_test=[],
-            name="annotZ001",
-            version=[],
-            other_attributes={}
+            name="annotZ001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : large number of annotation elements",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotZ002.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotZ002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotZ002",
-                version=[],
-                other_attributes={}
+                name="annotZ002"
             ),
-            instance_test=[],
-            name="annotZ002",
-            version=[],
-            other_attributes={}
+            name="annotZ002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Annotation Tests : test default namespace declared on xs:documentation should not overwrite the schema's default namespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAnnotations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/annotations/annotZ004.xsd",
-                        other_attributes={}
+                        href="../msData/annotations/annotZ004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="annotZ004",
-                version=[],
-                other_attributes={}
+                name="annotZ004"
             ),
-            instance_test=[],
-            name="annotZ004",
-            version=[],
-            other_attributes={}
+            name="annotZ004"
         ),
     ],
     contributor="Microsoft",
     name="MS-Annotations2006-07-15",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

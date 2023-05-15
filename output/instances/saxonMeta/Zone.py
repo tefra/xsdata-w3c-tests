@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -18,79 +17,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Test timezone facet with value="required"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test timezone facet with value="required"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows an xs:time value provided it has a timezone",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows an xs:time value provided it has a timezone"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 3),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 3)
                 ),
-                prior=[],
-                name="zone001.xsd",
-                version=[],
-                other_attributes={}
+                name="zone001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -98,202 +68,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone001.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone001.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone001.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone001.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, no timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone001.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone001.n01.xml"
                 ),
             ],
             name="zone001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Test timezone facet with value="prohibited"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test timezone facet with value="prohibited"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows an xs:time value provided it has a timezone",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows an xs:time value provided it has a timezone"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone002.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 3),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 3)
                 ),
-                prior=[],
-                name="zone002.xsd",
-                version=[],
-                other_attributes={}
+                name="zone002.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -301,202 +197,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone002.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone002.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone002.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone002.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone002.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone002.v01.xml"
                 ),
             ],
             name="zone002",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Test timezone facet with value="optional"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test timezone facet with value="optional"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows an xs:time value provided it has a timezone",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows an xs:time value provided it has a timezone"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone003.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 3),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 3)
                 ),
-                prior=[],
-                name="zone003.xsd",
-                version=[],
-                other_attributes={}
+                name="zone003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -504,597 +326,373 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone003.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone003.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone003.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone003.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 3),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 3)
                     ),
-                    prior=[],
-                    name="zone003.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone003.v03.xml"
                 ),
             ],
             name="zone003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Test timezone facet with value="optional" derived from value="required"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test timezone facet with value="optional" derived from value="required"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid restriction"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone004.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone004.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 12, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 12, 21)
                 ),
-                prior=[],
-                name="zone004.xsd",
-                version=[],
-                other_attributes={}
+                name="zone004.xsd"
             ),
-            instance_test=[],
             name="zone004",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Test timezone facet with value="optional" derived from value="prohibited"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test timezone facet with value="optional" derived from value="prohibited"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid restriction"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone005.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone005.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 12, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 12, 21)
                 ),
-                prior=[],
-                name="zone005.xsd",
-                version=[],
-                other_attributes={}
+                name="zone005.xsd"
             ),
-            instance_test=[],
             name="zone005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test timezone facet",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test timezone facet"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid facet value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid facet value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone006.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone006.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 12, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 12, 21)
                 ),
-                prior=[],
-                name="zone006.xsd",
-                version=[],
-                other_attributes={}
+                name="zone006.xsd"
             ),
-            instance_test=[],
             name="zone006",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test timezone facet",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test timezone facet"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Used on inapplicable data type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Used on inapplicable data type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone007.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone007.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 12, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 12, 21)
                 ),
-                prior=[],
-                name="zone007.xsd",
-                version=[],
-                other_attributes={}
+                name="zone007.xsd"
             ),
-            instance_test=[],
             name="zone007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test timezone facet",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test timezone facet"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Used on inapplicable data type (union type)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Used on inapplicable data type (union type)"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone008.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone008.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 12, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 12, 21)
                 ),
-                prior=[],
-                name="zone008.xsd",
-                version=[],
-                other_attributes={}
+                name="zone008.xsd"
             ),
-            instance_test=[],
             name="zone008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test built-in type xs:dateTimeStamp",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test built-in type xs:dateTimeStamp"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A dateTime value with a required timezone",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A dateTime value with a required timezone"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-DTStampDerivedType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-DTStampDerivedType"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone101.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone101.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 12, 22),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 12, 22)
                 ),
-                prior=[],
-                name="zone101.xsd",
-                version=[],
-                other_attributes={}
+                name="zone101.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1102,202 +700,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone101.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone101.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 22),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 22)
                     ),
-                    prior=[],
-                    name="zone101.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone101.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone101.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone101.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 22),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 22)
                     ),
-                    prior=[],
-                    name="zone101.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone101.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, no timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone101.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone101.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 22),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 22)
                     ),
-                    prior=[],
-                    name="zone101.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone101.n01.xml"
                 ),
             ],
             name="zone101",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test built-in type xs:dateTimeStamp",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test built-in type xs:dateTimeStamp"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="restriction from xs:dateTimeStamp",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="restriction from xs:dateTimeStamp"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-DTStampDerivedType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-DTStampDerivedType"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone102.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone102.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 12, 22),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 12, 22)
                 ),
-                prior=[],
-                name="zone102.xsd",
-                version=[],
-                other_attributes={}
+                name="zone102.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1305,243 +829,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone101.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone101.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 22),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 22)
                     ),
-                    prior=[],
-                    name="zone102.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone102.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone101.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone101.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 22),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 22)
                     ),
-                    prior=[],
-                    name="zone102.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone102.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, no timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone101.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone101.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 22),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 22)
                     ),
-                    prior=[],
-                    name="zone102.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone102.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, value out of range.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone102.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone102.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 22),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 22)
                     ),
-                    prior=[],
-                    name="zone102.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone102.n02.xml"
                 ),
             ],
             name="zone102",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test year zero allowed in type xs:dateTimeStamp",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test year zero allowed in type xs:dateTimeStamp"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="use year zero in minInclusive facet",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="use year zero in minInclusive facet"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone201.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone201.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone201.xsd",
-                version=[],
-                other_attributes={}
+                name="zone201.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1549,208 +984,131 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, year zero date after minInclusive.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone201.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone201.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone201.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone201.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, year zero in proleptic Gregorian calendar was a leap year.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone201.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone201.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone201.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone201.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, year zero date before minInclusive.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone201.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone201.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone201.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone201.n01.xml"
                 ),
             ],
             name="zone201",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test year zero allowed in type xs:gYearMonth",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test year zero allowed in type xs:gYearMonth"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="use year zero in enumeration facet",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="use year zero in enumeration facet"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone202.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone202.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone202.xsd",
-                version=[],
-                other_attributes={}
+                name="zone202.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1758,331 +1116,209 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, year zero gYearmonth.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone202.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone202.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone202.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone202.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, year zero gYearmonth.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone202.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone202.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone202.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone202.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, year zero gYearmonth.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone202.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone202.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone202.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone202.v03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, year zero date before minInclusive.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone202.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone202.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone202.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone202.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, year zero date before minInclusive.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone202.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone202.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone202.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone202.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, year zero date before minInclusive.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone202.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone202.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone202.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone202.n03.xml"
                 ),
             ],
             name="zone202",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test leap years in proleptic Gregorian calendar",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test leap years in proleptic Gregorian calendar"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="0, -4, ... are a leap years; but not -100",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="0, -4, ... are a leap years; but not -100"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-AllowYearZero"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone203.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone203.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone203.xsd",
-                version=[],
-                other_attributes={}
+                name="zone203.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2090,290 +1326,183 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, leap year.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone203.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone203.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone203.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone203.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, leap year.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone203.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone203.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone203.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone203.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, leap year.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone203.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone203.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone203.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone203.v03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, not a leap year.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone203.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone203.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone203.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone203.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, not a leap year.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone203.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone203.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone203.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone203.n02.xml"
                 ),
             ],
             name="zone203",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Leap seconds are not permitted",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Leap seconds are not permitted"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="31 Dec 2008 included a leap second, but xs:dateTime ignores it",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="31 Dec 2008 included a leap second, but xs:dateTime ignores it"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-NoLeapSecs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-NoLeapSecs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone204.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone204.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone204.xsd",
-                version=[],
-                other_attributes={}
+                name="zone204.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2381,126 +1510,79 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, leap seconds not allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone204.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone204.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone204.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone204.n01.xml"
                 ),
             ],
             name="zone204",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test equality of xs:dateTime values appearing in an enumeration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test equality of xs:dateTime values appearing in an enumeration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, 00:00:00 is equal to 24:00:00 on the previous day",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="For example, 00:00:00 is equal to 24:00:00 on the previous day"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone205.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone205.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone205.xsd",
-                version=[],
-                other_attributes={}
+                name="zone205.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2508,284 +1590,180 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, 00:00 = 24:00.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone205.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone205.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone205.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone205.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, fraction digits equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone205.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone205.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone205.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone205.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, same instant in different timezones.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone205.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone205.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone205.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone205.v03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, different timezone.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone205.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone205.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone205.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone205.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, 24:00:00 is the highest time value allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone205.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone205.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone205.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone205.n02.xml"
                 ),
             ],
             name="zone205",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test equality of xs:time values appearing in integrity constraints",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test equality of xs:time values appearing in integrity constraints"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, 00:00:00 is equal to 24:00:00",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="For example, 00:00:00 is equal to 24:00:00"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#dateTime-value-space"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone206.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone206.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone206.xsd",
-                version=[],
-                other_attributes={}
+                name="zone206.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2793,249 +1771,157 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone206.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone206.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone206.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone206.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;               valid, all values equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone206.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone206.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone206.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone206.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, values not equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone206.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone206.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone206.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone206.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, values not equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone206.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone206.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone206.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone206.n02.xml"
                 ),
             ],
             name="zone206",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test xs:dayTimeDuration including equality rules",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test xs:dayTimeDuration including equality rules"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, P1D is equal to P24H",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="For example, P1D is equal to P24H"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone301.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone301.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone301.xsd",
-                version=[],
-                other_attributes={}
+                name="zone301.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3043,167 +1929,105 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone301.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone301.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone301.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone301.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, values not equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone301.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone301.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone301.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone301.n01.xml"
                 ),
             ],
             name="zone301",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test xs:yearMonthDuration including equality rules",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test xs:yearMonthDuration including equality rules"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, P1Y is equal to P12M",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="For example, P1Y is equal to P12M"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone302.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone302.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone302.xsd",
-                version=[],
-                other_attributes={}
+                name="zone302.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3211,167 +2035,105 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone302.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone302.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone302.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone302.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, values not equivalent.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone302.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone302.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone302.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone302.n01.xml"
                 ),
             ],
             name="zone302",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test xs:dayTimeDuration min/max rules",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test xs:dayTimeDuration min/max rules"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, P1Y is equal to P12M",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="For example, P1Y is equal to P12M"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#dayTimeDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone303.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone303.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone303.xsd",
-                version=[],
-                other_attributes={}
+                name="zone303.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3379,290 +2141,183 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone303.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone303.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone303.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone303.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone303.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone303.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone303.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone303.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone303.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone303.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone303.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone303.v03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, values out of range.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone303.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone303.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone303.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone303.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, values out of range.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone303.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone303.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone303.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone303.n02.xml"
                 ),
             ],
             name="zone303",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test xs:yearMonthDuration min/max rules",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test xs:yearMonthDuration min/max rules"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For example, P1Y is equal to P12M",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="For example, P1Y is equal to P12M"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#yearMonthDuration"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-BuiltInDerivedYMAndDT"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-EqualityOfDurations"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone304.xsd",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone304.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 19)
                 ),
-                prior=[],
-                name="zone304.xsd",
-                version=[],
-                other_attributes={}
+                name="zone304.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3670,212 +2325,136 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone304.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone304.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone304.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone304.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone304.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone304.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone304.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone304.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, all values valid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone304.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone304.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone304.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone304.v03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, values out of range.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone304.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone304.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone304.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone304.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                invalid, values out of range.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Zone/zone304.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Zone/zone304.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 19)
                     ),
-                    prior=[],
-                    name="zone304.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone304.n02.xml"
                 ),
             ],
             name="zone304",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

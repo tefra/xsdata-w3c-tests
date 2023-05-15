@@ -9,11 +9,7 @@ obj = Root(
         y=2,
         any_element=AnyElement(
             qname="z",
-            text="sdf9873",
-            tail=None,
-            children=[],
-            attributes={}
+            text="sdf9873"
         )
-    ),
-    any_element=None
+    )
 )

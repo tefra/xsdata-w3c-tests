@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -18,4738 +17,2958 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Collection: (A,a.xsd), SchemaLocation: (B,b.xsd), NoNSSchemaLocation: c.xsd",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schA1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schA1",
-                version=[],
-                other_attributes={}
+                name="schA1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA1.xml",
-                        other_attributes={}
+                        href="../msData/schema/schA1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schA1.v",
-                    version=[],
-                    other_attributes={}
+                    name="schA1.v"
                 ),
             ],
-            name="schA1",
-            version=[],
-            other_attributes={}
+            name="schA1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation: (A,b.xsd), NoNSSchemaLocation:, expected: the xml instance must conform to (A,a.xsd), the inline schemaLocation (A,b.xsd) is ignored.",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "WG decided this might reasonably vary between implementations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schA2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schA2",
-                version=[],
-                other_attributes={}
+                name="schA2"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA2.xml",
-                        other_attributes={}
+                        href="../msData/schema/schA2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INDETERMINATE,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INDETERMINATE
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.STABLE,
                         date=XmlDate(2010, 7, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.QUERIED,
                             date=XmlDate(2007, 1, 2),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131",
-                            other_attributes={}
+                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
                         ),
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2006, 7, 16),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="schA2.i",
-                    version=[],
-                    other_attributes={}
+                    name="schA2.i"
                 ),
             ],
-            name="schA2",
-            version=[],
-            other_attributes={}
+            name="schA2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:, NoNSSchemaLocation:,",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schA3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schA3",
-                version=[],
-                other_attributes={}
+                name="schA3"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA3.xml",
-                        other_attributes={}
+                        href="../msData/schema/schA3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schA3.v",
-                    version=[],
-                    other_attributes={}
+                    name="schA3.v"
                 ),
             ],
-            name="schA3",
-            version=[],
-            other_attributes={}
+            name="schA3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Collection:, SchemaLocation:(A,a.xsd), NoNSSchemaLocation:,",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA4.xml",
-                        other_attributes={}
+                        href="../msData/schema/schA4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schA4.v",
-                    version=[],
-                    other_attributes={}
+                    name="schA4.v"
                 ),
             ],
-            name="schA4",
-            version=[],
-            other_attributes={}
+            name="schA4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Collection:(A,a.xsd) (B, b.xsd), SchemaLocation:(B,a.xsd), NoNSSchemaLocation:, xmlinstance should conform to (A,a.xsd)(B,b.xsd), ignore the inline SchemaLocation (B,a.xsd)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "WG decided this might reasonably vary between implementations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schA5_a.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA5_b.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schA5_b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schA5",
-                version=[],
-                other_attributes={}
+                name="schA5"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA5.xml",
-                        other_attributes={}
+                        href="../msData/schema/schA5.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INDETERMINATE,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INDETERMINATE
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.STABLE,
                         date=XmlDate(2010, 7, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.QUERIED,
                             date=XmlDate(2007, 1, 2),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131",
-                            other_attributes={}
+                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
                         ),
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2006, 7, 16),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="schA5.i",
-                    version=[],
-                    other_attributes={}
+                    name="schA5.i"
                 ),
             ],
-            name="schA5",
-            version=[],
-            other_attributes={}
+            name="schA5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd), NoNSSchemaLocation: The instance xml conform to (A,a.xsd)(B,b.xsd)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "WG decided this might reasonably vary between implementations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA7_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schA7_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schA7",
-                version=[],
-                other_attributes={}
+                name="schA7"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA7.xml",
-                        other_attributes={}
+                        href="../msData/schema/schA7.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INDETERMINATE,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INDETERMINATE
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.STABLE,
                         date=XmlDate(2010, 7, 5),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.QUERIED,
                             date=XmlDate(2007, 1, 2),
-                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131",
-                            other_attributes={}
+                            bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
                         ),
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2006, 7, 16),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2006, 7, 16)
                         ),
                     ],
-                    name="schA7.i",
-                    version=[],
-                    other_attributes={}
+                    name="schA7.i"
                 ),
             ],
-            name="schA7",
-            version=[],
-            other_attributes={}
+            name="schA7"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Collection:(A,a.xsd), SchemaLocation:(A,c.xsd)(B,b.xsd where b.xsd's tns=foo), NoNSSchemaLocation: Since b.xsd exist, this should give error because the targetNS 'B' is not the same as what is in b.xsd 'foo'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
-            schema_test=None,
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schA8.xml",
-                        other_attributes={}
+                        href="../msData/schema/schA8.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schA8.i",
-                    version=[],
-                    other_attributes={}
+                    name="schA8.i"
                 ),
             ],
-            name="schA8",
-            version=[],
-            other_attributes={}
+            name="schA8"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schB1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schB1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schB1",
-                version=[],
-                other_attributes={}
+                name="schB1"
             ),
-            instance_test=[],
-            name="schB1",
-            version=[],
-            other_attributes={}
+            name="schB1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test the ID attribute on include, by setting duplicated id",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schB1i.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schB1i.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schB1i",
-                version=[],
-                other_attributes={}
+                name="schB1i"
             ),
-            instance_test=[],
-            name="schB1i",
-            version=[],
-            other_attributes={}
+            name="schB1i"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test the annotation child node of include",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schB2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schB2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schB2",
-                version=[],
-                other_attributes={}
+                name="schB2"
             ),
-            instance_test=[],
-            name="schB2",
-            version=[],
-            other_attributes={}
+            name="schB2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : single include",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schB3.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schB3.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schB3",
-                version=[],
-                other_attributes={}
+                name="schB3"
             ),
-            instance_test=[],
-            name="schB3",
-            version=[],
-            other_attributes={}
+            name="schB3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Location resolved to not-wf XML, test the resolution of schemaLoction on include (SRC 1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schB4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schB4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schB4",
-                version=[],
-                other_attributes={}
+                name="schB4"
             ),
-            instance_test=[],
-            name="schB4",
-            version=[],
-            other_attributes={}
+            name="schB4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Location resolved to wf XML but not a schema, test the resolution of schemaLoction on include (SRC 1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schB5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schB5_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schB5",
-                version=[],
-                other_attributes={}
+                name="schB5"
             ),
-            instance_test=[],
-            name="schB5",
-            version=[],
-            other_attributes={}
+            name="schB5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema Location resolved to invalid URL, test the resolution of schemaLoction on include (SRC 1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schB8.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schB8.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schB8",
-                version=[],
-                other_attributes={}
+                name="schB8"
             ),
-            instance_test=[],
-            name="schB8",
-            version=[],
-            other_attributes={}
+            name="schB8"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD A include XSD B, A's ns=&quot;&quot;, B's ns=&quot;A&quot;, test the namespace of include (4.2.1) (SRC 2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schC2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schC2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schC2",
-                version=[],
-                other_attributes={}
+                name="schC2"
             ),
-            instance_test=[],
-            name="schC2",
-            version=[],
-            other_attributes={}
+            name="schC2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD A include XSD B, A's ns=&quot;&quot;, B's ns=&quot;&quot;, test the namespace of include (4.2.1) (SRC 2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schC3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schC3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schC3",
-                version=[],
-                other_attributes={}
+                name="schC3"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schC3.xml",
-                        other_attributes={}
+                        href="../msData/schema/schC3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schC3.v",
-                    version=[],
-                    other_attributes={}
+                    name="schC3.v"
                 ),
             ],
-            name="schC3",
-            version=[],
-            other_attributes={}
+            name="schC3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD A include XSD B, A's ns=&quot;A&quot;, B's ns=&quot;A&quot;, test the namespace of include (4.2.1) (SRC 2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schC4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schC4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schC4",
-                version=[],
-                other_attributes={}
+                name="schC4"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schC4.xml",
-                        other_attributes={}
+                        href="../msData/schema/schC4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schC4.v",
-                    version=[],
-                    other_attributes={}
+                    name="schC4.v"
                 ),
             ],
-            name="schC4",
-            version=[],
-            other_attributes={}
+            name="schC4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD A include XSD B, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, test the namespace of include (4.2.1) (SRC 2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schC5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schC5_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schC5",
-                version=[],
-                other_attributes={}
+                name="schC5"
             ),
-            instance_test=[],
-            name="schC5",
-            version=[],
-            other_attributes={}
+            name="schC5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A include B and C, A's ns=&quot;A&quot;, B's ns=&quot;A&quot;, C's ns=&quot;A&quot;, type ref from A to B and C, B to A and C, C to A and B",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schD5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schD5_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schD5",
-                version=[],
-                other_attributes={}
+                name="schD5"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schD5.xml",
-                        other_attributes={}
+                        href="../msData/schema/schD5.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schD5.v",
-                    version=[],
-                    other_attributes={}
+                    name="schD5.v"
                 ),
             ],
-            name="schD5",
-            version=[],
-            other_attributes={}
+            name="schD5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A includes B and C, B is bogus URL, C is valid XSD, test that there is no error and C is included.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schD7_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schD7_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schD7",
-                version=[],
-                other_attributes={}
+                name="schD7"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schD7.xml",
-                        other_attributes={}
+                        href="../msData/schema/schD7.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schD7.v",
-                    version=[],
-                    other_attributes={}
+                    name="schD7.v"
                 ),
             ],
-            name="schD7",
-            version=[],
-            other_attributes={}
+            name="schD7"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : schemaLocation on include should not give error for unable to resolve the path file://.",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "WG decided this was OK, but also changed the test to have a&#10;syntactically valid by guaranteed-to-not-resolve URI",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schD8.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schD8.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.DISPUTED_TEST,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4132"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schD8",
-                version=[],
-                other_attributes={}
+                name="schD8"
             ),
-            instance_test=[],
-            name="schD8",
-            version=[],
-            other_attributes={}
+            name="schD8"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : validate instance against 'chameleon' include schema (2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schD10_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schD10_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schD10",
-                version=[],
-                other_attributes={}
+                name="schD10"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schD10.xml",
-                        other_attributes={}
+                        href="../msData/schema/schD10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schD10.v",
-                    version=[],
-                    other_attributes={}
+                    name="schD10.v"
                 ),
             ],
-            name="schD10",
-            version=[],
-            other_attributes={}
+            name="schD10"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test union type in a chameleon schema",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schD11a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schD11a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schD11",
-                version=[],
-                other_attributes={}
+                name="schD11"
             ),
-            instance_test=[],
-            name="schD11",
-            version=[],
-            other_attributes={}
+            name="schD11"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE1",
-                version=[],
-                other_attributes={}
+                name="schE1"
             ),
-            instance_test=[],
-            name="schE1",
-            version=[],
-            other_attributes={}
+            name="schE1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test ID attribute on import, by setting duplicated id",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE1i.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE1i.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE1i",
-                version=[],
-                other_attributes={}
+                name="schE1i"
             ),
-            instance_test=[],
-            name="schE1i",
-            version=[],
-            other_attributes={}
+            name="schE1i"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test the annotation child node of include",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE2",
-                version=[],
-                other_attributes={}
+                name="schE2"
             ),
-            instance_test=[],
-            name="schE2",
-            version=[],
-            other_attributes={}
+            name="schE2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : single 'import'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE3.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE3.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE3",
-                version=[],
-                other_attributes={}
+                name="schE3"
             ),
-            instance_test=[],
-            name="schE3",
-            version=[],
-            other_attributes={}
+            name="schE3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :schema collection and schema location : import namespace="foo"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE4.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE4.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE4",
-                version=[],
-                other_attributes={}
+                name="schE4"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE4.xml",
-                        other_attributes={}
+                        href="../msData/schema/schE4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schE4.v",
-                    version=[],
-                    other_attributes={}
+                    name="schE4.v"
                 ),
             ],
-            name="schE4",
-            version=[],
-            other_attributes={}
+            name="schE4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema location resolved to not-wf XML",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE5.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE5.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE5",
-                version=[],
-                other_attributes={}
+                name="schE5"
             ),
-            instance_test=[],
-            name="schE5",
-            version=[],
-            other_attributes={}
+            name="schE5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Schema location resolved to wf XML but not a schema",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE6.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE6.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE6",
-                version=[],
-                other_attributes={}
+                name="schE6"
             ),
-            instance_test=[],
-            name="schE6",
-            version=[],
-            other_attributes={}
+            name="schE6"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : import's Schema location resolved to invalid URL.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE9.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE9.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE9",
-                version=[],
-                other_attributes={}
+                name="schE9"
             ),
-            instance_test=[],
-            name="schE9",
-            version=[],
-            other_attributes={}
+            name="schE9"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : import's Schema location resolved to a valid URL to a bogus XSD.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schE10.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schE10.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schE10",
-                version=[],
-                other_attributes={}
+                name="schE10"
             ),
-            instance_test=[],
-            name="schE10",
-            version=[],
-            other_attributes={}
+            name="schE10"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;A&quot;, Y's ns=&quot;&quot;, test the namespace of import",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schF1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schF1",
-                version=[],
-                other_attributes={}
+                name="schF1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF1.xml",
-                        other_attributes={}
+                        href="../msData/schema/schF1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schF1.v",
-                    version=[],
-                    other_attributes={}
+                    name="schF1.v"
                 ),
             ],
-            name="schF1",
-            version=[],
-            other_attributes={}
+            name="schF1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;&quot;, Y's ns=&quot;A&quot;, test the namespace of import",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schF2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schF2",
-                version=[],
-                other_attributes={}
+                name="schF2"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF2.xml",
-                        other_attributes={}
+                        href="../msData/schema/schF2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schF2.v",
-                    version=[],
-                    other_attributes={}
+                    name="schF2.v"
                 ),
             ],
-            name="schF2",
-            version=[],
-            other_attributes={}
+            name="schF2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;&quot;, Y's ns=&quot;&quot;, test the namespace of import",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schF3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schF3",
-                version=[],
-                other_attributes={}
+                name="schF3"
             ),
-            instance_test=[],
-            name="schF3",
-            version=[],
-            other_attributes={}
+            name="schF3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;A&quot;, Y's ns=&quot;A&quot;, test the namespace of import",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schF4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schF4",
-                version=[],
-                other_attributes={}
+                name="schF4"
             ),
-            instance_test=[],
-            name="schF4",
-            version=[],
-            other_attributes={}
+            name="schF4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD X import XSD Y, X's ns=&quot;A&quot;, Y's ns=&quot;B&quot;, test the namespace of import",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schF5_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schF5",
-                version=[],
-                other_attributes={}
+                name="schF5"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF5.xml",
-                        other_attributes={}
+                        href="../msData/schema/schF5.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schF5.v",
-                    version=[],
-                    other_attributes={}
+                    name="schF5.v"
                 ),
             ],
-            name="schF5",
-            version=[],
-            other_attributes={}
+            name="schF5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD: test namespace on the xs:import statement does not match the one in the imported schema.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schF6_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schF6_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schF6",
-                version=[],
-                other_attributes={}
+                name="schF6"
             ),
-            instance_test=[],
-            name="schF6",
-            version=[],
-            other_attributes={}
+            name="schF6"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;C&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG1",
-                version=[],
-                other_attributes={}
+                name="schG1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG1.xml",
-                        other_attributes={}
+                        href="../msData/schema/schG1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schG1.v",
-                    version=[],
-                    other_attributes={}
+                    name="schG1.v"
                 ),
             ],
-            name="schG1",
-            version=[],
-            other_attributes={}
+            name="schG1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;&quot;, C's ns=&quot;C&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG2",
-                version=[],
-                other_attributes={}
+                name="schG2"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG2.xml",
-                        other_attributes={}
+                        href="../msData/schema/schG2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schG2.v",
-                    version=[],
-                    other_attributes={}
+                    name="schG2.v"
                 ),
             ],
-            name="schG2",
-            version=[],
-            other_attributes={}
+            name="schG2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;A&quot;, (A and C have no confilcting decl)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG3",
-                version=[],
-                other_attributes={}
+                name="schG3"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG3.xml",
-                        other_attributes={}
+                        href="../msData/schema/schG3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schG3.v",
-                    version=[],
-                    other_attributes={}
+                    name="schG3.v"
                 ),
             ],
-            name="schG3",
-            version=[],
-            other_attributes={}
+            name="schG3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B and C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;C&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG4",
-                version=[],
-                other_attributes={}
+                name="schG4"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG4.xml",
-                        other_attributes={}
+                        href="../msData/schema/schG4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schG4.v",
-                    version=[],
-                    other_attributes={}
+                    name="schG4.v"
                 ),
             ],
-            name="schG4",
-            version=[],
-            other_attributes={}
+            name="schG4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B and C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;B&quot;, (B and C have no confilcting decl)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG5_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG5",
-                version=[],
-                other_attributes={}
+                name="schG5"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG5.xml",
-                        other_attributes={}
+                        href="../msData/schema/schG5.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schG5.v",
-                    version=[],
-                    other_attributes={}
+                    name="schG5.v"
                 ),
             ],
-            name="schG5",
-            version=[],
-            other_attributes={}
+            name="schG5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B and C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;B&quot;, (B and C have confilcting decl)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG6_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG6_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG6",
-                version=[],
-                other_attributes={}
+                name="schG6"
             ),
-            instance_test=[],
-            name="schG6",
-            version=[],
-            other_attributes={}
+            name="schG6"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A imports B and B and C, B imports C and D, C imports D and A, multiple import of the same XSD is ok",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG7_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG7_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG7",
-                version=[],
-                other_attributes={}
+                name="schG7"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG7.xml",
-                        other_attributes={}
+                        href="../msData/schema/schG7.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schG7.v",
-                    version=[],
-                    other_attributes={}
+                    name="schG7.v"
                 ),
             ],
-            name="schG7",
-            version=[],
-            other_attributes={}
+            name="schG7"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B and C, B is bogus URL, C is valid XSD, test that there is no error and C is imported.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG8_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG8_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG8",
-                version=[],
-                other_attributes={}
+                name="schG8"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG8.xml",
-                        other_attributes={}
+                        href="../msData/schema/schG8.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schG8.v",
-                    version=[],
-                    other_attributes={}
+                    name="schG8.v"
                 ),
             ],
-            name="schG8",
-            version=[],
-            other_attributes={}
+            name="schG8"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B and D, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;A&quot;, D's ns=D A has type ref to BCD, B has type ref to ACD, C has type ref to ABD",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TSTF agreed that an un-imported NS used in a QName is a schema error",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG9_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG9_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2008, 11, 25),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG9",
-                version=[],
-                other_attributes={}
+                name="schG9"
             ),
-            instance_test=[],
-            name="schG9",
-            version=[],
-            other_attributes={}
+            name="schG9"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B, A's ns=&quot;A&quot;, B's ns=&quot;&quot;, import ns=&quot;B&quot; if namespace present it must be the same as targetNamespace of the imported xsd.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG10_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG10_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG10",
-                version=[],
-                other_attributes={}
+                name="schG10"
             ),
-            instance_test=[],
-            name="schG10",
-            version=[],
-            other_attributes={}
+            name="schG10"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;A&quot;, (A and C have confilcting decl)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG11_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG11_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG11",
-                version=[],
-                other_attributes={}
+                name="schG11"
             ),
-            instance_test=[],
-            name="schG11",
-            version=[],
-            other_attributes={}
+            name="schG11"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B, B import C, A's ns=&quot;A&quot;, B's ns=&quot;B&quot;, C's ns=&quot;B&quot;, All declaration in B and C should be available to validation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG12_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG12_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.QUERIED,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4133"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG12",
-                version=[],
-                other_attributes={}
+                name="schG12"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG12.xml",
-                        other_attributes={}
+                        href="../msData/schema/schG12.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schG12.v",
-                    version=[],
-                    other_attributes={}
+                    name="schG12.v"
                 ),
             ],
-            name="schG12",
-            version=[],
-            other_attributes={}
+            name="schG12"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : A import B, B ihas no target NS but 'import' has NS.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG13.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG13.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG13",
-                version=[],
-                other_attributes={}
+                name="schG13"
             ),
-            instance_test=[],
-            name="schG13",
-            version=[],
-            other_attributes={}
+            name="schG13"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : B added; A imports B but with bad schemaLocation, B should still be imported.",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "WG decided this might reasonably vary between implementations",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG14a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG14a.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG14.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG14.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INDETERMINATE,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INDETERMINATE
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 2),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4131"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schG14",
-                version=[],
-                other_attributes={}
+                name="schG14"
             ),
-            instance_test=[],
-            name="schG14",
-            version=[],
-            other_attributes={}
+            name="schG14"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test importing schemas that make a circular reference",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schG15_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schG15_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schG15",
-                version=[],
-                other_attributes={}
+                name="schG15"
             ),
-            instance_test=[],
-            name="schG15",
-            version=[],
-            other_attributes={}
+            name="schG15"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test ID in redefine",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schH1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schH1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schH1",
-                version=[],
-                other_attributes={}
+                name="schH1"
             ),
-            instance_test=[],
-            name="schH1",
-            version=[],
-            other_attributes={}
+            name="schH1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test annotation as child of redefine",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schH2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schH2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schH2",
-                version=[],
-                other_attributes={}
+                name="schH2"
             ),
-            instance_test=[],
-            name="schH2",
-            version=[],
-            other_attributes={}
+            name="schH2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : single 'redefine'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schH3.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schH3.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schH3",
-                version=[],
-                other_attributes={}
+                name="schH3"
             ),
-            instance_test=[],
-            name="schH3",
-            version=[],
-            other_attributes={}
+            name="schH3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :schema collection and schema location : redefine namespace="foo"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schH4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schH4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schH4",
-                version=[],
-                other_attributes={}
+                name="schH4"
             ),
-            instance_test=[],
-            name="schH4",
-            version=[],
-            other_attributes={}
+            name="schH4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : SchemaLocation resolved to not-wf XML",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schH5.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schH5.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schH5",
-                version=[],
-                other_attributes={}
+                name="schH5"
             ),
-            instance_test=[],
-            name="schH5",
-            version=[],
-            other_attributes={}
+            name="schH5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : SchemaLocation resolved to wf XML but not a schema,(SRC 2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schH6.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schH6.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schH6",
-                version=[],
-                other_attributes={}
+                name="schH6"
             ),
-            instance_test=[],
-            name="schH6",
-            version=[],
-            other_attributes={}
+            name="schH6"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : SchemaLocation resolved to invalid URL, redefine has only annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schH9.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schH9.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schH9",
-                version=[],
-                other_attributes={}
+                name="schH9"
             ),
-            instance_test=[],
-            name="schH9",
-            version=[],
-            other_attributes={}
+            name="schH9"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns=&quot;&quot;, Y's ns=&quot;A&quot;, test the namespace of redefine",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schI2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schI2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schI2",
-                version=[],
-                other_attributes={}
+                name="schI2"
             ),
-            instance_test=[],
-            name="schI2",
-            version=[],
-            other_attributes={}
+            name="schI2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD X redefine XSD Y, X's ns=&quot;A&quot;, Y's ns=&quot;B&quot;, test the namespace of redefine",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schI5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schI5_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schI5",
-                version=[],
-                other_attributes={}
+                name="schI5"
             ),
-            instance_test=[],
-            name="schI5",
-            version=[],
-            other_attributes={}
+            name="schI5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test simpleType as child of redefine, type definition that NOT uses themselves as base type definition",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schJ2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schJ2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schJ2",
-                version=[],
-                other_attributes={}
+                name="schJ2"
             ),
-            instance_test=[],
-            name="schJ2",
-            version=[],
-            other_attributes={}
+            name="schJ2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test simpleType as child of redefine, type definition that have no base type definition",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schJ3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schJ3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schJ3",
-                version=[],
-                other_attributes={}
+                name="schJ3"
             ),
-            instance_test=[],
-            name="schJ3",
-            version=[],
-            other_attributes={}
+            name="schJ3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test complexType as child of redefine, type definition that NOT uses themselves as base type definition",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schK2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schK2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schK2",
-                version=[],
-                other_attributes={}
+                name="schK2"
             ),
-            instance_test=[],
-            name="schK2",
-            version=[],
-            other_attributes={}
+            name="schK2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test complexType as child of redefine, type definition that have no base type definition",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schK3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schK3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schK3",
-                version=[],
-                other_attributes={}
+                name="schK3"
             ),
-            instance_test=[],
-            name="schK3",
-            version=[],
-            other_attributes={}
+            name="schK3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice) is a subset of their original def",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schL1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schL1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schL1",
-                version=[],
-                other_attributes={}
+                name="schL1"
             ),
-            instance_test=[],
-            name="schL1",
-            version=[],
-            other_attributes={}
+            name="schL1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test group as child of redefine, group (all, sequence, choice), all, is a superset of their original def by self referencing This violate the content of 'all', because it does not allow 'group' as child.",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Legal in XSD 1.1: an all group content model can now contain a group reference to another all group.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schL3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schL3_a.xsd"
                     ),
                 ],
                 expected=[
@@ -4757,80 +2976,52 @@ obj = TestSet(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schL3",
-                version=[],
-                other_attributes={}
+                name="schL3"
             ),
-            instance_test=[],
-            name="schL3",
-            version=[],
-            other_attributes={}
+            name="schL3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test group as child of redefine, group all is is the same set of their original def by redeclaring all items from the original, but in different order",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Invalid restriction which becomes valid in XSD 1.1 - MHK",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schL5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schL5_a.xsd"
                     ),
                 ],
                 expected=[
@@ -4838,4185 +3029,2614 @@ obj = TestSet(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schL5",
-                version=[],
-                other_attributes={}
+                name="schL5"
             ),
-            instance_test=[],
-            name="schL5",
-            version=[],
-            other_attributes={}
+            name="schL5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test group as child of redefine, group sequence is the same set of their original def by redeclaring all items from the original, but in different order",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schL6_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schL6_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schL6",
-                version=[],
-                other_attributes={}
+                name="schL6"
             ),
-            instance_test=[],
-            name="schL6",
-            version=[],
-            other_attributes={}
+            name="schL6"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test group as child of redefine, group is a superset of the original def by redeclaring all items from the original and additional ones",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schL8_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schL8_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schL8",
-                version=[],
-                other_attributes={}
+                name="schL8"
             ),
-            instance_test=[],
-            name="schL8",
-            version=[],
-            other_attributes={}
+            name="schL8"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schL10_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schL10_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schL10",
-                version=[],
-                other_attributes={}
+                name="schL10"
             ),
-            instance_test=[],
-            name="schL10",
-            version=[],
-            other_attributes={}
+            name="schL10"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is a superset of the original def by redeclaring all items from the original and additional ones",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schM3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schM3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schM3",
-                version=[],
-                other_attributes={}
+                name="schM3"
             ),
-            instance_test=[],
-            name="schM3",
-            version=[],
-            other_attributes={}
+            name="schM3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test attributeGroup as child of redefine, attribute group is the same as the original def by redeclaring all items from the original, but in different order",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schM4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schM4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schM4",
-                version=[],
-                other_attributes={}
+                name="schM4"
             ),
-            instance_test=[],
-            name="schM4",
-            version=[],
-            other_attributes={}
+            name="schM4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine of an invalid redefine itself, should throw an error",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schM5.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schM5.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schM5",
-                version=[],
-                other_attributes={}
+                name="schM5"
             ),
-            instance_test=[],
-            name="schM5",
-            version=[],
-            other_attributes={}
+            name="schM5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine of att group with self ref with duplicate attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schM8_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schM8_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schM8",
-                version=[],
-                other_attributes={}
+                name="schM8"
             ),
-            instance_test=[],
-            name="schM8",
-            version=[],
-            other_attributes={}
+            name="schM8"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schM9_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schM9_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schM9",
-                version=[],
-                other_attributes={}
+                name="schM9"
             ),
-            instance_test=[],
-            name="schM9",
-            version=[],
-            other_attributes={}
+            name="schM9"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : fixed and default constraints check in attributeGroup redefine(invalid)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schM10_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schM10_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schM10",
-                version=[],
-                other_attributes={}
+                name="schM10"
             ),
-            instance_test=[],
-            name="schM10",
-            version=[],
-            other_attributes={}
+            name="schM10"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=""), both xsdA and xsdB has redefine of the same item from xsdC',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN4.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN4.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN4",
-                version=[],
-                other_attributes={}
+                name="schN4"
             ),
-            instance_test=[],
-            name="schN4",
-            version=[],
-            other_attributes={}
+            name="schN4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :schema collection and schema location : schema include xsdA (ns=same) and xsdB (ns=""), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN5.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN5.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN5",
-                version=[],
-                other_attributes={}
+                name="schN5"
             ),
-            instance_test=[],
-            name="schN5",
-            version=[],
-            other_attributes={}
+            name="schN5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=B), xsdA: redefine a group to be a subset of itself, xsdB: redefine the same group to be a superset of itself",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN6.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN6.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN6",
-                version=[],
-                other_attributes={}
+                name="schN6"
             ),
-            instance_test=[],
-            name="schN6",
-            version=[],
-            other_attributes={}
+            name="schN6"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : schema import xsdA (ns=A) and xsdB (ns=A), xsdA: redefine a group to be a subset of itself, xsdB: redefine a group to be a superset of itself",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN7.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN7.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN7",
-                version=[],
-                other_attributes={}
+                name="schN7"
             ),
-            instance_test=[],
-            name="schN7",
-            version=[],
-            other_attributes={}
+            name="schN7"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : duplicate element in a redefine",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN10_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN10_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN10",
-                version=[],
-                other_attributes={}
+                name="schN10"
             ),
-            instance_test=[],
-            name="schN10",
-            version=[],
-            other_attributes={}
+            name="schN10"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : chameleon redefine(valid)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN11_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN11_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN11",
-                version=[],
-                other_attributes={}
+                name="schN11"
             ),
-            instance_test=[],
-            name="schN11",
-            version=[],
-            other_attributes={}
+            name="schN11"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : chameleon redefine(invalid)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN12_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN12_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN12",
-                version=[],
-                other_attributes={}
+                name="schN12"
             ),
-            instance_test=[],
-            name="schN12",
-            version=[],
-            other_attributes={}
+            name="schN12"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(valid)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN13a_v.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN13a_v.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN13v",
-                version=[],
-                other_attributes={}
+                name="schN13v"
             ),
-            instance_test=[],
-            name="schN13v",
-            version=[],
-            other_attributes={}
+            name="schN13v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD: components in a chameleon redefine should be ported into the namespace of the redefining schema(invalid)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schN13a_i.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schN13a_i.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schN13i",
-                version=[],
-                other_attributes={}
+                name="schN13i"
             ),
-            instance_test=[],
-            name="schN13i",
-            version=[],
-            other_attributes={}
+            name="schN13i"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine, test that v2.xsd possess all global schema items (the one that are not in redefined) from v1.xsd, X's ns=&quot;A&quot;, Y's ns=&quot;A&quot;, from example from spec, (SRC 4.1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schO2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schO2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schO2",
-                version=[],
-                other_attributes={}
+                name="schO2"
             ),
-            instance_test=[],
-            name="schO2",
-            version=[],
-            other_attributes={}
+            name="schO2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a simpleType, which has an extension, (SRC 5)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schP1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schP1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schP1",
-                version=[],
-                other_attributes={}
+                name="schP1"
             ),
-            instance_test=[],
-            name="schP1",
-            version=[],
-            other_attributes={}
+            name="schP1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schP2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schP2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schP2",
-                version=[],
-                other_attributes={}
+                name="schP2"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schP2.xml",
-                        other_attributes={}
+                        href="../msData/schema/schP2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schP2.v",
-                    version=[],
-                    other_attributes={}
+                    name="schP2.v"
                 ),
             ],
-            name="schP2",
-            version=[],
-            other_attributes={}
+            name="schP2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a simpleType, which has a restriction, the base name is not the same as its own , (SRC 5)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schP3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schP3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schP3",
-                version=[],
-                other_attributes={}
+                name="schP3"
             ),
-            instance_test=[],
-            name="schP3",
-            version=[],
-            other_attributes={}
+            name="schP3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a complexType, which has an extension, (SRC 5)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schQ1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schQ1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schQ1",
-                version=[],
-                other_attributes={}
+                name="schQ1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schQ1.xml",
-                        other_attributes={}
+                        href="../msData/schema/schQ1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schQ1.v",
-                    version=[],
-                    other_attributes={}
+                    name="schQ1.v"
                 ),
             ],
-            name="schQ1",
-            version=[],
-            other_attributes={}
+            name="schQ1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a complexType, which has an extension, the base name is not the same as its own , (SRC 5)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schQ2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schQ2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schQ2",
-                version=[],
-                other_attributes={}
+                name="schQ2"
             ),
-            instance_test=[],
-            name="schQ2",
-            version=[],
-            other_attributes={}
+            name="schQ2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, (SRC 5)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schQ3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schQ3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schQ3",
-                version=[],
-                other_attributes={}
+                name="schQ3"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schQ3.xml",
-                        other_attributes={}
+                        href="../msData/schema/schQ3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schQ3.v",
-                    version=[],
-                    other_attributes={}
+                    name="schQ3.v"
                 ),
             ],
-            name="schQ3",
-            version=[],
-            other_attributes={}
+            name="schQ3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a complexType, which has a restriction, the base name is not the same as its own , (SRC 5)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schQ4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schQ4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schQ4",
-                version=[],
-                other_attributes={}
+                name="schQ4"
             ),
-            instance_test=[],
-            name="schQ4",
-            version=[],
-            other_attributes={}
+            name="schQ4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group min,maxOccurs is absent, (SRC 6.1.2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schR2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schR2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schR2",
-                version=[],
-                other_attributes={}
+                name="schR2"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schR2.xml",
-                        other_attributes={}
+                        href="../msData/schema/schR2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schR2.i",
-                    version=[],
-                    other_attributes={}
+                    name="schR2.i"
                 ),
             ],
-            name="schR2",
-            version=[],
-            other_attributes={}
+            name="schR2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group minOccurs=0, (SRC 6.1.2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schR3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schR3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schR3",
-                version=[],
-                other_attributes={}
+                name="schR3"
             ),
-            instance_test=[],
-            name="schR3",
-            version=[],
-            other_attributes={}
+            name="schR3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a group, which has a group ref to itself in the middle, group maxOccurs=2, (SRC 6.1.2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schR4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schR4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schR4",
-                version=[],
-                other_attributes={}
+                name="schR4"
             ),
-            instance_test=[],
-            name="schR4",
-            version=[],
-            other_attributes={}
+            name="schR4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a group, has a group ref to a different name than its own, (SRC 6.1.1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schR5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schR5_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schR5",
-                version=[],
-                other_attributes={}
+                name="schR5"
             ),
-            instance_test=[],
-            name="schR5",
-            version=[],
-            other_attributes={}
+            name="schR5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a group, group's name is not resolved to a model group in redefined xsd, (SRC 6.2.1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schS1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schS1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schS1",
-                version=[],
-                other_attributes={}
+                name="schS1"
             ),
-            instance_test=[],
-            name="schS1",
-            version=[],
-            other_attributes={}
+            name="schS1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's name is not resolved to a model group in redefined xsd, (SRC 7.2.1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schT1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schT1",
-                version=[],
-                other_attributes={}
+                name="schT1"
             ),
-            instance_test=[],
-            name="schT1",
-            version=[],
-            other_attributes={}
+            name="schT1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with an attributeGroup, have 2 self reference in the redefining attributeGroup, (SRC 7.2.1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schT2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schT2",
-                version=[],
-                other_attributes={}
+                name="schT2"
             ),
-            instance_test=[],
-            name="schT2",
-            version=[],
-            other_attributes={}
+            name="schT2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, (SRC 7.2.2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schT3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schT3",
-                version=[],
-                other_attributes={}
+                name="schT3"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT3.xml",
-                        other_attributes={}
+                        href="../msData/schema/schT3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schT3.v",
-                    version=[],
-                    other_attributes={}
+                    name="schT3.v"
                 ),
             ],
-            name="schT3",
-            version=[],
-            other_attributes={}
+            name="schT3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a use=optional on redefined attriubte, but have use=required in redefining attribute, and instance xml has no attribute, (SRC 7.2.2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT6_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schT6_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schT6",
-                version=[],
-                other_attributes={}
+                name="schT6"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT6.xml",
-                        other_attributes={}
+                        href="../msData/schema/schT6.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schT6.i",
-                    version=[],
-                    other_attributes={}
+                    name="schT6.i"
                 ),
             ],
-            name="schT6",
-            version=[],
-            other_attributes={}
+            name="schT6"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with a attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. Have a default=&quot;foo&quot; in redefined attriubte, but redefining attribute has default=&quot;bar&quot;, the actual value of the instance should have 'bar' as the default attribute value (SRC 7.2.2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT9_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schT9_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schT9",
-                version=[],
-                other_attributes={}
+                name="schT9"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT9.xml",
-                        other_attributes={}
+                        href="../msData/schema/schT9.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schT9.v",
-                    version=[],
-                    other_attributes={}
+                    name="schT9.v"
                 ),
             ],
-            name="schT9",
-            version=[],
-            other_attributes={}
+            name="schT9"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : redefine with an attributeGroup, attribute group's content items are a subset of the redefined group, test that attribute uses are not inherited. base attriburte with effective value absent, but redefining attribute has fixed=&quot;bar&quot; , (SRC 7.2.2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT10_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schT10_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schT10",
-                version=[],
-                other_attributes={}
+                name="schT10"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schT10.xml",
-                        other_attributes={}
+                        href="../msData/schema/schT10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schT10.v",
-                    version=[],
-                    other_attributes={}
+                    name="schT10.v"
                 ),
             ],
-            name="schT10",
-            version=[],
-            other_attributes={}
+            name="schT10"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Circulcar redefines handeling (1)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schU1_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schU1_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.DISPUTED_TEST,
                     date=XmlDate(2007, 1, 3),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4135",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4135"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schU1",
-                version=[],
-                other_attributes={}
+                name="schU1"
             ),
-            instance_test=[],
-            name="schU1",
-            version=[],
-            other_attributes={}
+            name="schU1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Circulcar redefines handeling (2)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schU2_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schU2_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schU2",
-                version=[],
-                other_attributes={}
+                name="schU2"
             ),
-            instance_test=[],
-            name="schU2",
-            version=[],
-            other_attributes={}
+            name="schU2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Circulcar redefines handeling (3)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The WG decided the spec. is underspecified in this area, so&#10;implementations may reasonably differ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schU3_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schU3_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INDETERMINATE,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INDETERMINATE
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schU3",
-                version=[],
-                other_attributes={}
+                name="schU3"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schU3.xml",
-                        other_attributes={}
+                        href="../msData/schema/schU3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schU3.i",
-                    version=[],
-                    other_attributes={}
+                    name="schU3.i"
                 ),
             ],
-            name="schU3",
-            version=[],
-            other_attributes={}
+            name="schU3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Circulcar redefines handeling (4)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The WG decided the spec. is underspecified in this area, so&#10;implementations may reasonably differ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schU4_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schU4_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INDETERMINATE,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INDETERMINATE
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schU4",
-                version=[],
-                other_attributes={}
+                name="schU4"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schU4.xml",
-                        other_attributes={}
+                        href="../msData/schema/schU4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schU4.i",
-                    version=[],
-                    other_attributes={}
+                    name="schU4.i"
                 ),
             ],
-            name="schU4",
-            version=[],
-            other_attributes={}
+            name="schU4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : Circulcar redefines handeling (5)",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The WG decided the spec. is underspecified in this area, so&#10;implementations may reasonably differ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schU5_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schU5_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INDETERMINATE,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INDETERMINATE
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4136"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schU5",
-                version=[],
-                other_attributes={}
+                name="schU5"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schU5.xml",
-                        other_attributes={}
+                        href="../msData/schema/schU5.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="schU5.i",
-                    version=[],
-                    other_attributes={}
+                    name="schU5.i"
                 ),
             ],
-            name="schU5",
-            version=[],
-            other_attributes={}
+            name="schU5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : invalid localElement attributes. Test for 'abstract'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/78029a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/78029a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ001_78029-a",
-                version=[],
-                other_attributes={}
+                name="schZ001_78029-a"
             ),
-            instance_test=[],
-            name="schZ001_78029-a",
-            version=[],
-            other_attributes={}
+            name="schZ001_78029-a"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : invalid localElement attributes. Test for 'final'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/78029b.xsd",
-                        other_attributes={}
+                        href="../msData/schema/78029b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ002_78029-b",
-                version=[],
-                other_attributes={}
+                name="schZ002_78029-b"
             ),
-            instance_test=[],
-            name="schZ002_78029-b",
-            version=[],
-            other_attributes={}
+            name="schZ002_78029-b"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : invalid localElement attributes. Test for 'substitutionGroup'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/78029c.xsd",
-                        other_attributes={}
+                        href="../msData/schema/78029c.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ003_78029-c",
-                version=[],
-                other_attributes={}
+                name="schZ003_78029-c"
             ),
-            instance_test=[],
-            name="schZ003_78029-c",
-            version=[],
-            other_attributes={}
+            name="schZ003_78029-c"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TSTF agreed that an un-imported NS used in a QName is a schema error",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ004.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2008, 11, 25),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schZ004",
-                version=[],
-                other_attributes={}
+                name="schZ004"
             ),
-            instance_test=[],
-            name="schZ004",
-            version=[],
-            other_attributes={}
+            name="schZ004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : xsd: it is invalid to reference from a schema that is not directly imported.",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TSTF agreed that an un-imported NS used in a QName is a schema error",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ005.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2008, 11, 25),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4057"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schZ005",
-                version=[],
-                other_attributes={}
+                name="schZ005"
             ),
-            instance_test=[],
-            name="schZ005",
-            version=[],
-            other_attributes={}
+            name="schZ005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : test redefine with schemaLocation pointing to itself",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ006.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ006",
-                version=[],
-                other_attributes={}
+                name="schZ006"
             ),
-            instance_test=[],
-            name="schZ006",
-            version=[],
-            other_attributes={}
+            name="schZ006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : multipe redefine elements in a schema.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ007.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ007",
-                version=[],
-                other_attributes={}
+                name="schZ007"
             ),
-            instance_test=[],
-            name="schZ007",
-            version=[],
-            other_attributes={}
+            name="schZ007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : xsd: import of the namespace without schemaLocation should work when the schema is alread loaded in the cache.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ008_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ008_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ008",
-                version=[],
-                other_attributes={}
+                name="schZ008"
             ),
-            instance_test=[],
-            name="schZ008",
-            version=[],
-            other_attributes={}
+            name="schZ008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD: Adding all the schemas in a diamond import scenario",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ009a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ009a.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ009b.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ009b.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ009c.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ009c.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ009d.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ009d.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ009",
-                version=[],
-                other_attributes={}
+                name="schZ009"
             ),
-            instance_test=[],
-            name="schZ009",
-            version=[],
-            other_attributes={}
+            name="schZ009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : xsd:import allows import of the targetNamespace.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ010.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ010",
-                version=[],
-                other_attributes={}
+                name="schZ010"
             ),
-            instance_test=[],
-            name="schZ010",
-            version=[],
-            other_attributes={}
+            name="schZ010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ011_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ011_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ011_a",
-                version=[],
-                other_attributes={}
+                name="schZ011_a"
             ),
-            instance_test=[],
-            name="schZ011_a",
-            version=[],
-            other_attributes={}
+            name="schZ011_a"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ011_b.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ011_b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ011_b",
-                version=[],
-                other_attributes={}
+                name="schZ011_b"
             ),
-            instance_test=[],
-            name="schZ011_b",
-            version=[],
-            other_attributes={}
+            name="schZ011_b"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ011_c.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ011_c.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ011_c",
-                version=[],
-                other_attributes={}
+                name="schZ011_c"
             ),
-            instance_test=[],
-            name="schZ011_c",
-            version=[],
-            other_attributes={}
+            name="schZ011_c"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : XSD: test when a component is seen in schema whose namespace is not imported",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ011_d.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ011_d.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ011_d",
-                version=[],
-                other_attributes={}
+                name="schZ011_d"
             ),
-            instance_test=[],
-            name="schZ011_d",
-            version=[],
-            other_attributes={}
+            name="schZ011_d"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "The WG decided the spec. is underspecified in this area, so&#10;implementations may reasonably differ",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ012_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ012_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INDETERMINATE,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INDETERMINATE
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 5),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 3),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4137"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schZ012_a",
-                version=[],
-                other_attributes={}
+                name="schZ012_a"
             ),
-            instance_test=[],
-            name="schZ012_a",
-            version=[],
-            other_attributes={}
+            name="schZ012_a"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ012_b.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ012_b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ012_b",
-                version=[],
-                other_attributes={}
+                name="schZ012_b"
             ),
-            instance_test=[],
-            name="schZ012_b",
-            version=[],
-            other_attributes={}
+            name="schZ012_b"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : comparison of file urls to be case insensitive while adding multiple schemas",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ012_c.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ012_c.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ012_c",
-                version=[],
-                other_attributes={}
+                name="schZ012_c"
             ),
-            instance_test=[],
-            name="schZ012_c",
-            version=[],
-            other_attributes={}
+            name="schZ012_c"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : xsd import : main schema had a redefine statement",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ013a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ013a.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ013b.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ013b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ013",
-                version=[],
-                other_attributes={}
+                name="schZ013"
             ),
-            instance_test=[],
-            name="schZ013",
-            version=[],
-            other_attributes={}
+            name="schZ013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for namespace attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ014_a.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ014_a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ014_a",
-                version=[],
-                other_attributes={}
+                name="schZ014_a"
             ),
-            instance_test=[],
-            name="schZ014_a",
-            version=[],
-            other_attributes={}
+            name="schZ014_a"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :schema collection and schema location : xsd: empty string value of namespace is not allowed for targetNamespace attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ014_b.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ014_b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="schZ014_b",
-                version=[],
-                other_attributes={}
+                name="schZ014_b"
             ),
-            instance_test=[],
-            name="schZ014_b",
-            version=[],
-            other_attributes={}
+            name="schZ014_b"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :schema collection and schema location : XSD: test schemaLocation=""',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#Schemas"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/schema/schZ015.xsd",
-                        other_attributes={}
+                        href="../msData/schema/schZ015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INDETERMINATE,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INDETERMINATE
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.STABLE,
                     date=XmlDate(2010, 7, 6),
-                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229",
-                    other_attributes={}
+                    bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229"
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.QUERIED,
                         date=XmlDate(2007, 1, 16),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=4229"
                     ),
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="schZ015",
-                version=[],
-                other_attributes={}
+                name="schZ015"
             ),
-            instance_test=[],
-            name="schZ015",
-            version=[],
-            other_attributes={}
+            name="schZ015"
         ),
     ],
     contributor="Microsoft",
     name="MS-Schema2006-07-15",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

@@ -6,59 +6,35 @@ obj = Root(
     foo_or_sg=[
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

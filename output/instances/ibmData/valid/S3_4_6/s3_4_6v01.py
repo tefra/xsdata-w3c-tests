@@ -7,32 +7,21 @@ obj = Root(
     any_element=[
         AnyElement(
             qname="wildcard",
-            text="1",
-            tail=None,
-            children=[],
-            attributes={}
+            text="1"
         ),
         AnyElement(
             qname="wildcard2",
-            text="hi.123",
-            tail=None,
-            children=[],
-            attributes={}
+            text="hi.123"
         ),
         AnyElement(
             qname="wildcard3",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="hello",
-                    text="&#10;   moo&#10;  ",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;   moo&#10;  "
                 ),
-            ],
-            attributes={}
+            ]
         ),
     ]
 )

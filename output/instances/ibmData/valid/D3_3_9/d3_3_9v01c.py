@@ -3,9 +3,6 @@ from xsdata.models.datatype import XmlTime
 
 
 obj = Root(
-    el_time1=[],
-    el_time2=[],
-    el_time3=[],
     el_time4=[
         XmlTime(23, 0, 1, 0, 0),
     ]

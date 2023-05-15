@@ -8,9 +8,7 @@ obj = Doc(
         AnyElement(
             qname="{http://open.com/}extra",
             text="",
-            tail=")&#10;",
-            children=[],
-            attributes={}
+            tail=")&#10;"
         ),
     ]
 )

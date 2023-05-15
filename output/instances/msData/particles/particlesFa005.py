@@ -6,17 +6,11 @@ obj = Doc(
     target_namespace_foo_element=[
         AnyElement(
             qname="{foo}elem",
-            text="&#10;&#9;",
-            tail=None,
-            children=[],
-            attributes={}
+            text="&#10;&#9;"
         ),
         AnyElement(
             qname="{http://xsdtesting}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

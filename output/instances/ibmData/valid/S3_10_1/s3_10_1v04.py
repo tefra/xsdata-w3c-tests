@@ -6,9 +6,6 @@ obj = Root(
     z=1,
     any_element=AnyElement(
         qname="{a}z",
-        text="1",
-        tail=None,
-        children=[],
-        attributes={}
+        text="1"
     )
 )

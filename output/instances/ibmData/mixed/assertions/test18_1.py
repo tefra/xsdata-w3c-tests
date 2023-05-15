@@ -13,7 +13,6 @@ obj = Test(
             a_count=2
         ),
         b="world",
-        c=None,
         d="world.."
     ),
     y=Y(

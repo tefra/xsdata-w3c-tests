@@ -7,10 +7,7 @@ obj = Root(
     any_element=[
         AnyElement(
             qname="{a}x",
-            text="1",
-            tail=None,
-            children=[],
-            attributes={}
+            text="1"
         ),
     ],
     c=1

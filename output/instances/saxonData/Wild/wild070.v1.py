@@ -9,17 +9,11 @@ obj = Root(
     any_element=[
         AnyElement(
             qname="d",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="e",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

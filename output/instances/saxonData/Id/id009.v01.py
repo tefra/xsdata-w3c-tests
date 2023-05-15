@@ -10,8 +10,7 @@ obj = Doc(
                 "aaa",
                 DerivedElement(
                     qname="idref",
-                    value="ccc",
-                    type=None
+                    value="ccc"
                 ),
             ]
         ),
@@ -20,8 +19,7 @@ obj = Doc(
                 "bbb",
                 DerivedElement(
                     qname="idref",
-                    value="aaa",
-                    type=None
+                    value="aaa"
                 ),
             ]
         ),
@@ -30,8 +28,7 @@ obj = Doc(
                 "ccc",
                 DerivedElement(
                     qname="idref",
-                    value="bbb",
-                    type=None
+                    value="bbb"
                 ),
             ]
         ),
@@ -40,8 +37,7 @@ obj = Doc(
                 None,
                 DerivedElement(
                     qname="idref",
-                    value=None,
-                    type=None
+                    value=None
                 ),
             ]
         ),

@@ -7,27 +7,18 @@ obj = Root(
     any_element=AnyElement(
         qname="e2",
         text="abc",
-        tail=None,
         children=[
             AnyElement(
                 qname="e3",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="e4",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="e5",
                 text="def",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}nil": "true",
                 }

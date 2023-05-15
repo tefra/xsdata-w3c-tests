@@ -4,40 +4,25 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     any_element=AnyElement(
-        qname=None,
-        text=None,
-        tail=None,
         children=[
             AnyElement(
                 qname="foo",
                 text="",
-                tail=None,
                 children=[
                     AnyElement(
                         qname="e1",
-                        text="",
-                        tail=None,
-                        children=[],
-                        attributes={}
+                        text=""
                     ),
                     AnyElement(
                         qname="e2",
-                        text="",
-                        tail=None,
-                        children=[],
-                        attributes={}
+                        text=""
                     ),
-                ],
-                attributes={}
+                ]
             ),
             AnyElement(
                 qname="global",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
-        ],
-        attributes={}
+        ]
     )
 )

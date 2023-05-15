@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -18,79 +17,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with extended minOccurs and maxOccurs values",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with extended minOccurs and maxOccurs values"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with extended minOccurs and maxOccurs values",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with extended minOccurs and maxOccurs values"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 25)
                 ),
-                prior=[],
-                name="all001.xsd",
-                version=[],
-                other_attributes={}
+                name="all001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -98,243 +68,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all001.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all001.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Inalid, too few occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all001.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all001.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all001.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all001.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too many occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all001.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all001.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all001.n03.xml"
                 ),
             ],
             name="all001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with substitution groups",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with substitution groups"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with extended minOccurs and maxOccurs values",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with extended minOccurs and maxOccurs values"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all002.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 25)
                 ),
-                prior=[],
-                name="all002.xsd",
-                version=[],
-                other_attributes={}
+                name="all002.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -342,243 +223,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all002.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all002.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all002.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all002.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all002.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all002.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all002.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all002.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all002.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all002.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all002.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all002.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too many occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all002.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all002.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all002.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all002.n03.xml"
                 ),
             ],
             name="all002",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with mixed content with extended minOccurs and maxOccurs values",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with mixed content with extended minOccurs and maxOccurs values"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with mixed content with extended minOccurs and maxOccurs values",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with mixed content with extended minOccurs and maxOccurs values"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all003.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 25)
                 ),
-                prior=[],
-                name="all003.xsd",
-                version=[],
-                other_attributes={}
+                name="all003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -586,202 +378,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all003.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all003.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all003.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all003.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all003.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all003.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all003.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all003.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all003.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all003.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all003.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all003.v03.xml"
                 ),
             ],
             name="all003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='All model group with nillable="true"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='All model group with nillable="true"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Test cases involving xsi:nil="true" or "false"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test cases involving xsi:nil="true" or "false"'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-MaxOccurs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all004.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 25)
                 ),
-                prior=[],
-                name="all004.xsd",
-                version=[],
-                other_attributes={}
+                name="all004.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -789,243 +507,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all004.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all004.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all004.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all004.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all004.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all004.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all004.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all004.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. Element is nilled but contains content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all004.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all004.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all004.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all004.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. Element is nilled but contains content, albeit whitespace.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all004.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all004.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="all004.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all004.n02.xml"
                 ),
             ],
             name="all004",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with two xs:any wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with two xs:any wildcards"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test cases matching and non-matching wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test cases matching and non-matching wildcards"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all005.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 25)
                 ),
-                prior=[],
-                name="all005.xsd",
-                version=[],
-                other_attributes={}
+                name="all005.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1033,325 +662,206 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all005.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all005.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all005.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all005.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. Element c not allowed&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all005.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all005.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all005.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all005.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. Element c:c not allowed&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all005.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all005.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all005.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all005.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. maxOccurs() limit exceeded on a wildcard&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all005.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all005.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all005.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all005.n03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. minOccurs() limit not reached on a wildcard&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all005.n04.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all005.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all005.n04.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all005.n04.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. minOccurs() limit disallows empty content&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all005.n05.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all005.n05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all005.n05.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all005.n05.xml"
                 ),
             ],
             name="all005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group, test on children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group, test on children"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test that each child of an all group is validated against the right type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test that each child of an all group is validated against the right type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all006.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 25)
                 ),
-                prior=[],
-                name="all006.xsd",
-                version=[],
-                other_attributes={}
+                name="all006.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1359,284 +869,180 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all006.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all006.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all006.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all006.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. Element a has wrong type&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all006.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all006.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all006.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all006.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. Element b has wrong type&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all006.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all006.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all006.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all006.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. Element c has wrong type&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all006.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all006.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all006.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all006.n03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid. Element C is permitted but value out of range&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all006.n04.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all006.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 25)
                     ),
-                    prior=[],
-                    name="all006.n04.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all006.n04.xml"
                 ),
             ],
             name="all006",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with a nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with a nested xs:group reference"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with a nested xs:group reference (otherwise same as all001)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with with a nested xs:group reference (otherwise same as all001)"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all007.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 13)
                 ),
-                prior=[],
-                name="all007.xsd",
-                version=[],
-                other_attributes={}
+                name="all007.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1644,3584 +1050,2214 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 13)
                     ),
-                    prior=[],
-                    name="all007.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all007.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Inalid, too few occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 13)
                     ),
-                    prior=[],
-                    name="all007.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all007.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 13)
                     ),
-                    prior=[],
-                    name="all007.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all007.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too many occurrences.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all001.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all001.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 13)
                     ),
-                    prior=[],
-                    name="all007.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all007.n03.xml"
                 ),
             ],
             name="all007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with an incorrect nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with an incorrect nested xs:group reference"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with an incorrect nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with with an incorrect nested xs:group reference"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all008.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all008.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 13)
                 ),
-                prior=[],
-                name="all008.xsd",
-                version=[],
-                other_attributes={}
+                name="all008.xsd"
             ),
-            instance_test=[],
             name="all008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with an incorrect nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with an incorrect nested xs:group reference"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with an incorrect nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with with an incorrect nested xs:group reference"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all009.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all009.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 13)
                 ),
-                prior=[],
-                name="all008.xsd",
-                version=[],
-                other_attributes={}
+                name="all008.xsd"
             ),
-            instance_test=[],
             name="all009",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with an incorrect nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with an incorrect nested xs:group reference"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with an incorrect nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with with an incorrect nested xs:group reference"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all010.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all010.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 13)
                 ),
-                prior=[],
-                name="all008.xsd",
-                version=[],
-                other_attributes={}
+                name="all008.xsd"
             ),
-            instance_test=[],
             name="all010",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group with an incorrect nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with an incorrect nested xs:group reference"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="All model group with with an incorrect nested xs:group reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group with with an incorrect nested xs:group reference"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all011.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all011.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 13)
                 ),
-                prior=[],
-                name="all008.xsd",
-                version=[],
-                other_attributes={}
+                name="all008.xsd"
             ),
-            instance_test=[],
             name="all011",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple valid all:all subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple valid all:all subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all201.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all201.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all201.xsd",
-                version=[],
-                other_attributes={}
+                name="all201.xsd"
             ),
-            instance_test=[],
             name="all201",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:all subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple invalid all:all subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all202.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all202.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all202.xsd",
-                version=[],
-                other_attributes={}
+                name="all202.xsd"
             ),
-            instance_test=[],
             name="all202",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:all subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple invalid all:all subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all203.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all203.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all203.xsd",
-                version=[],
-                other_attributes={}
+                name="all203.xsd"
             ),
-            instance_test=[],
             name="all203",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:all subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple invalid all:all subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all204.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all204.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all204.xsd",
-                version=[],
-                other_attributes={}
+                name="all204.xsd"
             ),
-            instance_test=[],
             name="all204",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:all subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple invalid all:all subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all205.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all205.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all205.xsd",
-                version=[],
-                other_attributes={}
+                name="all205.xsd"
             ),
-            instance_test=[],
             name="all205",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption using named model groups",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption using named model groups"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-NamedModelGroupRef"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all206.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all206.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 14),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 14)
                 ),
-                prior=[],
-                name="all206.xsd",
-                version=[],
-                other_attributes={}
+                name="all206.xsd"
             ),
-            instance_test=[],
             name="all206",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple valid all:sequence subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple valid all:sequence subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all211.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all211.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all211.xsd",
-                version=[],
-                other_attributes={}
+                name="all211.xsd"
             ),
-            instance_test=[],
             name="all211",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:sequence subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple invalid all:sequence subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all212.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all212.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all212.xsd",
-                version=[],
-                other_attributes={}
+                name="all212.xsd"
             ),
-            instance_test=[],
             name="all212",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:sequence subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple invalid all:sequence subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all213.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all213.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all213.xsd",
-                version=[],
-                other_attributes={}
+                name="all213.xsd"
             ),
-            instance_test=[],
             name="all213",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:sequence subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple invalid all:sequence subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all214.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all214.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all214.xsd",
-                version=[],
-                other_attributes={}
+                name="all214.xsd"
             ),
-            instance_test=[],
             name="all214",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple invalid all:sequence subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple invalid all:sequence subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all215.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all215.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all215.xsd",
-                version=[],
-                other_attributes={}
+                name="all215.xsd"
             ),
-            instance_test=[],
             name="all215",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:sequence subsumption; one element appears twice in sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:sequence subsumption; one element appears twice in sequence"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all216.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all216.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all216.xsd",
-                version=[],
-                other_attributes={}
+                name="all216.xsd"
             ),
-            instance_test=[],
             name="all216",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:sequence subsumption; derived sequence is a single element particle",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:sequence subsumption; derived sequence is a single element particle"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all217.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all217.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 2)
                 ),
-                prior=[],
-                name="all217.xsd",
-                version=[],
-                other_attributes={}
+                name="all217.xsd"
             ),
-            instance_test=[],
             name="all217",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:sequence subsumption; derived sequence is a single wildcard particle",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:sequence subsumption; derived sequence is a single wildcard particle"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToSequence"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all218.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all218.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 2)
                 ),
-                prior=[],
-                name="all218.xsd",
-                version=[],
-                other_attributes={}
+                name="all218.xsd"
             ),
-            instance_test=[],
             name="all218",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving substitution group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption involving substitution group"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all221.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all221.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all221.xsd",
-                version=[],
-                other_attributes={}
+                name="all221.xsd"
             ),
-            instance_test=[],
             name="all221",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving substitution group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption involving substitution group"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all222.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all222.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all222.xsd",
-                version=[],
-                other_attributes={}
+                name="all222.xsd"
             ),
-            instance_test=[],
             name="all222",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption involving substitution group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid all:all subsumption involving substitution group"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all223.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all223.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all223.xsd",
-                version=[],
-                other_attributes={}
+                name="all223.xsd"
             ),
-            instance_test=[],
             name="all223",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption involving substitution group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid all:all subsumption involving substitution group"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all224.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all224.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all224.xsd",
-                version=[],
-                other_attributes={}
+                name="all224.xsd"
             ),
-            instance_test=[],
             name="all224",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving substitution group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption involving substitution group"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all225.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all225.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all225.xsd",
-                version=[],
-                other_attributes={}
+                name="all225.xsd"
             ),
-            instance_test=[],
             name="all225",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving apparent substitution group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption involving apparent substitution group"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all226.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all226.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all226.xsd",
-                version=[],
-                other_attributes={}
+                name="all226.xsd"
             ),
-            instance_test=[],
             name="all226",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption, child element type wrong",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid all:all subsumption, child element type wrong"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all227.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all227.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all227.xsd",
-                version=[],
-                other_attributes={}
+                name="all227.xsd"
             ),
-            instance_test=[],
             name="all227",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption involving two wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption involving two wildcards"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all228.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all228.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all228.xsd",
-                version=[],
-                other_attributes={}
+                name="all228.xsd"
             ),
-            instance_test=[],
             name="all228",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption involving two wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid all:all subsumption involving two wildcards"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all229.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all229.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all229.xsd",
-                version=[],
-                other_attributes={}
+                name="all229.xsd"
             ),
-            instance_test=[],
             name="all229",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption; one wildcard in the base type covers two in the derived type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption; one wildcard in the base type covers two in the derived type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all230.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all230.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all230.xsd",
-                version=[],
-                other_attributes={}
+                name="all230.xsd"
             ),
-            instance_test=[],
             name="all230",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:choice",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:choice"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:choice subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:choice subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all231.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all231.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all231.xsd",
-                version=[],
-                other_attributes={}
+                name="all231.xsd"
             ),
-            instance_test=[],
             name="all231",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:choice",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:choice"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:choice subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:choice subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all232.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all232.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all232.xsd",
-                version=[],
-                other_attributes={}
+                name="all232.xsd"
             ),
-            instance_test=[],
             name="all232",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:choice - invalid",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:choice - invalid"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:choice subsumption in third branch",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid all:choice subsumption in third branch"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-RestrAllToChoice"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all233.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all233.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all233.xsd",
-                version=[],
-                other_attributes={}
+                name="all233.xsd"
             ),
-            instance_test=[],
             name="all233",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:sequence/choice - valid but difficult",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:sequence/choice - valid but difficult"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:sequence/choice subsumption",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:sequence/choice subsumption"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all234.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all234.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 29)
                 ),
-                prior=[],
-                name="all234.xsd",
-                version=[],
-                other_attributes={}
+                name="all234.xsd"
             ),
-            instance_test=[],
             name="all234",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,&#10;                 but the maxOccurs is too small",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,&#10;                 but the maxOccurs is too small"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all235.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all235.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all235.xsd",
-                version=[],
-                other_attributes={}
+                name="all235.xsd"
             ),
-            instance_test=[],
             name="all235",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,&#10;                 but the minOccurs is too large",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid all:all subsumption; one wildcard in the base type covers two in the derived type,&#10;                 but the minOccurs is too large"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all236.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all236.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all236.xsd",
-                version=[],
-                other_attributes={}
+                name="all236.xsd"
             ),
-            instance_test=[],
             name="all236",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption; pathologically overlapping wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption; pathologically overlapping wildcards"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all237.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all237.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all237.xsd",
-                version=[],
-                other_attributes={}
+                name="all237.xsd"
             ),
-            instance_test=[],
             name="all237",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid all:all subsumption; pathologically overlapping wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid all:all subsumption; pathologically overlapping wildcards"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all238.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all238.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all238.xsd",
-                version=[],
-                other_attributes={}
+                name="all238.xsd"
             ),
-            instance_test=[],
             name="all238",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all UPA violation: two elements with same name",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all UPA violation: two elements with same name"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="UPA violation: two elements with same name",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="UPA violation: two elements with same name"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all240.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all240.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all240.xsd",
-                version=[],
-                other_attributes={}
+                name="all240.xsd"
             ),
-            instance_test=[],
             name="all240",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all UPA violation: one element in substitution group of another",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all UPA violation: one element in substitution group of another"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="UPA violation: one element in substitution group of another",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="UPA violation: one element in substitution group of another"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all241.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all241.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all241.xsd",
-                version=[],
-                other_attributes={}
+                name="all241.xsd"
             ),
-            instance_test=[],
             name="all241",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all UPA violation: one element in substitution group of two others",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all UPA violation: one element in substitution group of two others"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="UPA violation: one element in substitution group of two others",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="UPA violation: one element in substitution group of two others"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all242.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all242.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all242.xsd",
-                version=[],
-                other_attributes={}
+                name="all242.xsd"
             ),
-            instance_test=[],
             name="all242",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all UPA violation: two overlapping wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all UPA violation: two overlapping wildcards"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:all UPA violation: two overlapping wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all UPA violation: two overlapping wildcards"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-nonambig"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all243.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all243.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 4),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 4)
                 ),
-                prior=[],
-                name="all243.xsd",
-                version=[],
-                other_attributes={}
+                name="all243.xsd"
             ),
-            instance_test=[],
             name="all243",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Subsumption - all:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Subsumption - all:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid all:all subsumption; pathologically overlapping wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid all:all subsumption; pathologically overlapping wildcards"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cos-content-act-restrict"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-WildcardsAllowed"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByRestriction"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all244.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all244.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 7),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 7)
                 ),
-                prior=[],
-                name="all244.xsd",
-                version=[],
-                other_attributes={}
+                name="all244.xsd"
             ),
-            instance_test=[],
             name="all244",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group derived by extension from another all model group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group derived by extension from another all model group"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allowed in 1.1"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all301.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all301.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 30),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 30)
                 ),
-                prior=[],
-                name="all301.xsd",
-                version=[],
-                other_attributes={}
+                name="all301.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5229,401 +3265,252 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all301.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all301.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 30),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 30)
                     ),
-                    prior=[],
-                    name="all301.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all301.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Inalid, element h not allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all301.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all301.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 2),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 2)
                     ),
-                    prior=[],
-                    name="all301.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all301.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too many occurrences of d.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all301.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all301.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 30),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 30)
                     ),
-                    prior=[],
-                    name="all301.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all301.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few occurrences of b&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all301.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all301.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 30),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 30)
                     ),
-                    prior=[],
-                    name="all301.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all301.n03.xml"
                 ),
             ],
             name="all301",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all invalid extension, overlapping particles",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all invalid extension, overlapping particles"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:all UPA violation: two overlapping element particles",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all UPA violation: two overlapping element particles"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all302.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all302.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all302.xsd",
-                version=[],
-                other_attributes={}
+                name="all302.xsd"
             ),
-            instance_test=[],
             name="all302",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all invalid extension, overlappping particles",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all invalid extension, overlappping particles"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:all UPA violation: two element particles have overlapping substitution groups",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all UPA violation: two element particles have overlapping substitution groups"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all303.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all303.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all303.xsd",
-                version=[],
-                other_attributes={}
+                name="all303.xsd"
             ),
-            instance_test=[],
             name="all303",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="All model group derived by extension from another all model group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="All model group derived by extension from another all model group"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allowed in 1.1"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all304.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all304.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all304.xsd",
-                version=[],
-                other_attributes={}
+                name="all304.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5631,363 +3518,229 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the minOccurs and maxOccurs constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all304.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all304.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 2),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 2)
                     ),
-                    prior=[],
-                    name="all304.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all304.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few occurrences matching wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all304.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all304.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 2),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 2)
                     ),
-                    prior=[],
-                    name="all304.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all304.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few occurrences matching wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all304.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all304.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 2),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 2)
                     ),
-                    prior=[],
-                    name="all304.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all304.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too many occurrences matching wildcard&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all304.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all304.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 2),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 2)
                     ),
-                    prior=[],
-                    name="all304.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all304.n03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too many occurrences matching wildcard&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all304.n04.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all304.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 2),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 2)
                     ),
-                    prior=[],
-                    name="all304.n04.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all304.n04.xml"
                 ),
             ],
             name="all304",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xs:all invalid extension, overlappping wildcard particles",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all invalid extension, overlappping wildcard particles"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xs:all UPA violation: two wildcard particles have overlapping namespaces",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xs:all UPA violation: two wildcard particles have overlapping namespaces"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all305.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all305.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all305.xsd",
-                version=[],
-                other_attributes={}
+                name="all305.xsd"
             ),
-            instance_test=[],
             name="all305",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='All model group derived by extension from another all model group;&#10;                      mixed="true" in extension.',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='All model group derived by extension from another all model group;&#10;                      mixed="true" in extension.'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allowed in 1.1"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all306.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all306.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all306.xsd",
-                version=[],
-                other_attributes={}
+                name="all306.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5995,120 +3748,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, mixed content allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all306.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all306.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 2),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 2)
                     ),
-                    prior=[],
-                    name="all306.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all306.v01.xml"
                 ),
             ],
             name="all306",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='All model group derived by extension from another all model group;&#10;                      mixed="false" in extension.',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='All model group derived by extension from another all model group;&#10;                      mixed="false" in extension.'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allowed in 1.1"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all307.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all307.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all307.xsd",
-                version=[],
-                other_attributes={}
+                name="all307.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -6116,594 +3825,370 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, mixed content not allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all306.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all306.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 11, 2),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 11, 2)
                     ),
-                    prior=[],
-                    name="all307.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all307.n01.xml"
                 ),
             ],
             name="all307",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='xs:all extension of "mixed empty" content',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='xs:all extension of "mixed empty" content'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Currently invalid, but see bug 6202 against the spec.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Currently invalid, but see bug 6202 against the spec."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all308.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all308.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all308.xsd",
-                version=[],
-                other_attributes={}
+                name="all308.xsd"
             ),
-            instance_test=[],
             name="all308",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Even in 1.1, xs:all cannot extend xs:sequence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Even in 1.1, xs:all cannot extend xs:sequence"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Result of extension is invalid"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all309.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all309.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all309.xsd",
-                version=[],
-                other_attributes={}
+                name="all309.xsd"
             ),
-            instance_test=[],
             name="all309",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Even in 1.1, xs:sequence cannot extend xs:all",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Even in 1.1, xs:sequence cannot extend xs:all"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Result of extension is invalid"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all310.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all310.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all310.xsd",
-                version=[],
-                other_attributes={}
+                name="all310.xsd"
             ),
-            instance_test=[],
             name="all310",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Result of extension is invalid"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all311.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all311.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all311.xsd",
-                version=[],
-                other_attributes={}
+                name="all311.xsd"
             ),
-            instance_test=[],
             name="all311",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Even in 1.1, xs:sequence cannot extend xs:all, even if the xs:all is a singleton"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Result of extension is invalid"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all312.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all312.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 11, 2),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 11, 2)
                 ),
-                prior=[],
-                name="all312.xsd",
-                version=[],
-                other_attributes={}
+                name="all312.xsd"
             ),
-            instance_test=[],
             name="all312",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="When xs:all extends xs:all, the minOccurs must be the same.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="When xs:all extends xs:all, the minOccurs must be the same."
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Result of extension is invalid. Test case from Priscilla Walmsley",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Result of extension is invalid. Test case from Priscilla Walmsley"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all313.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all313.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 19)
                 ),
-                prior=[],
-                name="all313.xsd",
-                version=[],
-                other_attributes={}
+                name="all313.xsd"
             ),
-            instance_test=[],
             name="all313",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='All model group derived by extension from another all model group, both minOccurs="0"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='All model group derived by extension from another all model group, both minOccurs="0"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allowed in 1.1. Test case from Priscilla Walmsley",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allowed in 1.1. Test case from Priscilla Walmsley"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-ct-extends"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-AllGroups-DerivationByExtension"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all314.xsd",
-                        other_attributes={}
+                        href="../saxonData/All/all314.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 20)
                 ),
-                prior=[],
-                name="all314.xsd",
-                version=[],
-                other_attributes={}
+                name="all314.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -6711,294 +4196,188 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both elements present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all314.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all314.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 20)
                     ),
-                    prior=[],
-                    name="all314.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all314.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both elements present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all314.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all314.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 20)
                     ),
-                    prior=[],
-                    name="all314.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all314.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no elements present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all314.v05.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all314.v05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 20)
                     ),
-                    prior=[],
-                    name="all314.v05.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all314.v05.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unrecognized child.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all314.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all314.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 20)
                     ),
-                    prior=[],
-                    name="all314.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all314.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too many children.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all314.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all314.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 20)
                     ),
-                    prior=[],
-                    name="all314.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all314.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, if the group is present then all elements must be present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all314.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all314.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 20)
                     ),
-                    prior=[],
-                    name="all314.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all314.n03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, if the group is present then all elements must be present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/All/all314.n04.xml",
-                        other_attributes={}
+                        href="../saxonData/All/all314.n04.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 20)
                     ),
-                    prior=[],
-                    name="all314.n04.xml",
-                    version=[],
-                    other_attributes={}
+                    name="all314.n04.xml"
                 ),
             ],
             name="all314",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

@@ -7,9 +7,6 @@ obj = Doc(
     f=42,
     local_element=AnyElement(
         qname="e",
-        text="12",
-        tail=None,
-        children=[],
-        attributes={}
+        text="12"
     )
 )

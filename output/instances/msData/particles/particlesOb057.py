@@ -9,19 +9,13 @@ obj = Doc(
             AnyElement(
                 qname="a",
                 text="",
-                tail=None,
                 children=[
                     AnyElement(
                         qname="e1",
-                        text="",
-                        tail=None,
-                        children=[],
-                        attributes={}
+                        text=""
                     ),
-                ],
-                attributes={}
+                ]
             ),
-        ],
-        local_bar_element=[]
+        ]
     )
 )

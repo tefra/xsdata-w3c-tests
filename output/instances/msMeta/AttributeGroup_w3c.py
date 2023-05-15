@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -18,2010 +17,1250 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id='a'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA001.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA001",
-                version=[],
-                other_attributes={}
+                name="attgA001"
             ),
-            instance_test=[],
-            name="attgA001",
-            version=[],
-            other_attributes={}
+            name="attgA001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id='0'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA002.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA002",
-                version=[],
-                other_attributes={}
+                name="attgA002"
             ),
-            instance_test=[],
-            name="attgA002",
-            version=[],
-            other_attributes={}
+            name="attgA002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with optional attribute id=''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA003.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA003",
-                version=[],
-                other_attributes={}
+                name="attgA003"
             ),
-            instance_test=[],
-            name="attgA003",
-            version=[],
-            other_attributes={}
+            name="attgA003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute id=':a'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA004.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA004",
-                version=[],
-                other_attributes={}
+                name="attgA004"
             ),
-            instance_test=[],
-            name="attgA004",
-            version=[],
-            other_attributes={}
+            name="attgA004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 global attributeGroups with same ID",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA005.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA005",
-                version=[],
-                other_attributes={}
+                name="attgA005"
             ),
-            instance_test=[],
-            name="attgA005",
-            version=[],
-            other_attributes={}
+            name="attgA005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroups, one is global and one is from 'redefine', with same ID",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA006.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA006",
-                version=[],
-                other_attributes={}
+                name="attgA006"
             ),
-            instance_test=[],
-            name="attgA006",
-            version=[],
-            other_attributes={}
+            name="attgA006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroup, one is from complexType and one is inside another attributeGroup of some extension, with same ID",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA007.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA007",
-                version=[],
-                other_attributes={}
+                name="attgA007"
             ),
-            instance_test=[],
-            name="attgA007",
-            version=[],
-            other_attributes={}
+            name="attgA007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: 2 attributeGroup, one is from imported xsd, and one is from included xsd, with same ID",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA008.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA008",
-                version=[],
-                other_attributes={}
+                name="attgA008"
             ),
-            instance_test=[],
-            name="attgA008",
-            version=[],
-            other_attributes={}
+            name="attgA008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroups: redefine an attributeGroup and give it an existing ID",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgA009.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgA009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgA009",
-                version=[],
-                other_attributes={}
+                name="attgA009"
             ),
-            instance_test=[],
-            name="attgA009",
-            version=[],
-            other_attributes={}
+            name="attgA009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='a'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB001.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB001",
-                version=[],
-                other_attributes={}
+                name="attgB001"
             ),
-            instance_test=[],
-            name="attgB001",
-            version=[],
-            other_attributes={}
+            name="attgB001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is attributeGroup, name='a'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB002.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB002",
-                version=[],
-                other_attributes={}
+                name="attgB002"
             ),
-            instance_test=[],
-            name="attgB002",
-            version=[],
-            other_attributes={}
+            name="attgB002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is complexType, name='a'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB003.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB003",
-                version=[],
-                other_attributes={}
+                name="attgB003"
             ),
-            instance_test=[],
-            name="attgB003",
-            version=[],
-            other_attributes={}
+            name="attgB003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global, parent is extension, name='a'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB004.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB004",
-                version=[],
-                other_attributes={}
+                name="attgB004"
             ),
-            instance_test=[],
-            name="attgB004",
-            version=[],
-            other_attributes={}
+            name="attgB004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have name attribute if not global (redefining global is ok), parent is redefine, name='a'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB005.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB005",
-                version=[],
-                other_attributes={}
+                name="attgB005"
             ),
-            instance_test=[],
-            name="attgB005",
-            version=[],
-            other_attributes={}
+            name="attgB005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='0'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB006.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB006",
-                version=[],
-                other_attributes={}
+                name="attgB006"
             ),
-            instance_test=[],
-            name="attgB006",
-            version=[],
-            other_attributes={}
+            name="attgB006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name=''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB007.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB007",
-                version=[],
-                other_attributes={}
+                name="attgB007"
             ),
-            instance_test=[],
-            name="attgB007",
-            version=[],
-            other_attributes={}
+            name="attgB007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration with attribute name='msxml'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB008.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB008",
-                version=[],
-                other_attributes={}
+                name="attgB008"
             ),
-            instance_test=[],
-            name="attgB008",
-            version=[],
-            other_attributes={}
+            name="attgB008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups, one imported, one included with same name but different targetNamespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB009.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB009",
-                version=[],
-                other_attributes={}
+                name="attgB009"
             ),
-            instance_test=[],
-            name="attgB009",
-            version=[],
-            other_attributes={}
+            name="attgB009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 global attributeGroups with same name",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB010.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB010",
-                version=[],
-                other_attributes={}
+                name="attgB010"
             ),
-            instance_test=[],
-            name="attgB010",
-            version=[],
-            other_attributes={}
+            name="attgB010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups with same name both of them from different redefine, with same namespac.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB011.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB011",
-                version=[],
-                other_attributes={}
+                name="attgB011"
             ),
-            instance_test=[],
-            name="attgB011",
-            version=[],
-            other_attributes={}
+            name="attgB011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups with same name both of them from different import, with different namespac.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB012.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB012",
-                version=[],
-                other_attributes={}
+                name="attgB012"
             ),
-            instance_test=[],
-            name="attgB012",
-            version=[],
-            other_attributes={}
+            name="attgB012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 imported attributeGroups with same name and same targetNamespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB013.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB013",
-                version=[],
-                other_attributes={}
+                name="attgB013"
             ),
-            instance_test=[],
-            name="attgB013",
-            version=[],
-            other_attributes={}
+            name="attgB013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 imported attributeGroups with same name but different targetNamespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB014.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB014",
-                version=[],
-                other_attributes={}
+                name="attgB014"
             ),
-            instance_test=[],
-            name="attgB014",
-            version=[],
-            other_attributes={}
+            name="attgB014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: 2 attributeGroups, one imported, one included with same name and same targetNamespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgB015.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgB015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgB015",
-                version=[],
-                other_attributes={}
+                name="attgB015"
             ),
-            instance_test=[],
-            name="attgB015",
-            version=[],
-            other_attributes={}
+            name="attgB015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: cannot have ref attribute on global, parent is schema, ref='name of a global attribute group '",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC001.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC001",
-                version=[],
-                other_attributes={}
+                name="attgC001"
             ),
-            instance_test=[],
-            name="attgC001",
-            version=[],
-            other_attributes={}
+            name="attgC001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group declared at the beginning of xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC002.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC002",
-                version=[],
-                other_attributes={}
+                name="attgC002"
             ),
-            instance_test=[],
-            name="attgC002",
-            version=[],
-            other_attributes={}
+            name="attgC002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group from imported xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC003.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC003",
-                version=[],
-                other_attributes={}
+                name="attgC003"
             ),
-            instance_test=[],
-            name="attgC003",
-            version=[],
-            other_attributes={}
+            name="attgC003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is attributeGroup, ref='name of a global attribute group from included xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC004.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC004",
-                version=[],
-                other_attributes={}
+                name="attgC004"
             ),
-            instance_test=[],
-            name="attgC004",
-            version=[],
-            other_attributes={}
+            name="attgC004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of global attribute group declared at the end of xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC005.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC005",
-                version=[],
-                other_attributes={}
+                name="attgC005"
             ),
-            instance_test=[],
-            name="attgC005",
-            version=[],
-            other_attributes={}
+            name="attgC005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of attribute group declared inside a redefine', and xml instant has value different what is defined as fixed in the redefined attributeGroup.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC006.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC006",
-                version=[],
-                other_attributes={}
+                name="attgC006"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC006.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC006.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgC006.i"
                 ),
             ],
-            name="attgC006",
-            version=[],
-            other_attributes={}
+            name="attgC006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='name of attribute group declared inside a redefine', and xml instant has value same as what is defined as fixed in the redefined attributeGroup.",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC007.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC007",
-                version=[],
-                other_attributes={}
+                name="attgC007"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC007.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC007.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgC007.v"
                 ),
             ],
-            name="attgC007",
-            version=[],
-            other_attributes={}
+            name="attgC007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='foo (not a valid reference to an attributeGroup)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC008.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC008",
-                version=[],
-                other_attributes={}
+                name="attgC008"
             ),
-            instance_test=[],
-            name="attgC008",
-            version=[],
-            other_attributes={}
+            name="attgC008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref=''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC009.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC009",
-                version=[],
-                other_attributes={}
+                name="attgC009"
             ),
-            instance_test=[],
-            name="attgC009",
-            version=[],
-            other_attributes={}
+            name="attgC009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=&quot;test&quot;, has child attributeGroup that also has, parent is attributeGroup, ref='test'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC010.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC010.xsd"
                     ),
                 ],
                 expected=[
@@ -2029,15 +1268,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -2045,34 +1282,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "See bug 15795. XSD 1.1 allows circular attribute group definitions.",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 2, 24)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="attgC010",
-                version=[],
-                other_attributes={}
+                name="attgC010"
             ),
             instance_test=[
                 InstanceTest(
@@ -2080,650 +1306,413 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Valid instance, showing validation against a circular attribute group in XSD 1.1",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC010a.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC010a.xml"
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.VALID,
                             version=[
                                 KnownToken.VALUE_1_1,
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 2, 24)
                     ),
-                    prior=[],
                     name="attgC010a",
                     version=[
                         KnownToken.VALUE_1_1,
-                    ],
-                    other_attributes={}
+                    ]
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "Invalid instance, showing validation against a circular attribute group in XSD 1.1",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC010b.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC010b.xml"
                     ),
                     expected=[
                         Expected(
                             validity=ExpectedOutcome.INVALID,
                             version=[
                                 KnownToken.VALUE_1_1,
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 2, 24)
                     ),
-                    prior=[],
                     name="attgC010b",
                     version=[
                         KnownToken.VALUE_1_1,
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            name="attgC010",
-            version=[],
-            other_attributes={}
+            name="attgC010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='foo (a name of a global attribute)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC011.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC011",
-                version=[],
-                other_attributes={}
+                name="attgC011"
             ),
-            instance_test=[],
-            name="attgC011",
-            version=[],
-            other_attributes={}
+            name="attgC011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is attributeGroup, ref='very very log string ( more than 9999 chars)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC012.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC012",
-                version=[],
-                other_attributes={}
+                name="attgC012"
             ),
-            instance_test=[],
-            name="attgC012",
-            version=[],
-            other_attributes={}
+            name="attgC012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group declared at the beginning of xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC013.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC013",
-                version=[],
-                other_attributes={}
+                name="attgC013"
             ),
-            instance_test=[],
-            name="attgC013",
-            version=[],
-            other_attributes={}
+            name="attgC013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group from imported xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC014.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC014",
-                version=[],
-                other_attributes={}
+                name="attgC014"
             ),
-            instance_test=[],
-            name="attgC014",
-            version=[],
-            other_attributes={}
+            name="attgC014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is complexType, ref='name of a global attribute group from included xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC015.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC015",
-                version=[],
-                other_attributes={}
+                name="attgC015"
             ),
-            instance_test=[],
-            name="attgC015",
-            version=[],
-            other_attributes={}
+            name="attgC015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='name of global attribute group declared at the end of xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC016.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC016",
-                version=[],
-                other_attributes={}
+                name="attgC016"
             ),
-            instance_test=[],
-            name="attgC016",
-            version=[],
-            other_attributes={}
+            name="attgC016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='name of attribute group declared inside a redefine'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC017.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC017",
-                version=[],
-                other_attributes={}
+                name="attgC017"
             ),
-            instance_test=[],
-            name="attgC017",
-            version=[],
-            other_attributes={}
+            name="attgC017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='foo (not a valid reference to an attributeGroup)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC018.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC018",
-                version=[],
-                other_attributes={}
+                name="attgC018"
             ),
-            instance_test=[],
-            name="attgC018",
-            version=[],
-            other_attributes={}
+            name="attgC018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref=''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC019.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC019",
-                version=[],
-                other_attributes={}
+                name="attgC019"
             ),
-            instance_test=[],
-            name="attgC019",
-            version=[],
-            other_attributes={}
+            name="attgC019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=&quot;test&quot;, has child attributeGroup that also has, parent is complexType, ref='test'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC020.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC020.xsd"
                     ),
                 ],
                 expected=[
@@ -2731,15 +1720,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -2747,736 +1734,458 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "See bug 15795. XSD 1.1 allows circular attribute group definitions.",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 2, 24)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="attgC020",
-                version=[],
-                other_attributes={}
+                name="attgC020"
             ),
-            instance_test=[],
-            name="attgC020",
-            version=[],
-            other_attributes={}
+            name="attgC020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='foo (a name of a global attribute)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC021.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC021",
-                version=[],
-                other_attributes={}
+                name="attgC021"
             ),
-            instance_test=[],
-            name="attgC021",
-            version=[],
-            other_attributes={}
+            name="attgC021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is complexType, ref='very very log string ( more than 9999 chars)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC022.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC022",
-                version=[],
-                other_attributes={}
+                name="attgC022"
             ),
-            instance_test=[],
-            name="attgC022",
-            version=[],
-            other_attributes={}
+            name="attgC022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group declared at the beginning of xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC023.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC023",
-                version=[],
-                other_attributes={}
+                name="attgC023"
             ),
-            instance_test=[],
-            name="attgC023",
-            version=[],
-            other_attributes={}
+            name="attgC023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from imported xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC024.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC024",
-                version=[],
-                other_attributes={}
+                name="attgC024"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC024.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC024.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC024.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgC024.v"
                 ),
             ],
-            name="attgC024",
-            version=[],
-            other_attributes={}
+            name="attgC024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from included xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC025.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC025",
-                version=[],
-                other_attributes={}
+                name="attgC025"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC025.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC025.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC025.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgC025.i"
                 ),
             ],
-            name="attgC025",
-            version=[],
-            other_attributes={}
+            name="attgC025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is extension, ref='name of a global attribute group from included xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC026.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC026.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC026",
-                version=[],
-                other_attributes={}
+                name="attgC026"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC026.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC026.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC026.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgC026.v"
                 ),
             ],
-            name="attgC026",
-            version=[],
-            other_attributes={}
+            name="attgC026"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='name of global attribute group declared at the end of xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC027.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC027",
-                version=[],
-                other_attributes={}
+                name="attgC027"
             ),
-            instance_test=[],
-            name="attgC027",
-            version=[],
-            other_attributes={}
+            name="attgC027"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='name of attribute group declared inside a redefine'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC028.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC028.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC028",
-                version=[],
-                other_attributes={}
+                name="attgC028"
             ),
-            instance_test=[],
-            name="attgC028",
-            version=[],
-            other_attributes={}
+            name="attgC028"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='foo (not a valid reference to an attributeGroup)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC029.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC029.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC029",
-                version=[],
-                other_attributes={}
+                name="attgC029"
             ),
-            instance_test=[],
-            name="attgC029",
-            version=[],
-            other_attributes={}
+            name="attgC029"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref=''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC030.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC030.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC030",
-                version=[],
-                other_attributes={}
+                name="attgC030"
             ),
-            instance_test=[],
-            name="attgC030",
-            version=[],
-            other_attributes={}
+            name="attgC030"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: self referencing, name=&quot;test&quot;, has child attributeGroup that also has, parent is extension, ref='test'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC031.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC031.xsd"
                     ),
                 ],
                 expected=[
@@ -3484,15 +2193,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -3500,1892 +2207,1174 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "See bug 15795. XSD 1.1 allows circular attribute group definitions.",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 2, 24)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="attgC031",
-                version=[],
-                other_attributes={}
+                name="attgC031"
             ),
-            instance_test=[],
-            name="attgC031",
-            version=[],
-            other_attributes={}
+            name="attgC031"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='foo (a name of a global attribute)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC032.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC032.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC032",
-                version=[],
-                other_attributes={}
+                name="attgC032"
             ),
-            instance_test=[],
-            name="attgC032",
-            version=[],
-            other_attributes={}
+            name="attgC032"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is extension, ref='very very log string ( more than 9999 chars)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC033.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC033.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC033",
-                version=[],
-                other_attributes={}
+                name="attgC033"
             ),
-            instance_test=[],
-            name="attgC033",
-            version=[],
-            other_attributes={}
+            name="attgC033"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group declared at the beginning of xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC034.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC034.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC034",
-                version=[],
-                other_attributes={}
+                name="attgC034"
             ),
-            instance_test=[],
-            name="attgC034",
-            version=[],
-            other_attributes={}
+            name="attgC034"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group from imported xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC035.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC035.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC035",
-                version=[],
-                other_attributes={}
+                name="attgC035"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC035.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC035.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC035.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgC035.v"
                 ),
             ],
-            name="attgC035",
-            version=[],
-            other_attributes={}
+            name="attgC035"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: parent is redefine, ref='name of a global attribute group from included xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC036.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC036.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC036",
-                version=[],
-                other_attributes={}
+                name="attgC036"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC036.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC036.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC036.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgC036.v"
                 ),
             ],
-            name="attgC036",
-            version=[],
-            other_attributes={}
+            name="attgC036"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='name of global attribute group declared at the end of xsd'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC037.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC037.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC037",
-                version=[],
-                other_attributes={}
+                name="attgC037"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC037.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC037.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC037.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgC037.v"
                 ),
             ],
-            name="attgC037",
-            version=[],
-            other_attributes={}
+            name="attgC037"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='name of attribute group declared inside a redefine'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC038.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC038.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC038",
-                version=[],
-                other_attributes={}
+                name="attgC038"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC038.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC038.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgC038.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgC038.v"
                 ),
             ],
-            name="attgC038",
-            version=[],
-            other_attributes={}
+            name="attgC038"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='foo (not a valid reference to an attributeGroup)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC039.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC039.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC039",
-                version=[],
-                other_attributes={}
+                name="attgC039"
             ),
-            instance_test=[],
-            name="attgC039",
-            version=[],
-            other_attributes={}
+            name="attgC039"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref=''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC040.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC040.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC040",
-                version=[],
-                other_attributes={}
+                name="attgC040"
             ),
-            instance_test=[],
-            name="attgC040",
-            version=[],
-            other_attributes={}
+            name="attgC040"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: circular Ref is allow if parent is redefine, name=&quot;test&quot;, has child attributeGroup that also has, parent is redefine, ref='test'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC041.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC041.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC041",
-                version=[],
-                other_attributes={}
+                name="attgC041"
             ),
-            instance_test=[],
-            name="attgC041",
-            version=[],
-            other_attributes={}
+            name="attgC041"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='foo (a name of a global attribute)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC042.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC042.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC042",
-                version=[],
-                other_attributes={}
+                name="attgC042"
             ),
-            instance_test=[],
-            name="attgC042",
-            version=[],
-            other_attributes={}
+            name="attgC042"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Test attributeGroup declaration: can only reference global attributeGroup parent is redefine, ref='very very log string ( more than 9999 chars)'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC043.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC043.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC043",
-                version=[],
-                other_attributes={}
+                name="attgC043"
             ),
-            instance_test=[],
-            name="attgC043",
-            version=[],
-            other_attributes={}
+            name="attgC043"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attributeGroup as children, both has ref="foo"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC044.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC044.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC044",
-                version=[],
-                other_attributes={}
+                name="attgC044"
             ),
-            instance_test=[],
-            name="attgC044",
-            version=[],
-            other_attributes={}
+            name="attgC044"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with name=&quot;foo&quot;, complexType with name='foo'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgC045.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgC045.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgC045",
-                version=[],
-                other_attributes={}
+                name="attgC045"
             ),
-            instance_test=[],
-            name="attgC045",
-            version=[],
-            other_attributes={}
+            name="attgC045"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD001.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD001",
-                version=[],
-                other_attributes={}
+                name="attgD001"
             ),
-            instance_test=[],
-            name="attgD001",
-            version=[],
-            other_attributes={}
+            name="attgD001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD002.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD002",
-                version=[],
-                other_attributes={}
+                name="attgD002"
             ),
-            instance_test=[],
-            name="attgD002",
-            version=[],
-            other_attributes={}
+            name="attgD002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with 2000 attribute decl as child, the xml has the 2000 attributes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD003.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD003",
-                version=[],
-                other_attributes={}
+                name="attgD003"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD003.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD003.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD003.v"
                 ),
             ],
-            name="attgD003",
-            version=[],
-            other_attributes={}
+            name="attgD003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with just another attributeGroup, the xml has the attributes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD004.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD004",
-                version=[],
-                other_attributes={}
+                name="attgD004"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD004.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD004.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD004.v"
                 ),
             ],
-            name="attgD004",
-            version=[],
-            other_attributes={}
+            name="attgD004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child in the sequence of ( att, attg, att, attg, att), the xml has the attributes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD005.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD005",
-                version=[],
-                other_attributes={}
+                name="attgD005"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD005.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD005.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD005.v"
                 ),
             ],
-            name="attgD005",
-            version=[],
-            other_attributes={}
+            name="attgD005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, same namespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD006.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD006",
-                version=[],
-                other_attributes={}
+                name="attgD006"
             ),
-            instance_test=[],
-            name="attgD006",
-            version=[],
-            other_attributes={}
+            name="attgD006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attribute group with two attribute, where the name of one att is same as the ref value of the other",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD007.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD007",
-                version=[],
-                other_attributes={}
+                name="attgD007"
             ),
-            instance_test=[],
-            name="attgD007",
-            version=[],
-            other_attributes={}
+            name="attgD007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, same type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD008.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD008",
-                version=[],
-                other_attributes={}
+                name="attgD008"
             ),
-            instance_test=[],
-            name="attgD008",
-            version=[],
-            other_attributes={}
+            name="attgD008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with two attribute, same name, different type",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD009.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD009",
-                version=[],
-                other_attributes={}
+                name="attgD009"
             ),
-            instance_test=[],
-            name="attgD009",
-            version=[],
-            other_attributes={}
+            name="attgD009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attribute and attributeGroup which intern reference to different attributeGroup containing attributes and attributeGroup",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD010.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD010",
-                version=[],
-                other_attributes={}
+                name="attgD010"
             ),
-            instance_test=[],
-            name="attgD010",
-            version=[],
-            other_attributes={}
+            name="attgD010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to an element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD011.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD011",
-                version=[],
-                other_attributes={}
+                name="attgD011"
             ),
-            instance_test=[],
-            name="attgD011",
-            version=[],
-            other_attributes={}
+            name="attgD011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child element declaration",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD012.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD012",
-                version=[],
-                other_attributes={}
+                name="attgD012"
             ),
-            instance_test=[],
-            name="attgD012",
-            version=[],
-            other_attributes={}
+            name="attgD012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to a simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD013.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD013",
-                version=[],
-                other_attributes={}
+                name="attgD013"
             ),
-            instance_test=[],
-            name="attgD013",
-            version=[],
-            other_attributes={}
+            name="attgD013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup with child attributeGroup that reference to complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD014.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD014",
-                version=[],
-                other_attributes={}
+                name="attgD014"
             ),
-            instance_test=[],
-            name="attgD014",
-            version=[],
-            other_attributes={}
+            name="attgD014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup ( w/ name = foo and containing an attributeGroup with ref = foobar) and attributeGroup (w/ name=foobar and containing an attributeGroup with ref=foo)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD015.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD015.xsd"
                     ),
                 ],
                 expected=[
@@ -5393,15 +3382,13 @@ obj = TestSet(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
@@ -5409,2402 +3396,1481 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "See bug 15795. XSD 1.1 allows circular attribute group definitions.",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 2, 24)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
                 ],
-                name="attgD015",
-                version=[],
-                other_attributes={}
+                name="attgD015"
             ),
-            instance_test=[],
-            name="attgD015",
-            version=[],
-            other_attributes={}
+            name="attgD015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup that has two attributeGroups, which reference to two different attributeGroups that reference the same attribute",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD016.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD016",
-                version=[],
-                other_attributes={}
+                name="attgD016"
             ),
-            instance_test=[],
-            name="attgD016",
-            version=[],
-            other_attributes={}
+            name="attgD016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : attributeGroup that has two attributeGroups, parent is redefined, attG1 reference a global attributeGroup which define an attribute 'foo', attG2 reference the redefining xsd's attributeGroup 'foo' with same namespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD017.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD017",
-                version=[],
-                other_attributes={}
+                name="attgD017"
             ),
-            instance_test=[],
-            name="attgD017",
-            version=[],
-            other_attributes={}
+            name="attgD017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ id)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD018.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD018",
-                version=[],
-                other_attributes={}
+                name="attgD018"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD018.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD018.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD018.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD018.v"
                 ),
             ],
-            name="attgD018",
-            version=[],
-            other_attributes={}
+            name="attgD018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ annotation)",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD019.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD019.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD019a.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD019a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD019",
-                version=[],
-                other_attributes={}
+                name="attgD019"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD019.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD019.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD019.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD019.v"
                 ),
             ],
-            name="attgD019",
-            version=[],
-            other_attributes={}
+            name="attgD019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance with no namespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD020.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD020.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD020a.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD020a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD020",
-                version=[],
-                other_attributes={}
+                name="attgD020"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD020.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD020.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD020.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD020.v"
                 ),
             ],
-            name="attgD020",
-            version=[],
-            other_attributes={}
+            name="attgD020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance with "foo" as its namespace',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD021.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD021.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD021a.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD021a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD021",
-                version=[],
-                other_attributes={}
+                name="attgD021"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD021.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD021.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD021.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD021.v"
                 ),
             ],
-            name="attgD021",
-            version=[],
-            other_attributes={}
+            name="attgD021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##other), the xml has the attribute instance with namespace different from the targetNamdspace of the xsd",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD022.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD022.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD022a.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD022a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD022",
-                version=[],
-                other_attributes={}
+                name="attgD022"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD022.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD022.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD022.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD022.v"
                 ),
             ],
-            name="attgD022",
-            version=[],
-            other_attributes={}
+            name="attgD022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##other), the xml has the attribute instance with namespace same as the targetNamdspace of the xsd",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD023.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD023",
-                version=[],
-                other_attributes={}
+                name="attgD023"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD023.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD023.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD023.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgD023.i"
                 ),
             ],
-            name="attgD023",
-            version=[],
-            other_attributes={}
+            name="attgD023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##any), the xml has the attribute instance which fall under targetNS, but not defiled in the schema",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD024.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD024",
-                version=[],
-                other_attributes={}
+                name="attgD024"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD024.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD024.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD024.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgD024.i"
                 ),
             ],
-            name="attgD024",
-            version=[],
-            other_attributes={}
+            name="attgD024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##local), the xml has the attribute instance which is namespace UNqualified",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD025.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD025.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD025a.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD025a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD025",
-                version=[],
-                other_attributes={}
+                name="attgD025"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD025.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD025.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD025.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD025.v"
                 ),
             ],
-            name="attgD025",
-            version=[],
-            other_attributes={}
+            name="attgD025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##local), the xml has the attribute instance which is namespace qualified",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD026.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD026.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD026",
-                version=[],
-                other_attributes={}
+                name="attgD026"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD026.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD026.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD026.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgD026.i"
                 ),
             ],
-            name="attgD026",
-            version=[],
-            other_attributes={}
+            name="attgD026"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace="foo"), the xml has the attribute instance which is of namespace "foo"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD027.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD027",
-                version=[],
-                other_attributes={}
+                name="attgD027"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD027.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD027.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD027.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD027.v"
                 ),
             ],
-            name="attgD027",
-            version=[],
-            other_attributes={}
+            name="attgD027"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace="foo"), the xml has the attribute instance which is of namespace "bar"',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD028.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD028.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD028",
-                version=[],
-                other_attributes={}
+                name="attgD028"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD028.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD028.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD028.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgD028.i"
                 ),
             ],
-            name="attgD028",
-            version=[],
-            other_attributes={}
+            name="attgD028"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the xml has the attribute instance which is of namespace targetNamespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD029.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD029.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD029",
-                version=[],
-                other_attributes={}
+                name="attgD029"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD029.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD029.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD029.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD029.v"
                 ),
             ],
-            name="attgD029",
-            version=[],
-            other_attributes={}
+            name="attgD029"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : Basic AttributeGroup with anyAttribute (w/ namespace=##targetNamespace), the xml has the attribute instance which is of namespace other than targetNamespace",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD030.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD030.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD030",
-                version=[],
-                other_attributes={}
+                name="attgD030"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD030.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD030.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD030.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgD030.i"
                 ),
             ],
-            name="attgD030",
-            version=[],
-            other_attributes={}
+            name="attgD030"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##skip), the xml has the attribute instance which conatins attribute not declared in any schema",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD031.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD031.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD031",
-                version=[],
-                other_attributes={}
+                name="attgD031"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD031.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD031.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD031.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD031.v"
                 ),
             ],
-            name="attgD031",
-            version=[],
-            other_attributes={}
+            name="attgD031"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##lax), the xml has the attribute instance which conatins valid elements and attribute against schema",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD032.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD032.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD032",
-                version=[],
-                other_attributes={}
+                name="attgD032"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD032.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD032.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD032.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD032.v"
                 ),
             ],
-            name="attgD032",
-            version=[],
-            other_attributes={}
+            name="attgD032"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##lax), the xml has the attribute instance which conatins invalid attribute against schema",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD033.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD033.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD033",
-                version=[],
-                other_attributes={}
+                name="attgD033"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD033.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD033.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD033.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD033.v"
                 ),
             ],
-            name="attgD033",
-            version=[],
-            other_attributes={}
+            name="attgD033"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##strict), the xml has the attribute instance which conatins valid elements and attribute against schema",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD034.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD034.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD034",
-                version=[],
-                other_attributes={}
+                name="attgD034"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD034.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD034.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD034.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD034.v"
                 ),
             ],
-            name="attgD034",
-            version=[],
-            other_attributes={}
+            name="attgD034"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : complexType's AttributeGroup with reference to attributeGroup from 'redefine', where there is an attribute declared as int, with value=&quot;37&quot;, the xml has the attribute instance which &quot;36&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD035.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD035.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD035",
-                version=[],
-                other_attributes={}
+                name="attgD035"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD035.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD035.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD035.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgD035.i"
                 ),
             ],
-            name="attgD035",
-            version=[],
-            other_attributes={}
+            name="attgD035"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : complexType's AttributeGroup with reference to attributeGroup from 'redefine', where there is an attribute declared as int, with value=&quot;37&quot;, the xml has the attribute instance which &quot;37&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD036.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD036.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD036",
-                version=[],
-                other_attributes={}
+                name="attgD036"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD036.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD036.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD036.v",
-                    version=[],
-                    other_attributes={}
+                    name="attgD036.v"
                 ),
             ],
-            name="attgD036",
-            version=[],
-            other_attributes={}
+            name="attgD036"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref="foo" and has attribute decl as child',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD037.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD037.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD037",
-                version=[],
-                other_attributes={}
+                name="attgD037"
             ),
-            instance_test=[],
-            name="attgD037",
-            version=[],
-            other_attributes={}
+            name="attgD037"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref="foo" and has attributeGroup decl as child',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD038.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD038.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD038",
-                version=[],
-                other_attributes={}
+                name="attgD038"
             ),
-            instance_test=[],
-            name="attgD038",
-            version=[],
-            other_attributes={}
+            name="attgD038"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref="foo" and has AnyAattribute decl as child',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD039.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD039.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD039",
-                version=[],
-                other_attributes={}
+                name="attgD039"
             ),
-            instance_test=[],
-            name="attgD039",
-            version=[],
-            other_attributes={}
+            name="attgD039"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 'TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup with ref="foo" and has annotation as child',
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD040.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD040.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD040",
-                version=[],
-                other_attributes={}
+                name="attgD040"
             ),
-            instance_test=[],
-            name="attgD040",
-            version=[],
-            other_attributes={}
+            name="attgD040"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : circular reference, attG A ref to B which ref C which ref back to A",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD041.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD041.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD041",
-                version=[],
-                other_attributes={}
+                name="attgD041"
             ),
-            instance_test=[],
-            name="attgD041",
-            version=[],
-            other_attributes={}
+            name="attgD041"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : AttributeGroup (w/ namespace=other, processContents=##strict), the xml has the attribute instance which conatins invalid attribute against schema",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD042.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD042.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgD042",
-                version=[],
-                other_attributes={}
+                name="attgD042"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgD042.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgD042.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgD042.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgD042.i"
                 ),
             ],
-            name="attgD042",
-            version=[],
-            other_attributes={}
+            name="attgD042"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : xsd: global attribute reference in attributeGroup should be invalid if not qualified in the instance. (attributeFormDefault is qualified).",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgZ001.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgZ001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgZ001",
-                version=[],
-                other_attributes={}
+                name="attgZ001"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgZ001.xml",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgZ001.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="attgZ001.i",
-                    version=[],
-                    other_attributes={}
+                    name="attgZ001.i"
                 ),
             ],
-            name="attgZ001",
-            version=[],
-            other_attributes={}
+            name="attgZ001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : XSD: test an attribute is eliminated from a redefined attribute group with no self reference,required",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgZ002.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgZ002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgZ002",
-                version=[],
-                other_attributes={}
+                name="attgZ002"
             ),
-            instance_test=[],
-            name="attgZ002",
-            version=[],
-            other_attributes={}
+            name="attgZ002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking for Attribute Declaration (ID) : XSD: test an attribute is eliminated from a redefined attribute group with no self reference,prohibited",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cAttribute_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/attributeGroup/attgZ003.xsd",
-                        other_attributes={}
+                        href="../msData/attributeGroup/attgZ003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="attgZ003",
-                version=[],
-                other_attributes={}
+                name="attgZ003"
             ),
-            instance_test=[],
-            name="attgZ003",
-            version=[],
-            other_attributes={}
+            name="attgZ003"
         ),
     ],
     contributor="Microsoft",
     name="MS-AttributeGroup2006-07-15",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

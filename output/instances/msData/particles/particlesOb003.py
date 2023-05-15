@@ -8,33 +8,20 @@ obj = Doc(
         any_element=[
             AnyElement(
                 qname="{http://other}other",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://other}other",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://other}other",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://other}other",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
-        ],
-        other_element=[]
+        ]
     )
 )

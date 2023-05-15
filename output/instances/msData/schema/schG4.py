@@ -7,75 +7,48 @@ obj = Root(
         AnyElement(
             qname="{ns-a}e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="a1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="a2",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-b}e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="a1",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
                 AnyElement(
                     qname="a2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-c}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{ns-c}e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="a1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="a2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
     ]
 )

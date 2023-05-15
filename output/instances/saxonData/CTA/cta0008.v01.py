@@ -17,7 +17,6 @@ obj = Example(
         ),
         PublicationType(
             title="Natural Health",
-            author=[],
             date=XmlPeriod("1999"),
             kind="magazine"
         ),

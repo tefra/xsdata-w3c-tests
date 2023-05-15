@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -18,79 +17,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple use of targetNamespace on a local element declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple use of targetNamespace on a local element declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple use of targetNamespace on a local element declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple use of targetNamespace on a local element declaration"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target001.xsd",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 2, 18),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 2, 18)
                 ),
-                prior=[],
-                name="target001.xsd",
-                version=[],
-                other_attributes={}
+                name="target001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -98,239 +68,149 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target001.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target001.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 2, 18),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 2, 18)
                     ),
-                    prior=[],
-                    name="target001.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="target001.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, child element is in wrong namespace.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target001.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target001.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 2, 18),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 2, 18)
                     ),
-                    prior=[],
-                    name="target001.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="target001.n1.xml"
                 ),
             ],
-            name="target001",
-            version=[],
-            other_attributes={}
+            name="target001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid use of targetNamespace on a local element declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid use of targetNamespace on a local element declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid because not part of an xs:restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid because not part of an xs:restriction"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnElemDecl"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target002.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target002.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 2, 18),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 2, 18)
                 ),
-                prior=[],
-                name="target002.xsd",
-                version=[],
-                other_attributes={}
+                name="target002.xsd"
             ),
-            instance_test=[],
-            name="target002",
-            version=[],
-            other_attributes={}
+            name="target002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple use of targetNamespace on a local attribute declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple use of targetNamespace on a local attribute declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple use of targetNamespace on a local attribute declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple use of targetNamespace on a local attribute declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentationReference",
                                     text="",
-                                    tail=None,
-                                    children=[],
                                     attributes={
                                         "{http://www.w3.org/1999/xlink}href": "../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl",
                                     }
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target003.xsd",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 2, 18),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 2, 18)
                 ),
-                prior=[],
-                name="target003.xsd",
-                version=[],
-                other_attributes={}
+                name="target003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -338,271 +218,168 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the schema.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target003.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target003.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 2, 18),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 2, 18)
                     ),
-                    prior=[],
-                    name="target003.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="target003.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, attribute is in wrong namespace.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target003.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target003.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 2, 18),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 2, 18)
                     ),
-                    prior=[],
-                    name="target003.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="target003.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, attribute is in wrong namespace.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target003.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target003.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 2, 18),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 2, 18)
                     ),
-                    prior=[],
-                    name="target003.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="target003.n2.xml"
                 ),
             ],
-            name="target003",
-            version=[],
-            other_attributes={}
+            name="target003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid use of targetNamespace on a local attribute declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid use of targetNamespace on a local attribute declaration"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Invalid because not part of an xs:restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid because not part of an xs:restriction"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2006/WD-xmlschema11-1-20060831/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target004.n.xsd",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target004.n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 2, 18),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 2, 18)
                 ),
-                prior=[],
-                name="target004.xsd",
-                version=[],
-                other_attributes={}
+                name="target004.xsd"
             ),
-            instance_test=[],
-            name="target004",
-            version=[],
-            other_attributes={}
+            name="target004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Invalid xs:import - targetNamespace does not match",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Invalid xs:import - targetNamespace does not match"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Should report an error",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Should report an error"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
-            documentation_reference=[],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/TargetNS/target007.xsd",
-                        other_attributes={}
+                        href="../saxonData/TargetNS/target007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2018, 10, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2018, 10, 1)
                 ),
-                prior=[],
-                name="target007.xsd",
-                version=[],
-                other_attributes={}
+                name="target007.xsd"
             ),
-            instance_test=[],
             name="target007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

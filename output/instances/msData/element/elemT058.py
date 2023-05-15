@@ -14,8 +14,7 @@ obj = Root(
         value=RCa(
             x=[
                 "",
-            ],
-            y=None
+            ]
         ),
         type="R-CA"
     ),

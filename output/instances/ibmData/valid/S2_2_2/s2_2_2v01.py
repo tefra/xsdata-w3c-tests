@@ -5,6 +5,5 @@ obj = Root(
     elem3_or_elem2_or_elem0=[
         "Tests abstract substitution group",
         "hello",
-    ],
-    elem1=None
+    ]
 )

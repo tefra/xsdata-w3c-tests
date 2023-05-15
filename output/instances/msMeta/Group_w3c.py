@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -17,7224 +16,4467 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id: group with an id",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA001",
-                version=[],
-                other_attributes={}
+                name="groupA001"
             ),
-            instance_test=[],
-            name="groupA001",
-            version=[],
-            other_attributes={}
+            name="groupA001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id: group without an id",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA002",
-                version=[],
-                other_attributes={}
+                name="groupA002"
             ),
-            instance_test=[],
-            name="groupA002",
-            version=[],
-            other_attributes={}
+            name="groupA002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id: two global groups with same id",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA003",
-                version=[],
-                other_attributes={}
+                name="groupA003"
             ),
-            instance_test=[],
-            name="groupA003",
-            version=[],
-            other_attributes={}
+            name="groupA003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from global, one inside a complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA004",
-                version=[],
-                other_attributes={}
+                name="groupA004"
             ),
-            instance_test=[],
-            name="groupA004",
-            version=[],
-            other_attributes={}
+            name="groupA004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from complexType, one inside choice",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA005",
-                version=[],
-                other_attributes={}
+                name="groupA005"
             ),
-            instance_test=[],
-            name="groupA005",
-            version=[],
-            other_attributes={}
+            name="groupA005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from restriction and one from redefine",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA006",
-                version=[],
-                other_attributes={}
+                name="groupA006"
             ),
-            instance_test=[],
-            name="groupA006",
-            version=[],
-            other_attributes={}
+            name="groupA006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from choice and one from imported",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA007",
-                version=[],
-                other_attributes={}
+                name="groupA007"
             ),
-            instance_test=[],
-            name="groupA007",
-            version=[],
-            other_attributes={}
+            name="groupA007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id: two groups with same id, one from imported xsd and the other from included xsd",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA008",
-                version=[],
-                other_attributes={}
+                name="groupA008"
             ),
-            instance_test=[],
-            name="groupA008",
-            version=[],
-            other_attributes={}
+            name="groupA008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id:, id=''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA009",
-                version=[],
-                other_attributes={}
+                name="groupA009"
             ),
-            instance_test=[],
-            name="groupA009",
-            version=[],
-            other_attributes={}
+            name="groupA009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id:, id='1'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA010",
-                version=[],
-                other_attributes={}
+                name="groupA010"
             ),
-            instance_test=[],
-            name="groupA010",
-            version=[],
-            other_attributes={}
+            name="groupA010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id:, id='xmlns'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA011",
-                version=[],
-                other_attributes={}
+                name="groupA011"
             ),
-            instance_test=[],
-            name="groupA011",
-            version=[],
-            other_attributes={}
+            name="groupA011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test id:, id='a:b'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupA012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupA012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupA012",
-                version=[],
-                other_attributes={}
+                name="groupA012"
             ),
-            instance_test=[],
-            name="groupA012",
-            version=[],
-            other_attributes={}
+            name="groupA012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref: (ref is not allowed on top level), parent is schema, ref='global group'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB001",
-                version=[],
-                other_attributes={}
+                name="groupB001"
             ),
-            instance_test=[],
-            name="groupB001",
-            version=[],
-            other_attributes={}
+            name="groupB001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB002v",
-                version=[],
-                other_attributes={}
+                name="groupB002v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB002.xml",
-                        other_attributes={}
+                        href="../msData/group/groupB002.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupB002v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupB002v.v"
                 ),
             ],
-            name="groupB002v",
-            version=[],
-            other_attributes={}
+            name="groupB002v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is restriction, ref='global group'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB003v",
-                version=[],
-                other_attributes={}
+                name="groupB003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupB003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupB003v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupB003v.v"
                 ),
             ],
-            name="groupB003v",
-            version=[],
-            other_attributes={}
+            name="groupB003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is sequence, ref='global group'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB004v",
-                version=[],
-                other_attributes={}
+                name="groupB004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupB004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupB004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupB004v.v"
                 ),
             ],
-            name="groupB004v",
-            version=[],
-            other_attributes={}
+            name="groupB004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is choice, ref='global group'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB005v",
-                version=[],
-                other_attributes={}
+                name="groupB005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupB005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupB005v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupB005v.v"
                 ),
             ],
-            name="groupB005v",
-            version=[],
-            other_attributes={}
+            name="groupB005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is complexType, ref='global group'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB006v",
-                version=[],
-                other_attributes={}
+                name="groupB006v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB006.xml",
-                        other_attributes={}
+                        href="../msData/group/groupB006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupB006v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupB006v.v"
                 ),
             ],
-            name="groupB006v",
-            version=[],
-            other_attributes={}
+            name="groupB006v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref: (ref is not allowed on top level), parent is redefine, ref='global group'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB007",
-                version=[],
-                other_attributes={}
+                name="groupB007"
             ),
-            instance_test=[],
-            name="groupB007",
-            version=[],
-            other_attributes={}
+            name="groupB007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global attributeGroup'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB008",
-                version=[],
-                other_attributes={}
+                name="groupB008"
             ),
-            instance_test=[],
-            name="groupB008",
-            version=[],
-            other_attributes={}
+            name="groupB008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from imported xsd&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB009v",
-                version=[],
-                other_attributes={}
+                name="groupB009v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB009.xml",
-                        other_attributes={}
+                        href="../msData/group/groupB009.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupB009v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupB009v.v"
                 ),
             ],
-            name="groupB009v",
-            version=[],
-            other_attributes={}
+            name="groupB009v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global group from included xsd&quot;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB010v",
-                version=[],
-                other_attributes={}
+                name="groupB010v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB010.xml",
-                        other_attributes={}
+                        href="../msData/group/groupB010.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupB010v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupB010v.v"
                 ),
             ],
-            name="groupB010v",
-            version=[],
-            other_attributes={}
+            name="groupB010v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref:, parent is extension, ref='global complexType'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB011",
-                version=[],
-                other_attributes={}
+                name="groupB011"
             ),
-            instance_test=[],
-            name="groupB011",
-            version=[],
-            other_attributes={}
+            name="groupB011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is sequence, ref='the root parent group's name'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB012",
-                version=[],
-                other_attributes={}
+                name="groupB012"
             ),
-            instance_test=[],
-            name="groupB012",
-            version=[],
-            other_attributes={}
+            name="groupB012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is choice, ref='the root parent group's name'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB013.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB013",
-                version=[],
-                other_attributes={}
+                name="groupB013"
             ),
-            instance_test=[],
-            name="groupB013",
-            version=[],
-            other_attributes={}
+            name="groupB013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is extension, ref='the root parent group's name'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB014.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB014",
-                version=[],
-                other_attributes={}
+                name="groupB014"
             ),
-            instance_test=[],
-            name="groupB014",
-            version=[],
-            other_attributes={}
+            name="groupB014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is restriction, ref='the root parent group's name'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB015.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB015",
-                version=[],
-                other_attributes={}
+                name="groupB015"
             ),
-            instance_test=[],
-            name="groupB015",
-            version=[],
-            other_attributes={}
+            name="groupB015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref: circular ref is not allowed out side of redefine, parent is restriction, reference a global group 'A', which has a choice that reference another globle group 'B', which as a sequence that reference 'A'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB016.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB016",
-                version=[],
-                other_attributes={}
+                name="groupB016"
             ),
-            instance_test=[],
-            name="groupB016",
-            version=[],
-            other_attributes={}
+            name="groupB016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test ref: reference a global group to restrict another complex type (a,b) to (a), parent is restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB017.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB017",
-                version=[],
-                other_attributes={}
+                name="groupB017"
             ),
-            instance_test=[],
-            name="groupB017",
-            version=[],
-            other_attributes={}
+            name="groupB017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test that circular reference is allowed in redefines",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupB018.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupB018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupB018",
-                version=[],
-                other_attributes={}
+                name="groupB018"
             ),
-            instance_test=[],
-            name="groupB018",
-            version=[],
-            other_attributes={}
+            name="groupB018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name: two global groups with same name",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC001",
-                version=[],
-                other_attributes={}
+                name="groupC001"
             ),
-            instance_test=[],
-            name="groupC001",
-            version=[],
-            other_attributes={}
+            name="groupC001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name: group without an name",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC002",
-                version=[],
-                other_attributes={}
+                name="groupC002"
             ),
-            instance_test=[],
-            name="groupC002",
-            version=[],
-            other_attributes={}
+            name="groupC002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name: two groups with same name, one from global one from redefine",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC003",
-                version=[],
-                other_attributes={}
+                name="groupC003"
             ),
-            instance_test=[],
-            name="groupC003",
-            version=[],
-            other_attributes={}
+            name="groupC003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is extension",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC004",
-                version=[],
-                other_attributes={}
+                name="groupC004"
             ),
-            instance_test=[],
-            name="groupC004",
-            version=[],
-            other_attributes={}
+            name="groupC004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is restriction",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC005",
-                version=[],
-                other_attributes={}
+                name="groupC005"
             ),
-            instance_test=[],
-            name="groupC005",
-            version=[],
-            other_attributes={}
+            name="groupC005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is sequence",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC006",
-                version=[],
-                other_attributes={}
+                name="groupC006"
             ),
-            instance_test=[],
-            name="groupC006",
-            version=[],
-            other_attributes={}
+            name="groupC006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is choice",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC007",
-                version=[],
-                other_attributes={}
+                name="groupC007"
             ),
-            instance_test=[],
-            name="groupC007",
-            version=[],
-            other_attributes={}
+            name="groupC007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name: name attribute is only allowed in toplevel, parent is complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC008",
-                version=[],
-                other_attributes={}
+                name="groupC008"
             ),
-            instance_test=[],
-            name="groupC008",
-            version=[],
-            other_attributes={}
+            name="groupC008"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name:, name=''",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC009",
-                version=[],
-                other_attributes={}
+                name="groupC009"
             ),
-            instance_test=[],
-            name="groupC009",
-            version=[],
-            other_attributes={}
+            name="groupC009"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name:, name='1'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC010",
-                version=[],
-                other_attributes={}
+                name="groupC010"
             ),
-            instance_test=[],
-            name="groupC010",
-            version=[],
-            other_attributes={}
+            name="groupC010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name:, name='xmlns'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC011",
-                version=[],
-                other_attributes={}
+                name="groupC011"
             ),
-            instance_test=[],
-            name="groupC011",
-            version=[],
-            other_attributes={}
+            name="groupC011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test name:, name='a:b'",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupC012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupC012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupC012",
-                version=[],
-                other_attributes={}
+                name="groupC012"
             ),
-            instance_test=[],
-            name="groupC012",
-            version=[],
-            other_attributes={}
+            name="groupC012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test particles: parent is schema can't have minOccurs, minOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupD001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupD001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupD001",
-                version=[],
-                other_attributes={}
+                name="groupD001"
             ),
-            instance_test=[],
-            name="groupD001",
-            version=[],
-            other_attributes={}
+            name="groupD001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test particles: parent is redefine can't have minOccurs, minOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupD002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupD002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupD002",
-                version=[],
-                other_attributes={}
+                name="groupD002"
             ),
-            instance_test=[],
-            name="groupD002",
-            version=[],
-            other_attributes={}
+            name="groupD002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test particles: parent is schema can't have maxOccurs, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupD003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupD003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupD003",
-                version=[],
-                other_attributes={}
+                name="groupD003"
             ),
-            instance_test=[],
-            name="groupD003",
-            version=[],
-            other_attributes={}
+            name="groupD003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test particles: parent is redefine can't have maxOccurs, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupD004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupD004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupD004",
-                version=[],
-                other_attributes={}
+                name="groupD004"
             ),
-            instance_test=[],
-            name="groupD004",
-            version=[],
-            other_attributes={}
+            name="groupD004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupE002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupE002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupE002",
-                version=[],
-                other_attributes={}
+                name="groupE002"
             ),
-            instance_test=[],
-            name="groupE002",
-            version=[],
-            other_attributes={}
+            name="groupE002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupE003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupE003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupE003v",
-                version=[],
-                other_attributes={}
+                name="groupE003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupE003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupE003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupE003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupE003v.i"
                 ),
             ],
-            name="groupE003v",
-            version=[],
-            other_attributes={}
+            name="groupE003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupE004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupE004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupE004v",
-                version=[],
-                other_attributes={}
+                name="groupE004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupE004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupE004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupE004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupE004v.v"
                 ),
             ],
-            name="groupE004v",
-            version=[],
-            other_attributes={}
+            name="groupE004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupE005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupE005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupE005v",
-                version=[],
-                other_attributes={}
+                name="groupE005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupE005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupE005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupE005v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupE005v.i"
                 ),
             ],
-            name="groupE005v",
-            version=[],
-            other_attributes={}
+            name="groupE005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF001v",
-                version=[],
-                other_attributes={}
+                name="groupF001v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF001.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF001.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF001v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF001v.v"
                 ),
             ],
-            name="groupF001v",
-            version=[],
-            other_attributes={}
+            name="groupF001v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF002v",
-                version=[],
-                other_attributes={}
+                name="groupF002v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF002.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF002.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF002v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF002v.v"
                 ),
             ],
-            name="groupF002v",
-            version=[],
-            other_attributes={}
+            name="groupF002v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF003v",
-                version=[],
-                other_attributes={}
+                name="groupF003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF003v.i"
                 ),
             ],
-            name="groupF003v",
-            version=[],
-            other_attributes={}
+            name="groupF003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF004v",
-                version=[],
-                other_attributes={}
+                name="groupF004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF004v.v"
                 ),
             ],
-            name="groupF004v",
-            version=[],
-            other_attributes={}
+            name="groupF004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF005v",
-                version=[],
-                other_attributes={}
+                name="groupF005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF005v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF005v.v"
                 ),
             ],
-            name="groupF005v",
-            version=[],
-            other_attributes={}
+            name="groupF005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF006v",
-                version=[],
-                other_attributes={}
+                name="groupF006v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF006.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF006v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF006v.i"
                 ),
             ],
-            name="groupF006v",
-            version=[],
-            other_attributes={}
+            name="groupF006v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF007v",
-                version=[],
-                other_attributes={}
+                name="groupF007v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF007.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF007v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF007v.v"
                 ),
             ],
-            name="groupF007v",
-            version=[],
-            other_attributes={}
+            name="groupF007v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF008v",
-                version=[],
-                other_attributes={}
+                name="groupF008v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF008.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF008v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF008v.i"
                 ),
             ],
-            name="groupF008v",
-            version=[],
-            other_attributes={}
+            name="groupF008v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999999999",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF009v",
-                version=[],
-                other_attributes={}
+                name="groupF009v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF009.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF009.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF009v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF009v.v"
                 ),
             ],
-            name="groupF009v",
-            version=[],
-            other_attributes={}
+            name="groupF009v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF010v",
-                version=[],
-                other_attributes={}
+                name="groupF010v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF010.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF010.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF010v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF010v.i"
                 ),
             ],
-            name="groupF010v",
-            version=[],
-            other_attributes={}
+            name="groupF010v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF011v",
-                version=[],
-                other_attributes={}
+                name="groupF011v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF011.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF011.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF011v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF011v.v"
                 ),
             ],
-            name="groupF011v",
-            version=[],
-            other_attributes={}
+            name="groupF011v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF012v",
-                version=[],
-                other_attributes={}
+                name="groupF012v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF012.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF012.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF012v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF012v.i"
                 ),
             ],
-            name="groupF012v",
-            version=[],
-            other_attributes={}
+            name="groupF012v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF013.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF013v",
-                version=[],
-                other_attributes={}
+                name="groupF013v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF013.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF013.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF013v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF013v.i"
                 ),
             ],
-            name="groupF013v",
-            version=[],
-            other_attributes={}
+            name="groupF013v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF014.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF014v",
-                version=[],
-                other_attributes={}
+                name="groupF014v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF014.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF014.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF014v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF014v.v"
                 ),
             ],
-            name="groupF014v",
-            version=[],
-            other_attributes={}
+            name="groupF014v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF015.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF015v",
-                version=[],
-                other_attributes={}
+                name="groupF015v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF015.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF015.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF015v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF015v.i"
                 ),
             ],
-            name="groupF015v",
-            version=[],
-            other_attributes={}
+            name="groupF015v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=0, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF016.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF016v",
-                version=[],
-                other_attributes={}
+                name="groupF016v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF016.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF016.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF016v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF016v.i"
                 ),
             ],
-            name="groupF016v",
-            version=[],
-            other_attributes={}
+            name="groupF016v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=1, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF017.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF017v",
-                version=[],
-                other_attributes={}
+                name="groupF017v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF017.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF017.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF017v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF017v.v"
                 ),
             ],
-            name="groupF017v",
-            version=[],
-            other_attributes={}
+            name="groupF017v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=2, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF018.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF018v",
-                version=[],
-                other_attributes={}
+                name="groupF018v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF018.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF018.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF018v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF018v.v"
                 ),
             ],
-            name="groupF018v",
-            version=[],
-            other_attributes={}
+            name="groupF018v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF019.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF019v",
-                version=[],
-                other_attributes={}
+                name="groupF019v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF019.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF019.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF019v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupF019v.i"
                 ),
             ],
-            name="groupF019v",
-            version=[],
-            other_attributes={}
+            name="groupF019v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: unbounded is not allowed as minOccurs, minOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF020.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF020",
-                version=[],
-                other_attributes={}
+                name="groupF020"
             ),
-            instance_test=[],
-            name="groupF020",
-            version=[],
-            other_attributes={}
+            name="groupF020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: elements in instant XML=3, maxOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF021.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF021v",
-                version=[],
-                other_attributes={}
+                name="groupF021v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF021.xml",
-                        other_attributes={}
+                        href="../msData/group/groupF021.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupF021v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupF021v.v"
                 ),
             ],
-            name="groupF021v",
-            version=[],
-            other_attributes={}
+            name="groupF021v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=2, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF022.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF022",
-                version=[],
-                other_attributes={}
+                name="groupF022"
             ),
-            instance_test=[],
-            name="groupF022",
-            version=[],
-            other_attributes={}
+            name="groupF022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=1, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF023.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF023",
-                version=[],
-                other_attributes={}
+                name="groupF023"
             ),
-            instance_test=[],
-            name="groupF023",
-            version=[],
-            other_attributes={}
+            name="groupF023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: minOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF024.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF024",
-                version=[],
-                other_attributes={}
+                name="groupF024"
             ),
-            instance_test=[],
-            name="groupF024",
-            version=[],
-            other_attributes={}
+            name="groupF024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is extension: maxOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupF025.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupF025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupF025",
-                version=[],
-                other_attributes={}
+                name="groupF025"
             ),
-            instance_test=[],
-            name="groupF025",
-            version=[],
-            other_attributes={}
+            name="groupF025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupG002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupG002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupG002",
-                version=[],
-                other_attributes={}
+                name="groupG002"
             ),
-            instance_test=[],
-            name="groupG002",
-            version=[],
-            other_attributes={}
+            name="groupG002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupG003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupG003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupG003v",
-                version=[],
-                other_attributes={}
+                name="groupG003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupG003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupG003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupG003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupG003v.i"
                 ),
             ],
-            name="groupG003v",
-            version=[],
-            other_attributes={}
+            name="groupG003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupG004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupG004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupG004v",
-                version=[],
-                other_attributes={}
+                name="groupG004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupG004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupG004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupG004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupG004v.v"
                 ),
             ],
-            name="groupG004v",
-            version=[],
-            other_attributes={}
+            name="groupG004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupG005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupG005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupG005v",
-                version=[],
-                other_attributes={}
+                name="groupG005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupG005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupG005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupG005v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupG005v.i"
                 ),
             ],
-            name="groupG005v",
-            version=[],
-            other_attributes={}
+            name="groupG005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH001v",
-                version=[],
-                other_attributes={}
+                name="groupH001v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH001.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH001.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH001v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH001v.v"
                 ),
             ],
-            name="groupH001v",
-            version=[],
-            other_attributes={}
+            name="groupH001v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH002v",
-                version=[],
-                other_attributes={}
+                name="groupH002v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH002.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH002.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH002v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH002v.v"
                 ),
             ],
-            name="groupH002v",
-            version=[],
-            other_attributes={}
+            name="groupH002v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH003v",
-                version=[],
-                other_attributes={}
+                name="groupH003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH003v.i"
                 ),
             ],
-            name="groupH003v",
-            version=[],
-            other_attributes={}
+            name="groupH003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH004v",
-                version=[],
-                other_attributes={}
+                name="groupH004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH004v.v"
                 ),
             ],
-            name="groupH004v",
-            version=[],
-            other_attributes={}
+            name="groupH004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH005v",
-                version=[],
-                other_attributes={}
+                name="groupH005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH005v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH005v.v"
                 ),
             ],
-            name="groupH005v",
-            version=[],
-            other_attributes={}
+            name="groupH005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH006v",
-                version=[],
-                other_attributes={}
+                name="groupH006v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH006.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH006v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH006v.i"
                 ),
             ],
-            name="groupH006v",
-            version=[],
-            other_attributes={}
+            name="groupH006v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH007v",
-                version=[],
-                other_attributes={}
+                name="groupH007v"
             ),
-            instance_test=[],
-            name="groupH007v",
-            version=[],
-            other_attributes={}
+            name="groupH007v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH008v",
-                version=[],
-                other_attributes={}
+                name="groupH008v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH008.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH008v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH008v.i"
                 ),
             ],
-            name="groupH008v",
-            version=[],
-            other_attributes={}
+            name="groupH008v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=0, maxOccurs=999999999999999",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH009v",
-                version=[],
-                other_attributes={}
+                name="groupH009v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH009.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH009.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH009v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH009v.v"
                 ),
             ],
-            name="groupH009v",
-            version=[],
-            other_attributes={}
+            name="groupH009v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH010v",
-                version=[],
-                other_attributes={}
+                name="groupH010v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH010.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH010.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH010v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH010v.i"
                 ),
             ],
-            name="groupH010v",
-            version=[],
-            other_attributes={}
+            name="groupH010v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH011v",
-                version=[],
-                other_attributes={}
+                name="groupH011v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH011.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH011.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH011v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH011v.v"
                 ),
             ],
-            name="groupH011v",
-            version=[],
-            other_attributes={}
+            name="groupH011v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH012v",
-                version=[],
-                other_attributes={}
+                name="groupH012v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH012.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH012.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH012v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH012v.i"
                 ),
             ],
-            name="groupH012v",
-            version=[],
-            other_attributes={}
+            name="groupH012v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH013.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH013v",
-                version=[],
-                other_attributes={}
+                name="groupH013v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH013.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH013.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH013v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH013v.i"
                 ),
             ],
-            name="groupH013v",
-            version=[],
-            other_attributes={}
+            name="groupH013v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH014.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH014v",
-                version=[],
-                other_attributes={}
+                name="groupH014v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH014.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH014.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH014v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH014v.v"
                 ),
             ],
-            name="groupH014v",
-            version=[],
-            other_attributes={}
+            name="groupH014v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH015.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH015v",
-                version=[],
-                other_attributes={}
+                name="groupH015v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH015.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH015.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH015v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH015v.i"
                 ),
             ],
-            name="groupH015v",
-            version=[],
-            other_attributes={}
+            name="groupH015v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=0, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH016.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH016v",
-                version=[],
-                other_attributes={}
+                name="groupH016v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH016.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH016.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH016v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH016v.i"
                 ),
             ],
-            name="groupH016v",
-            version=[],
-            other_attributes={}
+            name="groupH016v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=1, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH017.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH017v",
-                version=[],
-                other_attributes={}
+                name="groupH017v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH017.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH017.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH017v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH017v.v"
                 ),
             ],
-            name="groupH017v",
-            version=[],
-            other_attributes={}
+            name="groupH017v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=2, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH018.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH018v",
-                version=[],
-                other_attributes={}
+                name="groupH018v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH018.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH018.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH018v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupH018v.v"
                 ),
             ],
-            name="groupH018v",
-            version=[],
-            other_attributes={}
+            name="groupH018v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH019.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH019v",
-                version=[],
-                other_attributes={}
+                name="groupH019v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH019.xml",
-                        other_attributes={}
+                        href="../msData/group/groupH019.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupH019v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupH019v.i"
                 ),
             ],
-            name="groupH019v",
-            version=[],
-            other_attributes={}
+            name="groupH019v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: unbounded is not allowed as minOccurs, minOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH020.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH020",
-                version=[],
-                other_attributes={}
+                name="groupH020"
             ),
-            instance_test=[],
-            name="groupH020",
-            version=[],
-            other_attributes={}
+            name="groupH020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: elements in instant XML=3, maxOccurs=unbounded",
                             ]
                         ),
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Invalid restriction, which becomes valid with XSD 1.1 - MHK",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-RestrictionComplexTypes-IntensionalRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH021.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH021.xsd"
                     ),
                 ],
                 expected=[
@@ -7242,8982 +4484,5549 @@ obj = TestSet(
                         validity=ExpectedOutcome.INVALID,
                         version=[
                             KnownToken.VALUE_1_0,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                     Expected(
                         validity=ExpectedOutcome.VALID,
                         version=[
                             KnownToken.VALUE_1_1,
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH021v",
-                version=[],
-                other_attributes={}
+                name="groupH021v"
             ),
-            instance_test=[],
-            name="groupH021v",
-            version=[],
-            other_attributes={}
+            name="groupH021v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=2, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH022.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH022",
-                version=[],
-                other_attributes={}
+                name="groupH022"
             ),
-            instance_test=[],
-            name="groupH022",
-            version=[],
-            other_attributes={}
+            name="groupH022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=1, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH023.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH023",
-                version=[],
-                other_attributes={}
+                name="groupH023"
             ),
-            instance_test=[],
-            name="groupH023",
-            version=[],
-            other_attributes={}
+            name="groupH023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: minOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH024.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH024",
-                version=[],
-                other_attributes={}
+                name="groupH024"
             ),
-            instance_test=[],
-            name="groupH024",
-            version=[],
-            other_attributes={}
+            name="groupH024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is restriction: maxOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupH025.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupH025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupH025",
-                version=[],
-                other_attributes={}
+                name="groupH025"
             ),
-            instance_test=[],
-            name="groupH025",
-            version=[],
-            other_attributes={}
+            name="groupH025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupI002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupI002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupI002",
-                version=[],
-                other_attributes={}
+                name="groupI002"
             ),
-            instance_test=[],
-            name="groupI002",
-            version=[],
-            other_attributes={}
+            name="groupI002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupI003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupI003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupI003v",
-                version=[],
-                other_attributes={}
+                name="groupI003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupI003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupI003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupI003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupI003v.i"
                 ),
             ],
-            name="groupI003v",
-            version=[],
-            other_attributes={}
+            name="groupI003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupI004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupI004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupI004v",
-                version=[],
-                other_attributes={}
+                name="groupI004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupI004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupI004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupI004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupI004v.v"
                 ),
             ],
-            name="groupI004v",
-            version=[],
-            other_attributes={}
+            name="groupI004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupI005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupI005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupI005v",
-                version=[],
-                other_attributes={}
+                name="groupI005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupI005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupI005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupI005v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupI005v.i"
                 ),
             ],
-            name="groupI005v",
-            version=[],
-            other_attributes={}
+            name="groupI005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ001v",
-                version=[],
-                other_attributes={}
+                name="groupJ001v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ001.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ001.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ001v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ001v.v"
                 ),
             ],
-            name="groupJ001v",
-            version=[],
-            other_attributes={}
+            name="groupJ001v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ002v",
-                version=[],
-                other_attributes={}
+                name="groupJ002v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ002.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ002.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ002v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ002v.v"
                 ),
             ],
-            name="groupJ002v",
-            version=[],
-            other_attributes={}
+            name="groupJ002v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ003v",
-                version=[],
-                other_attributes={}
+                name="groupJ003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ003v.i"
                 ),
             ],
-            name="groupJ003v",
-            version=[],
-            other_attributes={}
+            name="groupJ003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ004v",
-                version=[],
-                other_attributes={}
+                name="groupJ004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ004v.v"
                 ),
             ],
-            name="groupJ004v",
-            version=[],
-            other_attributes={}
+            name="groupJ004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ005v",
-                version=[],
-                other_attributes={}
+                name="groupJ005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ005v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ005v.v"
                 ),
             ],
-            name="groupJ005v",
-            version=[],
-            other_attributes={}
+            name="groupJ005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ006v",
-                version=[],
-                other_attributes={}
+                name="groupJ006v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ006.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ006v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ006v.i"
                 ),
             ],
-            name="groupJ006v",
-            version=[],
-            other_attributes={}
+            name="groupJ006v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ007v",
-                version=[],
-                other_attributes={}
+                name="groupJ007v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ007.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ007v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ007v.v"
                 ),
             ],
-            name="groupJ007v",
-            version=[],
-            other_attributes={}
+            name="groupJ007v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ008v",
-                version=[],
-                other_attributes={}
+                name="groupJ008v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ008.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ008v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ008v.i"
                 ),
             ],
-            name="groupJ008v",
-            version=[],
-            other_attributes={}
+            name="groupJ008v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=0, maxOccurs=99999999999",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ009v",
-                version=[],
-                other_attributes={}
+                name="groupJ009v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ009.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ009.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ009v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ009v.v"
                 ),
             ],
-            name="groupJ009v",
-            version=[],
-            other_attributes={}
+            name="groupJ009v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ010v",
-                version=[],
-                other_attributes={}
+                name="groupJ010v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ010.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ010.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ010v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ010v.i"
                 ),
             ],
-            name="groupJ010v",
-            version=[],
-            other_attributes={}
+            name="groupJ010v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ011v",
-                version=[],
-                other_attributes={}
+                name="groupJ011v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ011.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ011.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ011v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ011v.v"
                 ),
             ],
-            name="groupJ011v",
-            version=[],
-            other_attributes={}
+            name="groupJ011v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ012v",
-                version=[],
-                other_attributes={}
+                name="groupJ012v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ012.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ012.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ012v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ012v.i"
                 ),
             ],
-            name="groupJ012v",
-            version=[],
-            other_attributes={}
+            name="groupJ012v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ013.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ013v",
-                version=[],
-                other_attributes={}
+                name="groupJ013v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ013.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ013.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ013v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ013v.i"
                 ),
             ],
-            name="groupJ013v",
-            version=[],
-            other_attributes={}
+            name="groupJ013v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ014.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ014v",
-                version=[],
-                other_attributes={}
+                name="groupJ014v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ014.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ014.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ014v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ014v.v"
                 ),
             ],
-            name="groupJ014v",
-            version=[],
-            other_attributes={}
+            name="groupJ014v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ015.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ015v",
-                version=[],
-                other_attributes={}
+                name="groupJ015v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ015.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ015.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ015v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ015v.i"
                 ),
             ],
-            name="groupJ015v",
-            version=[],
-            other_attributes={}
+            name="groupJ015v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=0, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ016.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ016v",
-                version=[],
-                other_attributes={}
+                name="groupJ016v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ016.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ016.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ016v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ016v.i"
                 ),
             ],
-            name="groupJ016v",
-            version=[],
-            other_attributes={}
+            name="groupJ016v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=1, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ017.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ017v",
-                version=[],
-                other_attributes={}
+                name="groupJ017v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ017.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ017.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ017v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ017v.v"
                 ),
             ],
-            name="groupJ017v",
-            version=[],
-            other_attributes={}
+            name="groupJ017v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=2, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ018.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ018v",
-                version=[],
-                other_attributes={}
+                name="groupJ018v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ018.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ018.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ018v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ018v.v"
                 ),
             ],
-            name="groupJ018v",
-            version=[],
-            other_attributes={}
+            name="groupJ018v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ019.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ019v",
-                version=[],
-                other_attributes={}
+                name="groupJ019v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ019.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ019.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ019v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ019v.i"
                 ),
             ],
-            name="groupJ019v",
-            version=[],
-            other_attributes={}
+            name="groupJ019v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: unbounded is not allowed as minOccurs, minOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ020.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ020",
-                version=[],
-                other_attributes={}
+                name="groupJ020"
             ),
-            instance_test=[],
-            name="groupJ020",
-            version=[],
-            other_attributes={}
+            name="groupJ020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: elements in instant XML=3, maxOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ021.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ021v",
-                version=[],
-                other_attributes={}
+                name="groupJ021v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ021.xml",
-                        other_attributes={}
+                        href="../msData/group/groupJ021.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupJ021v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupJ021v.v"
                 ),
             ],
-            name="groupJ021v",
-            version=[],
-            other_attributes={}
+            name="groupJ021v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=2, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ022.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ022",
-                version=[],
-                other_attributes={}
+                name="groupJ022"
             ),
-            instance_test=[],
-            name="groupJ022",
-            version=[],
-            other_attributes={}
+            name="groupJ022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=1, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ023.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ023",
-                version=[],
-                other_attributes={}
+                name="groupJ023"
             ),
-            instance_test=[],
-            name="groupJ023",
-            version=[],
-            other_attributes={}
+            name="groupJ023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: minOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ024.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ024",
-                version=[],
-                other_attributes={}
+                name="groupJ024"
             ),
-            instance_test=[],
-            name="groupJ024",
-            version=[],
-            other_attributes={}
+            name="groupJ024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is sequence: maxOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupJ025.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupJ025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupJ025",
-                version=[],
-                other_attributes={}
+                name="groupJ025"
             ),
-            instance_test=[],
-            name="groupJ025",
-            version=[],
-            other_attributes={}
+            name="groupJ025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupK002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupK002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupK002",
-                version=[],
-                other_attributes={}
+                name="groupK002"
             ),
-            instance_test=[],
-            name="groupK002",
-            version=[],
-            other_attributes={}
+            name="groupK002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupK003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupK003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupK003v",
-                version=[],
-                other_attributes={}
+                name="groupK003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupK003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupK003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupK003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupK003v.i"
                 ),
             ],
-            name="groupK003v",
-            version=[],
-            other_attributes={}
+            name="groupK003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupK004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupK004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupK004v",
-                version=[],
-                other_attributes={}
+                name="groupK004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupK004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupK004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupK004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupK004v.v"
                 ),
             ],
-            name="groupK004v",
-            version=[],
-            other_attributes={}
+            name="groupK004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupK005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupK005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupK005v",
-                version=[],
-                other_attributes={}
+                name="groupK005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupK005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupK005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupK005v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupK005v.i"
                 ),
             ],
-            name="groupK005v",
-            version=[],
-            other_attributes={}
+            name="groupK005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL001v",
-                version=[],
-                other_attributes={}
+                name="groupL001v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL001.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL001.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL001v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL001v.v"
                 ),
             ],
-            name="groupL001v",
-            version=[],
-            other_attributes={}
+            name="groupL001v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL002v",
-                version=[],
-                other_attributes={}
+                name="groupL002v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL002.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL002.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL002v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL002v.v"
                 ),
             ],
-            name="groupL002v",
-            version=[],
-            other_attributes={}
+            name="groupL002v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL003v",
-                version=[],
-                other_attributes={}
+                name="groupL003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL003v.i"
                 ),
             ],
-            name="groupL003v",
-            version=[],
-            other_attributes={}
+            name="groupL003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL004v",
-                version=[],
-                other_attributes={}
+                name="groupL004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL004v.v"
                 ),
             ],
-            name="groupL004v",
-            version=[],
-            other_attributes={}
+            name="groupL004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL005v",
-                version=[],
-                other_attributes={}
+                name="groupL005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL005v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL005v.v"
                 ),
             ],
-            name="groupL005v",
-            version=[],
-            other_attributes={}
+            name="groupL005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL006v",
-                version=[],
-                other_attributes={}
+                name="groupL006v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL006.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL006v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL006v.i"
                 ),
             ],
-            name="groupL006v",
-            version=[],
-            other_attributes={}
+            name="groupL006v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL007",
-                version=[],
-                other_attributes={}
+                name="groupL007"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL007.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL007.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL007.v"
                 ),
             ],
-            name="groupL007",
-            version=[],
-            other_attributes={}
+            name="groupL007"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL008v",
-                version=[],
-                other_attributes={}
+                name="groupL008v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL008.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL008v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL008v.i"
                 ),
             ],
-            name="groupL008v",
-            version=[],
-            other_attributes={}
+            name="groupL008v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=0, maxOccurs=999999999",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL009v",
-                version=[],
-                other_attributes={}
+                name="groupL009v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL009.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL009.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL009v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL009v.v"
                 ),
             ],
-            name="groupL009v",
-            version=[],
-            other_attributes={}
+            name="groupL009v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL010v",
-                version=[],
-                other_attributes={}
+                name="groupL010v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL010.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL010.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL010v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL010v.i"
                 ),
             ],
-            name="groupL010v",
-            version=[],
-            other_attributes={}
+            name="groupL010v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL011v",
-                version=[],
-                other_attributes={}
+                name="groupL011v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL011.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL011.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL011v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL011v.v"
                 ),
             ],
-            name="groupL011v",
-            version=[],
-            other_attributes={}
+            name="groupL011v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL012v",
-                version=[],
-                other_attributes={}
+                name="groupL012v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL012.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL012.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL012v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL012v.i"
                 ),
             ],
-            name="groupL012v",
-            version=[],
-            other_attributes={}
+            name="groupL012v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL013.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL013v",
-                version=[],
-                other_attributes={}
+                name="groupL013v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL013.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL013.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL013v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL013v.i"
                 ),
             ],
-            name="groupL013v",
-            version=[],
-            other_attributes={}
+            name="groupL013v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL014.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL014v",
-                version=[],
-                other_attributes={}
+                name="groupL014v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL014.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL014.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL014v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL014v.v"
                 ),
             ],
-            name="groupL014v",
-            version=[],
-            other_attributes={}
+            name="groupL014v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL015.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL015v",
-                version=[],
-                other_attributes={}
+                name="groupL015v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL015.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL015.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL015v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL015v.i"
                 ),
             ],
-            name="groupL015v",
-            version=[],
-            other_attributes={}
+            name="groupL015v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=0, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL016.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL016v",
-                version=[],
-                other_attributes={}
+                name="groupL016v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL016.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL016.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL016v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL016v.i"
                 ),
             ],
-            name="groupL016v",
-            version=[],
-            other_attributes={}
+            name="groupL016v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=1, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL017.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL017v",
-                version=[],
-                other_attributes={}
+                name="groupL017v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL017.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL017.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL017v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL017v.v"
                 ),
             ],
-            name="groupL017v",
-            version=[],
-            other_attributes={}
+            name="groupL017v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=2, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL018.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL018v",
-                version=[],
-                other_attributes={}
+                name="groupL018v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL018.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL018.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL018v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL018v.v"
                 ),
             ],
-            name="groupL018v",
-            version=[],
-            other_attributes={}
+            name="groupL018v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL019.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL019v",
-                version=[],
-                other_attributes={}
+                name="groupL019v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL019.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL019.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL019v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupL019v.i"
                 ),
             ],
-            name="groupL019v",
-            version=[],
-            other_attributes={}
+            name="groupL019v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: unbounded is not allowed as minOccurs, minOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL020.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL020",
-                version=[],
-                other_attributes={}
+                name="groupL020"
             ),
-            instance_test=[],
-            name="groupL020",
-            version=[],
-            other_attributes={}
+            name="groupL020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: elements in instant XML=3, maxOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL021.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL021v",
-                version=[],
-                other_attributes={}
+                name="groupL021v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL021.xml",
-                        other_attributes={}
+                        href="../msData/group/groupL021.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupL021v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupL021v.v"
                 ),
             ],
-            name="groupL021v",
-            version=[],
-            other_attributes={}
+            name="groupL021v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=2, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL022.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL022",
-                version=[],
-                other_attributes={}
+                name="groupL022"
             ),
-            instance_test=[],
-            name="groupL022",
-            version=[],
-            other_attributes={}
+            name="groupL022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=1, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL023.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL023",
-                version=[],
-                other_attributes={}
+                name="groupL023"
             ),
-            instance_test=[],
-            name="groupL023",
-            version=[],
-            other_attributes={}
+            name="groupL023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: minOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL024.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL024",
-                version=[],
-                other_attributes={}
+                name="groupL024"
             ),
-            instance_test=[],
-            name="groupL024",
-            version=[],
-            other_attributes={}
+            name="groupL024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is choice: maxOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupL025.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupL025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupL025",
-                version=[],
-                other_attributes={}
+                name="groupL025"
             ),
-            instance_test=[],
-            name="groupL025",
-            version=[],
-            other_attributes={}
+            name="groupL025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, minOccurs=2, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupM002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupM002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupM002",
-                version=[],
-                other_attributes={}
+                name="groupM002"
             ),
-            instance_test=[],
-            name="groupM002",
-            version=[],
-            other_attributes={}
+            name="groupM002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 0, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupM003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupM003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupM003v",
-                version=[],
-                other_attributes={}
+                name="groupM003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupM003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupM003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupM003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupM003v.i"
                 ),
             ],
-            name="groupM003v",
-            version=[],
-            other_attributes={}
+            name="groupM003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: check that minOccurs default is 1, elements in instant XML = 1, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupM004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupM004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupM004v",
-                version=[],
-                other_attributes={}
+                name="groupM004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupM004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupM004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupM004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupM004v.v"
                 ),
             ],
-            name="groupM004v",
-            version=[],
-            other_attributes={}
+            name="groupM004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: check that maxOccurs default is 1, elements in instant XML = 2, minOccurs=absent, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupM005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupM005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupM005v",
-                version=[],
-                other_attributes={}
+                name="groupM005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupM005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupM005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupM005v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupM005v.i"
                 ),
             ],
-            name="groupM005v",
-            version=[],
-            other_attributes={}
+            name="groupM005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN001v",
-                version=[],
-                other_attributes={}
+                name="groupN001v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN001.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN001.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN001v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN001v.v"
                 ),
             ],
-            name="groupN001v",
-            version=[],
-            other_attributes={}
+            name="groupN001v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN002v",
-                version=[],
-                other_attributes={}
+                name="groupN002v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN002.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN002.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN002v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN002v.v"
                 ),
             ],
-            name="groupN002v",
-            version=[],
-            other_attributes={}
+            name="groupN002v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN003v",
-                version=[],
-                other_attributes={}
+                name="groupN003v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN003.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN003v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN003v.i"
                 ),
             ],
-            name="groupN003v",
-            version=[],
-            other_attributes={}
+            name="groupN003v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN004v",
-                version=[],
-                other_attributes={}
+                name="groupN004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN004v.v"
                 ),
             ],
-            name="groupN004v",
-            version=[],
-            other_attributes={}
+            name="groupN004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN005v",
-                version=[],
-                other_attributes={}
+                name="groupN005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN005v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN005v.v"
                 ),
             ],
-            name="groupN005v",
-            version=[],
-            other_attributes={}
+            name="groupN005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=0, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN006v",
-                version=[],
-                other_attributes={}
+                name="groupN006v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN006.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN006v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN006v.i"
                 ),
             ],
-            name="groupN006v",
-            version=[],
-            other_attributes={}
+            name="groupN006v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN007v",
-                version=[],
-                other_attributes={}
+                name="groupN007v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN007.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN007v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN007v.v"
                 ),
             ],
-            name="groupN007v",
-            version=[],
-            other_attributes={}
+            name="groupN007v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=0, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN008v",
-                version=[],
-                other_attributes={}
+                name="groupN008v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN008.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN008v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN008v.i"
                 ),
             ],
-            name="groupN008v",
-            version=[],
-            other_attributes={}
+            name="groupN008v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=0, maxOccurs=999999999",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN009v",
-                version=[],
-                other_attributes={}
+                name="groupN009v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN009.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN009.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN009v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN009v.v"
                 ),
             ],
-            name="groupN009v",
-            version=[],
-            other_attributes={}
+            name="groupN009v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN010v",
-                version=[],
-                other_attributes={}
+                name="groupN010v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN010.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN010.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN010v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN010v.i"
                 ),
             ],
-            name="groupN010v",
-            version=[],
-            other_attributes={}
+            name="groupN010v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN011v",
-                version=[],
-                other_attributes={}
+                name="groupN011v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN011.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN011.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN011v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN011v.v"
                 ),
             ],
-            name="groupN011v",
-            version=[],
-            other_attributes={}
+            name="groupN011v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN012v",
-                version=[],
-                other_attributes={}
+                name="groupN012v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN012.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN012.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN012v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN012v.i"
                 ),
             ],
-            name="groupN012v",
-            version=[],
-            other_attributes={}
+            name="groupN012v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN013.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN013v",
-                version=[],
-                other_attributes={}
+                name="groupN013v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN013.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN013.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN013v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN013v.i"
                 ),
             ],
-            name="groupN013v",
-            version=[],
-            other_attributes={}
+            name="groupN013v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN014.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN014v",
-                version=[],
-                other_attributes={}
+                name="groupN014v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN014.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN014.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN014v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN014v.v"
                 ),
             ],
-            name="groupN014v",
-            version=[],
-            other_attributes={}
+            name="groupN014v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN015.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN015v",
-                version=[],
-                other_attributes={}
+                name="groupN015v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN015.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN015.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN015v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN015v.i"
                 ),
             ],
-            name="groupN015v",
-            version=[],
-            other_attributes={}
+            name="groupN015v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=0, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN016.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN016v",
-                version=[],
-                other_attributes={}
+                name="groupN016v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN016.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN016.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN016v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN016v.i"
                 ),
             ],
-            name="groupN016v",
-            version=[],
-            other_attributes={}
+            name="groupN016v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=1, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN017.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN017v",
-                version=[],
-                other_attributes={}
+                name="groupN017v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN017.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN017.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN017v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN017v.v"
                 ),
             ],
-            name="groupN017v",
-            version=[],
-            other_attributes={}
+            name="groupN017v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=2, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN018.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN018v",
-                version=[],
-                other_attributes={}
+                name="groupN018v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN018.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN018.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN018v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN018v.v"
                 ),
             ],
-            name="groupN018v",
-            version=[],
-            other_attributes={}
+            name="groupN018v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, minOccurs=1, maxOccurs=2",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN019.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN019v",
-                version=[],
-                other_attributes={}
+                name="groupN019v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN019.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN019.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN019v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupN019v.i"
                 ),
             ],
-            name="groupN019v",
-            version=[],
-            other_attributes={}
+            name="groupN019v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: unbounded is not allowed as minOccurs, minOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN020.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN020",
-                version=[],
-                other_attributes={}
+                name="groupN020"
             ),
-            instance_test=[],
-            name="groupN020",
-            version=[],
-            other_attributes={}
+            name="groupN020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: elements in instant XML=3, maxOccurs=unbounded",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN021.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN021v",
-                version=[],
-                other_attributes={}
+                name="groupN021v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN021.xml",
-                        other_attributes={}
+                        href="../msData/group/groupN021.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupN021v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupN021v.v"
                 ),
             ],
-            name="groupN021v",
-            version=[],
-            other_attributes={}
+            name="groupN021v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=2, maxOccurs=1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN022.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN022",
-                version=[],
-                other_attributes={}
+                name="groupN022"
             ),
-            instance_test=[],
-            name="groupN022",
-            version=[],
-            other_attributes={}
+            name="groupN022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=1, maxOccurs=0",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN023.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN023",
-                version=[],
-                other_attributes={}
+                name="groupN023"
             ),
-            instance_test=[],
-            name="groupN023",
-            version=[],
-            other_attributes={}
+            name="groupN023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: minOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN024.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN024",
-                version=[],
-                other_attributes={}
+                name="groupN024"
             ),
-            instance_test=[],
-            name="groupN024",
-            version=[],
-            other_attributes={}
+            name="groupN024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : parent is complexType: maxOccurs=-1",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupN025.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupN025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupN025",
-                version=[],
-                other_attributes={}
+                name="groupN025"
             ),
-            instance_test=[],
-            name="groupN025",
-            version=[],
-            other_attributes={}
+            name="groupN025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation, one annotation as child node",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO001.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO001",
-                version=[],
-                other_attributes={}
+                name="groupO001"
             ),
-            instance_test=[],
-            name="groupO001",
-            version=[],
-            other_attributes={}
+            name="groupO001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation, two annotation as child nodes",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO002.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO002",
-                version=[],
-                other_attributes={}
+                name="groupO002"
             ),
-            instance_test=[],
-            name="groupO002",
-            version=[],
-            other_attributes={}
+            name="groupO002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation must be the first node if present, two children, sequence follow by annotation",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO003.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO003",
-                version=[],
-                other_attributes={}
+                name="groupO003"
             ),
-            instance_test=[],
-            name="groupO003",
-            version=[],
-            other_attributes={}
+            name="groupO003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation follow by all",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO004.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO004v",
-                version=[],
-                other_attributes={}
+                name="groupO004v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO004.xml",
-                        other_attributes={}
+                        href="../msData/group/groupO004.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupO004v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupO004v.v"
                 ),
             ],
-            name="groupO004v",
-            version=[],
-            other_attributes={}
+            name="groupO004v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by all",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO005.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO005v",
-                version=[],
-                other_attributes={}
+                name="groupO005v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO005.xml",
-                        other_attributes={}
+                        href="../msData/group/groupO005.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupO005v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupO005v.i"
                 ),
             ],
-            name="groupO005v",
-            version=[],
-            other_attributes={}
+            name="groupO005v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation follow by choice",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO006.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO006v",
-                version=[],
-                other_attributes={}
+                name="groupO006v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO006.xml",
-                        other_attributes={}
+                        href="../msData/group/groupO006.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupO006v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupO006v.v"
                 ),
             ],
-            name="groupO006v",
-            version=[],
-            other_attributes={}
+            name="groupO006v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by choice",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO007.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO007v",
-                version=[],
-                other_attributes={}
+                name="groupO007v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO007.xml",
-                        other_attributes={}
+                        href="../msData/group/groupO007.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupO007v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupO007v.i"
                 ),
             ],
-            name="groupO007v",
-            version=[],
-            other_attributes={}
+            name="groupO007v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation follow by sequence",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO008.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO008v",
-                version=[],
-                other_attributes={}
+                name="groupO008v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO008.xml",
-                        other_attributes={}
+                        href="../msData/group/groupO008.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupO008v.v",
-                    version=[],
-                    other_attributes={}
+                    name="groupO008v.v"
                 ),
             ],
-            name="groupO008v",
-            version=[],
-            other_attributes={}
+            name="groupO008v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: (xml instant is invalid) annotation follow by sequence",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO009.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO009v",
-                version=[],
-                other_attributes={}
+                name="groupO009v"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO009.xml",
-                        other_attributes={}
+                        href="../msData/group/groupO009.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2006, 7, 16),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2006, 7, 16)
                     ),
-                    prior=[],
-                    name="groupO009v.i",
-                    version=[],
-                    other_attributes={}
+                    name="groupO009v.i"
                 ),
             ],
-            name="groupO009v",
-            version=[],
-            other_attributes={}
+            name="groupO009v"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation follow by element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO010.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO010",
-                version=[],
-                other_attributes={}
+                name="groupO010"
             ),
-            instance_test=[],
-            name="groupO010",
-            version=[],
-            other_attributes={}
+            name="groupO010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation follow by complexType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO011.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO011",
-                version=[],
-                other_attributes={}
+                name="groupO011"
             ),
-            instance_test=[],
-            name="groupO011",
-            version=[],
-            other_attributes={}
+            name="groupO011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation follow by simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO012.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO012",
-                version=[],
-                other_attributes={}
+                name="groupO012"
             ),
-            instance_test=[],
-            name="groupO012",
-            version=[],
-            other_attributes={}
+            name="groupO012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: annotation follow by attribute decl",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO013.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO013",
-                version=[],
-                other_attributes={}
+                name="groupO013"
             ),
-            instance_test=[],
-            name="groupO013",
-            version=[],
-            other_attributes={}
+            name="groupO013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: child node is a sequence with a child group, which has another sequence with a child group, which has another choice with a child group",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO014.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO014",
-                version=[],
-                other_attributes={}
+                name="groupO014"
             ),
-            instance_test=[],
-            name="groupO014",
-            version=[],
-            other_attributes={}
+            name="groupO014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by choice",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO015.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO015",
-                version=[],
-                other_attributes={}
+                name="groupO015"
             ),
-            instance_test=[],
-            name="groupO015",
-            version=[],
-            other_attributes={}
+            name="groupO015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by sequence",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO016.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO016",
-                version=[],
-                other_attributes={}
+                name="groupO016"
             ),
-            instance_test=[],
-            name="groupO016",
-            version=[],
-            other_attributes={}
+            name="groupO016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by sequence",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO017.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO017",
-                version=[],
-                other_attributes={}
+                name="groupO017"
             ),
-            instance_test=[],
-            name="groupO017",
-            version=[],
-            other_attributes={}
+            name="groupO017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by all",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO018.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO018",
-                version=[],
-                other_attributes={}
+                name="groupO018"
             ),
-            instance_test=[],
-            name="groupO018",
-            version=[],
-            other_attributes={}
+            name="groupO018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by all",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO019.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO019",
-                version=[],
-                other_attributes={}
+                name="groupO019"
             ),
-            instance_test=[],
-            name="groupO019",
-            version=[],
-            other_attributes={}
+            name="groupO019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), all follow by all",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO020.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO020",
-                version=[],
-                other_attributes={}
+                name="groupO020"
             ),
-            instance_test=[],
-            name="groupO020",
-            version=[],
-            other_attributes={}
+            name="groupO020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), choice follow by choice",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO021.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO021",
-                version=[],
-                other_attributes={}
+                name="groupO021"
             ),
-            instance_test=[],
-            name="groupO021",
-            version=[],
-            other_attributes={}
+            name="groupO021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test content: only one is allow (all | choice | sequence), sequence follow by sequence",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO022.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO022",
-                version=[],
-                other_attributes={}
+                name="groupO022"
             ),
-            instance_test=[],
-            name="groupO022",
-            version=[],
-            other_attributes={}
+            name="groupO022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test parent: parent is simpleType",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO023.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO023",
-                version=[],
-                other_attributes={}
+                name="groupO023"
             ),
-            instance_test=[],
-            name="groupO023",
-            version=[],
-            other_attributes={}
+            name="groupO023"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test parent: parent is element",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO024.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO024",
-                version=[],
-                other_attributes={}
+                name="groupO024"
             ),
-            instance_test=[],
-            name="groupO024",
-            version=[],
-            other_attributes={}
+            name="groupO024"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test parent: parent is attributeGroup",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO025.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO025",
-                version=[],
-                other_attributes={}
+                name="groupO025"
             ),
-            instance_test=[],
-            name="groupO025",
-            version=[],
-            other_attributes={}
+            name="groupO025"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test parent: parent is any",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO026.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO026.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO026",
-                version=[],
-                other_attributes={}
+                name="groupO026"
             ),
-            instance_test=[],
-            name="groupO026",
-            version=[],
-            other_attributes={}
+            name="groupO026"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "TEST :Syntax Checking (id, ref) : Test parent: parent is group",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2004/REC-xmlschema-1-20041028/#cModel_Group_Definitions"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../msData/group/groupO027.xsd",
-                        other_attributes={}
+                        href="../msData/group/groupO027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2006, 7, 16),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2006, 7, 16)
                 ),
-                prior=[],
-                name="groupO027",
-                version=[],
-                other_attributes={}
+                name="groupO027"
             ),
-            instance_test=[],
-            name="groupO027",
-            version=[],
-            other_attributes={}
+            name="groupO027"
         ),
     ],
     contributor="Microsoft",
     name="MS-Group2006-07-15",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

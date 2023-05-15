@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     q_element=AnyElement(
         qname="{q}wildcard",
-        text="1",
-        tail=None,
-        children=[],
-        attributes={}
+        text="1"
     )
 )

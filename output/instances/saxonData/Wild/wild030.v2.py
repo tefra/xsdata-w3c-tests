@@ -9,21 +9,14 @@ obj = DerivedElement(
         cpu="Intel",
         memory="4Gb",
         monitor="17inch",
-        speaker=None,
         any_element=[
             AnyElement(
                 qname="disk",
-                text="Seagate",
-                tail=None,
-                children=[],
-                attributes={}
+                text="Seagate"
             ),
             AnyElement(
                 qname="mouse",
-                text="USB",
-                tail=None,
-                children=[],
-                attributes={}
+                text="USB"
             ),
         ]
     ),

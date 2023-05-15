@@ -10,8 +10,7 @@ obj = Root(
             att=St.A_B
         ),
         Bar(
-            value=St.A_B,
-            att=None
+            value=St.A_B
         ),
         Bar(
             value=St.ANY_URI_C,

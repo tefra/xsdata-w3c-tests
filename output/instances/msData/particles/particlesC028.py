@@ -9,10 +9,7 @@ obj = Doc(
             foo_bar_target_namespace_element=[
                 AnyElement(
                     qname="{foo}foo",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),

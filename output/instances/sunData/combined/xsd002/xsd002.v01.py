@@ -7,60 +7,42 @@ obj = Root(
         AnyElement(
             qname="foo",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="this",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="contents",
                     text="",
-                    tail="&#10;&#9;&#9;should not be&#10;&#9;&#9;validated&#10;&#9;&#9;",
-                    children=[],
-                    attributes={}
+                    tail="&#10;&#9;&#9;should not be&#10;&#9;&#9;validated&#10;&#9;&#9;"
                 ),
                 AnyElement(
                     qname="because",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "it": "is ur-type",
                     }
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{http://foo.com}bar",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="zot",
             text="&#10;&#9;&#9;when using ",
-            tail=None,
             children=[
                 AnyElement(
                     qname="ur",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="type",
-                            text="",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text=""
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
             ],
             attributes={

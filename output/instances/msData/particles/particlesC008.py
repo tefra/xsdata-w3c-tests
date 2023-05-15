@@ -9,10 +9,7 @@ obj = Doc(
             other_element=[
                 AnyElement(
                     qname="{bar}a",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),

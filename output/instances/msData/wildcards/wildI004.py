@@ -9,10 +9,7 @@ obj = Root(
             any_element=[
                 AnyElement(
                     qname="elt2",
-                    text="name",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="name"
                 ),
             ]
         ),

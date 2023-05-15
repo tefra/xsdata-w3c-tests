@@ -8,10 +8,7 @@ obj = Doc(
         Elem(
             any_element=AnyElement(
                 qname="{foo}foo",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             )
         ),
     ]

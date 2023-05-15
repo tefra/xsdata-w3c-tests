@@ -2,5 +2,5 @@ from output.models.sun_data.attr_decl.ad_annotation.ad_annotation00101m.ad_annot
 
 
 obj = Root(
-    any_element=None
+
 )

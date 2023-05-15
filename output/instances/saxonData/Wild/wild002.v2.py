@@ -6,31 +6,19 @@ obj = Eden(
     any_element=[
         AnyElement(
             qname="adam",
-            text="m",
-            tail=None,
-            children=[],
-            attributes={}
+            text="m"
         ),
         AnyElement(
             qname="eve",
-            text="f",
-            tail=None,
-            children=[],
-            attributes={}
+            text="f"
         ),
         AnyElement(
             qname="{http://genesis.com/}cain",
-            text="m",
-            tail=None,
-            children=[],
-            attributes={}
+            text="m"
         ),
         AnyElement(
             qname="{http://genesis.com/}abel",
-            text="m",
-            tail=None,
-            children=[],
-            attributes={}
+            text="m"
         ),
     ]
 )

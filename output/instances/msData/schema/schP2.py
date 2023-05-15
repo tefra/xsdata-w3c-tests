@@ -6,17 +6,11 @@ obj = Root(
     any_element=[
         AnyElement(
             qname="{ns-a}e1",
-            text="1234",
-            tail=None,
-            children=[],
-            attributes={}
+            text="1234"
         ),
         AnyElement(
             qname="{ns-a}b-e1",
-            text="abcd",
-            tail=None,
-            children=[],
-            attributes={}
+            text="abcd"
         ),
     ]
 )

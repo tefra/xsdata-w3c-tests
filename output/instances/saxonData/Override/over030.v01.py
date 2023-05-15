@@ -6,25 +6,15 @@ from output.models.saxon_data.override.over030_xsd.over030a import Title
 
 obj = Doc(
     title=Title(
-        role=None,
-        id=None,
-        base=None,
         content=[
             "Document Title",
         ]
     ),
-    xsdextra=None,
     p_or_blockquote=[
         P(
-            role=None,
-            id=None,
-            base=None,
             content=[
                 "This is some ",
                 Emphasis(
-                    role=None,
-                    id=None,
-                    base=None,
                     content=[
                         "text",
                         ".",
@@ -32,8 +22,5 @@ obj = Doc(
                 ),
             ]
         ),
-    ],
-    role=None,
-    id=None,
-    base=None
+    ]
 )

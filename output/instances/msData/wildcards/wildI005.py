@@ -6,80 +6,47 @@ obj = Foo(
     foo_element=[
         AnyElement(
             qname="{foo}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{foo}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
     ],
     a_element=[
         AnyElement(
             qname="{a}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{a}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
     ],
     b_element=[
         AnyElement(
             qname="{b}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{b}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
     ],
     target_namespace_element=AnyElement(
-        qname=None,
-        text=None,
-        tail=None,
         children=[
             AnyElement(
                 qname="bar",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="bar",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://foo}foo",
-                text=" test",
-                tail=None,
-                children=[],
-                attributes={}
+                text=" test"
             ),
-        ],
-        attributes={}
-    ),
-    local_element=None,
-    other_element=None
+        ]
+    )
 )

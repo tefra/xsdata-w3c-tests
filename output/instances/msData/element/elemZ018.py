@@ -54,7 +54,7 @@ obj = Root(
                                                                                                 yyy=Yyy(
                                                                                                     zzz=Zzz(
                                                                                                         signatures=Signatures(
-                                                                                                            w3_org_2000_09_xmldsig_element=[]
+
                                                                                                         )
                                                                                                     )
                                                                                                 )
@@ -80,6 +80,5 @@ obj = Root(
                 )
             )
         )
-    ),
-    w3_org_xml_1998_namespace_attributes={}
+    )
 )

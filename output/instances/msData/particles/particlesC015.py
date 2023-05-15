@@ -10,24 +10,16 @@ obj = Doc(
                 AnyElement(
                     qname="{foo}foo",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="{just_testing_should_pass}bar",
-                            text="",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text=""
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
                 AnyElement(
                     qname="{foo}foo",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),

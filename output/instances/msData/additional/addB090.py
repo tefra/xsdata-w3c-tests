@@ -6,17 +6,11 @@ obj = Doc(
     foo_element=[
         AnyElement(
             qname="{foo}test",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ],
     c1_or_c2=AnyElement(
         qname="c1",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     )
 )

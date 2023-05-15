@@ -9,24 +9,20 @@ obj = Doc(
         Node(
             node_or_id_or_idref=[
                 PseudoId(
-                    value="aaa",
-                    a=None
+                    value="aaa"
                 ),
                 PseudoIdref(
-                    value="bbb",
-                    a=None
+                    value="bbb"
                 ),
             ]
         ),
         Node(
             node_or_id_or_idref=[
                 PseudoId(
-                    value="bbb",
-                    a=None
+                    value="bbb"
                 ),
                 PseudoIdref(
-                    value="aaa",
-                    a=None
+                    value="aaa"
                 ),
             ]
         ),

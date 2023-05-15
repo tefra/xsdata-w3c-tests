@@ -7,7 +7,6 @@ obj = Doc(
         Node(
             node_or_id=[
                 Node(
-                    node_or_id=[],
                     id_one=[
                         "ccc",
                         "ccc",
@@ -17,7 +16,6 @@ obj = Doc(
                     }
                 ),
                 Node(
-                    node_or_id=[],
                     id_one=[
                         "eee",
                     ],
@@ -35,7 +33,6 @@ obj = Doc(
                     "bbb",
                 ],
             ],
-            id_one=[],
             any_attributes={
                 "id": "aaa bbb",
             }

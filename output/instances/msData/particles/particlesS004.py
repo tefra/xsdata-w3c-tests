@@ -9,7 +9,6 @@ obj = Doc(
         e2=Address(
             street="",
             zip=""
-        ),
-        e3=None
+        )
     )
 )

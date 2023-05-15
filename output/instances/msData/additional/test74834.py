@@ -16,78 +16,63 @@ obj = Datafile(
             92232036854775807,
             DerivedElement(
                 qname="int",
-                value=-2147483648,
-                type=None
+                value=-2147483648
             ),
             DerivedElement(
                 qname="int",
-                value=-1,
-                type=None
+                value=-1
             ),
             DerivedElement(
                 qname="int",
-                value=0,
-                type=None
+                value=0
             ),
             DerivedElement(
                 qname="int",
-                value=1,
-                type=None
+                value=1
             ),
             DerivedElement(
                 qname="int",
-                value=2147483647,
-                type=None
+                value=2147483647
             ),
             DerivedElement(
                 qname="smallint",
-                value=-32768,
-                type=None
+                value=-32768
             ),
             DerivedElement(
                 qname="smallint",
-                value=-1,
-                type=None
+                value=-1
             ),
             DerivedElement(
                 qname="smallint",
-                value=0,
-                type=None
+                value=0
             ),
             DerivedElement(
                 qname="smallint",
-                value=1,
-                type=None
+                value=1
             ),
             DerivedElement(
                 qname="smallint",
-                value=32767,
-                type=None
+                value=32767
             ),
             DerivedElement(
                 qname="tinyint",
-                value=0,
-                type=None
+                value=0
             ),
             DerivedElement(
                 qname="tinyint",
-                value=1,
-                type=None
+                value=1
             ),
             DerivedElement(
                 qname="tinyint",
-                value=33,
-                type=None
+                value=33
             ),
             DerivedElement(
                 qname="tinyint",
-                value=254,
-                type=None
+                value=254
             ),
             DerivedElement(
                 qname="tinyint",
-                value=255,
-                type=None
+                value=255
             ),
             Decimal("-9954645.9999"),
             Decimal("-99232423454645.999900"),
@@ -101,53 +86,43 @@ obj = Datafile(
             Decimal("9954645.9999"),
             DerivedElement(
                 qname="money",
-                value=Decimal("-18888888888.5808"),
-                type=None
+                value=Decimal("-18888888888.5808")
             ),
             DerivedElement(
                 qname="money",
-                value=Decimal("-188.5808"),
-                type=None
+                value=Decimal("-188.5808")
             ),
             DerivedElement(
                 qname="money",
-                value=Decimal("0"),
-                type=None
+                value=Decimal("0")
             ),
             DerivedElement(
                 qname="money",
-                value=Decimal("188.5808"),
-                type=None
+                value=Decimal("188.5808")
             ),
             DerivedElement(
                 qname="money",
-                value=Decimal("18888888888.5808"),
-                type=None
+                value=Decimal("18888888888.5808")
             ),
             DerivedElement(
                 qname="smallmoney",
-                value=Decimal("-121212.1112"),
-                type=None
+                value=Decimal("-121212.1112")
             ),
             DerivedElement(
                 qname="smallmoney",
-                value=Decimal("-1.11"),
-                type=None
+                value=Decimal("-1.11")
             ),
             DerivedElement(
                 qname="smallmoney",
-                value=Decimal("0.0"),
-                type=None
+                value=Decimal("0.0")
             ),
             DerivedElement(
                 qname="smallmoney",
-                value=Decimal("1.11"),
-                type=None
+                value=Decimal("1.11")
             ),
             DerivedElement(
                 qname="smallmoney",
-                value=Decimal("121212.1112"),
-                type=None
+                value=Decimal("121212.1112")
             ),
             -1.79e+308,
             -1.79,
@@ -156,28 +131,23 @@ obj = Datafile(
             1.79e+308,
             DerivedElement(
                 qname="real",
-                value=-3.4e+38,
-                type=None
+                value=-3.4e+38
             ),
             DerivedElement(
                 qname="real",
-                value=2.79e+38,
-                type=None
+                value=2.79e+38
             ),
             DerivedElement(
                 qname="real",
-                value=0.0,
-                type=None
+                value=0.0
             ),
             DerivedElement(
                 qname="real",
-                value=2.79e+38,
-                type=None
+                value=2.79e+38
             ),
             DerivedElement(
                 qname="real",
-                value=3.4e+38,
-                type=None
+                value=3.4e+38
             ),
             MyDateTime(
                 date=XmlDate(2000, 10, 10),

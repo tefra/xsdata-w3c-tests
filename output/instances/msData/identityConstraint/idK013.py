@@ -8,8 +8,7 @@ obj = Root(
             pid=[
                 "abc",
             ],
-            val="1",
-            val2=None
+            val="1"
         ),
     ]
 )

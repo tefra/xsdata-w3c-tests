@@ -6,8 +6,6 @@ obj = Root(
     any_element=AnyElement(
         qname="{AttrGroup/targetNS}elementWithAttr",
         text="",
-        tail=None,
-        children=[],
         attributes={
             "number": "157",
         }

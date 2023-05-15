@@ -5,15 +5,12 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 obj = Root(
     a_or_a="",
-    b=None,
-    c=None,
     any_element=[
         DerivedElement(
             qname="A",
             value=A1(
-                any_element=None
-            ),
-            type=None
+
+            )
         ),
     ]
 )

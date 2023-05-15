@@ -7,13 +7,11 @@ obj = Foo(
     any_element=[
         DerivedElement(
             qname="b",
-            value="abc",
-            type=None
+            value="abc"
         ),
         DerivedElement(
             qname="c",
-            value=123,
-            type=None
+            value=123
         ),
     ]
 )

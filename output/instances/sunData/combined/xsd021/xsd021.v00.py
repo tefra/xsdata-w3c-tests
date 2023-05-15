@@ -11,7 +11,7 @@ obj = Root(
             }
         ),
         Root.SkipAny(
-            any_attributes={}
+
         ),
         Root.LaxAny(
             any_attributes={
@@ -22,7 +22,7 @@ obj = Root(
             }
         ),
         Root.LaxAny(
-            any_attributes={}
+
         ),
         Root.StrictAny(
             any_attributes={
@@ -32,7 +32,7 @@ obj = Root(
             }
         ),
         Root.StrictAny(
-            any_attributes={}
+
         ),
         Root.SkipOther(
             other_attributes={
@@ -43,7 +43,7 @@ obj = Root(
             }
         ),
         Root.SkipOther(
-            other_attributes={}
+
         ),
         Root.LaxLocal(
             local_attributes={
@@ -51,7 +51,7 @@ obj = Root(
             }
         ),
         Root.LaxLocal(
-            local_attributes={}
+
         ),
         Root.StrictTarget(
             target_namespace_attributes={
@@ -61,7 +61,7 @@ obj = Root(
             }
         ),
         Root.StrictTarget(
-            target_namespace_attributes={}
+
         ),
         Root.SkipBar(
             bar_attributes={
@@ -70,7 +70,7 @@ obj = Root(
             }
         ),
         Root.SkipBar(
-            bar_attributes={}
+
         ),
     ]
 )

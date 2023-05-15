@@ -9,30 +9,18 @@ obj = Doc(
     four="",
     five_or_five2=AnyElement(
         qname="five",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     ),
     six_or_six2=AnyElement(
         qname="six",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     ),
     seven_or_seven2=AnyElement(
         qname="seven",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     ),
     eight_or_eight2=AnyElement(
         qname="eight",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     )
 )

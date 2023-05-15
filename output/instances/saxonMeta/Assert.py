@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -19,79 +18,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Simple assertion on an attribute value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple assertion on an attribute value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple assertion on an attribute value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple assertion on an attribute value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert001.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 3, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 3, 5)
                 ),
-                prior=[],
-                name="assert001.xsd",
-                version=[],
-                other_attributes={}
+                name="assert001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -99,161 +69,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert001.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert001.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert001.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert001.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert001.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert001.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert001.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert001.n1.xml"
                 ),
             ],
             name="assert001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Cross validation between two attributes",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Cross validation between two attributes"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cross validation between two attributes",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Cross validation between two attributes"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert002.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 3, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 3, 5)
                 ),
-                prior=[],
-                name="assert002.xsd",
-                version=[],
-                other_attributes={}
+                name="assert002.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -261,161 +172,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert002.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert002.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert002.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert002.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert002.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert002.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert002.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert002.n1.xml"
                 ),
             ],
             name="assert002",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Cross validation between elements and attributes",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Cross validation between elements and attributes"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Asserts that existence of an attribute and a descendant element&#10;                          are mutually exclusive",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Asserts that existence of an attribute and a descendant element&#10;                          are mutually exclusive"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert003.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 3, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 3, 5)
                 ),
-                prior=[],
-                name="assert003.xsd",
-                version=[],
-                other_attributes={}
+                name="assert003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -423,243 +275,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, only the attribute exists.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert003.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert003.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert003.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert003.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, only the element exists.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert003.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert003.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert003.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert003.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, both nodes exist.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert003.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert003.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert003.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert003.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, neither node exists.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert003.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert003.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert003.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert003.n2.xml"
                 ),
             ],
             name="assert003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Constraints at more than one level",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Constraints at more than one level"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Imposes constraints at two levels of the same tree; also tests that&#10;                constraints at the inner level are rooted at the node being validated.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Imposes constraints at two levels of the same tree; also tests that&#10;                constraints at the inner level are rooted at the node being validated."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert004.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 3, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 3, 5)
                 ),
-                prior=[],
-                name="assert004.xsd",
-                version=[],
-                other_attributes={}
+                name="assert004.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -667,249 +430,157 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert004.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert004.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert004.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert004.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert004.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert004.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert004.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert004.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, outer constraint not satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert004.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert004.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert004.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert004.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, inner constraint not satisfied on second inner element.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert004.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert004.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert004.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert004.n2.xml"
                 ),
             ],
             name="assert004",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Multiple constraints on an inner level, no constraint at outer level",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Multiple constraints on an inner level, no constraint at outer level"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests the ability to construct multiple subtrees for validation,&#10;                             including use of preceding axis designed to stress the Saxon implementation.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests the ability to construct multiple subtrees for validation,&#10;                             including use of preceding axis designed to stress the Saxon implementation."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-StayInSubtree"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert005.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 3, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 3, 5)
                 ),
-                prior=[],
-                name="assert005.xsd",
-                version=[],
-                other_attributes={}
+                name="assert005.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -917,243 +588,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert005.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert005.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert005.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert005.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert005.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert005.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert005.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert005.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, first constraint not satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert005.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert005.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert005.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert005.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, second constraint not satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert005.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert005.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert005.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert005.n2.xml"
                 ),
             ],
             name="assert005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Inheritance of constraints in a type derived by restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Inheritance of constraints in a type derived by restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests inheritance of constraints; also imposes a constraint on a text&#10;                        node in a type with simple content.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests inheritance of constraints; also imposes a constraint on a text&#10;                        node in a type with simple content."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert006.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 3, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 3, 5)
                 ),
-                prior=[],
-                name="assert006.xsd",
-                version=[],
-                other_attributes={}
+                name="assert006.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1161,202 +743,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert006.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert006.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert006.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert006.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, base constraint not satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert006.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert006.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert006.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert006.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, derived constraint not satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert006.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert006.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert006.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert006.n2.xml"
                 ),
             ],
             name="assert006",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Inheritance of constraints in a type derived by extension",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Inheritance of constraints in a type derived by extension"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests inheritance of constraints; also imposes a constraint on a text&#10;                        node in a type with complex content; also uses namespaces",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests inheritance of constraints; also imposes a constraint on a text&#10;                        node in a type with complex content; also uses namespaces"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 3, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 3, 5)
                 ),
-                prior=[],
-                name="assert007.xsd",
-                version=[],
-                other_attributes={}
+                name="assert007.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1364,249 +872,157 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert007.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert007.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, two moves by same player in succession.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert007.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert007.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, white castles twice.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert007.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert007.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unrecognized result.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert007.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert007.n3.xml"
                 ),
             ],
             name="assert007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use xpathDefaultNamespace on xs:assert",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use xpathDefaultNamespace on xs:assert"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of assert007 written with xpathDefaultNamespace. Same instance documents.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Variant of assert007 written with xpathDefaultNamespace. Same instance documents."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert008.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 11, 19),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 11, 19)
                 ),
-                prior=[],
-                name="assert008.xsd",
-                version=[],
-                other_attributes={}
+                name="assert008.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1614,243 +1030,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="assert008.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert008.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, two moves by same player in succession.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 11, 19),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 11, 19)
                     ),
-                    prior=[],
-                    name="assert008.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert008.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, white castles twice.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert008.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert008.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unrecognized result.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 3, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 3, 5)
                     ),
-                    prior=[],
-                    name="assert008.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert008.n3.xml"
                 ),
             ],
             name="assert008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use xpathDefaultNamespace on xs:schema element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use xpathDefaultNamespace on xs:schema element"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Variant of assert007 written with xpathDefaultNamespace. Same instance documents.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Variant of assert007 written with xpathDefaultNamespace. Same instance documents."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert008a.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert008a.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 5, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 5, 29)
                 ),
-                prior=[],
-                name="assert008a.xsd",
-                version=[],
-                other_attributes={}
+                name="assert008a.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1858,243 +1185,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both constraints satisfied.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 29)
                     ),
-                    prior=[],
-                    name="assert008a.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert008a.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, two moves by same player in succession.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 29)
                     ),
-                    prior=[],
-                    name="assert008a.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert008a.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, white castles twice.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 29)
                     ),
-                    prior=[],
-                    name="assert008a.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert008a.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unrecognized result.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert007.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert007.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 29)
                     ),
-                    prior=[],
-                    name="assert008a.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert008a.n3.xml"
                 ),
             ],
             name="assert008a",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assert that a node-set is empty - error diagnostics handled specially by Saxon",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assert that a node-set is empty - error diagnostics handled specially by Saxon"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Simple assertion on an attribute value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Simple assertion on an attribute value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert009.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 2, 14),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 2, 14)
                 ),
-                prior=[],
-                name="assert009.xsd",
-                version=[],
-                other_attributes={}
+                name="assert009.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2102,161 +1340,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert009.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert009.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 2, 14),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 2, 14)
                     ),
-                    prior=[],
-                    name="assert009.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert009.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert009.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert009.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 2, 14),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 2, 14)
                     ),
-                    prior=[],
-                    name="assert009.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert009.n1.xml"
                 ),
             ],
             name="assert009",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a complex type with simple content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a complex type with simple content"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Co-occurrence constraint between the text content and an attribute.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Co-occurrence constraint between the text content and an attribute."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert010.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 6, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 6, 11)
                 ),
-                prior=[],
-                name="assert010.xsd",
-                version=[],
-                other_attributes={}
+                name="assert010.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2264,161 +1443,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert010.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert010.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert010.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert010.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert010.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert010.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert010.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert010.n1.xml"
                 ),
             ],
             name="assert010",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion involving a call to the doc() function",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion involving a call to the doc() function"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Uses an external document as a lookup table.&#10;                Had this working at one stage. But the current state of play (Saxon 9.2) is that doc() in an assertion is disallowed&#10;                both in the spec and in Saxon",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Uses an external document as a lookup table.&#10;                Had this working at one stage. But the current state of play (Saxon 9.2) is that doc() in an assertion is disallowed&#10;                both in the spec and in Saxon"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXPathContext"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert011.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 12, 15),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 12, 15)
                 ),
-                prior=[],
-                name="assert011.xsd",
-                version=[],
-                other_attributes={}
+                name="assert011.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2426,161 +1546,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, satisfies the assertion. (calls to doc() don't work)&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert011.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert011.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 15)
                     ),
-                    prior=[],
-                    name="assert011.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert011.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert011.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert011.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 12, 15),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 12, 15)
                     ),
-                    prior=[],
-                    name="assert011.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert011.n1.xml"
                 ),
             ],
             name="assert011",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion involving dynamic error in XPath expression",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion involving dynamic error in XPath expression"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Divide by zero in assertion, same as returning false",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Divide by zero in assertion, same as returning false"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert012.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="assert012.xsd",
-                version=[],
-                other_attributes={}
+                name="assert012.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2588,120 +1649,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, because the assertion throws an error&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert012.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert012.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="assert012.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert012.n1.xml"
                 ),
             ],
             name="assert012",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion testing type of data"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute within subtree is typed",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute within subtree is typed"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert013.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="assert013.xsd",
-                version=[],
-                other_attributes={}
+                name="assert013.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2709,120 +1726,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, the attribute has the required type&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert013.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert013.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert013.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert013.v1.xml"
                 ),
             ],
             name="assert013",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion testing type of data"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element root of subtree is anyType",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element root of subtree is anyType"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert014.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="assert014.xsd",
-                version=[],
-                other_attributes={}
+                name="assert014.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2830,120 +1803,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, the element is anyType so atomizing it does not produce a date&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert013.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert013.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert014.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert014.v1.xml"
                 ),
             ],
             name="assert014",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion testing type of data"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="$value is typed (complex type with simple content)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="$value is typed (complex type with simple content)"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert015.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="assert015.xsd",
-                version=[],
-                other_attributes={}
+                name="assert015.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2951,120 +1880,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, $value is a date&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert013.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert013.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert015.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert015.v1.xml"
                 ),
             ],
             name="assert015",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion testing type of data"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Atomizing the element succeeds (it has type xs:anyType, not a type with element-only content)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Atomizing the element succeeds (it has type xs:anyType, not a type with element-only content)"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert016.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="assert015.xsd",
-                version=[],
-                other_attributes={}
+                name="assert015.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3072,120 +1957,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, atomization succeeds&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert016.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert016.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert016.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert016.v1.xml"
                 ),
             ],
             name="assert016",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion testing type of data"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Atomizing the element succeeds, and the result is untypedAtomic",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Atomizing the element succeeds, and the result is untypedAtomic"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert017.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="assert017.xsd",
-                version=[],
-                other_attributes={}
+                name="assert017.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3193,120 +2034,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, atomization succeeds&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert016.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert016.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert017.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert017.v1.xml"
                 ),
             ],
             name="assert017",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion testing type of data"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Elements below the assertion root are properly typed",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Elements below the assertion root are properly typed"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert018.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="assert018.xsd",
-                version=[],
-                other_attributes={}
+                name="assert018.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3314,120 +2111,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, atomization succeeds&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert016.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert016.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert018.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert018.v1.xml"
                 ),
             ],
             name="assert018",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion testing type of data"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Elements below the assertion root are properly typed",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Elements below the assertion root are properly typed"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert019.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="assert019.xsd",
-                version=[],
-                other_attributes={}
+                name="assert019.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3435,120 +2188,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, with a complex type, $value is the empty sequence&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert016.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert016.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert019.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert019.v1.xml"
                 ),
             ],
             name="assert019",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion combined with chameleon include",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion combined with chameleon include"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Effect of xpathDefaultNamespace="##targetNamespace"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Effect of xpathDefaultNamespace="##targetNamespace"'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert020.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 11, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 11, 17)
                 ),
-                prior=[],
-                name="assert020.xsd",
-                version=[],
-                other_attributes={}
+                name="assert020.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3556,161 +2265,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert020.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert020.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert020.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert020.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unsatisfies the assertion, nested too deep&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert020.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert020.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert020.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert020.n1.xml"
                 ),
             ],
             name="assert020",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion combined with chameleon include",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion combined with chameleon include"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Effect of xpathDefaultNamespace="##targetNamespace"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Effect of xpathDefaultNamespace="##targetNamespace"'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-SchemaComposition-ChameleonInclOnUnqualNamesInXPathExpr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert021.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 11, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 11, 17)
                 ),
-                prior=[],
-                name="assert021.xsd",
-                version=[],
-                other_attributes={}
+                name="assert021.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3718,161 +2368,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert021.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert021.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert021.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert021.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unsatisfies the assertion, nested too deep&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert021.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert021.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert021.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert021.n1.xml"
                 ),
             ],
             name="assert021",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion testing type of data",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion testing type of data"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Elements below the assertion root are properly typed",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Elements below the assertion root are properly typed"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert022.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 11, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 11, 17)
                 ),
-                prior=[],
-                name="assert022.xsd",
-                version=[],
-                other_attributes={}
+                name="assert022.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3880,126 +2471,79 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, with a complex type, $value is the empty sequence&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert022.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert022.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="assert022.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert022.v1.xml"
                 ),
             ],
             name="assert022",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Check that comments are by default not visible in assertions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Check that comments are by default not visible in assertions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Schema asserts that comments are not allowed. Result depends on configuration&#10;                  setting (see resolution of spec bug 13935",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Schema asserts that comments are not allowed. Result depends on configuration&#10;                  setting (see resolution of spec bug 13935"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935",
-                    other_attributes={}
+                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert023.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 5, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 5, 20)
                 ),
-                prior=[],
-                name="assert023.xsd",
-                version=[],
-                other_attributes={}
+                name="assert023.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4007,175 +2551,112 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert023.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert023.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 5, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 5, 20)
                     ),
-                    prior=[],
-                    name="assert023.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert023.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Result depends on processor settings.&#10;&#9;&#9;                By default it is valid, that is it satisfies the assertion, &#10;&#9;&#9;                because although there is a comment present, it is not visible&#10;&#9;&#9;                to the assertion in the absence of a user option to make it so.&#10;&#9;&#9;                If a processor option is set to make comments and processing instructions&#10;&#9;&#9;                visible, then the instance becomes invalid.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert023.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert023.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
                         date=XmlDate(2011, 11, 29),
-                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935",
-                        other_attributes={}
+                        bugzilla="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2011, 5, 20),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2011, 5, 20)
                         ),
                     ],
-                    name="assert023.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert023.v2.xml"
                 ),
             ],
             name="assert023",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Namespace-aware assertions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Namespace-aware assertions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The subtree being validated must include copies of in-scope namespaces",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The subtree being validated must include copies of in-scope namespaces"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ComplexTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935",
-                    other_attributes={}
+                    href="http://www.w3.org/Bugs/Public/show_bug.cgi?id=13935"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert024.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 10, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 10, 17)
                 ),
-                prior=[],
-                name="assert024.xsd",
-                version=[],
-                other_attributes={}
+                name="assert024.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4183,120 +2664,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert024.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert024.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 10, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 10, 17)
                     ),
-                    prior=[],
-                    name="assert024.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert024.v1.xml"
                 ),
             ],
             name="assert024",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: date must be in the past",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type: date must be in the past"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple001.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2007, 12, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2007, 12, 8)
                 ),
-                prior=[],
-                name="assert-simple001.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4304,167 +2741,105 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple001.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple001.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 12, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 12, 8)
                     ),
-                    prior=[],
-                    name="assert-simple001.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple001.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple001.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple001.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2007, 12, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2007, 12, 8)
                     ),
-                    prior=[],
-                    name="assert-simple001.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple001.n1.xml"
                 ),
             ],
             name="assert-simple001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type using xpathDefaultNamespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type using xpathDefaultNamespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: value must be castable to xs:double",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type: value must be castable to xs:double"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple003.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 5, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 5, 29)
                 ),
-                prior=[],
-                name="assert-simple003.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4472,167 +2847,105 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple003.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple003.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 29)
                     ),
-                    prior=[],
-                    name="assert-simple003.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple003.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple003.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple003.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 29)
                     ),
-                    prior=[],
-                    name="assert-simple003.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple003.n1.xml"
                 ),
             ],
             name="assert-simple003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type using xpathDefaultNamespace on xs:schema element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type using xpathDefaultNamespace on xs:schema element"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: value must be castable to xs:double",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type: value must be castable to xs:double"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ImpactOfXPathDefaultNS"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple004.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 5, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 5, 29)
                 ),
-                prior=[],
-                name="assert-simple004.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple004.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4640,167 +2953,105 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple003.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple003.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 29)
                     ),
-                    prior=[],
-                    name="assert-simple004.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple004.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple003.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple003.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 5, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 5, 29)
                     ),
-                    prior=[],
-                    name="assert-simple004.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple004.n1.xml"
                 ),
             ],
             name="assert-simple004",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type with variety list",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type with variety list"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: $value contains the typed value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type: $value contains the typed value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple005.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 6, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 6, 11)
                 ),
-                prior=[],
-                name="assert-simple005.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple005.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4808,167 +3059,105 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple005.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple005.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert-simple005.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple005.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple005.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple005.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert-simple005.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple005.n1.xml"
                 ),
             ],
             name="assert-simple005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type with variety union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type with variety union"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion on a simple type: $value contains the typed value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type: $value contains the typed value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-RulesForXDMView"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple006.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 6, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 6, 11)
                 ),
-                prior=[],
-                name="assert-simple006.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple006.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4976,167 +3165,105 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, satisfies the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple006.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple006.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert-simple006.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple006.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple006.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple006.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert-simple006.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple006.n1.xml"
                 ),
             ],
             name="assert-simple006",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type fails with dynamic XPath error",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type fails with dynamic XPath error"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion tries to construct a date from a string that isn't a lexical date",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion tries to construct a date from a string that isn't a lexical date"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple007.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 6, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 6, 11)
                 ),
-                prior=[],
-                name="assert-simple007.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple007.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5144,126 +3271,79 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, dynamic error is treated as false.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple007.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple007.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert-simple007.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple007.n1.xml"
                 ),
             ],
             name="assert-simple007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type fails with dynamic XPath error",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type fails with dynamic XPath error"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion references context item which is undefined",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion references context item which is undefined"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple008.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 6, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 6, 11)
                 ),
-                prior=[],
-                name="assert-simple008.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple008.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5271,126 +3351,79 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, dynamic error is treated as false.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple007.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple007.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert-simple007.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple007.n1.xml"
                 ),
             ],
             name="assert-simple008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type fails with dynamic XPath error",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type fails with dynamic XPath error"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion references context position which is undefined",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion references context position which is undefined"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple009.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 6, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 6, 11)
                 ),
-                prior=[],
-                name="assert-simple009.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple009.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5398,126 +3431,79 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, dynamic error is treated as false.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple007.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple007.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert-simple007.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple007.n1.xml"
                 ),
             ],
             name="assert-simple009",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Assertion on a simple type fails with dynamic XPath error",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion on a simple type fails with dynamic XPath error"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Assertion references context size which is undefined",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Assertion references context size which is undefined"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cAssertions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-SimpleTypes"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Assertions-ErrorsInXPathEval"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple010.xsd",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 6, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 6, 11)
                 ),
-                prior=[],
-                name="assert-simple010.xsd",
-                version=[],
-                other_attributes={}
+                name="assert-simple010.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5525,48 +3511,32 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not satisfy the assertion, dynamic error is treated as false.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Assert/assert-simple007.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Assert/assert-simple007.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 6, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 6, 11)
                     ),
-                    prior=[],
-                    name="assert-simple007.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="assert-simple007.n1.xml"
                 ),
             ],
             name="assert-simple010",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

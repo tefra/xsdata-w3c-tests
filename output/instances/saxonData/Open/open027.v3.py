@@ -8,12 +8,8 @@ obj = Doc(
     ],
     b="",
     c="",
-    d=None,
     open_com_element=AnyElement(
         qname="{http://open.com/}extra",
-        text="42",
-        tail=None,
-        children=[],
-        attributes={}
+        text="42"
     )
 )

@@ -2,5 +2,5 @@ from output.models.sun_data.elem_decl.nillable.nillable00401m.nillable00401m1_xs
 
 
 obj = Root(
-    any_element=None
+
 )

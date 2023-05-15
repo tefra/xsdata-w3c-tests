@@ -8,29 +8,24 @@ obj = Root(
             type="text",
             content=[
                 "My News",
-            ],
-            value=""
+            ]
         ),
         StringTitleType(
             type="number",
             content=[
                 "122323",
-            ],
-            value=""
+            ]
         ),
         StringTitleType(
             type="mixed",
             content=[
                 "D413",
-            ],
-            value=""
+            ]
         ),
         StringTitleType(
-            type=None,
             content=[
                 "My News",
-            ],
-            value=""
+            ]
         ),
     ]
 )

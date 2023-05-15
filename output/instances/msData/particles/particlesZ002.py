@@ -6,15 +6,12 @@ from output.models.ms_data.particles.particles_z002_xsd.particles_z002 import Do
 
 obj = Doc(
     elem1=Derived1(
-        foo=None
+
     ),
     elem2=Derived2(
-        foo=None,
-        local_attributes={},
         bar="123"
     ),
     elem3=Derived3(
-        foo="123",
-        local_attributes={}
+        foo="123"
     )
 )

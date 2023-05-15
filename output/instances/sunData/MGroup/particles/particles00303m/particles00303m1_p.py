@@ -6,7 +6,6 @@ obj = A(
     id_or_id_str="12345678900987654321J.ABC",
     name_or_type=DerivedElement(
         qname="type",
-        value="#QQQQ",
-        type=None
+        value="#QQQQ"
     )
 )

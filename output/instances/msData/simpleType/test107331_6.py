@@ -14,80 +14,63 @@ obj = Root(
     choice=[
         AnyElement(
             qname="item",
-            text="abc",
-            tail=None,
-            children=[],
-            attributes={}
+            text="abc"
         ),
         DerivedElement(
             qname="item",
-            value=123,
-            type=None
+            value=123
         ),
         DerivedElement(
             qname="item",
-            value=4.56,
-            type=None
+            value=4.56
         ),
         DerivedElement(
             qname="item",
-            value="this is a string",
-            type=None
+            value="this is a string"
         ),
         DerivedElement(
             qname="item",
-            value=False,
-            type=None
+            value=False
         ),
         DerivedElement(
             qname="item",
-            value=Decimal("45"),
-            type=None
+            value=Decimal("45")
         ),
         DerivedElement(
             qname="item",
-            value=XmlDuration("P1347Y"),
-            type=None
+            value=XmlDuration("P1347Y")
         ),
         DerivedElement(
             qname="item",
-            value=XmlDateTime(1999, 5, 31, 13, 20, 0, 0, -300),
-            type=None
+            value=XmlDateTime(1999, 5, 31, 13, 20, 0, 0, -300)
         ),
         DerivedElement(
             qname="item",
-            value=XmlTime(13, 20, 0, 0, -300),
-            type=None
+            value=XmlTime(13, 20, 0, 0, -300)
         ),
         DerivedElement(
             qname="item",
-            value=XmlDate(1999, 5, 31),
-            type=None
+            value=XmlDate(1999, 5, 31)
         ),
         DerivedElement(
             qname="item",
-            value=XmlPeriod("1999"),
-            type=None
+            value=XmlPeriod("1999")
         ),
         DerivedElement(
             qname="item",
-            value=XmlPeriod("--02-13"),
-            type=None
+            value=XmlPeriod("--02-13")
         ),
         DerivedElement(
             qname="item",
-            value=b"\xab\xcd",
-            type=None
+            value=b"\xab\xcd"
         ),
         DerivedElement(
             qname="item",
-            value="http://tempuri",
-            type=None
+            value="http://tempuri"
         ),
         DerivedElement(
             qname="item",
-            value="123",
-            type=None
+            value="123"
         ),
     ]
 )

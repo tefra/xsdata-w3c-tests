@@ -7,46 +7,30 @@ obj = Root(
         AnyElement(
             qname="{ns-a}e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}b1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="{ns-a}b3",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}b-e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}b2",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="{ns-a}b4",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
-            ],
-            attributes={}
+            ]
         ),
     ]
 )

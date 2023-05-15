@@ -8,17 +8,11 @@ obj = Doc(
         b1_or_b2=[
             AnyElement(
                 qname="b2",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="b2",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
         ]
     )

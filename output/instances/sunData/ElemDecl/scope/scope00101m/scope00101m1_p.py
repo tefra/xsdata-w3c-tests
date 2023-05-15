@@ -6,11 +6,7 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Root(
     global_value=Global(
         any_element=AnyElement(
-            qname=None,
-            text="1",
-            tail=None,
-            children=[],
-            attributes={}
+            text="1"
         )
     ),
     local="2"

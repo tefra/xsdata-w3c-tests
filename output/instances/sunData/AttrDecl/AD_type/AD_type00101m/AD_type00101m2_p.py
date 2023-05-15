@@ -5,7 +5,6 @@ from output.models.sun_data.attr_decl.ad_type.ad_type00101m.ad_type00101m_xsd.ad
 
 obj = Root(
     element_with_attr=ElementWithAttr(
-        number=None,
         price=Decimal("12.3")
     )
 )

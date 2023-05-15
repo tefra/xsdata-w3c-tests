@@ -2,5 +2,5 @@ from output.models.sun_data.mgroup.compositor.compositor00202m.compositor00202m1
 
 
 obj = A(
-    value=""
+
 )

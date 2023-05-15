@@ -7,26 +7,16 @@ obj = Root(
     a_or_item=[
         Item(
             any_element=AnyElement(
-                qname=None,
-                text=" kjhad 254 987 lnfa ",
-                tail=None,
-                children=[],
-                attributes={}
+                text=" kjhad 254 987 lnfa "
             )
         ),
         AnyElement(
             qname="a",
-            text="123456",
-            tail=None,
-            children=[],
-            attributes={}
+            text="123456"
         ),
         AnyElement(
             qname="a",
-            text="abcdefgh",
-            tail=None,
-            children=[],
-            attributes={}
+            text="abcdefgh"
         ),
     ]
 )

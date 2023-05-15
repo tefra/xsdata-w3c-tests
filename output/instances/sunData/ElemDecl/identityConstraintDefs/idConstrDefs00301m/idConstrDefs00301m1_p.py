@@ -7,29 +7,25 @@ obj = Root(
         "e001",
         DerivedElement(
             qname="ElementRef",
-            value="e001",
-            type=None
+            value="e001"
         ),
         DerivedElement(
             qname="ElementRefs",
             value=[
                 "e001",
-            ],
-            type=None
+            ]
         ),
         "e002",
         DerivedElement(
             qname="ElementRef",
-            value="e001",
-            type=None
+            value="e001"
         ),
         DerivedElement(
             qname="ElementRefs",
             value=[
                 "e001",
                 "e002",
-            ],
-            type=None
+            ]
         ),
     ]
 )

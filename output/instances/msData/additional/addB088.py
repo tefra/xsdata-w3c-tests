@@ -9,40 +9,28 @@ obj = Doc(
             target_namespace_imported_xsd_element=AnyElement(
                 qname="{http://importedXSD}doc1",
                 text="",
-                tail=None,
                 children=[
                     AnyElement(
                         qname="{http://importedXSD}elem1",
                         text="",
-                        tail=None,
                         children=[
                             AnyElement(
                                 qname="{http://importedXSD}bbb",
-                                text="",
-                                tail=None,
-                                children=[],
-                                attributes={}
+                                text=""
                             ),
-                        ],
-                        attributes={}
+                        ]
                     ),
                     AnyElement(
                         qname="{http://importedXSD}elem2",
                         text="",
-                        tail=None,
                         children=[
                             AnyElement(
                                 qname="{http://importedXSD}bbb",
-                                text="",
-                                tail=None,
-                                children=[],
-                                attributes={}
+                                text=""
                             ),
-                        ],
-                        attributes={}
+                        ]
                     ),
-                ],
-                attributes={}
+                ]
             )
         ),
     ]

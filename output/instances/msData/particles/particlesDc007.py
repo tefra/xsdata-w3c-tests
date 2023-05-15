@@ -4,6 +4,6 @@ from output.models.ms_data.particles.particles_dc007_xsd.particles_dc007 import 
 
 obj = Doc(
     elem3_or_elem2=Elem3(
-        any_element=None
+
     )
 )

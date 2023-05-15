@@ -9,17 +9,11 @@ obj = Doc(
             local_element=[
                 AnyElement(
                     qname="a",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="b",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),

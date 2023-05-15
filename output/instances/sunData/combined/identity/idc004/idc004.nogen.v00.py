@@ -44,8 +44,7 @@ obj = Root(
                     plate_number=123,
                     state="NY"
                 ),
-            ],
-            person=[]
+            ]
         ),
     ]
 )

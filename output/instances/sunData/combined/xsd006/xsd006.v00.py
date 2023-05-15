@@ -12,13 +12,13 @@ from output.models.sun_data.combined.xsd006.xsd006_xsd.xsd006 import Root
 obj = Root(
     choice=[
         Item0To1(
-            x=None
+
         ),
         Item0To1(
             x=""
         ),
         Item0To2(
-            x=[]
+
         ),
         Item0To2(
             x=[
@@ -32,7 +32,7 @@ obj = Root(
             ]
         ),
         Item0ToX(
-            x=[]
+
         ),
         Item0ToX(
             x=[

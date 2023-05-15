@@ -58,8 +58,7 @@ obj = Root(
                 foo=Empty(
 
                 )
-            ),
-            type=None
+            )
         ),
         DerivedElement(
             qname="{foo}item2",

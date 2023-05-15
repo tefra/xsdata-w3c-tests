@@ -6,59 +6,35 @@ obj = Foo(
     choice=[
         AnyElement(
             qname="{a}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{b}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{http://xsdtesting}bar",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="local",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{a}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{b}b",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{http://xsdtesting}bar",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="local",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

@@ -7,10 +7,7 @@ obj = Doc(
     elem=R(
         target_namespace_element=AnyElement(
             qname="{http://xsdtesting}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         )
     )
 )

@@ -8,8 +8,7 @@ obj = Root(
         Decimal("5"),
         DerivedElement(
             qname="{foo}ref",
-            value=Decimal("5.0"),
-            type=None
+            value=Decimal("5.0")
         ),
     ]
 )

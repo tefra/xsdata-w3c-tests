@@ -1,5 +1,5 @@
-from output.models.saxon_data.cta.cta0014_xsd.cta0014 import Doc
-from output.models.saxon_data.cta.cta0014_xsd.cta0014 import Event
+from output.models.saxon_data.cta.cta0015_xsd.cta0015 import Doc
+from output.models.saxon_data.cta.cta0015_xsd.cta0015 import Event
 from xsdata.models.datatype import XmlDate
 from xsdata.models.datatype import XmlDateTime
 from xsdata.models.datatype import XmlPeriod
@@ -21,9 +21,7 @@ obj = Doc(
             type="dateTime"
         ),
         Event(
-            when=XmlPeriod("2010-10"),
-            type=None
+            when=XmlPeriod("2010-10")
         ),
-    ],
-    type=None
+    ]
 )

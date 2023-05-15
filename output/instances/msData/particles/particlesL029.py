@@ -8,19 +8,12 @@ obj = Doc(
     elem=R(
         foo_or_c2=Foo(
             any_element=AnyElement(
-                qname=None,
-                text="1",
-                tail=None,
-                children=[],
-                attributes={}
+                text="1"
             )
         ),
         d1_or_d2=AnyElement(
             qname="d1",
-            text="testing",
-            tail=None,
-            children=[],
-            attributes={}
+            text="testing"
         )
     )
 )

@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -19,79 +18,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element with more than one ID attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with more than one ID attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element with more than one ID attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with more than one ID attribute"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id001.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id001.xsd",
-                version=[],
-                other_attributes={}
+                name="id001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -99,202 +69,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, two IDs on the same element can have the same value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id001.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id001.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, same ID on two different elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id001.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id001.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, same ID on two different elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="id001.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id001.n02.xml"
                 ),
             ],
             name="id001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element with more than one ID attribute, one being a wildcard",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with more than one ID attribute, one being a wildcard"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element with more than one ID attribute, one being a wildcard",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with more than one ID attribute, one being a wildcard"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id002.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id002.xsd",
-                version=[],
-                other_attributes={}
+                name="id002.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -302,202 +198,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, two IDs on the same element can have the same value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id002.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id002.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, same ID on two different elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id002.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id002.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, same ID on two different elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="id002.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id002.n02.xml"
                 ),
             ],
             name="id002",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element with more than one ID attribute, one being a wildcard, plus ID children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with more than one ID attribute, one being a wildcard, plus ID children"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element with more than one ID attribute, one being a wildcard, plus ID children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with more than one ID attribute, one being a wildcard, plus ID children"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-MultipleAttrsOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id003.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id003.xsd",
-                version=[],
-                other_attributes={}
+                name="id003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -505,202 +327,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, two IDs on the same element can have the same value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id003.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id003.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id003.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id003.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, same ID on two different elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id003.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id003.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id003.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id003.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, same ID on two different elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id003.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id003.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="id003.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id003.n02.xml"
                 ),
             ],
             name="id003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element with list-of-ID attributes and list-of-ID children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with list-of-ID attributes and list-of-ID children"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element with list-of-ID attributes and list-of-ID children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with list-of-ID attributes and list-of-ID children"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id004.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id004.xsd",
-                version=[],
-                other_attributes={}
+                name="id004.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -708,202 +456,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, two IDs on the same element can have the same value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id004.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id004.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id004.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id004.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, same ID on two different elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id004.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id004.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id004.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id004.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, same ID on two different elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id004.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id004.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="id004.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id004.n02.xml"
                 ),
             ],
             name="id004",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element with list-of-IDREF attributes and list-of-IDREF children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with list-of-IDREF attributes and list-of-IDREF children"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element with list-of-IDREF attributes and list-of-IDREF children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with list-of-IDREF attributes and list-of-IDREF children"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-ListsOfID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id005.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id005.xsd",
-                version=[],
-                other_attributes={}
+                name="id005.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -911,202 +585,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, two IDs on the same element can have the same value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id005.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id005.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id005.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id005.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unresolved IDREF value hhh.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id005.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id005.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id005.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id005.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unresolved IDREF value hhh.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id005.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id005.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="id005.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id005.n02.xml"
                 ),
             ],
             name="id005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF children"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element with list-of-maybe-IDREF attributes and list-of-maybe-IDREF children"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id006.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id006.xsd",
-                version=[],
-                other_attributes={}
+                name="id006.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1114,202 +714,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, two IDs on the same element can have the same value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id006.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id006.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id006.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id006.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unresolved IDREF value hhh.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id006.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id006.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id006.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id006.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unresolved IDREF value hhh.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id006.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id006.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="id006.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id006.n02.xml"
                 ),
             ],
             name="id006",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A highly devious test in which we define a list type whose items may be either IDs or IDREFs",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A highly devious test in which we define a list type whose items may be either IDs or IDREFs"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A highly devious test in which we define a list type whose items may be either IDs or IDREFs",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A highly devious test in which we define a list type whose items may be either IDs or IDREFs"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-UnionsWithID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id007.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id007.xsd",
-                version=[],
-                other_attributes={}
+                name="id007.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1317,202 +843,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, two IDs on the same element can have the same value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id007.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id007.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id007.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id007.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unresolved IDREF value hhh.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id007.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id007.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id007.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id007.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unresolved IDREF value hhh.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id007.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id007.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 5)
                     ),
-                    prior=[],
-                    name="id007.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id007.n02.xml"
                 ),
             ],
             name="id007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A complex type with simple ID/IDREF content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A complex type with simple ID/IDREF content"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="A complex type with simple ID/IDREF content at one time imposed &#10;                     no uniqueness or referential constraints, but this has been clarified.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A complex type with simple ID/IDREF content at one time imposed &#10;                     no uniqueness or referential constraints, but this has been clarified."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id008.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id008.xsd",
-                version=[],
-                other_attributes={}
+                name="id008.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1520,69 +972,45 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id008.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id008.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id008.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id008.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid: a complex type with simple content now imposes ID constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id008.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id008.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
@@ -1590,62 +1018,42 @@ obj = TestSet(
                             Annotation(
                                 appinfo_or_documentation=[
                                     Documentation(
-                                        source=None,
-                                        lang=None,
-                                        other_attributes={},
                                         content=[
                                             '&#10;&#9;&#9;                Changed the status to "invalid" in response to bug #12014&#10;&#9;&#9;            ',
                                         ]
                                     ),
-                                ],
-                                other_attributes={}
+                                ]
                             ),
                         ],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 7, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 7, 29)
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2010, 5, 12),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2010, 5, 12)
                         ),
                     ],
-                    name="id008.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id008.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;               Invalid: a complex type with simple content now imposes ID constraints.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id008.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id008.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
@@ -1653,113 +1061,73 @@ obj = TestSet(
                             Annotation(
                                 appinfo_or_documentation=[
                                     Documentation(
-                                        source=None,
-                                        lang=None,
-                                        other_attributes={},
                                         content=[
                                             '&#10;&#9;&#9;                Changed the status to "invalid" in response to bug #12014&#10;&#9;&#9;            ',
                                         ]
                                     ),
-                                ],
-                                other_attributes={}
+                                ]
                             ),
                         ],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 7, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 7, 29)
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2010, 5, 12),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2010, 5, 12)
                         ),
                     ],
-                    name="id008.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id008.n03.xml"
                 ),
             ],
             name="id008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Nillable ID/IDREF elements",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Nillable ID/IDREF elements"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Nillable ID/IDREF elements",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Nillable ID/IDREF elements"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id009.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 5, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 5, 12)
                 ),
-                prior=[],
-                name="id009.xsd",
-                version=[],
-                other_attributes={}
+                name="id009.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1767,120 +1135,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id009.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id009.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 5, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 5, 12)
                     ),
-                    prior=[],
-                    name="id009.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id009.v01.xml"
                 ),
             ],
             name="id009",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="ID attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID attribute with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID attribute with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id010.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id010.xsd",
-                version=[],
-                other_attributes={}
+                name="id010.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1888,202 +1212,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id010.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id010.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id010.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id010.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id010.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id010.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id010.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id010.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id010.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id010.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id010.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id010.n02.xml"
                 ),
             ],
             name="id010",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="ID attribute with fixed value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID attribute with fixed value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID attribute with fixed value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID attribute with fixed value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id011.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id011.xsd",
-                version=[],
-                other_attributes={}
+                name="id011.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2091,202 +1341,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id011.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id011.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id011.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id011.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id011.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id011.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id011.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id011.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id011.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id011.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id011.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id011.n02.xml"
                 ),
             ],
             name="id011",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="ID attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID attribute with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID attribute with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id012.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id012.xsd",
-                version=[],
-                other_attributes={}
+                name="id012.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2294,202 +1470,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id010.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id010.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id012.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id012.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id010.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id010.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id012.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id012.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id010.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id010.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id012.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id012.n02.xml"
                 ),
             ],
             name="id012",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="ID attribute with fixed value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID attribute with fixed value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID attribute with fixed value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID attribute with fixed value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id013.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id013.xsd",
-                version=[],
-                other_attributes={}
+                name="id013.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2497,202 +1599,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id011.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id011.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id013.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id013.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id011.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id011.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id013.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id013.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id011.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id011.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id013.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id013.n02.xml"
                 ),
             ],
             name="id013",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="ID element with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID element with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID element with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID element with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id014.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id014.xsd",
-                version=[],
-                other_attributes={}
+                name="id014.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2700,202 +1728,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id014.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id014.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id014.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id014.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id014.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id014.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id014.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id014.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id014.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id014.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id014.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id014.n02.xml"
                 ),
             ],
             name="id014",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="ID element with fixed value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID element with fixed value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ID element with fixed value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ID element with fixed value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsForElemOrAttrOfTypeID"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id015.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id015.xsd",
-                version=[],
-                other_attributes={}
+                name="id015.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2903,202 +1857,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id015.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id015.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id015.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id015.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id015.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id015.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id015.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id015.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id015.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id015.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id015.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id015.n02.xml"
                 ),
             ],
             name="id015",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="IDREF attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="IDREF attribute with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="IDREF attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="IDREF attribute with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id016.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id016.xsd",
-                version=[],
-                other_attributes={}
+                name="id016.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3106,243 +1986,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id016.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id016.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id016.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id016.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id016.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id016.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id016.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id016.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id016.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id016.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id016.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id016.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id016.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id016.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id016.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id016.n02.xml"
                 ),
             ],
             name="id016",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="ENTITY attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ENTITY attribute with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ENTITY attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ENTITY attribute with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id017.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id017.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id017.xsd",
-                version=[],
-                other_attributes={}
+                name="id017.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3350,202 +2141,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id017.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id017.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id017.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id017.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id017.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id017.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id017.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id017.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id017.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id017.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id017.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id017.n01.xml"
                 ),
             ],
             name="id017",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="ENTITIES attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ENTITIES attribute with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="ENTITIES attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="ENTITIES attribute with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id018.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id018.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id018.xsd",
-                version=[],
-                other_attributes={}
+                name="id018.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3553,284 +2270,180 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id018.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id018.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id018.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id018.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id018.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id018.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id018.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id018.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id018.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id018.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id018.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id018.v03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id018.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id018.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id018.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id018.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id018.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id018.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id018.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id018.n02.xml"
                 ),
             ],
             name="id018",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union of ENTITY and integer attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Union of ENTITY and integer attribute with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Union of ENTITY and integer attribute with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Union of ENTITY and integer attribute with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id019.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id019.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id019.xsd",
-                version=[],
-                other_attributes={}
+                name="id019.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3838,243 +2451,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id019.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id019.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id019.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id019.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id019.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id019.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id019.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id019.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id019.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id019.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id019.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id019.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id019.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id019.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id019.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id019.n02.xml"
                 ),
             ],
             name="id019",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element of type xs:ENTITY with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element of type xs:ENTITY with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element of type xs:ENTITY with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element of type xs:ENTITY with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id020.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id020.xsd",
-                version=[],
-                other_attributes={}
+                name="id020.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4082,284 +2606,180 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id020.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id020.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id020.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id020.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id020.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id020.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id020.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id020.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id020.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id020.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id020.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id020.v03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id020.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id020.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id020.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id020.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id020.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id020.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id020.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id020.n02.xml"
                 ),
             ],
             name="id020",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element of type xs:ENTITIES with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element of type xs:ENTITIES with default value"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element of type xs:ENTITIES with default value",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element of type xs:ENTITIES with default value"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ID-IDREF-DefaultValsOfTypesIDREF-ENTITY-ENTITIES"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id021.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id021.xsd",
-                version=[],
-                other_attributes={}
+                name="id021.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4367,243 +2787,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id021.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id021.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id021.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id021.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id021.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id021.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id021.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id021.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id021.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id021.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id021.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id021.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id021.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id021.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id021.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id021.n02.xml"
                 ),
             ],
             name="id021",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Atomic value equal to singleton list",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Atomic value equal to singleton list"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Value of a key is atomic; value of keyref is a list; they can be equal",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Value of a key is atomic; value of keyref is a list; they can be equal"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-EqualityOfAtomicValAndSingletonList",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-EqualityOfAtomicValAndSingletonList"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id022.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id022.xsd",
-                version=[],
-                other_attributes={}
+                name="id022.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4611,161 +2942,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id022.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id022.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id022.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id022.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id022.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id022.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id022.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id022.n01.xml"
                 ),
             ],
             name="id022",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Unique constraint using ref attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Unique constraint using ref attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Unique constraint refers to another unique constraint using ref attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Unique constraint refers to another unique constraint using ref attribute"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id040.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id040.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 20)
                 ),
-                prior=[],
-                name="id040.xsd",
-                version=[],
-                other_attributes={}
+                name="id040.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4773,360 +3045,226 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id040.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id040.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id040.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id040.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id040.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id040.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id040.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id040.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id040.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id040.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 20)
                     ),
-                    prior=[],
-                    name="id040.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id040.n02.xml"
                 ),
             ],
             name="id040",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Unique constraint using ref attribute, points to wrong kind of constraint",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Unique constraint using ref attribute, points to wrong kind of constraint"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Key constraint refers to a unique constraint using ref attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Key constraint refers to a unique constraint using ref attribute"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id041.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id041.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id041.xsd",
-                version=[],
-                other_attributes={}
+                name="id041.xsd"
             ),
-            instance_test=[],
             name="id041",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Unique constraint using ref attribute, points nowhere",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Unique constraint using ref attribute, points nowhere"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Key constraint refers to a nonexistent constraint using ref attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Key constraint refers to a nonexistent constraint using ref attribute"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id042.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id042.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id042.xsd",
-                version=[],
-                other_attributes={}
+                name="id042.xsd"
             ),
-            instance_test=[],
             name="id042",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Key constraint using ref attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Key constraint using ref attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Key constraint refers to another key constraint using ref attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Key constraint refers to another key constraint using ref attribute"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id043.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id043.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id043.xsd",
-                version=[],
-                other_attributes={}
+                name="id043.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5134,202 +3272,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id043.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id043.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id043.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id043.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id043.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id043.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id043.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id043.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id043.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id043.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id043.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id043.n02.xml"
                 ),
             ],
             name="id043",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Keyref constraint using ref attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Keyref constraint using ref attribute"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Keyref constraint refers to another keyref constraint using ref attribute",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Keyref constraint refers to another keyref constraint using ref attribute"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-NamedIdContraintsOnElemDecl"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id044.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id044.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id044.xsd",
-                version=[],
-                other_attributes={}
+                name="id044.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5337,202 +3401,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id044.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id044.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id044.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id044.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id044.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id044.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id044.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id044.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id044.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id044.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id044.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id044.n02.xml"
                 ),
             ],
             name="id044",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Unique constraint using xpathDefaultNamespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Unique constraint using xpathDefaultNamespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use XPathDefaultNamespace on the selector and field elements",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use XPathDefaultNamespace on the selector and field elements"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id050.xsd",
-                version=[],
-                other_attributes={}
+                name="id050.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5540,161 +3530,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id050.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id050.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id050.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id050.n01.xml"
                 ),
             ],
             name="id050",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Key constraint using xpathDefaultNamespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Key constraint using xpathDefaultNamespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use XPathDefaultNamespace on the xs:schema element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use XPathDefaultNamespace on the xs:schema element"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id051.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id051.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id051.xsd",
-                version=[],
-                other_attributes={}
+                name="id051.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5702,161 +3633,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id051.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id051.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id051.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id051.n01.xml"
                 ),
             ],
             name="id051",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Key constraint using xpathDefaultNamespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Key constraint using xpathDefaultNamespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use XPathDefaultNamespace on the xs:schema element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use XPathDefaultNamespace on the xs:schema element"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id052.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id052.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id052.xsd",
-                version=[],
-                other_attributes={}
+                name="id052.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5864,161 +3736,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id052.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id052.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id052.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id052.n01.xml"
                 ),
             ],
             name="id052",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Key constraint using xpathDefaultNamespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Key constraint using xpathDefaultNamespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use XPathDefaultNamespace=##targetNamespace on the local element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use XPathDefaultNamespace=##targetNamespace on the local element"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id053.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id053.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id053.xsd",
-                version=[],
-                other_attributes={}
+                name="id053.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -6026,161 +3839,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id053.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id053.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id050.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id050.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id053.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id053.n01.xml"
                 ),
             ],
             name="id053",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Keyref constraint using xpathDefaultNamespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Keyref constraint using xpathDefaultNamespace"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use XPathDefaultNamespace=##local on the local element and the xs:schema element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use XPathDefaultNamespace=##local on the local element and the xs:schema element"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cvc-id"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XPathDefaultNSKeyKeyref"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id054.xsd",
-                        other_attributes={}
+                        href="../saxonData/Id/id054.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="id054.xsd",
-                version=[],
-                other_attributes={}
+                name="id054.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -6188,89 +3942,58 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id054.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id054.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id054.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id054.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, contains duplicate numbers&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Id/id054.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Id/id054.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="id054.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="id054.n01.xml"
                 ),
             ],
             name="id054",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

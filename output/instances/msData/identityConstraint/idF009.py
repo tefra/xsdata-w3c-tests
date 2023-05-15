@@ -11,7 +11,7 @@ obj = Root(
             val="11"
         ),
         Uid(
-            val=None
+
         ),
         Uid(
             val="1.0"

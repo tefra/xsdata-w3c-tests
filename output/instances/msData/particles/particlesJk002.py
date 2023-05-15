@@ -5,9 +5,8 @@ from output.models.ms_data.particles.particles_jk002_xsd.particles_jk002_imp imp
 
 obj = Doc(
     elem=R(
-        other_element=[],
         imp_elem1=ImpElem1(
-            any_element=None
+
         )
     )
 )

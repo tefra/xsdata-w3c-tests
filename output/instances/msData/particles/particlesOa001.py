@@ -8,25 +8,18 @@ obj = Doc(
         any_element=AnyElement(
             qname="{http://xsdtesting}doc",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="elem",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="{http://xsdtesting}foo",
-                            text="",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text=""
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
-            ],
-            attributes={}
+            ]
         )
     )
 )

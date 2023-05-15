@@ -7,15 +7,11 @@ obj = Root(
     choice=[
         AnyElement(
             qname="a",
-            text="12",
-            tail=None,
-            children=[],
-            attributes={}
+            text="12"
         ),
         DerivedElement(
             qname="b",
-            value=-5.444,
-            type=None
+            value=-5.444
         ),
         DerivedElement(
             qname="c",
@@ -24,8 +20,7 @@ obj = Root(
                 3.4,
                 5.6,
                 -7.9,
-            ],
-            type=None
+            ]
         ),
         [
             True,

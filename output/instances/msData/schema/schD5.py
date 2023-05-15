@@ -7,266 +7,170 @@ obj = Root(
         AnyElement(
             qname="{ns-a}e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}a1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="{ns-a}a2",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}e2",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}b1",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
                 AnyElement(
                     qname="{ns-a}b2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}e3",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="c1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="c2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}a1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="{ns-a}a2",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}a-e2",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}b1",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
                 AnyElement(
                     qname="{ns-a}b2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}a-e3",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="c1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="c2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}b-e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}a1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="{ns-a}a2",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}a-e2",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}b1",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
                 AnyElement(
                     qname="{ns-a}b2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}b-e3",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="c1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="c2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}c-e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}a1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="{ns-a}a2",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}c-e2",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="{ns-a}b1",
-                    text="true",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="true"
                 ),
                 AnyElement(
                     qname="{ns-a}b2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
         AnyElement(
             qname="{ns-a}e3",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="c1",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
                 AnyElement(
                     qname="c2",
-                    text="123",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="123"
                 ),
-            ],
-            attributes={}
+            ]
         ),
     ]
 )

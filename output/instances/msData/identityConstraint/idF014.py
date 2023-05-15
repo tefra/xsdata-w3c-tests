@@ -7,10 +7,7 @@ obj = Root(
     uid=[
         Uid(
             any_element=AnyElement(
-                qname=None,
                 text="1",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}float",
                 }
@@ -18,10 +15,7 @@ obj = Root(
         ),
         Uid(
             any_element=AnyElement(
-                qname=None,
                 text="1",
-                tail=None,
-                children=[],
                 attributes={
                     "{http://www.w3.org/2001/XMLSchema-instance}type": "{http://www.w3.org/2001/XMLSchema}unsignedByte",
                 }

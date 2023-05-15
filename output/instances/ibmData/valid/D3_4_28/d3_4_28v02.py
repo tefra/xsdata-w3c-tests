@@ -4,7 +4,6 @@ from xsdata.models.datatype import XmlDateTime
 
 
 obj = Root(
-    value="",
     attrd_time_stamp_type=XmlDateTime(2000, 1, 1, 12, 0, 0, 123000000, 0),
     attrd_time_stamp_enumeration=DTimeStampEnumeration.VALUE_2002_01_01_T12_00_00_990_08_00,
     attrd_time_stamp_pattern="2003-01-01T01:00:00-08:00",

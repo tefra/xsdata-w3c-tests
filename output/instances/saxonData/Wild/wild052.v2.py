@@ -6,9 +6,6 @@ obj = Zing(
     name="",
     any_element=AnyElement(
         qname="name",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     )
 )

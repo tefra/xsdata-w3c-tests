@@ -16,7 +16,6 @@ obj = PurchaseOrder(
         street="8 Oak Avenue",
         city="Old Town"
     ),
-    comment=None,
     items=Items(
         item=[
             Items.Item(

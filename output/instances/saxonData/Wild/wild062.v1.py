@@ -8,9 +8,6 @@ obj = Doc(
     f="",
     local_element=AnyElement(
         qname="g",
-        text="12:20:02",
-        tail=None,
-        children=[],
-        attributes={}
+        text="12:20:02"
     )
 )

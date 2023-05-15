@@ -8,14 +8,12 @@ obj = Doc(
             node_or_id=[
                 "zzz",
                 Node(
-                    node_or_id=[],
                     id_one="ccc",
                     any_attributes={
                         "id-two": "ddd",
                     }
                 ),
                 Node(
-                    node_or_id=[],
                     id_one="eee",
                     any_attributes={
                         "id-two": "eee",

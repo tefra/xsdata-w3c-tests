@@ -7,30 +7,21 @@ obj = Doc(
         AnyElement(
             qname="b",
             text="",
-            tail="text",
-            children=[],
-            attributes={}
+            tail="text"
         ),
         AnyElement(
             qname="a",
             text="",
-            tail="text",
-            children=[],
-            attributes={}
+            tail="text"
         ),
         AnyElement(
             qname="d",
             text="",
-            tail="text",
-            children=[],
-            attributes={}
+            tail="text"
         ),
         AnyElement(
             qname="a",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

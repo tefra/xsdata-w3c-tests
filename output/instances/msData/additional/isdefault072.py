@@ -7,20 +7,13 @@ obj = Array(
     item=[
         AnyElement(
             qname="Item",
-            text=None,
-            tail=None,
             children=[
                 AnyElement(
                     qname="{http://tempuri.org/Suites/Serialization}color",
-                    text=None,
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="{http://tempuri.org/Suites/Serialization}colorId",
-                            text="1",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="1"
                         ),
                     ],
                     attributes={
@@ -33,11 +26,5 @@ obj = Array(
             }
         ),
     ],
-    item_type=QName("{http://tempuri.org/Suites/Serialization}Callbacks.ColorClassHolder"),
-    dimensions=[
-        1,
-    ],
-    lower_bounds=[
-        0,
-    ]
+    item_type=QName("{http://tempuri.org/Suites/Serialization}Callbacks.ColorClassHolder")
 )

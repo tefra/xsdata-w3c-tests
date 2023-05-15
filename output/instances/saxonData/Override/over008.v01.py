@@ -7,14 +7,11 @@ obj = Section(
     section=[
         Section(
             head="Bumph",
-            section=[],
             id="b",
-            other_attributes={},
             nr=Decimal("1.1")
         ),
         Section(
             head="More Bumph",
-            section=[],
             id="c",
             other_attributes={
                 "{http://www.w3.org/XML/1998/namespace}space": "preserve",
@@ -23,6 +20,5 @@ obj = Section(
         ),
     ],
     id="a",
-    other_attributes={},
     nr=Decimal("1")
 )

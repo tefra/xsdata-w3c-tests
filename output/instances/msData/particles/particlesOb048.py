@@ -7,11 +7,7 @@ obj = Doc(
     elem=R(
         foo_bar_element=AnyElement(
             qname="{bar}e1",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
-        ),
-        bar_element=None
+            text=""
+        )
     )
 )

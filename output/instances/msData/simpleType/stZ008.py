@@ -8,7 +8,6 @@ obj = Root(
     ],
     e2=[
         T2(
-            value=None,
             att="123"
         ),
     ]

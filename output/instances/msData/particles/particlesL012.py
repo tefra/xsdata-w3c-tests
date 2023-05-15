@@ -10,19 +10,13 @@ obj = Doc(
             content=[
                 AnyElement(
                     qname="foo",
-                    text="testing",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="testing"
                 ),
             ]
         ),
         d1_or_d2=AnyElement(
             qname="d1",
-            text="testing",
-            tail=None,
-            children=[],
-            attributes={}
+            text="testing"
         )
     )
 )

@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Out(
     any_element=AnyElement(
         qname="{NISTSchema-SV-IV-atomic-ID-minLength-1-NS}NISTSchema-SV-IV-atomic-ID-minLength-1",
-        text="_are.can_cross-reference-for_test.well_files.m",
-        tail=None,
-        children=[],
-        attributes={}
+        text="_are.can_cross-reference-for_test.well_files.m"
     )
 )

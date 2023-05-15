@@ -14,8 +14,7 @@ obj = Order(
             "Jimmy",
             DerivedElement(
                 qname="lName",
-                value="Nice",
-                type=None
+                value="Nice"
             ),
         ]
     ),
@@ -28,12 +27,7 @@ obj = Order(
         country="my country"
     ),
     shipping_address=Address(
-        street1=None,
-        street2=None,
-        city=None,
-        zipcode=None,
-        state=None,
-        country=None
+
     ),
     email="jimmy.nice@jimmy.org",
     items=Poitems(

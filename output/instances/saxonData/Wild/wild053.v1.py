@@ -6,9 +6,6 @@ obj = Root(
     name="",
     local_target_namespace_element=AnyElement(
         qname="zhang",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     )
 )

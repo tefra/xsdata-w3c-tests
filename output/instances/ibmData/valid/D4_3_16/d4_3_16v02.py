@@ -3,7 +3,6 @@ from xsdata.models.datatype import XmlDateTime
 
 
 obj = Root(
-    value="",
     attr_dtime_type=XmlDateTime(1999, 10, 23, 11, 59, 59, 0, -360),
     attr_dtime_type_et=XmlDateTime(2000, 10, 23, 11, 59, 59, 0, 0),
     attr_dtetprohibited=XmlDateTime(2001, 10, 23, 11, 59, 59),

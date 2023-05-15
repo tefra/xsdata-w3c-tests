@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Out(
     any_element=AnyElement(
         qname="{NISTSchema-SV-IV-atomic-ID-pattern-2-NS}NISTSchema-SV-IV-atomic-ID-pattern-2",
-        text="iversions.visibly_and.languages-use.the-versions-tools.c",
-        tail=None,
-        children=[],
-        attributes={}
+        text="iversions.visibly_and.languages-use.the-versions-tools.c"
     )
 )

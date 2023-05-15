@@ -6,8 +6,6 @@ obj = Data(
     any_element=AnyElement(
         qname="item",
         text="",
-        tail=None,
-        children=[],
         attributes={
             "SOMITEM_DATATYPE_ID": " id ",
         }

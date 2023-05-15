@@ -6,10 +6,7 @@ obj = Doc(
     e1_or_e2_or_e3=[
         AnyElement(
             qname="{http://xsdtesting}e1",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

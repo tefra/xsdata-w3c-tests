@@ -4,6 +4,6 @@ from output.models.ms_data.particles.particles_jk007_xsd.particles_jk007 import 
 
 obj = Doc(
     elem=R(
-        other_element=None
+
     )
 )

@@ -23,7 +23,7 @@ obj = Outer(
         Inner(
             a=[
                 Inner.A(
-                    b=[]
+
                 ),
             ],
             x="205",

@@ -8,7 +8,6 @@ obj = Doc(
         c1_or_c2_or_c3=[
             Bar(
                 foo="",
-                att=None,
                 att1="testing"
             ),
         ],

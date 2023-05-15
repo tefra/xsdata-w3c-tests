@@ -6,10 +6,7 @@ obj = Doc(
     choice=[
         AnyElement(
             qname="d",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

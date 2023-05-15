@@ -11,8 +11,7 @@ obj = Root(
                     "def",
                 ],
             ],
-            val="1",
-            val2=None
+            val="1"
         ),
     ]
 )

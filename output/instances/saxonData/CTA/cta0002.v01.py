@@ -23,7 +23,6 @@ obj = Messages(
             min=TMin.VALUE_1
         ),
         Message(
-            e=[],
             min=TMin.VALUE_0
         ),
     ]

@@ -6,73 +6,43 @@ obj = Foo(
     local_w3_org_1999_xhtml_element=[
         AnyElement(
             qname="bar",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}foo",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="bar",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}foo",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="bar",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}foo",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="bar",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}foo",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="bar",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
         AnyElement(
             qname="{http://www.w3.org/1999/xhtml}foo",
-            text="test",
-            tail=None,
-            children=[],
-            attributes={}
+            text="test"
         ),
     ]
 )

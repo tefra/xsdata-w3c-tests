@@ -2,5 +2,5 @@ from output.models.sun_data.notation.annotation.annotation00101m.annotation00101
 
 
 obj = Root(
-    any_element=None
+
 )

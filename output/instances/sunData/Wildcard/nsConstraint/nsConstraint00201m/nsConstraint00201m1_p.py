@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = A(
     other_element=AnyElement(
         qname="{ns_test1}date",
-        text="2002-04-29",
-        tail=None,
-        children=[],
-        attributes={}
+        text="2002-04-29"
     )
 )

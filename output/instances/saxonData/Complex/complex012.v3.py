@@ -8,9 +8,7 @@ obj = Root(
         AnyElement(
             qname="e",
             text="",
-            tail="***",
-            children=[],
-            attributes={}
+            tail="***"
         ),
     ]
 )

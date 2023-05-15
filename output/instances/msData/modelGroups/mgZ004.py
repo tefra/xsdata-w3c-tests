@@ -6,10 +6,7 @@ obj = Root(
     content=[
         AnyElement(
             qname="{urn:test}A",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

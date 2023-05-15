@@ -9,7 +9,7 @@ obj = Doc(
                 Temp(
                     temp=[
                         Temp(
-                            temp=[]
+
                         ),
                     ]
                 ),

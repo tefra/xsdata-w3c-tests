@@ -4,7 +4,6 @@ from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
-    s_a_or_test=None,
     test2=DerivedElement(
         qname="test2",
         value=ECa(

@@ -9,16 +9,11 @@ obj = Root(
     choice=[
         AnyElement(
             qname="item",
-            text="abc",
-            tail=None,
-            children=[],
-            attributes={}
+            text="abc"
         ),
         AnyElement(
             qname="item",
             text="5",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "base-A",
             }
@@ -26,8 +21,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "base-B",
             }
@@ -35,8 +28,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="1234567890",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "base-B",
             }
@@ -93,8 +84,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="1",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-A",
             }
@@ -102,8 +91,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="4",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-A",
             }
@@ -111,8 +98,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="c123456789",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-AB",
             }
@@ -120,8 +105,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="4",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "Union-AB",
             }
@@ -129,8 +112,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="1 2 3 4",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "List-AB",
             }
@@ -138,8 +119,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="1 c123456789 b 4",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "List-AB",
             }
@@ -147,8 +126,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="1",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "R-A",
             }
@@ -156,8 +133,6 @@ obj = Root(
         AnyElement(
             qname="item",
             text="2",
-            tail=None,
-            children=[],
             attributes={
                 "{http://www.w3.org/2001/XMLSchema-instance}type": "R-A",
             }

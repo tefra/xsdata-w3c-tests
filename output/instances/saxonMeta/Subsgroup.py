@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -18,79 +17,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Tests to show an element declaration can be in multiple substitution groups",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests to show an element declaration can be in multiple substitution groups"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests to show an element declaration can be in multiple substitution groups",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests to show an element declaration can be in multiple substitution groups"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    other_attributes={}
+                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup001.xsd",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 7, 31),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 7, 31)
                 ),
-                prior=[],
-                name="subsgroup001.xsd",
-                version=[],
-                other_attributes={}
+                name="subsgroup001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -98,161 +68,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, element subsitutes for both abstract elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup001.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup001.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 7, 31),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 7, 31)
                     ),
-                    prior=[],
-                    name="subsgroup001.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="subsgroup001.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, abstract element present in instance.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup001.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup001.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 7, 31),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 7, 31)
                     ),
-                    prior=[],
-                    name="subsgroup001.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="subsgroup001.n1.xml"
                 ),
             ],
             name="subsgroup001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Tests to show an element declaration can be in multiple substitution groups",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests to show an element declaration can be in multiple substitution groups"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element substitutable for another in more than one way, both valid",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element substitutable for another in more than one way, both valid"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    other_attributes={}
+                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup002.xsd",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 6, 10),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 6, 10)
                 ),
-                prior=[],
-                name="subsgroup002.xsd",
-                version=[],
-                other_attributes={}
+                name="subsgroup002.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -260,173 +171,108 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, element subsitutes for both abstract elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup001.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup001.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 6, 10),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 6, 10)
                     ),
-                    prior=[],
-                    name="subsgroup002.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="subsgroup002.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, abstract element present in instance.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup001.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup001.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 6, 10),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 6, 10)
                     ),
-                    prior=[],
-                    name="subsgroup002.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="subsgroup002.n1.xml"
                 ),
             ],
             name="subsgroup002",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Tests to show an a substitution group with declarations in different namespaces",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests to show an a substitution group with declarations in different namespaces"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Substitution group has an abstract owner in one namespace, two concrete&#10;                members in different namespaces. Should work with XSD 1.0 or 1.1. Posted as a problem&#10;                on StackOverflow ref 9495098 on 29 Feb 2012.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Substitution group has an abstract owner in one namespace, two concrete&#10;                members in different namespaces. Should work with XSD 1.0 or 1.1. Posted as a problem&#10;                on StackOverflow ref 9495098 on 29 Feb 2012."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    other_attributes={}
+                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup003a.xsd",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup003a.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup003b.xsd",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup003b.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup003c.xsd",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup003c.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 2, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 2, 29)
                 ),
-                prior=[],
-                name="subsgroup003a.xsd",
-                version=[],
-                other_attributes={}
+                name="subsgroup003a.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -434,281 +280,173 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, both elements in the content are in the substitution group.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup003.xml",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup003.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 2, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 2, 29)
                     ),
-                    prior=[],
-                    name="subsgroup003.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="subsgroup003.v1.xml"
                 ),
             ],
-            name="subsgroup003",
-            version=[],
-            other_attributes={}
+            name="subsgroup003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Substitution group causes failure of Element Declarations Consistent",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Substitution group causes failure of Element Declarations Consistent"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element in substitution group, fails &quot;element declarations consistent&quot; because of a conflict&#10;     between a locally declared element and the substitution group of a globally declared element.&#10;     This is actually a 1.0 test, but it's a condition that appears to be untested in the 1.0&#10;     test suite",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element in substitution group, fails &quot;element declarations consistent&quot; because of a conflict&#10;     between a locally declared element and the substitution group of a globally declared element.&#10;     This is actually a 1.0 test, but it's a condition that appears to be untested in the 1.0&#10;     test suite"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups",
-                    other_attributes={}
+                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup901.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup901.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 7, 31),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 7, 31)
                 ),
-                prior=[],
-                name="subsgroup901.xsd",
-                version=[],
-                other_attributes={}
+                name="subsgroup901.xsd"
             ),
-            instance_test=[],
-            name="subsgroup901",
-            version=[],
-            other_attributes={}
+            name="subsgroup901"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element in more than one substitution group causes UPA violation in xs:sequence group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element in more than one substitution group causes UPA violation in xs:sequence group"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The UPA violation occurs because the para element could be ascribed to either particle&#10;                in the content model of the 'back' element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The UPA violation occurs because the para element could be ascribed to either particle&#10;                in the content model of the 'back' element"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    other_attributes={}
+                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup902.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup902.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 6, 10),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 6, 10)
                 ),
-                prior=[],
-                name="subsgroup902.xsd",
-                version=[],
-                other_attributes={}
+                name="subsgroup902.xsd"
             ),
-            instance_test=[],
             name="subsgroup902",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Element in more than one substitution group causes UPA violation in xs:all group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element in more than one substitution group causes UPA violation in xs:all group"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The UPA violation occurs because the para element could be ascribed to either particle&#10;                in the content model of the 'back' element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The UPA violation occurs because the para element could be ascribed to either particle&#10;                in the content model of the 'back' element"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#sec-cos-equiv-class"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne",
-                    other_attributes={}
+                    href="../XSD1_1TestCategories.xml#xsd1_1-SubstitutionGroups-ElemInMoreThanOne"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Subsgroup/subsgroup903.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Subsgroup/subsgroup903.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 6, 10),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 6, 10)
                 ),
-                prior=[],
-                name="subsgroup903.xsd",
-                version=[],
-                other_attributes={}
+                name="subsgroup903.xsd"
             ),
-            instance_test=[],
             name="subsgroup903",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

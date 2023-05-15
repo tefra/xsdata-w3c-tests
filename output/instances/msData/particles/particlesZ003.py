@@ -4,6 +4,6 @@ from output.models.ms_data.particles.particles_z003_xsd.particles_z003_imp impor
 
 obj = Doc(
     foo=Foo(
-        any_element=None
+
     )
 )

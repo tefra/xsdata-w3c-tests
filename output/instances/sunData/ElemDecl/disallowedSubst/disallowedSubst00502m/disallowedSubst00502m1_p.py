@@ -5,7 +5,7 @@ from output.models.sun_data.elem_decl.disallowed_subst.disallowed_subst00502m.di
 obj = Root(
     member1_or_head=[
         Member1(
-            attr=None
+
         ),
     ]
 )

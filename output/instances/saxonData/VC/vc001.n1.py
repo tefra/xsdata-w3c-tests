@@ -1,7 +1,6 @@
-from output.models.saxon_data.vc.vc024_xsd.vc024 import Temp
+from output.models.saxon_data.vc.vc001_xsd.vc001 import Temp
 
 
 obj = Temp(
-    x="204",
-    y=None
+    x="204"
 )

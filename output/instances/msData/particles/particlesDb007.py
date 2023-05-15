@@ -6,15 +6,12 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Doc(
     elem1=Elem1(
-        any_element=None
+
     ),
     elem2=Elem2(
         a1_or_a2=AnyElement(
             qname="{http://xsdtesting}a1",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         )
     )
 )

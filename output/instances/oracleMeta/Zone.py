@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -19,79 +18,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Equality testing (enumeration) for dateTime values, use YEAR as ZERO",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Equality testing (enumeration) for dateTime values, use YEAR as ZERO"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Use Year as Zero ",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use Year as Zero "
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone401.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone401.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 24)
                 ),
-                prior=[],
-                name="zone401.xsd",
-                version=[],
-                other_attributes={}
+                name="zone401.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -99,284 +69,180 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid date per enumeration&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone401.v1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone401.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone401.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone401.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid date per enumeration&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone401.v2.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone401.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone401.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone401.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid date per enumeration&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone401.v3.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone401.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone401.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone401.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid date per enumeration&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone401.n1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone401.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone401.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone401.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid date per enumeration&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone401.n2.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone401.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone401.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone401.n2.xml"
                 ),
             ],
             name="zone401",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text=" Test year zero allowed for facet maxInclusive for datatype xs:dateTime ",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=" Test year zero allowed for facet maxInclusive for datatype xs:dateTime "
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=" Test year zero allowed for facet maxInclusive for datatype xs:dateTime",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=" Test year zero allowed for facet maxInclusive for datatype xs:dateTime"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone402.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone402.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 24)
                 ),
-                prior=[],
-                name="zone402.xsd",
-                version=[],
-                other_attributes={}
+                name="zone402.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -384,202 +250,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid date per maxInclusive facet&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone402.n1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone402.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone402.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone402.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid date per maxInclusive facet&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone402.n2.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone402.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone402.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone402.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid date per maxInclusive facet&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone402.v1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone402.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone402.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone402.v1.xml"
                 ),
             ],
             name="zone402",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Test new timezone facet explicitTimezone, value="required" for datatype xs:dateTime',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test new timezone facet explicitTimezone, value="required" for datatype xs:dateTime'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Test new timezone facet explicitTimezone, value="required" for datatype xs:dateTime',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test new timezone facet explicitTimezone, value="required" for datatype xs:dateTime'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone403.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone403.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 24)
                 ),
-                prior=[],
-                name="zone403.xsd",
-                version=[],
-                other_attributes={}
+                name="zone403.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -587,202 +379,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone403.v1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone403.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone403.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone403.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone403.v2.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone403.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone403.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone403.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, timezone not present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone403.n1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone403.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone403.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone403.n1.xml"
                 ),
             ],
             name="zone403",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Test new timezone facet explicitTimezone, value="prohibited" for datatype xs:dateTime',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test new timezone facet explicitTimezone, value="prohibited" for datatype xs:dateTime'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Test new timezone facet explicitTimezone, value="prohibited" for datatype xs:dateTime',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test new timezone facet explicitTimezone, value="prohibited" for datatype xs:dateTime'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone404.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone404.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 24)
                 ),
-                prior=[],
-                name="zone404.xsd",
-                version=[],
-                other_attributes={}
+                name="zone404.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -790,189 +508,121 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid, timezone not present as expected&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone404.v1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone404.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone404.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone404.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone404.n1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone404.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone404.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone404.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, timezone present.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone404.n2.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone404.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone404.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone404.n2.xml"
                 ),
             ],
             name="zone404",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Test new timezone facet explicitTimezone, value="optional" for datatype xs:dateTime',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test new timezone facet explicitTimezone, value="optional" for datatype xs:dateTime'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Test new timezone facet explicitTimezone, value="optional" for datatype xs:dateTime',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Test new timezone facet explicitTimezone, value="optional" for datatype xs:dateTime'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone405.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone405.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
@@ -980,34 +630,23 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Typo corrected - see bug #12189&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 7, 29),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 7, 29)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
                 ],
-                name="zone405.xsd",
-                version=[],
-                other_attributes={}
+                name="zone405.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1015,452 +654,285 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid date&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone405.v1.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone405.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone405.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone405.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid date&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone405.v2.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone405.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone405.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone405.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                valid date&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone405.v3.xml",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone405.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 24),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 24)
                     ),
-                    prior=[],
-                    name="zone405.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="zone405.v3.xml"
                 ),
             ],
             name="zone405",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test day value must be no more than 30 if month is one of 4, 6, 9, or 11 for xs:dateTime"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone406.bad.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone406.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 24)
                 ),
-                prior=[],
-                name="zone406.xsd",
-                version=[],
-                other_attributes={}
+                name="zone406.xsd"
             ),
-            instance_test=[],
             name="zone406",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test day value must be no more than 28 if month is 2 and Year is not divisible 4 in xs:dateTime"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone407.bad.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone407.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 24)
                 ),
-                prior=[],
-                name="zone407.xsd",
-                version=[],
-                other_attributes={}
+                name="zone407.xsd"
             ),
-            instance_test=[],
             name="zone407",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text=' Test explicitTimezone facet: cannot derive "required" from "prohibited"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=' Test explicitTimezone facet: cannot derive "required" from "prohibited"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=' Test explicitTimezone facet: cannot derive "required" from "prohibited"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=' Test explicitTimezone facet: cannot derive "required" from "prohibited"'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone408.bad.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone408.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 24)
                 ),
-                prior=[],
-                name="zone408.xsd",
-                version=[],
-                other_attributes={}
+                name="zone408.xsd"
             ),
-            instance_test=[],
             name="zone408",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text=' Test explicitTimezone facet: cannot derive "prohibited" from "required"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=' Test explicitTimezone facet: cannot derive "prohibited" from "required"'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text=' Test explicitTimezone facet: cannot derive "prohibited" from "required"',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text=' Test explicitTimezone facet: cannot derive "prohibited" from "required"'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2009/WD-xmlschema11-2-20091203/datatypes.html#rf-explicitTimezone"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DateTimeTypes-ExplicitTZFacet"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../oracleData/Zone/zone409.bad.xsd",
-                        other_attributes={}
+                        href="../oracleData/Zone/zone409.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 24),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 24)
                 ),
-                prior=[],
-                name="zone409.xsd",
-                version=[],
-                other_attributes={}
+                name="zone409.xsd"
             ),
-            instance_test=[],
             name="zone409",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Oracle Corporation",
     name="Zone",
     version=[
         KnownToken.VALUE_1_1,
-    ],
-    other_attributes={}
+    ]
 )

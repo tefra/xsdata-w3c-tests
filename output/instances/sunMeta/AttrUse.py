@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -17,434 +16,263 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute declaration is resolved for attribute use. (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute declaration is resolved for attribute use. (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute use should has proper ref value to be resolved to its declaration.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute use should has proper ref value to be resolved to its declaration."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttributeUse",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttributeUse"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_attrDecl/AU_attrDecl00101m/AU_attrDecl00101m1_p.xsd",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_attrDecl/AU_attrDecl00101m/AU_attrDecl00101m1_p.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AU_attrDecl00101m1_p",
-                version=[],
-                other_attributes={}
+                name="AU_attrDecl00101m1_p"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_attrDecl/AU_attrDecl00101m/AU_attrDecl00101m1.xml",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_attrDecl/AU_attrDecl00101m/AU_attrDecl00101m1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
             ],
-            name="au_attrdecl00101m1_p",
-            version=[],
-            other_attributes={}
+            name="au_attrdecl00101m1_p"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute declaration is resolved for attribute use. (invalid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute declaration is resolved for attribute use. (invalid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute use should has proper ref value to be resolved to its declaration.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute use should has proper ref value to be resolved to its declaration."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttributeUse",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttributeUse"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_attrDecl/AU_attrDecl00101m/AU_attrDecl00101m1_n.xsd",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_attrDecl/AU_attrDecl00101m/AU_attrDecl00101m1_n.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AU_attrDecl00101m1_n",
-                version=[],
-                other_attributes={}
+                name="AU_attrDecl00101m1_n"
             ),
-            instance_test=[],
-            name="au_attrdecl00101m1_n",
-            version=[],
-            other_attributes={}
+            name="au_attrdecl00101m1_n"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute use is declared required.  (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute use is declared required.  (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Element whose attribute use is declared required should has the attribute specified.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Element whose attribute use is declared required should has the attribute specified."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttributeUse",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttributeUse"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_required/AU_required00101m/AU_required00101m1.xsd",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_required/AU_required00101m/AU_required00101m1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AU_required00101m1",
-                version=[],
-                other_attributes={}
+                name="AU_required00101m1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_required/AU_required00101m/AU_required00101m1_p.xml",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_required/AU_required00101m/AU_required00101m1_p.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_required/AU_required00101m/AU_required00101m1_n.xml",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_required/AU_required00101m/AU_required00101m1_n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Negative",
-                    version=[],
-                    other_attributes={}
+                    name="Negative"
                 ),
             ],
-            name="au_required00101m1",
-            version=[],
-            other_attributes={}
+            name="au_required00101m1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Attribute with fixed value is declared within element by reference  (valid schema)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute with fixed value is declared within element by reference  (valid schema)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute declared with fixed value may not have another value in an instance document.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute declared with fixed value may not have another value in an instance document."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttributeUse",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/2001/REC-xmlschema-1-20010502/#cAttributeUse"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_valConstr/AU_valConstr00101m/AU_valConstr00101m1.xsd",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_valConstr/AU_valConstr00101m/AU_valConstr00101m1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2005, 6, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2005, 6, 21)
                 ),
-                prior=[],
-                name="AU_valConstr00101m1",
-                version=[],
-                other_attributes={}
+                name="AU_valConstr00101m1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_valConstr/AU_valConstr00101m/AU_valConstr00101m1_p.xml",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_valConstr/AU_valConstr00101m/AU_valConstr00101m1_p.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Positive",
-                    version=[],
-                    other_attributes={}
+                    name="Positive"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../sunData/AttrUse/AU_valConstr/AU_valConstr00101m/AU_valConstr00101m1_n.xml",
-                        other_attributes={}
+                        href="../sunData/AttrUse/AU_valConstr/AU_valConstr00101m/AU_valConstr00101m1_n.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2005, 6, 21),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2005, 6, 21)
                     ),
-                    prior=[],
-                    name="Negative",
-                    version=[],
-                    other_attributes={}
+                    name="Negative"
                 ),
             ],
-            name="au_valconstr00101m1",
-            version=[],
-            other_attributes={}
+            name="au_valconstr00101m1"
         ),
     ],
     contributor="SUN",
     name="AttrUse",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

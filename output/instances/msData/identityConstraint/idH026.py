@@ -9,37 +9,25 @@ obj = Root(
         Uidtype(
             any_element=AnyElement(
                 qname="{fooNS.tempuri.org}a",
-                text="1",
-                tail=None,
-                children=[],
-                attributes={}
+                text="1"
             )
         ),
         Uidtype(
             any_element=AnyElement(
                 qname="{fooNS.tempuri.org}a",
-                text="11",
-                tail=None,
-                children=[],
-                attributes={}
+                text="11"
             )
         ),
         Uidtype(
             any_element=AnyElement(
                 qname="{fooNS.tempuri.org}a",
-                text="111",
-                tail=None,
-                children=[],
-                attributes={}
+                text="111"
             )
         ),
         Uidtype(
             any_element=AnyElement(
                 qname="{fooNS.tempuri.org}a",
-                text="11.0",
-                tail=None,
-                children=[],
-                attributes={}
+                text="11.0"
             )
         ),
     ],

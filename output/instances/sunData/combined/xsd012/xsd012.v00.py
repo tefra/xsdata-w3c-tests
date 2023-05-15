@@ -16,29 +16,17 @@ obj = Root(
             content=[
                 A(
                     any_element=AnyElement(
-                        qname=None,
-                        text=None,
-                        tail=" mi ",
-                        children=[],
-                        attributes={}
+                        tail=" mi "
                     )
                 ),
                 B(
                     any_element=AnyElement(
-                        qname=None,
-                        text=None,
-                        tail=" xed ",
-                        children=[],
-                        attributes={}
+                        tail=" xed "
                     )
                 ),
                 C(
                     any_element=AnyElement(
-                        qname=None,
-                        text=None,
-                        tail=" content&#10;&#9;",
-                        children=[],
-                        attributes={}
+                        tail=" content&#10;&#9;"
                     )
                 ),
             ]
@@ -46,13 +34,13 @@ obj = Root(
         Root.ElementOnly(
             a_or_b_or_c=[
                 A(
-                    any_element=None
+
                 ),
                 B(
-                    any_element=None
+
                 ),
                 A(
-                    any_element=None
+
                 ),
             ]
         ),

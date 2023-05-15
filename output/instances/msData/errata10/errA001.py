@@ -8,63 +8,51 @@ obj = Root(
         -100,
         DerivedElement(
             qname="testUnsignedByte",
-            value=100,
-            type=None
+            value=100
         ),
         DerivedElement(
             qname="testInteger",
-            value=-32000,
-            type=None
+            value=-32000
         ),
         DerivedElement(
             qname="testPositiveInteger",
-            value=50000,
-            type=None
+            value=50000
         ),
         DerivedElement(
             qname="testNegativeInteger",
-            value=-50000,
-            type=None
+            value=-50000
         ),
         DerivedElement(
             qname="testNonNegativeInteger",
-            value=50000,
-            type=None
+            value=50000
         ),
         DerivedElement(
             qname="testNonPositiveInteger",
-            value=-50000,
-            type=None
+            value=-50000
         ),
         DerivedElement(
             qname="testInt",
-            value=-32000,
-            type=None
+            value=-32000
         ),
         DerivedElement(
             qname="testUnsignedInt",
-            value=50000,
-            type=None
+            value=50000
         ),
         DerivedElement(
             qname="testLong",
-            value=-123456789012345,
-            type=None
+            value=-123456789012345
         ),
         DerivedElement(
             qname="testUnsignedLong",
-            value=12345789012345,
-            type=None
+            value=12345789012345
         ),
         DerivedElement(
             qname="testShort",
-            value=-12345,
-            type=None
+            value=-12345
         ),
         DerivedElement(
             qname="testUnsignedShort",
-            value=12345,
-            type=None
+            value=12345
         ),
         Decimal("123456789.12345"),
     ]

@@ -12,7 +12,7 @@ obj = Doc(
             zip=""
         ),
         e3=E3(
-            any_element=None
+
         )
     )
 )

@@ -16,8 +16,6 @@ obj = Root(
                 AnyElement(
                     qname="foo",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "bar": "bla",
                         "a1": "b",
@@ -33,13 +31,10 @@ obj = Root(
                 AnyElement(
                     qname="bar",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="foo",
                             text="",
-                            tail=None,
-                            children=[],
                             attributes={
                                 "bar": "bla",
                                 "a1": "b",
@@ -52,24 +47,19 @@ obj = Root(
                                 "a8": "b",
                             }
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
                 AnyElement(
                     qname="foo",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="bar",
                             text="",
-                            tail=None,
                             children=[
                                 AnyElement(
                                     qname="foo",
                                     text="",
-                                    tail=None,
-                                    children=[],
                                     attributes={
                                         "bar": "bla",
                                         "a1": "b",
@@ -82,37 +72,29 @@ obj = Root(
                                         "a8": "b",
                                     }
                                 ),
-                            ],
-                            attributes={}
+                            ]
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
                 AnyElement(
                     qname="foo",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="bar",
                             text="",
-                            tail=None,
                             children=[
                                 AnyElement(
                                     qname="foo",
                                     text="",
-                                    tail=None,
                                     children=[
                                         AnyElement(
                                             qname="bar",
                                             text="",
-                                            tail=None,
                                             children=[
                                                 AnyElement(
                                                     qname="foo",
                                                     text="",
-                                                    tail=None,
-                                                    children=[],
                                                     attributes={
                                                         "bar": "bla",
                                                         "a1": "b",
@@ -125,63 +107,49 @@ obj = Root(
                                                         "a8": "b",
                                                     }
                                                 ),
-                                            ],
-                                            attributes={}
+                                            ]
                                         ),
-                                    ],
-                                    attributes={}
+                                    ]
                                 ),
-                            ],
-                            attributes={}
+                            ]
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
                 AnyElement(
                     qname="foo",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="bar",
                             text="",
-                            tail=None,
                             children=[
                                 AnyElement(
                                     qname="foo",
                                     text="",
-                                    tail=None,
                                     children=[
                                         AnyElement(
                                             qname="bar",
                                             text="",
-                                            tail=None,
                                             children=[
                                                 AnyElement(
                                                     qname="foo",
                                                     text="",
-                                                    tail=None,
                                                     children=[
                                                         AnyElement(
                                                             qname="bar",
                                                             text="",
-                                                            tail=None,
                                                             children=[
                                                                 AnyElement(
                                                                     qname="foo",
                                                                     text="",
-                                                                    tail=None,
                                                                     children=[
                                                                         AnyElement(
                                                                             qname="bar",
                                                                             text="",
-                                                                            tail=None,
                                                                             children=[
                                                                                 AnyElement(
                                                                                     qname="foo",
                                                                                     text="",
-                                                                                    tail=None,
-                                                                                    children=[],
                                                                                     attributes={
                                                                                         "bar": "bla",
                                                                                         "a1": "b",
@@ -194,35 +162,25 @@ obj = Root(
                                                                                         "a8": "b",
                                                                                     }
                                                                                 ),
-                                                                            ],
-                                                                            attributes={}
+                                                                            ]
                                                                         ),
-                                                                    ],
-                                                                    attributes={}
+                                                                    ]
                                                                 ),
-                                                            ],
-                                                            attributes={}
+                                                            ]
                                                         ),
-                                                    ],
-                                                    attributes={}
+                                                    ]
                                                 ),
-                                            ],
-                                            attributes={}
+                                            ]
                                         ),
-                                    ],
-                                    attributes={}
+                                    ]
                                 ),
-                            ],
-                            attributes={}
+                            ]
                         ),
-                    ],
-                    attributes={}
+                    ]
                 ),
                 AnyElement(
                     qname="a",
                     text="a1",
-                    tail=None,
-                    children=[],
                     attributes={
                         "att1": "123",
                         "att2": "true",
@@ -230,16 +188,11 @@ obj = Root(
                 ),
                 AnyElement(
                     qname="a",
-                    text="1",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="1"
                 ),
                 AnyElement(
                     qname="a",
                     text="blue",
-                    tail=None,
-                    children=[],
                     attributes={
                         "att1": "123",
                         "att2": "false",
@@ -248,8 +201,6 @@ obj = Root(
                 AnyElement(
                     qname="b",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "att1": "123",
                         "att2": "false",

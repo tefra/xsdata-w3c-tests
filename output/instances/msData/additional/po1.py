@@ -28,14 +28,12 @@ obj = PurchaseOrder(
                 quantity=1,
                 usprice=Decimal("148.95"),
                 comment="Confirm this is electric",
-                ship_date=None,
                 part_num="872-AA"
             ),
             Items.Item(
                 product_name="Baby Monitor",
                 quantity=1,
                 usprice=Decimal("39.98"),
-                comment=None,
                 ship_date=XmlDate(1999, 5, 21),
                 part_num="926-AA"
             ),

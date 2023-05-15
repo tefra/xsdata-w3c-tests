@@ -5,13 +5,12 @@ from output.models.ms_data.particles.particles_ju002_xsd.particles_ju002_imp imp
 
 obj = Doc(
     elem=R(
-        local_foo_target_namespace_imported_xsd_bar_element=[],
         imp_elem1=[
             ImpElem1(
-                any_element=None
+
             ),
             ImpElem1(
-                any_element=None
+
             ),
         ]
     )

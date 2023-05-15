@@ -2,5 +2,5 @@ from output.models.sun_data.mgroup.annotation.annotation00101m.annotation00101m7
 
 
 obj = Root(
-    any_element=None
+
 )

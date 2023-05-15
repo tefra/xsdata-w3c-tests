@@ -5,26 +5,16 @@ from xsdata.models.datatype import XmlDate
 
 obj = Doc(
     local_element=AnyElement(
-        qname=None,
-        text=None,
-        tail=None,
         children=[
             AnyElement(
                 qname="j",
-                text="banana",
-                tail=None,
-                children=[],
-                attributes={}
+                text="banana"
             ),
             AnyElement(
                 qname="a",
-                text="17",
-                tail=None,
-                children=[],
-                attributes={}
+                text="17"
             ),
-        ],
-        attributes={}
+        ]
     ),
     i=[
         12,

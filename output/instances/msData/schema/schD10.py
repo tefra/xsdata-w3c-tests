@@ -7,17 +7,12 @@ obj = Root(
         AnyElement(
             qname="{ns-a}e1",
             text="",
-            tail=None,
             children=[
                 AnyElement(
                     qname="c21",
-                    text="1",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="1"
                 ),
-            ],
-            attributes={}
+            ]
         ),
     ]
 )

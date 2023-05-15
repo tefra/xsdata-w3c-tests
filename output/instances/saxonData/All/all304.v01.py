@@ -3,41 +3,24 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
-    a=[],
-    b=[],
-    c=[],
     one_com_element=[
         AnyElement(
             qname="{http://one.com/}one",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{http://one.com/}three",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ],
-    e=None,
-    f=[],
     two_com_element=[
         AnyElement(
             qname="{http://two.com/}two",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{http://two.com/}four",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -17,52 +16,32 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
-            annotation=[],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test1.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 20)
                 ),
-                prior=[],
-                name="vc_001_1",
-                version=[],
-                other_attributes={}
+                name="vc_001_1"
             ),
             instance_test=[
                 InstanceTest(
@@ -70,134 +49,84 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.&#10;&#9;&#9;       ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test1_1.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test1_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 20)
                     ),
-                    prior=[],
-                    name="vc_001_2",
-                    version=[],
-                    other_attributes={}
+                    name="vc_001_2"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;          An example of Conditional Inclusion of schema components, using vc:minVersion attribute.&#10;&#9;&#9;&#9;      The instance test fails because, assertion in this example is "false" and that been included&#10;&#9;&#9;&#9;      in validation episode.&#10;&#9;&#9;       ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test1_2.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test1_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 20)
                     ),
-                    prior=[],
-                    name="vc_001_3",
-                    version=[],
-                    other_attributes={}
+                    name="vc_001_3"
                 ),
             ],
             name="vc_001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
-            annotation=[],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test2.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test2.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 20)
                 ),
-                prior=[],
-                name="vc_003_1",
-                version=[],
-                other_attributes={}
+                name="vc_003_1"
             ),
             instance_test=[
                 InstanceTest(
@@ -205,93 +134,58 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;          Run instance test in XSD 1.1 mode. The validation fails (due to a different element&#10;&#9;&#9;&#9;&#9;  declaration been selected, whose assertion failure causes validation episode to fail).&#10;&#9;&#9;       ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test2.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 20)
                     ),
-                    prior=[],
-                    name="vc_003_2",
-                    version=[],
-                    other_attributes={}
+                    name="vc_003_2"
                 ),
             ],
             name="vc_003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
-            annotation=[],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test3.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test3.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 20)
                 ),
-                prior=[],
-                name="vc_005_1",
-                version=[],
-                other_attributes={}
+                name="vc_005_1"
             ),
             instance_test=[
                 InstanceTest(
@@ -299,93 +193,58 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;                  Run instance test in XSD 1.1 mode. Assertion will be functional in this case, which would fail&#10;&#9;&#9;&#9;&#9;  causing failure of validation episode. The facet &quot;totalDigits&quot; won't be functional since it&#10;&#9;&#9;&#9;&#9;  only works in XSD 1.0 mode.&#10;&#9;&#9;       ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test3.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 20)
                     ),
-                    prior=[],
-                    name="vc_005_2",
-                    version=[],
-                    other_attributes={}
+                    name="vc_005_2"
                 ),
             ],
             name="vc_005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
-            annotation=[],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test4.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test4.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 20)
                 ),
-                prior=[],
-                name="vc_007_1",
-                version=[],
-                other_attributes={}
+                name="vc_007_1"
             ),
             instance_test=[
                 InstanceTest(
@@ -393,134 +252,84 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;                  Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and&#10;&#9;&#9;&#9;&#9;  assertion failure occurs causing failure of validation episode.&#9;&#9;&#9;&#9;  &#10;&#9;&#9;       ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test4_1.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test4_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 20)
                     ),
-                    prior=[],
-                    name="vc_007_2",
-                    version=[],
-                    other_attributes={}
+                    name="vc_007_2"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;                  Run instance test in XSD 1.1 mode. Now the type "TEST_V2" is used to validate an XML element and&#10;                  validation episode succeeds, since an assertion is also true.&#9;&#9;&#9;&#9;  &#10;&#9;&#9;       ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test4_2.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test4_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 20)
                     ),
-                    prior=[],
-                    name="vc_007_3",
-                    version=[],
-                    other_attributes={}
+                    name="vc_007_3"
                 ),
             ],
             name="vc_007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
-            annotation=[],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test5_1.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test5_1.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 20)
                 ),
-                prior=[],
-                name="vc_008_1",
-                version=[],
-                other_attributes={}
+                name="vc_008_1"
             ),
             instance_test=[
                 InstanceTest(
@@ -528,93 +337,58 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check&#10;                  [vc:typeAvailable=&quot;xs:int&quot;] succeeds but [vc:typeAvailable=&quot;my:myInt&quot;] doesn't. This test results&#10;                  in validation success.&#9;&#9;&#9;&#9;  &#10;&#9;&#9;       ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test5.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test5.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 20)
                     ),
-                    prior=[],
-                    name="vc_008_2",
-                    version=[],
-                    other_attributes={}
+                    name="vc_008_2"
                 ),
             ],
             name="vc_008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
-            annotation=[],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#cip",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#cip"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-ConditionalInclusion-Version"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test6.xsd",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test6.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 20)
                 ),
-                prior=[],
-                name="vc_009_1",
-                version=[],
-                other_attributes={}
+                name="vc_009_1"
             ),
             instance_test=[
                 InstanceTest(
@@ -622,48 +396,32 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;                  Run instance test in XSD 1.1 mode. In this example, type xs:int is selected to validate an XML instance, since check&#10;                  [vc:typeAvailable=&quot;xs:int&quot;] succeeds but [vc:typeAvailable=&quot;xs:int my:myInt&quot;] doesn't. This test results&#10;                  in validation success.  &#9;&#9;&#9;&#9;  &#10;&#9;&#9;       ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/mixed/VC/test6.xml",
-                        other_attributes={}
+                        href="../ibmData/mixed/VC/test6.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 20),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 20)
                     ),
-                    prior=[],
-                    name="vc_009_2",
-                    version=[],
-                    other_attributes={}
+                    name="vc_009_2"
                 ),
             ],
             name="vc_009",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="IBM",

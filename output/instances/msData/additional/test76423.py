@@ -26,8 +26,7 @@ obj = Jsml(
                     type="Singleton"
                 ),
             ],
-            name="Singleton",
-            inherits=None
+            name="Singleton"
         ),
     ]
 )

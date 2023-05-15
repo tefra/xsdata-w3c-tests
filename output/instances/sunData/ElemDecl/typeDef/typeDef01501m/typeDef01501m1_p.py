@@ -9,9 +9,7 @@ obj = Root(
         AnyElement(
             qname="dot",
             text="",
-            tail="&#10;&#10;&#10;The schema language, which is itself represented in XML 1.0 and uses &#10;namespaces, substantially reconstructs and considerably extends the &#10;capabilities found in XML 1.0 document type definitions (DTDs) ...&#10;",
-            children=[],
-            attributes={}
+            tail="&#10;&#10;&#10;The schema language, which is itself represented in XML 1.0 and uses &#10;namespaces, substantially reconstructs and considerably extends the &#10;capabilities found in XML 1.0 document type definitions (DTDs) ...&#10;"
         ),
     ]
 )

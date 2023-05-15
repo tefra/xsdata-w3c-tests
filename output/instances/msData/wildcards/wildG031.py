@@ -6,59 +6,35 @@ obj = Foo(
     a_b_c_d_e_target_namespace_local_element=[
         AnyElement(
             qname="{http://foobar}bar",
-            text="foo bar",
-            tail=None,
-            children=[],
-            attributes={}
+            text="foo bar"
         ),
         AnyElement(
             qname="bar",
-            text="foo bar",
-            tail=None,
-            children=[],
-            attributes={}
+            text="foo bar"
         ),
         AnyElement(
             qname="foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{A}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{B}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{C}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{D}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="{E}foo",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

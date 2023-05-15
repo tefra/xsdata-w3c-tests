@@ -9,25 +9,15 @@ obj = Doc(
     b="",
     c="",
     open_com_element=AnyElement(
-        qname=None,
-        text=None,
-        tail=None,
         children=[
             AnyElement(
                 qname="{http://open.com/}extra",
-                text="42",
-                tail=None,
-                children=[],
-                attributes={}
+                text="42"
             ),
             AnyElement(
                 qname="{http://open.com/}extra",
-                text="97",
-                tail=None,
-                children=[],
-                attributes={}
+                text="97"
             ),
-        ],
-        attributes={}
+        ]
     )
 )

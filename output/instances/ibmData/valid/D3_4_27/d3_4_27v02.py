@@ -4,7 +4,6 @@ from xsdata.models.datatype import XmlDuration
 
 
 obj = Root(
-    value="",
     ay_mdtype=XmlDuration("P334DT348M"),
     ay_mdenumeration=YMdenumeration.P3_DT44_H2_M5783_33_S,
     ay_mdmin_max_inclusive=XmlDuration("-PT48H"),

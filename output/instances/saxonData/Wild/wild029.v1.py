@@ -10,9 +10,6 @@ obj = Eden(
     ],
     any_element=AnyElement(
         qname="b",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     )
 )

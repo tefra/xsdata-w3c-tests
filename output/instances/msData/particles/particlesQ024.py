@@ -8,24 +8,15 @@ obj = Doc(
         foo_or_target_namespace_element=[
             AnyElement(
                 qname="{http://xsdtesting}foo",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://xsdtesting}foo",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
             AnyElement(
                 qname="{http://xsdtesting}foo",
-                text="",
-                tail=None,
-                children=[],
-                attributes={}
+                text=""
             ),
         ]
     )

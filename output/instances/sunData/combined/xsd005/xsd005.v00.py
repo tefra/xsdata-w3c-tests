@@ -13,17 +13,14 @@ obj = Root(
         ),
         Base(
             a="",
-            b=None,
             c=""
         ),
         Rst(
             a="",
-            b=None,
             c=""
         ),
         Rst(
             a="",
-            b=None,
             c=""
         ),
         Ext(
@@ -35,7 +32,6 @@ obj = Root(
         ),
         Ext(
             a="",
-            b=None,
             c="",
             d="",
             e=""

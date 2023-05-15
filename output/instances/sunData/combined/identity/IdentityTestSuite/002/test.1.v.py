@@ -8,8 +8,7 @@ obj = Root(
         QName("joe"),
         DerivedElement(
             qname="{foo}ref",
-            value=QName("joe"),
-            type=None
+            value=QName("joe")
         ),
     ]
 )

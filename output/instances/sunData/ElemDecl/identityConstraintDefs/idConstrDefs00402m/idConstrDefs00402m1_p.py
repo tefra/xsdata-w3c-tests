@@ -5,8 +5,7 @@ obj = Root(
     person=[
         Root.Person(
             value="William Smith",
-            ssn="p008",
-            parent=None
+            ssn="p008"
         ),
         Root.Person(
             value="John Smith",

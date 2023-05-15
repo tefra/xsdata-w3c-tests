@@ -12,10 +12,7 @@ obj = Root(
     choice=[
         AnyElement(
             qname="item",
-            text="abc",
-            tail=None,
-            children=[],
-            attributes={}
+            text="abc"
         ),
         5,
         10,
@@ -24,23 +21,19 @@ obj = Root(
         "1234567890",
         DerivedElement(
             qname="a",
-            value=A1.VALUE_1,
-            type=None
+            value=A1.VALUE_1
         ),
         DerivedElement(
             qname="a",
-            value=A1.VALUE_2,
-            type=None
+            value=A1.VALUE_2
         ),
         DerivedElement(
             qname="a",
-            value=A1.VALUE_3,
-            type=None
+            value=A1.VALUE_3
         ),
         DerivedElement(
             qname="a",
-            value=A1.VALUE_4,
-            type=None
+            value=A1.VALUE_4
         ),
         B1.A,
         B1.C123456789,
@@ -49,13 +42,11 @@ obj = Root(
         UnionA.VALUE_4,
         DerivedElement(
             qname="uab",
-            value=UnionAb.C123456789,
-            type=None
+            value=UnionAb.C123456789
         ),
         DerivedElement(
             qname="uab",
-            value=UnionAb.VALUE_4,
-            type=None
+            value=UnionAb.VALUE_4
         ),
         [
             A1.VALUE_1,

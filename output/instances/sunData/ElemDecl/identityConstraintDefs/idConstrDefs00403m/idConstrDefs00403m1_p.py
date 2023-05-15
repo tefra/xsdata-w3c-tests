@@ -5,13 +5,11 @@ obj = Root(
     person=[
         Root.Person(
             value="William Smith",
-            ssn="p008",
-            parents=[]
+            ssn="p008"
         ),
         Root.Person(
             value="Anna Brown",
-            ssn="p011",
-            parents=[]
+            ssn="p011"
         ),
         Root.Person(
             value="John Smith",

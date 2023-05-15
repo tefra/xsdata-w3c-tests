@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Out(
     any_element=AnyElement(
         qname="{NISTSchema-SV-IV-atomic-ID-enumeration-3-NS}NISTSchema-SV-IV-atomic-ID-enumeration-3",
-        text="wto-to.the_and.appr",
-        tail=None,
-        children=[],
-        attributes={}
+        text="wto-to.the_and.appr"
     )
 )

@@ -6,8 +6,6 @@ obj = Root(
     any_element=AnyElement(
         qname="{AttrUse/attrDecl}elementWithAttr",
         text="",
-        tail=None,
-        children=[],
         attributes={
             "{AttrUse/attrDecl}number": "157",
         }

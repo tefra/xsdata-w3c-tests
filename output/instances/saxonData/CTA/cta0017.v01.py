@@ -9,6 +9,5 @@ obj = Doc(
             when=XmlDate(2010, 10, 16),
             type="date"
         ),
-    ],
-    type=None
+    ]
 )

@@ -6,6 +6,5 @@ obj = Root(
     any_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD033.xsd",
         "myAttr": "group attribute",
-    },
-    local_attributes={}
+    }
 )

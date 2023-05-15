@@ -10,31 +10,19 @@ obj = Doc(
             f1_or_f2=[
                 AnyElement(
                     qname="{http://xsdtesting}f1",
-                    text="&#10;&#9;&#9;test&#10;&#9;",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text="&#10;&#9;&#9;test&#10;&#9;"
                 ),
                 AnyElement(
                     qname="{http://xsdtesting}f1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="{http://xsdtesting}f1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="{http://xsdtesting}f1",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         )

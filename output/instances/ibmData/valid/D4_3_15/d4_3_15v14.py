@@ -9,17 +9,15 @@ obj = Root(
         ElementType1(
             sub_element1=[
                 RootType(
-                    ele1=[],
                     ele2=[
                         ElementType2(
                             sub_element2=[
                                 RootType(
                                     ele1=[
                                         ElementType1(
-                                            sub_element1=[]
+
                                         ),
-                                    ],
-                                    ele2=[]
+                                    ]
                                 ),
                             ]
                         ),
@@ -27,6 +25,5 @@ obj = Root(
                 ),
             ]
         ),
-    ],
-    ele2=[]
+    ]
 )

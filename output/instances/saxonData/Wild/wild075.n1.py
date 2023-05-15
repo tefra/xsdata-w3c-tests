@@ -6,9 +6,6 @@ obj = Root(
     a=23,
     local_element=AnyElement(
         qname="a",
-        text="2010-10-16",
-        tail=None,
-        children=[],
-        attributes={}
+        text="2010-10-16"
     )
 )

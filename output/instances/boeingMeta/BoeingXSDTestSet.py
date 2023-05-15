@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Documentation
 from output.models.common.xsts_xsd.xsts import DocumentationReference
@@ -17,15 +16,11 @@ obj = TestSet(
         Annotation(
             appinfo_or_documentation=[
                 Documentation(
-                    source=None,
-                    lang=None,
-                    other_attributes={},
                     content=[
                         "&#10;&#9;&#9;&#9;All the following test cases are derived from examples given in the W3C XML Schema&#10;&#9;&#9;&#9;Part 0: Primer located at http://www.w3.org/TR/xmlschema-0/ with minor variation in the&#10;&#9;&#9;&#9;specific features intended for each test. &#10;&#9;&#9;",
                     ]
                 ),
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     test_group=[
@@ -34,923 +29,514 @@ obj = TestSet(
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;&#9;&#9;International Purchase Order 1&#10;&#9;&#9;&#9;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../boeingData/Readme.doc",
-                    other_attributes={}
+                    href="../boeingData/Readme.doc"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Schemas"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#layer2",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#layer2"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo1/ipo.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo1/ipo.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
-                current=None,
-                prior=[],
-                name="ipo1",
-                version=[],
-                other_attributes={}
+                name="ipo1"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo1/ipo_1.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo1/ipo_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_1",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_1"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo1/ipo_2.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo1/ipo_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_2",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_2"
                 ),
             ],
-            name="ipo1",
-            version=[],
-            other_attributes={}
+            name="ipo1"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;&#9;&#9;International Purchase Order 2&#10;&#9;&#9;&#9;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../boeingData/Readme.doc",
-                    other_attributes={}
+                    href="../boeingData/Readme.doc"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Schemas"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#layer2",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#layer2"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo2/ipo.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo2/ipo.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo2/address.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo2/address.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
-                current=None,
-                prior=[],
-                name="ipo2",
-                version=[],
-                other_attributes={}
+                name="ipo2"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo2/ipo_1.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo2/ipo_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_1",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_1"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo2/ipo_2.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo2/ipo_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_2",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_2"
                 ),
             ],
-            name="ipo2",
-            version=[],
-            other_attributes={}
+            name="ipo2"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;&#9;&#9;International Purchase Order 3&#10;&#9;&#9;&#9;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../boeingData/Readme.doc",
-                    other_attributes={}
+                    href="../boeingData/Readme.doc"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Schemas"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#layer2",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#layer2"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo3/ipo.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo3/ipo.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo3/address.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo3/address.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo3/itematt.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo3/itematt.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
-                current=None,
-                prior=[],
-                name="ipo3",
-                version=[],
-                other_attributes={}
+                name="ipo3"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo3/ipo_1.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo3/ipo_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_1",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_1"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo3/ipo_2.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo3/ipo_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_2",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_2"
                 ),
             ],
-            name="ipo3",
-            version=[],
-            other_attributes={}
+            name="ipo3"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;&#9;&#9;International Purchase Order 4&#10;&#9;&#9;&#9;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../boeingData/Readme.doc",
-                    other_attributes={}
+                    href="../boeingData/Readme.doc"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Schemas"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#layer2",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#layer2"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo4/ipo.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo4/ipo.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo4/address.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo4/address.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo4/itematt.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo4/itematt.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
-                current=None,
-                prior=[],
-                name="ipo4",
-                version=[],
-                other_attributes={}
+                name="ipo4"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo4/ipo_1.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo4/ipo_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_1",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_1"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo4/ipo_2.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo4/ipo_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_2",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_2"
                 ),
             ],
-            name="ipo4",
-            version=[],
-            other_attributes={}
+            name="ipo4"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;&#9;&#9;International Purchase Order 5&#10;&#9;&#9;&#9;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../boeingData/Readme.doc",
-                    other_attributes={}
+                    href="../boeingData/Readme.doc"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Schemas"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#layer2",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#layer2"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo5/ipo.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo5/ipo.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo5/address.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo5/address.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo5/itematt.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo5/itematt.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
-                current=None,
-                prior=[],
-                name="ipo5",
-                version=[],
-                other_attributes={}
+                name="ipo5"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo5/ipo_1.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo5/ipo_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_1",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_1"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo5/ipo_2.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo5/ipo_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_2",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_2"
                 ),
             ],
-            name="ipo5",
-            version=[],
-            other_attributes={}
+            name="ipo5"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "&#10;&#9;&#9;&#9;&#9;International Purchase Order 6&#10;&#9;&#9;&#9;",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../boeingData/Readme.doc",
-                    other_attributes={}
+                    href="../boeingData/Readme.doc"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#composition-schemaImport"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Schemas",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Schemas"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Model_Groups"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cAttribute_Group_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#cos-equiv-derived-ok-rec"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-2/#derivation-by-restriction"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#Complex_Type_Definitions"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#layer2",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#layer2"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo6/ipo.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo6/ipo.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo6/address.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo6/address.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo6/itematt.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo6/itematt.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo6/extend.xsd",
-                        other_attributes={}
+                        href="../boeingData/ipo6/extend.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
-                current=None,
-                prior=[],
-                name="ipo6",
-                version=[],
-                other_attributes={}
+                name="ipo6"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo6/ipo_1.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo6/ipo_1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_1",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_1"
                 ),
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../boeingData/ipo6/ipo_2.xml",
-                        other_attributes={}
+                        href="../boeingData/ipo6/ipo_2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
-                    current=None,
-                    prior=[],
-                    name="ipo_2",
-                    version=[],
-                    other_attributes={}
+                    name="ipo_2"
                 ),
             ],
-            name="ipo6",
-            version=[],
-            other_attributes={}
+            name="ipo6"
         ),
     ],
     contributor="S. Tsao, The Boeing Company + J. Zingoni, University of Bologna",
     name="BoeingXSDTestCases",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

@@ -12,7 +12,7 @@ obj = Root(
             x=""
         ),
         Nillable1(
-            x=None
+
         ),
         [
             51,

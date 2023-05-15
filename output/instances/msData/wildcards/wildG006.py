@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Foo(
     local_element=AnyElement(
         qname="bar",
-        text="foo bar",
-        tail=None,
-        children=[],
-        attributes={}
+        text="foo bar"
     )
 )

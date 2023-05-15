@@ -8,8 +8,6 @@ obj = Doc(
         Node(
             node_or_id_or_idrefs=[
                 Node(
-                    node_or_id_or_idrefs=[],
-                    id_attribute=[],
                     idrefs_attribute=[
                         "bbb",
                         "ccc",
@@ -25,15 +23,13 @@ obj = Doc(
                                 "aaa",
                                 97,
                                 "ddd",
-                            ],
-                            type=None
+                            ]
                         ),
                     ],
                     id_attribute=[
                         "ggg",
                         23,
-                    ],
-                    idrefs_attribute=[]
+                    ]
                 ),
                 [
                     "ccc",
@@ -47,8 +43,7 @@ obj = Doc(
                 "aaa",
                 23,
                 "bbb",
-            ],
-            idrefs_attribute=[]
+            ]
         ),
     ]
 )

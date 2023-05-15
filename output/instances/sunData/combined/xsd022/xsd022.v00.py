@@ -11,33 +11,27 @@ obj = Root(
         ],
         DerivedElement(
             qname="{http://foo.com}child2",
-            value=True,
-            type=None
+            value=True
         ),
         DerivedElement(
             qname="{http://foo.com}child2",
-            value=False,
-            type=None
+            value=False
         ),
         DerivedElement(
             qname="{http://foo.com}child2",
-            value=False,
-            type=None
+            value=False
         ),
         DerivedElement(
             qname="{http://foo.com}child2",
-            value=True,
-            type=None
+            value=True
         ),
         DerivedElement(
             qname="{http://foo.com}child2",
-            value="abcdef",
-            type=None
+            value="abcdef"
         ),
         DerivedElement(
             qname="{http://foo.com}child2",
-            value="xxxxxxxx",
-            type=None
+            value="xxxxxxxx"
         ),
     ]
 )

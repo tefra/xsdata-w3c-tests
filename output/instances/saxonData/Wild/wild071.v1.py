@@ -5,24 +5,18 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Root(
     a_or_a=A1(
-        any_element=None
+
     ),
     b="",
     c="",
     any_element=[
         AnyElement(
             qname="d",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
         AnyElement(
             qname="e",
-            text="",
-            tail=None,
-            children=[],
-            attributes={}
+            text=""
         ),
     ]
 )

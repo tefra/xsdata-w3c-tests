@@ -8,26 +8,15 @@ obj = Doc(
     a=XmlDate(1980, 1, 1),
     b=XmlTime(12, 0, 0, 0),
     target_namespace_element=AnyElement(
-        qname=None,
-        text=None,
-        tail=None,
         children=[
             AnyElement(
                 qname="c",
-                text="12:00:00",
-                tail=None,
-                children=[],
-                attributes={}
+                text="12:00:00"
             ),
             AnyElement(
                 qname="{http://other.ns/}d",
-                text="banana",
-                tail=None,
-                children=[],
-                attributes={}
+                text="banana"
             ),
-        ],
-        attributes={}
-    ),
-    other_ns_element=None
+        ]
+    )
 )

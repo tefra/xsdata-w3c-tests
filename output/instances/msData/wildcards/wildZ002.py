@@ -13,8 +13,6 @@ obj = Root(
                 AnyElement(
                     qname="a",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "att": "123",
                         "att1": "123",
@@ -24,14 +22,10 @@ obj = Root(
                 AnyElement(
                     qname="{foo}foo",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="{bar}bar",
-                            text="",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text=""
                         ),
                     ],
                     attributes={
@@ -47,14 +41,10 @@ obj = Root(
                 AnyElement(
                     qname="{main}notDeclared",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="{foo}foo",
-                            text="",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text=""
                         ),
                     ],
                     attributes={
@@ -70,25 +60,17 @@ obj = Root(
                 AnyElement(
                     qname="{foo}x",
                     text="",
-                    tail=None,
-                    children=[],
                     attributes={
                         "{foo}foo": "asd",
                     }
                 ),
                 AnyElement(
                     qname="{bar}x",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="{foo}x",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
             ]
         ),
@@ -98,33 +80,23 @@ obj = Root(
             target_namespace_foo_element=[
                 AnyElement(
                     qname="{foo}x",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="{foo}x",
-                    text="",
-                    tail=None,
-                    children=[],
-                    attributes={}
+                    text=""
                 ),
                 AnyElement(
                     qname="{main}a",
                     text="",
-                    tail=None,
                     children=[
                         AnyElement(
                             qname="{main}b",
                             text="",
-                            tail=None,
                             children=[
                                 AnyElement(
                                     qname="{main}c",
                                     text="",
-                                    tail=None,
-                                    children=[],
                                     attributes={
                                         "b": "b",
                                         "c": "b",

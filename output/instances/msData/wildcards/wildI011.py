@@ -4,26 +4,15 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 
 obj = Foo(
     other_element=AnyElement(
-        qname=None,
-        text=None,
-        tail=None,
         children=[
             AnyElement(
                 qname="{A}b",
-                text="test",
-                tail=None,
-                children=[],
-                attributes={}
+                text="test"
             ),
             AnyElement(
                 qname="{A}b",
-                text="test",
-                tail=None,
-                children=[],
-                attributes={}
+                text="test"
             ),
-        ],
-        attributes={}
-    ),
-    a_element=None
+        ]
+    )
 )

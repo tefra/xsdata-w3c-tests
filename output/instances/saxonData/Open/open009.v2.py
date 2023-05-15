@@ -7,6 +7,5 @@ obj = Doc(
         "",
     ],
     b="",
-    c="",
-    open_com_element=None
+    c=""
 )

@@ -8,8 +8,7 @@ obj = Doc(
         c1_or_c2=[
             DerivedElement(
                 qname="{http://xsdtesting}c1",
-                value=1,
-                type=None
+                value=1
             ),
         ]
     )

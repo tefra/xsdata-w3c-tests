@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -19,79 +18,50 @@ from xsdata.models.datatype import XmlDate
 
 
 obj = TestSet(
-    annotation=[],
     test_group=[
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="+INF allowed in xs:double lexical space",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="+INF allowed in xs:double lexical space"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="+INF allowed in xs:double lexical space in XSD 1.1",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="+INF allowed in xs:double lexical space in XSD 1.1"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple001.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="simple001.xsd",
-                version=[],
-                other_attributes={}
+                name="simple001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -99,200 +69,125 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, +INF used legitimately.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple001.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple001.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, -INF conflicts with fixed value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple001.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple001.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, NaN conflicts with fixed value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple001.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple001.n02.xml"
                 ),
             ],
-            name="simple001",
-            version=[],
-            other_attributes={}
+            name="simple001"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="+INF allowed in xs:float lexical space",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="+INF allowed in xs:float lexical space"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="+INF allowed in xs:float lexical space in XSD 1.1",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="+INF allowed in xs:float lexical space in XSD 1.1"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-LexicalRepForFloatAndDouble"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple002.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="simple002.xsd",
-                version=[],
-                other_attributes={}
+                name="simple002.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -300,200 +195,125 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, +INF used legitimately.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple001.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple001.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple002.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple002.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, -INF conflicts with fixed value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple001.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple001.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple002.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple002.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, NaN conflicts with fixed value.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple001.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple001.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple002.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple002.n02.xml"
                 ),
             ],
-            name="simple002",
-            version=[],
-            other_attributes={}
+            name="simple002"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test that simpleType/@final = extension is allowed",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test that simpleType/@final = extension is allowed"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Depends on resolution of spec bug 2074",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Depends on resolution of spec bug 2074"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074",
-                    other_attributes={}
+                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple003.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 25)
                 ),
-                prior=[],
-                name="simple003.xsd",
-                version=[],
-                other_attributes={}
+                name="simple003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -501,88 +321,55 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, the simpleType that prohibits extension is not extended.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple003.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple003.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 25),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 25)
                     ),
-                    prior=[],
-                    name="simple003.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple003.v01.xml"
                 ),
             ],
-            name="simple003",
-            version=[],
-            other_attributes={}
+            name="simple003"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test that simpleType/@final = extension is allowed, and works",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test that simpleType/@final = extension is allowed, and works"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Depends on resolution of spec bug 2074",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Depends on resolution of spec bug 2074"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074",
-                    other_attributes={}
+                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"
                 ),
             ],
             schema_test=SchemaTest(
@@ -590,90 +377,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;&#9;                Invalid, the simpleType that prohibits extension gets extended.&#10;&#9;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple004.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple004.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 25)
                 ),
-                prior=[],
-                name="simple004.xsd",
-                version=[],
-                other_attributes={}
+                name="simple004.xsd"
             ),
-            instance_test=[],
-            name="simple004",
-            version=[],
-            other_attributes={}
+            name="simple004"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test simpleType/@final = extension defaulted from finalDefault, and works",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test simpleType/@final = extension defaulted from finalDefault, and works"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Depends on resolution of spec bug 2074",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Depends on resolution of spec bug 2074"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074",
-                    other_attributes={}
+                    href="https://www.w3.org/Bugs/Public/show_bug.cgi?id=2074"
                 ),
             ],
             schema_test=SchemaTest(
@@ -681,84 +434,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;&#9;                Invalid, the simpleType that prohibits extension gets extended.&#10;&#9;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple005.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple005.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 25)
                 ),
-                prior=[],
-                name="simple005.xsd",
-                version=[],
-                other_attributes={}
+                name="simple005.xsd"
             ),
-            instance_test=[],
-            name="simple005",
-            version=[],
-            other_attributes={}
+            name="simple005"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="List type with a missing item type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="List type with a missing item type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Marked invalid here, though one could argue for "valid" under&#10;                section 5.3, missing components',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Marked invalid here, though one could argue for "valid" under&#10;                section 5.3, missing components'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
             ],
             schema_test=SchemaTest(
@@ -766,120 +488,74 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;&#9;                Invalid, the list type refers to a non-existent item type.&#10;&#9;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple006.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple006.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 25)
                 ),
-                prior=[],
-                name="simple006.xsd",
-                version=[],
-                other_attributes={}
+                name="simple006.xsd"
             ),
-            instance_test=[],
-            name="simple006",
-            version=[],
-            other_attributes={}
+            name="simple006"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type X is substitutable for union(X,Y)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type X is substitutable for union(X,Y)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Union is substitutable by one of the member types",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Union is substitutable by one of the member types"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple010.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="simple010.xsd",
-                version=[],
-                other_attributes={}
+                name="simple010.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -887,277 +563,171 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple010.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple010.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple010.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple010.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple010.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple010.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple010.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple010.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple010.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple010.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple010.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple010.n02.xml"
                 ),
             ],
-            name="simple010",
-            version=[],
-            other_attributes={}
+            name="simple010"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union(X,Y) is not validly derived from Union(X,Y,Z)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Union(X,Y) is not validly derived from Union(X,Y,Z)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Doesn't make much sense, but that's what the spec says.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Doesn't make much sense, but that's what the spec says."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple011.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple011.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="simple011.xsd",
-                version=[],
-                other_attributes={}
+                name="simple011.xsd"
             ),
-            instance_test=[],
-            name="simple011",
-            version=[],
-            other_attributes={}
+            name="simple011"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type X is substitutable for union(X,Y) when X is itself a union type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type X is substitutable for union(X,Y) when X is itself a union type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Union is substitutable by one of the member types when that member type is a union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Union is substitutable by one of the member types when that member type is a union"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple012.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="simple012.xsd",
-                version=[],
-                other_attributes={}
+                name="simple012.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1165,241 +735,151 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple012.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple012.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple012.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple012.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid use of xsi:type here&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple012.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple012.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple012.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple012.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple012.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple012.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple012.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple012.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple012.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple012.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple012.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple012.n02.xml"
                 ),
             ],
-            name="simple012",
-            version=[],
-            other_attributes={}
+            name="simple012"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Type D is substitutable for union(X,DT) when DT is union (D,T)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Type D is substitutable for union(X,DT) when DT is union (D,T)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests substitutability of transitive membership of the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests substitutability of transitive membership of the union"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple013.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="simple013.xsd",
-                version=[],
-                other_attributes={}
+                name="simple013.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1407,354 +887,217 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple013.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple013.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple013.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple013.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple013.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple013.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple013.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple013.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple013.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple013.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple013.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple013.n02.xml"
                 ),
             ],
-            name="simple013",
-            version=[],
-            other_attributes={}
+            name="simple013"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Member of a union is not substitutable if the union is derived by restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Member of a union is not substitutable if the union is derived by restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests substitutability of transitive membership of the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests substitutability of transitive membership of the union"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple014.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple014.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple014.xsd",
-                version=[],
-                other_attributes={}
+                name="simple014.xsd"
             ),
-            instance_test=[],
-            name="simple014",
-            version=[],
-            other_attributes={}
+            name="simple014"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Member of a union is not substitutable if the union is derived by restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Member of a union is not substitutable if the union is derived by restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests substitutability of transitive membership of the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests substitutability of transitive membership of the union"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-DerivedByRestrFrom"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple015.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple015.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple015.xsd",
-                version=[],
-                other_attributes={}
+                name="simple015.xsd"
             ),
-            instance_test=[],
-            name="simple015",
-            version=[],
-            other_attributes={}
+            name="simple015"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:type OK to select a member of a union only if there are no restriction facets",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsi:type OK to select a member of a union only if there are no restriction facets"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xsi:type OK to select a member of a union only if there are no restriction facets",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsi:type OK to select a member of a union only if there are no restriction facets"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-XSITypeUsedAsMember"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple016.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 8),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 8)
                 ),
-                prior=[],
-                name="simple016.xsd",
-                version=[],
-                other_attributes={}
+                name="simple016.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1762,129 +1105,81 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, xsi:type is OK here as the union is unrestricted&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple016.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple016.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple016.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple016.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, xsi:type cannot be used here as the union is restricted.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple016.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple016.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple016.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple016.n01.xml"
                 ),
             ],
-            name="simple016",
-            version=[],
-            other_attributes={}
+            name="simple016"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The transitive membership of a union type must not contain the union itself",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The transitive membership of a union type must not contain the union itself"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The transitive membership of a union type must not contain the union itself",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The transitive membership of a union type must not contain the union itself"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
                 ),
             ],
             schema_test=SchemaTest(
@@ -1892,90 +1187,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple017.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple017.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple017.xsd",
-                version=[],
-                other_attributes={}
+                name="simple017.xsd"
             ),
-            instance_test=[],
-            name="simple017",
-            version=[],
-            other_attributes={}
+            name="simple017"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The transitive membership of a union type must not contain a type derived from the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The transitive membership of a union type must not contain a type derived from the union"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The transitive membership of a union type must not contain a type derived from the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The transitive membership of a union type must not contain a type derived from the union"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
                 ),
             ],
             schema_test=SchemaTest(
@@ -1983,90 +1244,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple018.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple018.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple018.xsd",
-                version=[],
-                other_attributes={}
+                name="simple018.xsd"
             ),
-            instance_test=[],
-            name="simple018",
-            version=[],
-            other_attributes={}
+            name="simple018"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The transitive membership of a union type must not contain a type constructed from the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The transitive membership of a union type must not contain a type constructed from the union"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The transitive membership of a union type must not contain a type constructed from the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The transitive membership of a union type must not contain a type constructed from the union"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
                 ),
             ],
             schema_test=SchemaTest(
@@ -2074,90 +1301,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple019.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple019.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple019.xsd",
-                version=[],
-                other_attributes={}
+                name="simple019.xsd"
             ),
-            instance_test=[],
-            name="simple019",
-            version=[],
-            other_attributes={}
+            name="simple019"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="The transitive membership of a union type must not contain a type constructed from the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The transitive membership of a union type must not contain a type constructed from the union"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="The transitive membership of a union type must not contain a type constructed from the union",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="The transitive membership of a union type must not contain a type constructed from the union"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-UnionTypes-Cyclicity"
                 ),
             ],
             schema_test=SchemaTest(
@@ -2165,84 +1358,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple020.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple020.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple020.xsd",
-                version=[],
-                other_attributes={}
+                name="simple020.xsd"
             ),
-            instance_test=[],
-            name="simple020",
-            version=[],
-            other_attributes={}
+            name="simple020"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='The string "[^]" is not a valid regex',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='The string "[^]" is not a valid regex'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='The string "[^]" is not a valid regex',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='The string "[^]" is not a valid regex'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-2/#charcter-classes",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-2/#charcter-classes"
                 ),
             ],
             schema_test=SchemaTest(
@@ -2250,114 +1412,71 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid regular expression in pattern facet&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple021.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple021.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 1, 25),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 1, 25)
                 ),
-                prior=[],
-                name="simple021.xsd",
-                version=[],
-                other_attributes={}
+                name="simple021.xsd"
             ),
-            instance_test=[],
-            name="simple021",
-            version=[],
-            other_attributes={}
+            name="simple021"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='Enumeration value OK if "equal or identical", so NaN is accepted. See bug 9196',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Enumeration value OK if "equal or identical", so NaN is accepted. See bug 9196'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Enumeration value OK if "equal or identical", so NaN is accepted. See bug 9196',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Enumeration value OK if "equal or identical", so NaN is accepted. See bug 9196'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-IdentityAndEquality",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-IdentityAndEquality"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple022.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 6),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 6)
                 ),
-                prior=[],
-                name="simple022.xsd",
-                version=[],
-                other_attributes={}
+                name="simple022.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2365,241 +1484,151 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Valid, Enumeration value OK if "equal or identical"&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple022.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple022.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 6),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 6)
                     ),
-                    prior=[],
-                    name="simple022.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple022.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Valid, Enumeration value OK if "equal or identical"&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple022.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple022.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 6),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 6)
                     ),
-                    prior=[],
-                    name="simple022.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple022.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Valid, Enumeration value OK if "equal or identical"&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple022.v03.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple022.v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 6),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 6)
                     ),
-                    prior=[],
-                    name="simple022.v03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple022.v03.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         '&#10;&#9;&#9;                Invalid, Enumeration value OK only if "equal or identical".&#10;&#9;&#9;            ',
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple022.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple022.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 2, 6),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 2, 6)
                     ),
-                    prior=[],
-                    name="simple016.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple016.n01.xml"
                 ),
             ],
-            name="simple022",
-            version=[],
-            other_attributes={}
+            name="simple022"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Hyphens in regular expressions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of hyphens in regular expressions"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple040.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple040.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple040.xsd",
-                version=[],
-                other_attributes={}
+                name="simple040.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2607,170 +1636,107 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple040.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple040.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple040.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple040.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple040.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple040.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple040.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple040.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple040.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple040.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 8),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 8)
                     ),
-                    prior=[],
-                    name="simple040.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple040.n02.xml"
                 ),
             ],
-            name="simple040",
-            version=[],
-            other_attributes={}
+            name="simple040"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Hyphens in regular expressions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of hyphens in regular expressions"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
@@ -2778,90 +1744,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple041.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple041.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple041.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="simple041.bad.xsd"
             ),
-            instance_test=[],
-            name="simple041",
-            version=[],
-            other_attributes={}
+            name="simple041"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Hyphens in regular expressions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of hyphens in regular expressions"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
@@ -2869,90 +1801,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid, cyclic union definition&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple042.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple042.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple042.bad.xsd",
-                version=[],
-                other_attributes={}
+                name="simple042.bad.xsd"
             ),
-            instance_test=[],
-            name="simple042",
-            version=[],
-            other_attributes={}
+            name="simple042"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Hyphens in regular expressions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of hyphens in regular expressions"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
@@ -2960,98 +1858,62 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                this regex becomes legal by a decision of the WG in Nov 2010. See bug 13922.&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple043.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple043.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 10, 7),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 10, 7)
                 ),
                 prior=[
                     Prior(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
                 ],
-                name="simple043.xsd",
-                version=[],
-                other_attributes={}
+                name="simple043.xsd"
             ),
-            instance_test=[],
-            name="simple043",
-            version=[],
-            other_attributes={}
+            name="simple043"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Hyphens in regular expressions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of hyphens in regular expressions"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
@@ -3059,43 +1921,28 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                valid regex&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple044.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple044.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple044.xsd",
-                version=[],
-                other_attributes={}
+                name="simple044.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3103,129 +1950,81 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple044.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple044.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple044.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple044.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple044.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple044.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple044.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple044.n01.xml"
                 ),
             ],
-            name="simple044",
-            version=[],
-            other_attributes={}
+            name="simple044"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Hyphens in regular expressions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of hyphens in regular expressions"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
@@ -3233,43 +2032,28 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                valid regex&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple045.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple045.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple045.xsd",
-                version=[],
-                other_attributes={}
+                name="simple045.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3277,129 +2061,81 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple045.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple045.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple045.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple045.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple045.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple045.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple045.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple045.n01.xml"
                 ),
             ],
-            name="simple045",
-            version=[],
-            other_attributes={}
+            name="simple045"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Hyphens in regular expressions"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of hyphens in regular expressions",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of hyphens in regular expressions"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-HyphensAndBracketsInRegex"
                 ),
             ],
             schema_test=SchemaTest(
@@ -3407,43 +2143,28 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                valid regex&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple046.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple046.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple046.xsd",
-                version=[],
-                other_attributes={}
+                name="simple046.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3451,129 +2172,81 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple046.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple046.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple046.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple046.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, &#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple046.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple046.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple046.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple046.n01.xml"
                 ),
             ],
-            name="simple046",
-            version=[],
-            other_attributes={}
+            name="simple046"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of xs:anyAtomicType",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use of xs:anyAtomicType"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of xs:anyAtomicType as the type of an element declaration",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of xs:anyAtomicType as the type of an element declaration"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"
                 ),
             ],
             schema_test=SchemaTest(
@@ -3581,43 +2254,28 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                valid schema using anyAtomicType&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple050.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple050.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple050.xsd",
-                version=[],
-                other_attributes={}
+                name="simple050.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3625,252 +2283,159 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, anyAtomicType allows anything&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple050.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple050.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple050.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple050.v01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid xsi:type restricting to a date&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple050.v02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple050.v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple050.v02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple050.v02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, if restricting to a date the date must be valid&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple050.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple050.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple050.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple050.n01.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, restricting to an unknown type&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple050.n02.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple050.n02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple050.n02.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple050.n02.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, restricting to untypedAtomic&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple050.n03.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple050.n03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 11),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 11)
                     ),
-                    prior=[],
-                    name="simple050.n03.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple050.n03.xml"
                 ),
             ],
-            name="simple050",
-            version=[],
-            other_attributes={}
+            name="simple050"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of xs:anyAtomicType",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use of xs:anyAtomicType"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Cannot use xs:anyAtomicType as the base type of a restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Cannot use xs:anyAtomicType as the base type of a restriction"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"
                 ),
             ],
             schema_test=SchemaTest(
@@ -3878,90 +2443,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema using anyAtomicType&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple051.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple051.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 11),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 11)
                 ),
-                prior=[],
-                name="simple050.xsd",
-                version=[],
-                other_attributes={}
+                name="simple050.xsd"
             ),
-            instance_test=[],
-            name="simple051",
-            version=[],
-            other_attributes={}
+            name="simple051"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of xs:anyAtomicType",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use of xs:anyAtomicType"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of xs:anyAtomicType as the item type of a list.&#10;                This has been disallowed in consequence of the resolution of bug 11103",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of xs:anyAtomicType as the item type of a list.&#10;                This has been disallowed in consequence of the resolution of bug 11103"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"
                 ),
             ],
             schema_test=SchemaTest(
@@ -3969,90 +2500,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema using anyAtomicType as the item type of a list&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple052.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple052.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 7),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 7)
                 ),
-                prior=[],
-                name="simple052.xsd",
-                version=[],
-                other_attributes={}
+                name="simple052.xsd"
             ),
-            instance_test=[],
-            name="simple052",
-            version=[],
-            other_attributes={}
+            name="simple052"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Use of xs:anyAtomicType",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Use of xs:anyAtomicType"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Tests use of xs:anyAtomicType as the member type of a union.&#10;                Union of xs:anyAtomicType is not allowed, as a consequence of the resolution of bug 11103",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Tests use of xs:anyAtomicType as the member type of a union.&#10;                Union of xs:anyAtomicType is not allowed, as a consequence of the resolution of bug 11103"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-AnyAtomicType"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4060,90 +2557,56 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema using anyAtomicType as a member type in a union&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple053.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple053.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 7),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 7)
                 ),
-                prior=[],
-                name="simple053.xsd",
-                version=[],
-                other_attributes={}
+                name="simple053.xsd"
             ),
-            instance_test=[],
-            name="simple053",
-            version=[],
-            other_attributes={}
+            name="simple053"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="xsi:type must resolve",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsi:type must resolve"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="xsi:type isn't one of the member type of a union, in fact it doesn't exist",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="xsi:type isn't one of the member type of a union, in fact it doesn't exist"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-Misc-XSITypeMustResolve"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4151,43 +2614,28 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                valid schema using a union&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple054.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple054.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 11, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 11, 17)
                 ),
-                prior=[],
-                name="simple054.xsd",
-                version=[],
-                other_attributes={}
+                name="simple054.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4195,82 +2643,52 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, unknown xsi:type&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple054.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple054.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 11, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 11, 17)
                     ),
-                    prior=[],
-                    name="simple053.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple053.n01.xml"
                 ),
             ],
-            name="simple054",
-            version=[],
-            other_attributes={}
+            name="simple054"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Selector in identity constraint mistakenly identifies an element with a simple type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Selector in identity constraint mistakenly identifies an element with a simple type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Not an error in the schema, though Saxon gives a warning: it causes all instances to be invalid.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Not an error in the schema, though Saxon gives a warning: it causes all instances to be invalid."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4278,43 +2696,28 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                schema is valid though not useful&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple055.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple055.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 4, 27),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 4, 27)
                 ),
-                prior=[],
-                name="simple055.xsd",
-                version=[],
-                other_attributes={}
+                name="simple055.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4322,82 +2725,52 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, field of selector selects nothing&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple055.n01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple055.n01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2012, 4, 28),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2012, 4, 28)
                     ),
-                    prior=[],
-                    name="simple055.n01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple055.n01.xml"
                 ),
             ],
-            name="simple055",
-            version=[],
-            other_attributes={}
+            name="simple055"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4405,84 +2778,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple060.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple060.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple060.xsd",
-                version=[],
-                other_attributes={}
+                name="simple060.xsd"
             ),
-            instance_test=[],
-            name="simple060",
-            version=[],
-            other_attributes={}
+            name="simple060"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4490,84 +2832,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple061.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple061.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple061.xsd",
-                version=[],
-                other_attributes={}
+                name="simple061.xsd"
             ),
-            instance_test=[],
-            name="simple061",
-            version=[],
-            other_attributes={}
+            name="simple061"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4575,84 +2886,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple062.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple062.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple062.xsd",
-                version=[],
-                other_attributes={}
+                name="simple062.xsd"
             ),
-            instance_test=[],
-            name="simple062",
-            version=[],
-            other_attributes={}
+            name="simple062"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4660,84 +2940,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple063.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple063.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple063.xsd",
-                version=[],
-                other_attributes={}
+                name="simple063.xsd"
             ),
-            instance_test=[],
-            name="simple063",
-            version=[],
-            other_attributes={}
+            name="simple063"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4745,84 +2994,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple064.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple064.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple064.xsd",
-                version=[],
-                other_attributes={}
+                name="simple064.xsd"
             ),
-            instance_test=[],
-            name="simple064",
-            version=[],
-            other_attributes={}
+            name="simple064"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4830,84 +3048,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple065.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple065.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple065.xsd",
-                version=[],
-                other_attributes={}
+                name="simple065.xsd"
             ),
-            instance_test=[],
-            name="simple065",
-            version=[],
-            other_attributes={}
+            name="simple065"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -4915,84 +3102,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple066.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple066.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple066.xsd",
-                version=[],
-                other_attributes={}
+                name="simple066.xsd"
             ),
-            instance_test=[],
-            name="simple066",
-            version=[],
-            other_attributes={}
+            name="simple066"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5000,84 +3156,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple067.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple067.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple067.xsd",
-                version=[],
-                other_attributes={}
+                name="simple067.xsd"
             ),
-            instance_test=[],
-            name="simple067",
-            version=[],
-            other_attributes={}
+            name="simple067"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5085,84 +3210,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple068.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple068.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple068.xsd",
-                version=[],
-                other_attributes={}
+                name="simple068.xsd"
             ),
-            instance_test=[],
-            name="simple068",
-            version=[],
-            other_attributes={}
+            name="simple068"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5170,84 +3264,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple069.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple069.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple069.xsd",
-                version=[],
-                other_attributes={}
+                name="simple069.xsd"
             ),
-            instance_test=[],
-            name="simple069",
-            version=[],
-            other_attributes={}
+            name="simple069"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5255,84 +3318,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple070.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple070.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple070.xsd",
-                version=[],
-                other_attributes={}
+                name="simple070.xsd"
             ),
-            instance_test=[],
-            name="simple070",
-            version=[],
-            other_attributes={}
+            name="simple070"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5340,84 +3372,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple071.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple071.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple071.xsd",
-                version=[],
-                other_attributes={}
+                name="simple071.xsd"
             ),
-            instance_test=[],
-            name="simple071",
-            version=[],
-            other_attributes={}
+            name="simple071"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5425,84 +3426,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple072.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple072.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple072.xsd",
-                version=[],
-                other_attributes={}
+                name="simple072.xsd"
             ),
-            instance_test=[],
-            name="simple072",
-            version=[],
-            other_attributes={}
+            name="simple072"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5510,84 +3480,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple073.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple073.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple073.xsd",
-                version=[],
-                other_attributes={}
+                name="simple073.xsd"
             ),
-            instance_test=[],
-            name="simple073",
-            version=[],
-            other_attributes={}
+            name="simple073"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5595,84 +3534,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple074.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple074.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple074.xsd",
-                version=[],
-                other_attributes={}
+                name="simple074.xsd"
             ),
-            instance_test=[],
-            name="simple074",
-            version=[],
-            other_attributes={}
+            name="simple074"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5680,84 +3588,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple075.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple075.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple075.xsd",
-                version=[],
-                other_attributes={}
+                name="simple075.xsd"
             ),
-            instance_test=[],
-            name="simple075",
-            version=[],
-            other_attributes={}
+            name="simple075"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5765,84 +3642,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple076.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple076.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple076.xsd",
-                version=[],
-                other_attributes={}
+                name="simple076.xsd"
             ),
-            instance_test=[],
-            name="simple076",
-            version=[],
-            other_attributes={}
+            name="simple076"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5850,84 +3696,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple077.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple077.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple077.xsd",
-                version=[],
-                other_attributes={}
+                name="simple077.xsd"
             ),
-            instance_test=[],
-            name="simple077",
-            version=[],
-            other_attributes={}
+            name="simple077"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -5935,84 +3750,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple078.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple078.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple078.xsd",
-                version=[],
-                other_attributes={}
+                name="simple078.xsd"
             ),
-            instance_test=[],
-            name="simple078",
-            version=[],
-            other_attributes={}
+            name="simple078"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -6020,84 +3804,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple079.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple079.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple079.xsd",
-                version=[],
-                other_attributes={}
+                name="simple079.xsd"
             ),
-            instance_test=[],
-            name="simple079",
-            version=[],
-            other_attributes={}
+            name="simple079"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -6105,84 +3858,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple080.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple080.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple080.xsd",
-                version=[],
-                other_attributes={}
+                name="simple080.xsd"
             ),
-            instance_test=[],
-            name="simple080",
-            version=[],
-            other_attributes={}
+            name="simple080"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -6190,84 +3912,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple081.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple081.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple081.xsd",
-                version=[],
-                other_attributes={}
+                name="simple081.xsd"
             ),
-            instance_test=[],
-            name="simple081",
-            version=[],
-            other_attributes={}
+            name="simple081"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -6275,84 +3966,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple082.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple082.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple082.xsd",
-                version=[],
-                other_attributes={}
+                name="simple082.xsd"
             ),
-            instance_test=[],
-            name="simple082",
-            version=[],
-            other_attributes={}
+            name="simple082"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -6360,84 +4020,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple083.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple083.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple083.xsd",
-                version=[],
-                other_attributes={}
+                name="simple083.xsd"
             ),
-            instance_test=[],
-            name="simple083",
-            version=[],
-            other_attributes={}
+            name="simple083"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Facet must not appear more than once",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Facet must not appear more than once"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#st-props-correct"
                 ),
             ],
             schema_test=SchemaTest(
@@ -6445,84 +4074,53 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                invalid schema, facet is repeated violating clause 1 of &#10;&#9;                Simple Type Definition Representation OK&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple084.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple084.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 2, 21),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 2, 21)
                 ),
-                prior=[],
-                name="simple084.xsd",
-                version=[],
-                other_attributes={}
+                name="simple084.xsd"
             ),
-            instance_test=[],
-            name="simple084",
-            version=[],
-            other_attributes={}
+            name="simple084"
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Union derived by restriction with a pattern facet",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Union derived by restriction with a pattern facet"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Pattern facet applies after doing whitespace processing defined&#10;                             in the member type against which validation succeeded&#10;                ",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Pattern facet applies after doing whitespace processing defined&#10;                             in the member type against which validation succeeded&#10;                "
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema-1/#d0e13819"
                 ),
             ],
             schema_test=SchemaTest(
@@ -6530,43 +4128,28 @@ obj = TestSet(
                     Annotation(
                         appinfo_or_documentation=[
                             Documentation(
-                                source=None,
-                                lang=None,
-                                other_attributes={},
                                 content=[
                                     "&#10;&#9;                schema is valid&#10;&#9;            ",
                                 ]
                             ),
-                        ],
-                        other_attributes={}
+                        ]
                     ),
                 ],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple085.xsd",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple085.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2014, 12, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2014, 12, 5)
                 ),
-                prior=[],
-                name="simple085.xsd",
-                version=[],
-                other_attributes={}
+                name="simple085.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -6574,46 +4157,29 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid; pattern matches the input after whitespace normalization&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Simple/simple085.v01.xml",
-                        other_attributes={}
+                        href="../saxonData/Simple/simple085.v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2014, 12, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2014, 12, 5)
                     ),
-                    prior=[],
-                    name="simple085.v01.xml",
-                    version=[],
-                    other_attributes={}
+                    name="simple085.v01.xml"
                 ),
             ],
-            name="simple085",
-            version=[],
-            other_attributes={}
+            name="simple085"
         ),
     ],
     contributor="Saxonica",

@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -22,28 +21,18 @@ obj = TestSet(
         Annotation(
             appinfo_or_documentation=[
                 Documentation(
-                    source=None,
-                    lang=None,
-                    other_attributes={},
                     content=[
                         AnyElement(
                             qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                            text="Tests for XSD 1.1 open content models",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="Tests for XSD 1.1 open content models"
                         ),
                         AnyElement(
                             qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                            text="A number of tests, both valid and invalid, demonstrating use of the new&#10;                XSD 1.1 feature for open content models.",
-                            tail=None,
-                            children=[],
-                            attributes={}
+                            text="A number of tests, both valid and invalid, demonstrating use of the new&#10;                XSD 1.1 feature for open content models."
                         ),
                     ]
                 ),
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     test_group=[
@@ -52,84 +41,50 @@ obj = TestSet(
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic suffixed open content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Basic suffixed open content"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace at end of content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows any element in specified namespace at end of content"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open001.xsd",
-                version=[],
-                other_attributes={}
+                name="open001.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -137,372 +92,235 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open001.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open001.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open001.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open001.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, with no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open001.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open001.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content must come last.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open001.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open001.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content comes before mandatory elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open001.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open001.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open001.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open001.n3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.n4.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.n4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open001.n4.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open001.n4.xml"
                 ),
             ],
             name="open001",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Suffixed open content defined by defaultOpenContent element",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Suffixed open content defined by defaultOpenContent element"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Same as open001 except for the schema.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Same as open001 except for the schema."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Suffix"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open002.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open002.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open002.xsd",
-                version=[],
-                other_attributes={}
+                name="open002.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -510,366 +328,232 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open002.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open002.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open002.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open002.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, with no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open002.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open002.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content must come last.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open002.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open002.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content comes before mandatory elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open002.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open002.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open002.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open002.n3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open001.n4.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open001.n4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open002.n4.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open002.n4.xml"
                 ),
             ],
             name="open002",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Explicit open content takes precedence over default open content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Explicit open content takes precedence over default open content"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Different namespaces for the local open content and default open content wildcards.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Different namespaces for the local open content and default open content wildcards."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open003.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open003.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open003.xsd",
-                version=[],
-                other_attributes={}
+                name="open003.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -877,161 +561,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses local open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open003.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open003.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open003.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open003.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses default open content namespace.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open003.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open003.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open003.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open003.n1.xml"
                 ),
             ],
             name="open003",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text='mode="none" takes precedence over default open content',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='mode="none" takes precedence over default open content'
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Open content not allowed.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Open content not allowed."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultOCTopLevel"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open004.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open004.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open004.xsd",
-                version=[],
-                other_attributes={}
+                name="open004.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1039,161 +664,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open004.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open004.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open004.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open004.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses default open content namespace.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open004.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open004.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open004.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open004.n1.xml"
                 ),
             ],
             name="open004",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic interleaved open content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Basic interleaved open content"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace anywhere in content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows any element in specified namespace anywhere in content"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open005.xsd",
-                version=[],
-                other_attributes={}
+                name="open005.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1201,366 +767,232 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open005.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open005.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open005.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open005.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, with open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open005.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open005.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, with no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.v4.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.v4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open005.v4.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open005.v4.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content does not match wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open005.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open005.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not match regular content model.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open005.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open005.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open005.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open005.n3.xml"
                 ),
             ],
             name="open005",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Basic interleaved open content using defaultOpenContent definition",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Basic interleaved open content using defaultOpenContent definition"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace anywhere in content.&#10;                Same as open005 except for the schema.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows any element in specified namespace anywhere in content.&#10;                Same as open005 except for the schema."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open006.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open006.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open006.xsd",
-                version=[],
-                other_attributes={}
+                name="open006.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1568,366 +1000,232 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open006.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open006.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open006.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open006.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, with open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open006.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open006.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, with no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.v4.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.v4.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open006.v4.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open006.v4.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content does not match wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open006.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open006.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, does not match regular content model.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open006.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open006.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, suffixed content does not match wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open005.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open005.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open006.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open006.n3.xml"
                 ),
             ],
             name="open006",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Interleaved open content within a counting content model",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Interleaved open content within a counting content model"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Designed to test that counting still works correctly.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Designed to test that counting still works correctly."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-Interleave"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open007.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open007.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open007.xsd",
-                version=[],
-                other_attributes={}
+                name="open007.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -1935,243 +1233,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open007.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open007.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open007.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open007.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open007.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open007.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open007.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open007.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, maxOccurs violation.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open007.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open007.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open007.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open007.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, minOccurs violation.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open007.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open007.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open007.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open007.n2.xml"
                 ),
             ],
             name="open007",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Interleaved open content in an xs:all group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Interleaved open content in an xs:all group"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace anywhere in xs:all content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows any element in specified namespace anywhere in xs:all content"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open008.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open008.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open008.xsd",
-                version=[],
-                other_attributes={}
+                name="open008.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2179,331 +1388,209 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open008.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open008.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open008.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open008.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open008.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open008.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open008.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open008.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open008.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open008.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open008.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open008.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content in wrong namespace.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open008.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open008.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open008.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open008.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too many a elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open008.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open008.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open008.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open008.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few a elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open008.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open008.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open008.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open008.n3.xml"
                 ),
             ],
             name="open008",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Suffix open content in an xs:all group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Suffix open content in an xs:all group"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace at end of xs:all content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows any element in specified namespace at end of xs:all content"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open009.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open009.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open009.xsd",
-                version=[],
-                other_attributes={}
+                name="open009.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2511,249 +1598,157 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open009.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open009.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open009.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open009.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open009.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open009.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open009.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open009.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content in wrong place.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open009.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open009.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open009.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open009.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, too few a elements.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open009.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open009.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open009.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open009.n2.xml"
                 ),
             ],
             name="open009",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Open content in an (otherwise) empty content model",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Open content in an (otherwise) empty content model"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Allows any element in specified namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Allows any element in specified namespace"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ElementOnly"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open010.xsd",
-                version=[],
-                other_attributes={}
+                name="open010.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -2761,249 +1756,157 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open010.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open010.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open010.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open010.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, content does not match open content wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open010.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open010.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, text content not allowed&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open010.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open010.n2.xml"
                 ),
             ],
             name="open010",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Open content in an (otherwise) empty content model",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Open content in an (otherwise) empty content model"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Defined by defaultOpenContent with appliesToEmpty=true. Uses&#10;                            same instances as open010.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Defined by defaultOpenContent with appliesToEmpty=true. Uses&#10;                            same instances as open010."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open011.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open011.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open011.xsd",
-                version=[],
-                other_attributes={}
+                name="open011.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3011,249 +1914,157 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open011.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open011.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open011.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open011.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, content does not match open content wildcard.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open011.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open011.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, text content not allowed&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open010.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open010.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open011.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open011.n2.xml"
                 ),
             ],
             name="open011",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Schema defines default open content but not applying to an empty content model",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Schema defines default open content but not applying to an empty content model"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Defined by defaultOpenContent with appliesToEmpty=false. ",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Defined by defaultOpenContent with appliesToEmpty=false. "
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open012.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open012.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open012.xsd",
-                version=[],
-                other_attributes={}
+                name="open012.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3261,255 +2072,160 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open012.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open012.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open012.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open012.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content is not allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open012.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open012.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open012.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open012.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, text content not allowed&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open012.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open012.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open012.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open012.n2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, even whitespace is not allowed&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open012.n3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open012.n3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open012.n3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open012.n3.xml"
                 ),
             ],
             name="open012",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Schema defines default open content not applying to an empty content model -&#10;                       but it does apply to a mixed content model with an empty particle",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Schema defines default open content not applying to an empty content model -&#10;                       but it does apply to a mixed content model with an empty particle"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Defined by defaultOpenContent with appliesToEmpty=false. ",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Defined by defaultOpenContent with appliesToEmpty=false. "
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCTopLevel"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open013.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open013.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open013.xsd",
-                version=[],
-                other_attributes={}
+                name="open013.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3517,120 +2233,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open013.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open013.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open013.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open013.v1.xml"
                 ),
             ],
             name="open013",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has open content, restricted type does not",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Base type has open content, restricted type does not"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open014.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open014.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open014.xsd",
-                version=[],
-                other_attributes={}
+                name="open014.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3638,161 +2310,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open014.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open014.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open014.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open014.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, tries to use open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open014.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open014.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open014.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open014.n1.xml"
                 ),
             ],
             name="open014",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has open content, restricted type has identical open content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Base type has open content, restricted type has identical open content"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open015.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open015.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open015.xsd",
-                version=[],
-                other_attributes={}
+                name="open015.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3800,161 +2413,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open015.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open015.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open015.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open015.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, tries to a child not defined in derived type.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open015.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open015.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open015.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open015.n1.xml"
                 ),
             ],
             name="open015",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Open content: no effect on complex types with simple content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Open content: no effect on complex types with simple content"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Default open content ignored on a CT-with-SC",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Default open content ignored on a CT-with-SC"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-ComplexTypeSimpleContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open016.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open016.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 17)
                 ),
-                prior=[],
-                name="open016.xsd",
-                version=[],
-                other_attributes={}
+                name="open016.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -3962,477 +2516,298 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no attempt to use open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open016.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open016.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open016.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open016.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, tries to use an open content child, not allowed with simple content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open016.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open016.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open016.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open016.n1.xml"
                 ),
             ],
             name="open016",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="An invalid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type has open content, base does not",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Restricted type has open content, base does not"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open016.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open016.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open016.xsd",
-                version=[],
-                other_attributes={}
+                name="open016.xsd"
             ),
-            instance_test=[],
             name="open016.bad",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="An invalid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type has more permissive wildcard than base",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Restricted type has more permissive wildcard than base"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open017.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open017.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open017.xsd",
-                version=[],
-                other_attributes={}
+                name="open017.xsd"
             ),
-            instance_test=[],
             name="open017",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="An invalid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type has more permissive wildcard processContents than base",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Restricted type has more permissive wildcard processContents than base"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open018.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open018.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open018.xsd",
-                version=[],
-                other_attributes={}
+                name="open018.xsd"
             ),
-            instance_test=[],
             name="open018",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="An invalid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Restricted type allows interleaved open content, base only allows suffixed",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Restricted type allows interleaved open content, base only allows suffixed"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open019.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open019.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open019.xsd",
-                version=[],
-                other_attributes={}
+                name="open019.xsd"
             ),
-            instance_test=[],
             name="open019",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has suffixed open content, restricted type has interleaved open content,&#10;                but it's OK because the restricted type is otherwise empty.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Base type has suffixed open content, restricted type has interleaved open content,&#10;                but it's OK because the restricted type is otherwise empty."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open020.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open020.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open020.xsd",
-                version=[],
-                other_attributes={}
+                name="open020.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4440,126 +2815,79 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open020.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open020.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open020.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open020.v1.xml"
                 ),
             ],
             name="open020",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has suffixed open content, restricted type has interleaved open content,&#10;                but it's OK because the restricted type is otherwise empty (well, &quot;mixed empty&quot;).",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Base type has suffixed open content, restricted type has interleaved open content,&#10;                but it's OK because the restricted type is otherwise empty (well, &quot;mixed empty&quot;)."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-MixedContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open021.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open021.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open021.xsd",
-                version=[],
-                other_attributes={}
+                name="open021.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4567,120 +2895,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open021.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open021.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open021.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open021.v1.xml"
                 ),
             ],
             name="open021",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction (though Saxon can't yet handle it)",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid restriction (though Saxon can't yet handle it)"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has an explicit wildcard, restricted type has interleaved open content,&#10;                all instances of the restricted type are valid against the base type.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Base type has an explicit wildcard, restricted type has interleaved open content,&#10;                all instances of the restricted type are valid against the base type."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open022.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open022.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open022.xsd",
-                version=[],
-                other_attributes={}
+                name="open022.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4688,120 +2972,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open022.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open022.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open022.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open022.v1.xml"
                 ),
             ],
             name="open022",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Open content in base type allows more namespaces than open content in derived type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Open content in base type allows more namespaces than open content in derived type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open023.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open023.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open023.xsd",
-                version=[],
-                other_attributes={}
+                name="open023.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4809,120 +3049,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open023.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open023.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open023.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open023.v1.xml"
                 ),
             ],
             name="open023",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Open content in base type has weaker processContents than open content in derived type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Open content in base type has weaker processContents than open content in derived type"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByRestr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open024.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open024.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open024.xsd",
-                version=[],
-                other_attributes={}
+                name="open024.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -4930,120 +3126,76 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open023.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open023.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open024.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open024.v1.xml"
                 ),
             ],
             name="open024",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Open content and regular content match the same instances",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Open content and regular content match the same instances"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Show that regular particles take precedence",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Show that regular particles take precedence"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open025.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open025.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 8, 5),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 8, 5)
                 ),
-                prior=[],
-                name="open025.xsd",
-                version=[],
-                other_attributes={}
+                name="open025.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5051,161 +3203,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open025.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open025.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open025.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open025.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, element i must be an integer.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open025.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open025.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 8, 5),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 8, 5)
                     ),
-                    prior=[],
-                    name="open025.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open025.n1.xml"
                 ),
             ],
             name="open025",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid extension"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has suffix open content, extended type does not",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Base type has suffix open content, extended type does not"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open027.xsd",
-                version=[],
-                other_attributes={}
+                name="open027.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5213,243 +3306,154 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open027.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open027.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content after extension content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open027.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open027.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content at end, no extension content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open027.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open027.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, tries to use open content not at the end.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open027.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open027.n1.xml"
                 ),
             ],
             name="open027",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid extension"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Derived type has suffix open content, base type does not",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Derived type has suffix open content, base type does not"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open028.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open028.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open028.xsd",
-                version=[],
-                other_attributes={}
+                name="open028.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5457,328 +3461,206 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open028.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open028.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content after extension content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open028.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open028.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content at end, no extension content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open028.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open028.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, tries to use open content not at the end.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open028.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open028.n1.xml"
                 ),
             ],
             name="open028",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid extension"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="complex type extension: derived type takes openContent from the default open content&#10;                             of the schema in preference to that of the base type. This makes the extension invalid.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="complex type extension: derived type takes openContent from the default open content&#10;                             of the schema in preference to that of the base type. This makes the extension invalid."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open030.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open030.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open030.xsd",
-                version=[],
-                other_attributes={}
+                name="open030.xsd"
             ),
-            instance_test=[],
             name="open030",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid extension"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="complex type extension: derived type takes openContent from the base type ignoring&#10;                      the defaultOpenContent when the type is empty and default open content does not apply to empty&#10;                ",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="complex type extension: derived type takes openContent from the base type ignoring&#10;                      the defaultOpenContent when the type is empty and default open content does not apply to empty&#10;                "
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open031.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open031.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open031.xsd",
-                version=[],
-                other_attributes={}
+                name="open031.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -5786,442 +3668,278 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, no open content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open031.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open031.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content after extension content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open031.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open031.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content at end, no extension content.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open031.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open031.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, tries to use open content not at the end.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open027.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open027.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open031.v4.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open031.v4.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, tries to use open content in the wrong namespace.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open029.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open029.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open031.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open031.n2.xml"
                 ),
             ],
             name="open031",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid extension",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="An invalid extension"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Base type has interleaved open content, extension has suffix open content",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Base type has interleaved open content, extension has suffix open content"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open033.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open033.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open033.xsd",
-                version=[],
-                other_attributes={}
+                name="open033.xsd"
             ),
-            instance_test=[],
             name="open033",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid content model",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid content model"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Valid open content: it's not an error for open content to &#10;                             compete with ordinary wildcards",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid open content: it's not an error for open content to &#10;                             compete with ordinary wildcards"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open034.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open034.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open034.xsd",
-                version=[],
-                other_attributes={}
+                name="open034.xsd"
             ),
-            instance_test=[],
             name="open034",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Test defaultAttributesApply on an anonymous complex type",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Test defaultAttributesApply on an anonymous complex type"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Attribute is allowed on both named and unnamed types",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Attribute is allowed on both named and unnamed types"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open035.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open035.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2009, 7, 6),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2009, 7, 6)
                 ),
-                prior=[],
-                name="open035.xsd",
-                version=[],
-                other_attributes={}
+                name="open035.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -6229,518 +3947,324 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses default attributes correctly.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open035.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open035.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2009, 7, 6),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2009, 7, 6)
                     ),
-                    prior=[],
-                    name="open035.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open035.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, defaultAttributesApply=false disallows id attribute on BookStore.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open035.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open035.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2009, 7, 6),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2009, 7, 6)
                     ),
-                    prior=[],
-                    name="open035.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open035.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, defaultAttributes do not apply to simple types.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open035.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open035.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2009, 7, 6),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2009, 7, 6)
                     ),
-                    prior=[],
-                    name="open035.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open035.n2.xml"
                 ),
             ],
             name="open035",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="An invalid restriction",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="An invalid restriction"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text='Spec bug 7069 - openContent mode="none" with a wildcard child',
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text='Spec bug 7069 - openContent mode="none" with a wildcard child'
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open036.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open036.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 8, 14),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 8, 14)
                 ),
-                prior=[],
-                name="open036.xsd",
-                version=[],
-                other_attributes={}
+                name="open036.xsd"
             ),
-            instance_test=[],
             name="open036",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Two annotation children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Two annotation children"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="You're not allowed two annotation children, for some reason",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="You're not allowed two annotation children, for some reason"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-AnnotationChild"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open037.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open037.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 17)
                 ),
-                prior=[],
-                name="open037.xsd",
-                version=[],
-                other_attributes={}
+                name="open037.xsd"
             ),
-            instance_test=[],
             name="open037",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Two annotation children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Two annotation children"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="You're not allowed two opencontent elements with the same ID",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="You're not allowed two opencontent elements with the same ID"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open038.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open038.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 17)
                 ),
-                prior=[],
-                name="open038.xsd",
-                version=[],
-                other_attributes={}
+                name="open038.xsd"
             ),
-            instance_test=[],
             name="open038",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Two annotation children",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Two annotation children"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="You're not allowed two opencontent elements with the same ID",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="You're not allowed two opencontent elements with the same ID"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-IDAttr"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open039.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open039.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 17)
                 ),
-                prior=[],
-                name="open039.xsd",
-                version=[],
-                other_attributes={}
+                name="open039.xsd"
             ),
-            instance_test=[],
             name="open039",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultOpenContent is scoped to a schema document",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultOpenContent is scoped to a schema document"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultOpenContent does not apply to types included from a different schema document",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultOpenContent does not apply to types included from a different schema document"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open040.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open040.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 17)
                 ),
-                prior=[],
-                name="open040.xsd",
-                version=[],
-                other_attributes={}
+                name="open040.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -6748,161 +4272,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content only where allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open040.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open040.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open040.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open040.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses open content on type beta where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open040.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open040.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open040.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open040.n1.xml"
                 ),
             ],
             name="open040",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultOpenContent is scoped to a schema document",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultOpenContent is scoped to a schema document"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultOpenContent does not apply to types included from a different schema document",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultOpenContent does not apply to types included from a different schema document"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCOverSchemaDocs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open041.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open041.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 17)
                 ),
-                prior=[],
-                name="open041.xsd",
-                version=[],
-                other_attributes={}
+                name="open041.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -6910,161 +4375,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content only where allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open041.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open041.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open041.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open041.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses open content on type alpha where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open041.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open041.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open041.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open041.n1.xml"
                 ),
             ],
             name="open041",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultOpenContent applies to types defined within xs:redefine",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultOpenContent applies to types defined within xs:redefine"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultOpenContent applies to types defined within xs:redefine",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultOpenContent applies to types defined within xs:redefine"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open042.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open042.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 17)
                 ),
-                prior=[],
-                name="open042.xsd",
-                version=[],
-                other_attributes={}
+                name="open042.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -7072,202 +4478,128 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses open content only where allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open042.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open042.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open042.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open042.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses open content on type alpha where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open042.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open042.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open042.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open042.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses open content on type alpha with the permitted namespaces of the pre-redefinition type.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open042.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open042.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open042.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open042.n2.xml"
                 ),
             ],
             name="open042",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document.&#10;                Test revised 2011-10-10 in response to bug 13458.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="For types defined within xs:override, the relevant defaultOpenContent is the one in the overridden schema document.&#10;                Test revised 2011-10-10 in response to bug 13458."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToOverride",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToOverride"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open043.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open043.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 9, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 9, 17)
                 ),
-                prior=[],
-                name="open043.xsd",
-                version=[],
-                other_attributes={}
+                name="open043.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -7275,208 +4607,131 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses no open content&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open043.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open043.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open043.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open043.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses open content on type alpha where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open043.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open043.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open043.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open043.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses open content on type beta where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open043.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open043.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 9, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 9, 17)
                     ),
-                    prior=[],
-                    name="open043.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open043.n2.xml"
                 ),
             ],
             name="open043",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultAttributes applies to types defined within xs:redefine",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultAttributes applies to types defined within xs:redefine"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultAttributes applies to types defined within xs:redefine",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultAttributes applies to types defined within xs:redefine"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open044.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open044.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 12)
                 ),
-                prior=[],
-                name="open044.xsd",
-                version=[],
-                other_attributes={}
+                name="open044.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -7484,208 +4739,131 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses default attributes only where allowed.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open044.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open044.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="open044.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open044.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses default attributes on type alpha where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open044.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open044.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="open044.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open044.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses default attributes where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open044.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open044.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="open044.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open044.n2.xml"
                 ),
             ],
             name="open044",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="defaultAttributes does not apply to types defined within xs:override",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultAttributes does not apply to types defined within xs:override"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultAttributes does not apply to types defined within xs:override.&#10;                Test rewritten 2011-10-10 to reflect the fact that for a complexType defined within xs:override,&#10;                the defaultAttributes that apply are those defined within the overridden schema document, not the&#10;                overriding schema document.",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultAttributes does not apply to types defined within xs:override.&#10;                Test rewritten 2011-10-10 to reflect the fact that for a complexType defined within xs:override,&#10;                the defaultAttributes that apply are those defined within the overridden schema document, not the&#10;                overriding schema document."
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open045.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open045.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 10, 12),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 10, 12)
                 ),
-                prior=[],
-                name="open045.xsd",
-                version=[],
-                other_attributes={}
+                name="open045.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -7693,287 +4871,180 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses no default attributes.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open045.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open045.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="open045.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open045.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses default attributes on type alpha where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open045.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open045.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="open045.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open045.n1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses default attributes on type beta where it is not applicable.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open045.n2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open045.n2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 10, 12),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 10, 12)
                     ),
-                    prior=[],
-                    name="open045.n2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open045.n2.xml"
                 ),
             ],
             name="open045",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid extension"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="complex type extension: derived type takes openContent from the base type ignoring&#10;                      the defaultOpenContent when the type is empty and default open content does not apply to empty.&#10;                      This test was formerly open031 and was believed to be valid; see bug 13459.&#10;                ",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="complex type extension: derived type takes openContent from the base type ignoring&#10;                      the defaultOpenContent when the type is empty and default open content does not apply to empty.&#10;                      This test was formerly open031 and was believed to be valid; see bug 13459.&#10;                "
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToEmpty-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open046.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open046.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 10, 10),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 10, 10)
                 ),
-                prior=[],
-                name="open046.xsd",
-                version=[],
-                other_attributes={}
+                name="open046.xsd"
             ),
-            instance_test=[],
             name="open046",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="A valid extension",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="A valid extension"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="complex type extension: derived type's open content allows the union of the wildcards&#10;                specified for the base type and for the extension.&#10;                ",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="complex type extension: derived type's open content allows the union of the wildcards&#10;                specified for the base type and for the extension.&#10;                "
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DerivationByExt"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open047.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open047.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2011, 10, 17),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2011, 10, 17)
                 ),
-                prior=[],
-                name="open047.xsd",
-                version=[],
-                other_attributes={}
+                name="open047.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -7981,322 +5052,203 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content permitted by the base type.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open047.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open047.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 10, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 10, 17)
                     ),
-                    prior=[],
-                    name="open047.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open047.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content permitted by the extension.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open047.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open047.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 10, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 10, 17)
                     ),
-                    prior=[],
-                    name="open047.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open047.v2.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, open content permitted by the extension.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open047.v3.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open047.v3.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 10, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 10, 17)
                     ),
-                    prior=[],
-                    name="open047.v3.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open047.v3.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, open content violates dynamic EDC rule&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open047.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open047.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 10, 17),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 10, 17)
                     ),
-                    prior=[],
-                    name="open047.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open047.n1.xml"
                 ),
             ],
             name="open047",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="maxOccurs not allowed on xs:any within xs:openContent",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="maxOccurs not allowed on xs:any within xs:openContent"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Was open042, unintended error reported in bug 15618",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Was open042, unintended error reported in bug 15618"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-OpenContent-DefaultOCAppliesToRedefine"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open048.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open048.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2012, 1, 20),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2012, 1, 20)
                 ),
-                prior=[],
-                name="open048.xsd",
-                version=[],
-                other_attributes={}
+                name="open048.xsd"
             ),
-            instance_test=[],
             name="open048",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid content model",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid content model"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Basic test of defaultAttributes",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Basic test of defaultAttributes"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open201.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open201.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open201.xsd",
-                version=[],
-                other_attributes={}
+                name="open201.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -8304,161 +5256,102 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses default attributes.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open201.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open201.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open201.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open201.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, omits default attributes.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open201.v2.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open201.v2.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open201.v2.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open201.v2.xml"
                 ),
             ],
             name="open201",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid content model",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid content model"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Basic test of defaultAttributes with defaultAttributesApply=false",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Basic test of defaultAttributes with defaultAttributesApply=false"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open202.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open202.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open202.xsd",
-                version=[],
-                other_attributes={}
+                name="open202.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -8466,319 +5359,200 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses default attributes as appropriate.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open202.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open202.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open202.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open202.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses default attributes where they don't apply.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open202.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open202.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open202.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open202.n1.xml"
                 ),
             ],
             name="open202",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Unresolved reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Unresolved reference"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Unresolved reference to default attribute group",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Unresolved reference to default attribute group"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open203.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open203.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open203.xsd",
-                version=[],
-                other_attributes={}
+                name="open203.xsd"
             ),
-            instance_test=[],
             name="open203",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Unresolved reference",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Unresolved reference"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="Default attribute group in unimported namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Default attribute group in unimported namespace"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open204.bad.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open204.bad.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open204.xsd",
-                version=[],
-                other_attributes={}
+                name="open204.xsd"
             ),
-            instance_test=[],
             name="open204",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Title",
-                                    text="Valid content model",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="Valid content model"
                                 ),
                                 AnyElement(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
-                                    text="defaultAttributes in an imported namespace",
-                                    tail=None,
-                                    children=[],
-                                    attributes={}
+                                    text="defaultAttributes in an imported namespace"
                                 ),
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open205.xsd",
-                        other_attributes={}
+                        href="../saxonData/Open/open205.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2008, 10, 13),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2008, 10, 13)
                 ),
-                prior=[],
-                name="open205.xsd",
-                version=[],
-                other_attributes={}
+                name="open205.xsd"
             ),
             instance_test=[
                 InstanceTest(
@@ -8786,89 +5560,58 @@ obj = TestSet(
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Valid, uses default attributes as appropriate.&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open205.v1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open205.v1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open205.v1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open205.v1.xml"
                 ),
                 InstanceTest(
                     annotation=[
                         Annotation(
                             appinfo_or_documentation=[
                                 Documentation(
-                                    source=None,
-                                    lang=None,
-                                    other_attributes={},
                                     content=[
                                         "&#10;&#9;&#9;                Invalid, uses default attributes where they don't apply because the type&#10;&#9;&#9;                is defined in a different schema document with no defaultAttributes&#10;&#9;&#9;            ",
                                     ]
                                 ),
-                            ],
-                            other_attributes={}
+                            ]
                         ),
                     ],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../saxonData/Open/open205.n1.xml",
-                        other_attributes={}
+                        href="../saxonData/Open/open205.n1.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2008, 10, 13),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2008, 10, 13)
                     ),
-                    prior=[],
-                    name="open205.n1.xml",
-                    version=[],
-                    other_attributes={}
+                    name="open205.n1.xml"
                 ),
             ],
             name="open205",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="Saxonica",

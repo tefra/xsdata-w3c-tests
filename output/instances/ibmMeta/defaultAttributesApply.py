@@ -1,4 +1,3 @@
-from output.models.common.xsts_xsd.xlink import TypeType
 from output.models.common.xsts_xsd.xsts import Annotation
 from output.models.common.xsts_xsd.xsts import Current
 from output.models.common.xsts_xsd.xsts import Documentation
@@ -22,8 +21,6 @@ obj = TestSet(
         Annotation(
             appinfo_or_documentation=[
                 Documentation(
-                    source=None,
-                    lang=None,
                     other_attributes={
                         "{http://www.w3.org/1999/xlink}href": "http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
                     },
@@ -31,8 +28,7 @@ obj = TestSet(
                         "defaultAttributesApply tests",
                     ]
                 ),
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     test_group=[
@@ -41,850 +37,530 @@ obj = TestSet(
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply is absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v01.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4v01s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4v01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v01.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4v01i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4v01i"
                 ),
             ],
             name="s3_4_2_4v01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v02.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4v02s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4v02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v02.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4v02i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4v02i"
                 ),
             ],
             name="s3_4_2_4v02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = true",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v03.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4v03s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4v03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v03.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4v03i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4v03i"
                 ),
             ],
             name="s3_4_2_4v03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply is absent, and ref attribute in attributeGroup",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v13.xsd",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v13.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4v13s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4v13s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v13.xml",
-                        other_attributes={}
+                        href="../ibmData/valid/S3_4_2_4/s3_4_2_4v13.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4v13i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4v13i"
                 ),
             ],
             name="s3_4_2_4v13",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false, across multiple schema documents",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01b.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii01s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii01s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii01.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii01i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii01i"
                 ),
             ],
             name="s3_4_2_4ii01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-False"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii02s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii02s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii02.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii02i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii02i"
                 ),
             ],
             name="s3_4_2_4ii02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false and redefined as absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03b.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii03s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii03s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii03.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii03i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii03i"
                 ),
             ],
             name="s3_4_2_4ii03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false and redefined as true",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05b.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii05s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii05s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii05.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii05i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii05i"
                 ),
             ],
             name="s3_4_2_4ii05",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = true and redefined as false",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06b.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii06s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii06s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii06.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.VALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.VALID
                         ),
                     ],
                     current=Current(
@@ -892,738 +568,466 @@ obj = TestSet(
                             Annotation(
                                 appinfo_or_documentation=[
                                     Documentation(
-                                        source=None,
-                                        lang=None,
-                                        other_attributes={},
                                         content=[
                                             '&#10;                        Changed the status to "valid" in response to bug #12129&#10;                    ',
                                         ]
                                     ),
-                                ],
-                                other_attributes={}
+                                ]
                             ),
                         ],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2011, 7, 29),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2011, 7, 29)
                     ),
                     prior=[
                         Prior(
-                            annotation=[],
                             status=Status.ACCEPTED,
-                            date=XmlDate(2010, 12, 1),
-                            bugzilla=None,
-                            other_attributes={}
+                            date=XmlDate(2010, 12, 1)
                         ),
                     ],
-                    name="s3_4_2_4ii06i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii06i"
                 ),
             ],
             name="s3_4_2_4ii06",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false and redefined as absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Redefine"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07b.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii07s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii07s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii07.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii07i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii07i"
                 ),
             ],
             name="s3_4_2_4ii07",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false and override as absent",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08b.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii08s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii08s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii08.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii08i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii08i"
                 ),
             ],
             name="s3_4_2_4ii08",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false/true/absent across multiple schema documents",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09b.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii09s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii09s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii09.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii09i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii09i"
                 ),
             ],
             name="s3_4_2_4ii09",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply = false and override as false",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-Override"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xsd"
                     ),
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10b.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10b.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii10s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii10s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii10.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii10i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii10i"
                 ),
             ],
             name="s3_4_2_4ii10",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "test defaultAttributesApply is absent, and ref attribute in attributeGroup",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DifferentAcrossSchemaDocs"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xsd",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.VALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.VALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4ii11s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4ii11s"
             ),
             instance_test=[
                 InstanceTest(
-                    annotation=[],
                     instance_document=InstanceDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xml",
-                        other_attributes={}
+                        href="../ibmData/instance_invalid/S3_4_2_4/s3_4_2_4ii11.xml"
                     ),
                     expected=[
                         Expected(
-                            validity=ExpectedOutcome.INVALID,
-                            version=[],
-                            other_attributes={}
+                            validity=ExpectedOutcome.INVALID
                         ),
                     ],
                     current=Current(
-                        annotation=[],
                         status=Status.ACCEPTED,
-                        date=XmlDate(2010, 12, 1),
-                        bugzilla=None,
-                        other_attributes={}
+                        date=XmlDate(2010, 12, 1)
                     ),
-                    prior=[],
-                    name="s3_4_2_4ii11i",
-                    version=[],
-                    other_attributes={}
+                    name="s3_4_2_4ii11i"
                 ),
             ],
             name="s3_4_2_4ii11",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Test defaultAttributesApply is absent and the attribute group defined by defaultAttributes does not exist",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si01.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si01.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4si01s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4si01s"
             ),
-            instance_test=[],
             name="s3_4_2_4si01",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Test defaultAttributesApply=true and the attribute group defined by defaultAttributes exists and results in a duplicate attribute&#10;          definition",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si02.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si02.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4si02s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4si02s"
             ),
-            instance_test=[],
             name="s3_4_2_4si02",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
         TestGroup(
             annotation=[
                 Annotation(
                     appinfo_or_documentation=[
                         Documentation(
-                            source=None,
-                            lang=None,
-                            other_attributes={},
                             content=[
                                 "Test defaultAttributesApply is absent and the attribute group defined by defaultAttributes which exists. This references another attributeGroup which references the defaultAttributes attributeGroup resulting in a circular definition",
                             ]
                         ),
-                    ],
-                    other_attributes={}
+                    ]
                 ),
             ],
             documentation_reference=[
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses",
-                    other_attributes={}
+                    href="http://www.w3.org/TR/xmlschema11-1/#dcl.ctd.attuses"
                 ),
                 DocumentationReference(
-                    annotation=[],
-                    type=TypeType.LOCATOR,
-                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True",
-                    other_attributes={}
+                    href="../common/XSD1_1TestCategories.xml#xsd1_1-DefaultAttributeGroup-DefaultAttrApply-True"
                 ),
             ],
             schema_test=SchemaTest(
-                annotation=[],
                 schema_document=[
                     SchemaDocument(
-                        annotation=[],
-                        type=TypeType.LOCATOR,
-                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si03.xsd",
-                        other_attributes={}
+                        href="../ibmData/schema_invalid/S3_4_2_4/s3_4_2_4si03.xsd"
                     ),
                 ],
                 expected=[
                     Expected(
-                        validity=ExpectedOutcome.INVALID,
-                        version=[],
-                        other_attributes={}
+                        validity=ExpectedOutcome.INVALID
                     ),
                 ],
                 current=Current(
-                    annotation=[],
                     status=Status.ACCEPTED,
-                    date=XmlDate(2010, 12, 1),
-                    bugzilla=None,
-                    other_attributes={}
+                    date=XmlDate(2010, 12, 1)
                 ),
-                prior=[],
-                name="s3_4_2_4si03s",
-                version=[],
-                other_attributes={}
+                name="s3_4_2_4si03s"
             ),
-            instance_test=[],
             name="s3_4_2_4si03",
             version=[
                 KnownToken.VALUE_1_1,
-            ],
-            other_attributes={}
+            ]
         ),
     ],
     contributor="IBM",
     name="defaultAttributesApply",
-    version=[],
     other_attributes={
         "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
     }

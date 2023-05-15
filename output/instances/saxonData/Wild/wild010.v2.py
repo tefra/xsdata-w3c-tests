@@ -5,9 +5,6 @@ from xsdata.formats.dataclass.models.generics import AnyElement
 obj = Eden(
     any_element=AnyElement(
         qname="{http://eve.com/}eve",
-        text="",
-        tail=None,
-        children=[],
-        attributes={}
+        text=""
     )
 )

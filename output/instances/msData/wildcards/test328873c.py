@@ -7,6 +7,5 @@ obj = Sub3(
         "{b}att3": "foo",
         "{x}att4": "val",
         "att": "a",
-    },
-    local_b_c_attributes={}
+    }
 )

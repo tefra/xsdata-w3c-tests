@@ -1,11 +1,11 @@
-from output.models.ms_data.particles.particles_c016_xsd.particles_c016 import Any
+from output.models.ms_data.particles.particles_c016_xsd.particles_c016 import AnyType
 from output.models.ms_data.particles.particles_c016_xsd.particles_c016 import Doc
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Doc(
     elem=[
-        Any(
+        AnyType(
             foo_bar_element=[
                 AnyElement(
                     qname="{bar}foo",

@@ -1,11 +1,11 @@
 from output.models.ms_data.particles.particles_c005_xsd.particles_c005 import (
-    Any,
+    AnyType,
     Doc,
     Foo,
 )
 
 __all__ = [
-    "Any",
+    "AnyType",
     "Doc",
     "Foo",
 ]

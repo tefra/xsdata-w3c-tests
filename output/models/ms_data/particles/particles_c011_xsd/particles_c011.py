@@ -5,7 +5,7 @@ __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
-class Any:
+class AnyType:
     class Meta:
         name = "any"
 
@@ -40,7 +40,7 @@ class Doc:
         name = "doc"
         namespace = "http://xsdtesting"
 
-    elem: List[Any] = field(
+    elem: List[AnyType] = field(
         default_factory=list,
         metadata={
             "type": "Element",

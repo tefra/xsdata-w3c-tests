@@ -1,5 +1,5 @@
 from output.models.ms_data.additional.test78126_xsd.test78126 import A
-from output.models.ms_data.additional.test78126_xsd.test78126 import Any
+from output.models.ms_data.additional.test78126_xsd.test78126 import AnyType
 from output.models.ms_data.additional.test78126_xsd.test78126 import Root
 from xsdata.formats.dataclass.models.generics import AnyElement
 
@@ -11,7 +11,7 @@ obj = Root(
             att1=123,
             att2=True
         ),
-        Any(
+        AnyType(
             any_element=[
                 AnyElement(
                     qname="foo",

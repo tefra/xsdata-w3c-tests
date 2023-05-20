@@ -188,7 +188,6 @@ def make_test_cases(path: Path, group: TestGroup):
         instance_is_valid = instance_validity.validity == ExpectedOutcome.VALID
         schema_path = str(schema_href) or ""
         if schema_path and instance_is_valid and schema_is_valid:
-
             yield TestCase(
                 path=path,
                 version=version,

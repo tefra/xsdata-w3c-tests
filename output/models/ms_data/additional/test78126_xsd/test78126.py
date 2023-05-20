@@ -28,7 +28,7 @@ class A:
 
 
 @dataclass
-class Any:
+class AnyType:
     class Meta:
         name = "any"
 
@@ -53,7 +53,7 @@ class Root:
             "choices": (
                 {
                     "name": "any",
-                    "type": Any,
+                    "type": AnyType,
                 },
                 {
                     "name": "a",

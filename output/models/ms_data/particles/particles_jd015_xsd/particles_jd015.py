@@ -24,13 +24,6 @@ class B:
 
 @dataclass
 class R:
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )
     e1: Optional[object] = field(
         default=None,
         metadata={

@@ -16,14 +16,8 @@ class B:
 
 
 @dataclass
-class R:
-    e1: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
+class R(B):
+    pass
 
 
 @dataclass

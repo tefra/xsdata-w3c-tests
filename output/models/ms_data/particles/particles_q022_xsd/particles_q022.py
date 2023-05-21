@@ -34,14 +34,6 @@ class R:
             "namespace": "http://xsdtesting",
         }
     )
-    local_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##local",
-            "max_occurs": 4,
-        }
-    )
     foo: List[Foo] = field(
         default_factory=list,
         metadata={

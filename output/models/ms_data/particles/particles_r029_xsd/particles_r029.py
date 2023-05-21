@@ -32,13 +32,6 @@ class R:
             "namespace": "",
         }
     )
-    foo_bar_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "foo bar",
-        }
-    )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
         metadata={

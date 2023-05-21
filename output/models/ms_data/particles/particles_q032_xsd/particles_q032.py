@@ -49,14 +49,6 @@ class R:
             "namespace": "",
         }
     )
-    target_namespace_foo_bar_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##targetNamespace foo bar",
-            "max_occurs": 4,
-        }
-    )
     choice: List[object] = field(
         default_factory=list,
         metadata={

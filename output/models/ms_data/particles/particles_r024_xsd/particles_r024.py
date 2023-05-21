@@ -47,14 +47,6 @@ class R:
             "namespace": "",
         }
     )
-    target_namespace_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##targetNamespace",
-            "max_occurs": 5,
-        }
-    )
     e1: Optional[E1] = field(
         default=None,
         metadata={

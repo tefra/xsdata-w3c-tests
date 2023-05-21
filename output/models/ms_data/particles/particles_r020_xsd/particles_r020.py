@@ -36,14 +36,6 @@ class R:
             "namespace": "",
         }
     )
-    other_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##other",
-            "max_occurs": 2,
-        }
-    )
     imp_elem1_or_imp_elem2: Optional[object] = field(
         default=None,
         metadata={

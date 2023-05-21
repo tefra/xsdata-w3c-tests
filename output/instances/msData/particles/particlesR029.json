@@ -1,7 +1,6 @@
 {
   "elem": {
     "foo": "",
-    "foo_bar_element": null,
     "impElem1": {
       "any_element": null
     }

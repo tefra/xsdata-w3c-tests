@@ -45,13 +45,6 @@ class R:
             "namespace": "",
         }
     )
-    e3: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Element",
-            "namespace": "",
-        }
-    )
 
 
 @dataclass

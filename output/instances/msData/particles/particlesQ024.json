@@ -1,27 +1,9 @@
 {
   "elem": {
-    "foo_or_target_namespace_element": [
-      {
-        "qname": "{http://xsdtesting}foo",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      },
-      {
-        "qname": "{http://xsdtesting}foo",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      },
-      {
-        "qname": "{http://xsdtesting}foo",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      }
+    "foo": [
+      "",
+      "",
+      ""
     ]
   }
 }

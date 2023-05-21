@@ -1,7 +1,6 @@
 {
   "elem": {
     "foo": "",
-    "any_element": [],
     "e1_or_e2": [
       {
         "qname": "e2",

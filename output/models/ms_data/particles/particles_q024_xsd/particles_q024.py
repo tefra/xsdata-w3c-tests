@@ -25,24 +25,13 @@ class B:
 
 @dataclass
 class R:
-    foo_or_target_namespace_element: List[object] = field(
+    foo: List[object] = field(
         default_factory=list,
         metadata={
-            "type": "Elements",
-            "choices": (
-                {
-                    "name": "foo",
-                    "type": object,
-                    "namespace": "http://xsdtesting",
-                },
-                {
-                    "wildcard": True,
-                    "type": object,
-                    "namespace": "##targetNamespace",
-                },
-            ),
+            "type": "Element",
+            "namespace": "http://xsdtesting",
             "min_occurs": 1,
-            "max_occurs": 7,
+            "max_occurs": 3,
         }
     )
 

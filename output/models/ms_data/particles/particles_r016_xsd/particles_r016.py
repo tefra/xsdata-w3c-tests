@@ -32,13 +32,6 @@ class R:
             "namespace": "",
         }
     )
-    any_element: Optional[object] = field(
-        default=None,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-        }
-    )
     imp_elem1: Optional[ImpElem1] = field(
         default=None,
         metadata={

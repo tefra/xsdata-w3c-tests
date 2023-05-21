@@ -33,14 +33,6 @@ class R:
             "namespace": "",
         }
     )
-    foo_bar_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "foo bar",
-            "max_occurs": 4,
-        }
-    )
     e2: Optional[E2] = field(
         default=None,
         metadata={

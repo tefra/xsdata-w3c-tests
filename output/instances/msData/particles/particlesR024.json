@@ -1,7 +1,6 @@
 {
   "elem": {
     "foo": "",
-    "target_namespace_element": [],
     "e1": {
       "any_element": null
     }

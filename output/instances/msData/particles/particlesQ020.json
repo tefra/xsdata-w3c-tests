@@ -1,7 +1,6 @@
 {
   "elem": {
     "foo": "",
-    "other_element": [],
     "bar": [
       {
         "any_element": null

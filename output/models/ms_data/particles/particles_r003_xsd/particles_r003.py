@@ -32,14 +32,6 @@ class R:
             "namespace": "",
         }
     )
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "max_occurs": 2,
-        }
-    )
     e1: Optional[object] = field(
         default=None,
         metadata={

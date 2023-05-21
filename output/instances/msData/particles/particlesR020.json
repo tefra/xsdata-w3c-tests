@@ -1,7 +1,6 @@
 {
   "elem": {
     "foo": "",
-    "other_element": [],
     "imp_elem1_or_imp_elem2": {
       "any_element": null
     }

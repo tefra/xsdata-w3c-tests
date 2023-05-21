@@ -33,14 +33,6 @@ class R:
             "namespace": "http://xsdtesting",
         }
     )
-    any_element: List[object] = field(
-        default_factory=list,
-        metadata={
-            "type": "Wildcard",
-            "namespace": "##any",
-            "max_occurs": 4,
-        }
-    )
     foo_foo: List[Foo] = field(
         default_factory=list,
         metadata={

@@ -520,9 +520,13 @@ class StatusEntry:
 
 @dataclass
 class TestResult:
-    """<div> <p> The result of an individual instance test or a schema test. </p>
-    <p> This element has four required attributes: </p>
-
+    """<div>
+    <p>
+    The result of an individual instance test or a schema test.
+    </p>
+    <p>
+    This element has four required attributes:
+    </p>
     <ul>
     <li><tt>validity</tt> - the validition outcome of the test.
     A value of type <a href="#type_expected-outcome">ts:expected-outcome</a>,
@@ -569,8 +573,7 @@ class TestResult:
     information, such as error and warning messages.
     </li>
     </ul>
-    </div>
-    """
+    </div>"""
     class Meta:
         name = "testResult"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -708,11 +711,16 @@ class TestSetRef(Ref):
 
 @dataclass
 class TestSuiteResults:
-    """<div> <p> This is the root element of a document containing a test result
-    report. The report takes the form of a set of test results returned by a
-    processor/validator when run against the XSTS. </p> <p> It has three required
-    attributes: </p>
-
+    """<div>
+    <p>
+    This is the root element of a document containing a test
+    result report. The report takes the form of a set of test
+    results returned by a processor/validator when run against
+    the XSTS.
+    </p>
+    <p>
+    It has three required attributes:
+    </p>
     <ul>
     <li><tt>suite</tt> - the name of the test suite to which
     these results correspond.  This should be the value of
@@ -752,8 +760,7 @@ class TestSuiteResults:
     processor claims no support.
     </li>
     </ul>
-    </div>
-    """
+    </div>"""
     class Meta:
         name = "testSuiteResults"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
@@ -974,9 +981,14 @@ class InstanceTest:
 
 @dataclass
 class SchemaTest:
-    """<div> <p> This element groups together information about the schema for a
-    particular test group. </p> <p> It has one attribute which is required: </p>
-
+    """<div>
+    <p>
+    This element groups together information about the schema
+    for a particular test group.
+    </p>
+    <p>
+    It has one attribute which is required:
+    </p>
     <ul>
     <li><tt>name</tt> - the name of the schema test, which must be
     unique within the enclosing <tt>testGroup</tt> (i.e. it must
@@ -1073,8 +1085,7 @@ class SchemaTest:
     For status changes involving bug reports, the relevant status
     entries should have a Bugzilla cross-reference.
     </p>
-    </div>
-    """
+    </div>"""
     class Meta:
         name = "schemaTest"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"

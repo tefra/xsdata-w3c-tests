@@ -5045,7 +5045,6 @@ def test_wild066_wild066_v1_xml(mode, save_output, output_format):
     )
 
 
-@pytest.mark.xfail
 def test_wild065_wild065_v1_xml(mode, save_output, output_format):
     """
     Element fails "dynamic EDC" test - lax wildcard Schema is valid,

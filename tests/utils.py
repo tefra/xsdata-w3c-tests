@@ -25,8 +25,9 @@ from xsdata.utils.testing import load_class
 
 log = logging.getLogger()
 
-w3c = Path(__file__).absolute().parent.parent.joinpath("w3c")
-output = Path(__file__).absolute().parent.parent.joinpath("output/instances")
+root = Path(__file__).absolute().parent.parent
+w3c = root.joinpath("w3c")
+output = root.joinpath("output/instances")
 os.chdir(w3c.parent)
 config = SerializerConfig(pretty_print=True)
 
@@ -64,10 +65,15 @@ def assert_bindings(
     if isinstance(clazz, Exception):
         raise clazz
 
+    models_package = None
+    if clazz is not None:
+        levels = package.count(".")
+        models_package = ".".join(clazz.__module__.split(".")[: levels + 1])
+
     try:
         instance_path = w3c.joinpath(instance)
         schema_path = w3c.joinpath(schema)
-        context = XmlContext(class_type=output_format)
+        context = XmlContext(class_type=output_format, models_package=models_package)
         parser = XmlParser(context=context)
         obj = parser.from_path(instance_path, clazz)
     except Exception as e:

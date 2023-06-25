@@ -9,7 +9,7 @@ on:
 jobs:
   tests:
     name: Python ${{ matrix.python }} - ${{ matrix.mode }}
-    runs-on: ${{ matrix.os }}-latest
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:

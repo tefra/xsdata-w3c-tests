@@ -20,9 +20,10 @@ class B:
             "max_occurs": 5,
         }
     )
-    type: Optional[str] = field(
+    type_value: Optional[str] = field(
         default=None,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/2001/XMLSchema-instance",
             "required": True,

@@ -11,7 +11,7 @@ obj = Invoice(
         ItemType(
             address=[
                 AddressType(
-                    type=AddressTypeType.SHIPPING,
+                    type_value=AddressTypeType.SHIPPING,
                     country=CountryType.US,
                     content=[
                         AnyElement(
@@ -29,7 +29,7 @@ obj = Invoice(
                     ]
                 ),
                 AddressType(
-                    type=AddressTypeType.BILLING,
+                    type_value=AddressTypeType.BILLING,
                     country=CountryType.CAN,
                     content=[
                         AnyElement(
@@ -51,7 +51,7 @@ obj = Invoice(
         ItemType(
             address=[
                 AddressType(
-                    type=AddressTypeType.SHIPPING,
+                    type_value=AddressTypeType.SHIPPING,
                     country=CountryType.CAN,
                     content=[
                         AnyElement(
@@ -69,7 +69,7 @@ obj = Invoice(
                     ]
                 ),
                 AddressType(
-                    type=AddressTypeType.BILLING,
+                    type_value=AddressTypeType.BILLING,
                     country=CountryType.CAN,
                     content=[
                         AnyElement(

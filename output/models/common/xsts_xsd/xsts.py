@@ -452,9 +452,10 @@ class Ref:
             "namespace": "http://www.w3.org/XML/2004/xml-schema-test-suite/",
         }
     )
-    type: TypeType = field(
+    type_value: TypeType = field(
         default=TypeType.LOCATOR,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
         }

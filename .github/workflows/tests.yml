@@ -2,30 +2,19 @@ name: tests
 
 on:
   push:
-    branches: [master]
+    branches: [main]
   pull_request:
-    branches: [master]
+    branches: [main]
 
 jobs:
   tests:
-    name: ${{ matrix.name }}
+    name: Python ${{ matrix.python }} - ${{ matrix.mode }}
     runs-on: ${{ matrix.os }}-latest
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - { name: Python 3.7 XSD, python: "3.7", os: ubuntu, env: "py37-xsd" }
-          - { name: Python 3.7 XML, python: "3.7", os: ubuntu, env: "py37-xml" }
-          - { name: Python 3.7 JSON, python: "3.7", os: ubuntu, env: "py37-json" }
-          - { name: Python 3.8 XSD, python: "3.8", os: ubuntu, env: "py38-xsd" }
-          - { name: Python 3.8 XML, python: "3.8", os: ubuntu, env: "py38-xml" }
-          - { name: Python 3.8 JSON, python: "3.8", os: ubuntu, env: "py38-json" }
-          - { name: Python 3.9 XSD, python: "3.9", os: ubuntu, env: "py39-xsd" }
-          - { name: Python 3.9 XML, python: "3.9", os: ubuntu, env: "py39-xml" }
-          - { name: Python 3.9 JSON, python: "3.9", os: ubuntu, env: "py39-json" }
-          - { name: Python 3.10 XSD, python: "3.10", os: ubuntu, env: "py310-xsd" }
-          - { name: Python 3.10 XML, python: "3.10", os: ubuntu, env: "py310-xml" }
-          - { name: Python 3.10 JSON, python: "3.10", os: ubuntu, env: "py310-json" }
+        mode: [xsd, json, xml]
+        python: ["3.7", "3.8", "3.9", "3.10", "3.11"]
     steps:
       - uses: actions/checkout@v3
         with:
@@ -36,7 +25,8 @@ jobs:
           python-version: ${{ matrix.python }}
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip setuptools tox
+          pip install --upgrade pip
+          pip install -r requirements.txt
       - name: Test
         run: |
-          tox -e ${{ matrix.env}}
+          pytest -n auto --mode ${{ matrix.mode }}

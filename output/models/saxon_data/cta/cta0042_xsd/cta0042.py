@@ -13,9 +13,10 @@ class Zz:
             "required": True,
         }
     )
-    type: Optional[int] = field(
+    type_value: Optional[int] = field(
         default=None,
         metadata={
+            "name": "type",
             "type": "Attribute",
         }
     )

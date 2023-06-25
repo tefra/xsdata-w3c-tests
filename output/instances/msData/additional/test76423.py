@@ -23,7 +23,7 @@ obj = Jsml(
                     desc="&#10;&#9;&#9;&#9;&#9;Singleton instance, initialized on first access.&#10;&#9;&#9;&#9;",
                     name="instance",
                     scope=ScopeType.CLASS,
-                    type="Singleton"
+                    type_value="Singleton"
                 ),
             ],
             name="Singleton"

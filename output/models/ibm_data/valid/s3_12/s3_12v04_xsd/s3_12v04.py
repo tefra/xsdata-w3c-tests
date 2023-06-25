@@ -12,9 +12,10 @@ class AnySimpleType:
     value: Optional[object] = field(
         default=None
     )
-    type: Optional[str] = field(
+    type_value: Optional[str] = field(
         default=None,
         metadata={
+            "name": "type",
             "type": "Attribute",
         }
     )

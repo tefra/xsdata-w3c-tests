@@ -11,7 +11,7 @@ obj = DerivedElement(
         f=[
             "",
         ],
-        type="R"
+        type_value="R"
     ),
     type="R"
 )

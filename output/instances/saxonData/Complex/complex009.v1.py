@@ -14,5 +14,5 @@ obj = Root(
         "",
         "",
     ],
-    type="B"
+    type_value="B"
 )

@@ -26,9 +26,10 @@ class A:
 
 @dataclass
 class Picture:
-    type: Optional[PictureType] = field(
+    type_value: Optional[PictureType] = field(
         default=None,
         metadata={
+            "name": "type",
             "type": "Attribute",
         }
     )

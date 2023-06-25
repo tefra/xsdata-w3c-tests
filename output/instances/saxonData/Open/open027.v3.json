@@ -1,15 +1,15 @@
 {
+  "a": [
+    ""
+  ],
+  "b": "",
+  "c": "",
+  "d": null,
   "open_com_element": {
     "qname": "{http://open.com/}extra",
     "text": "42",
     "tail": null,
     "children": [],
     "attributes": {}
-  },
-  "a": [
-    ""
-  ],
-  "b": "",
-  "c": "",
-  "d": null
+  }
 }

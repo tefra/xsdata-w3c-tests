@@ -6,11 +6,11 @@ obj = Root(
     a=[
         Zz(
             value="42",
-            type=1
+            type_value=1
         ),
         Zz(
             value="93.7",
-            type=2
+            type_value=2
         ),
     ]
 )

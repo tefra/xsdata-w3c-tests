@@ -20,9 +20,10 @@ class AddressType:
     class Meta:
         name = "addressType"
 
-    type: Optional[AddressTypeType] = field(
+    type_value: Optional[AddressTypeType] = field(
         default=None,
         metadata={
+            "name": "type",
             "type": "Attribute",
         }
     )

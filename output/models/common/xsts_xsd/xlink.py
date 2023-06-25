@@ -33,7 +33,7 @@ class TypeType(Enum):
 @dataclass
 class ArcType:
     """
-    :ivar type:
+    :ivar type_value:
     :ivar arcrole:
     :ivar title:
     :ivar show:
@@ -44,10 +44,11 @@ class ArcType:
     class Meta:
         name = "arcType"
 
-    type: TypeType = field(
+    type_value: TypeType = field(
         init=False,
         default=TypeType.ARC,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
@@ -111,10 +112,11 @@ class Extended:
     class Meta:
         name = "extended"
 
-    type: TypeType = field(
+    type_value: TypeType = field(
         init=False,
         default=TypeType.EXTENDED,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
@@ -140,7 +142,7 @@ class Extended:
 @dataclass
 class LocatorType:
     """
-    :ivar type:
+    :ivar type_value:
     :ivar href:
     :ivar role:
     :ivar title:
@@ -150,10 +152,11 @@ class LocatorType:
     class Meta:
         name = "locatorType"
 
-    type: TypeType = field(
+    type_value: TypeType = field(
         init=False,
         default=TypeType.LOCATOR,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
@@ -196,10 +199,11 @@ class ResourceType:
     class Meta:
         name = "resourceType"
 
-    type: TypeType = field(
+    type_value: TypeType = field(
         init=False,
         default=TypeType.RESOURCE,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,
@@ -246,10 +250,11 @@ class Simple:
     class Meta:
         name = "simple"
 
-    type: TypeType = field(
+    type_value: TypeType = field(
         init=False,
         default=TypeType.SIMPLE,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
         }
@@ -311,7 +316,7 @@ class Simple:
 @dataclass
 class TitleEltType:
     """
-    :ivar type:
+    :ivar type_value:
     :ivar lang: xml:lang is not required, but provides much of the
         motivation for title elements in addition to attributes, and so
         is provided here for convenience.
@@ -320,10 +325,11 @@ class TitleEltType:
     class Meta:
         name = "titleEltType"
 
-    type: TypeType = field(
+    type_value: TypeType = field(
         init=False,
         default=TypeType.TITLE,
         metadata={
+            "name": "type",
             "type": "Attribute",
             "namespace": "http://www.w3.org/1999/xlink",
             "required": True,

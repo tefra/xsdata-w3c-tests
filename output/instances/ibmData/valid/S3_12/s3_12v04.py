@@ -6,11 +6,11 @@ obj = Root(
     elem1=[
         FloatType(
             value=1e+104,
-            type="float"
+            type_value="float"
         ),
         FloatType(
             value=float("inf"),
-            type="double"
+            type_value="double"
         ),
     ]
 )

@@ -14,9 +14,10 @@ class Appendix:
             "required": True,
         }
     )
-    type: Optional[str] = field(
+    type_value: Optional[str] = field(
         default=None,
         metadata={
+            "name": "type",
             "type": "Attribute",
         }
     )
@@ -33,9 +34,10 @@ class Chap:
             "required": True,
         }
     )
-    type: Optional[str] = field(
+    type_value: Optional[str] = field(
         default=None,
         metadata={
+            "name": "type",
             "type": "Attribute",
         }
     )

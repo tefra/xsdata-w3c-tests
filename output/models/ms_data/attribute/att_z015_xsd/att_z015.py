@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 
 @dataclass
@@ -19,6 +19,13 @@ class Base:
 class Derived(Base):
     class Meta:
         name = "derived"
+
+    a: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        }
+    )
 
 
 @dataclass

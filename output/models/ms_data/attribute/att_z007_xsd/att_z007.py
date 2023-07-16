@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 
 @dataclass
@@ -32,12 +32,23 @@ class One:
 
 @dataclass
 class Two(One):
-    pass
+    att1: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        }
+    )
 
 
 @dataclass
 class Three(Two):
-    pass
+    att1: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Attribute",
+            "required": True,
+        }
+    )
 
 
 @dataclass

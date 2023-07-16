@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import Optional
+from typing import Optional, Any
 
 __NAMESPACE__ = "urn:foo"
 
@@ -68,3 +68,10 @@ class Prohibit(Base):
     class Meta:
         name = "prohibit"
         namespace = "urn:foo"
+
+    c: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        }
+    )

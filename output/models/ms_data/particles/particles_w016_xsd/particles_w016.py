@@ -90,7 +90,20 @@ class Ct3(Ct1):
 
 @dataclass
 class R(B):
-    pass
+    e2: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
+    )
+    e3: Optional[object] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+        }
+    )
 
 
 @dataclass

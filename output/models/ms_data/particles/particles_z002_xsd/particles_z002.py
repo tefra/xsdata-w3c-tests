@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Dict, Optional
+from typing import Dict, Optional, Any
 
 
 @dataclass
@@ -48,7 +48,12 @@ class Base3:
 
 @dataclass
 class Derived1(Base1):
-    pass
+    foo: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        }
+    )
 
 
 @dataclass

@@ -1,8 +1,9 @@
 {
-  "my_element1_or_my_element2_or_my_element3": "test data",
+  "my_element1_or_my_element2_or_my_element3": null,
   "any_attributes": {
     "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctG035.xsd",
     "{http://tempuri.org/xmlschema}myAttr": "test attribute"
   },
+  "myElement1": "test data",
   "other_attributes": {}
 }

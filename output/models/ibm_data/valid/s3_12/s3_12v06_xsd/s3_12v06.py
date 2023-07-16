@@ -65,6 +65,15 @@ class CtAlt1(CtBase):
     class Meta:
         name = "ctAlt1"
 
+    child: List[ChildTypeDerived] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "min_occurs": 1,
+        }
+    )
+
 
 @dataclass
 class CtAlt2(CtBase):

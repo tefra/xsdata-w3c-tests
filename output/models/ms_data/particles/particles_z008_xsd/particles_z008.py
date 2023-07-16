@@ -41,7 +41,15 @@ class Member2:
 
 @dataclass
 class ContainMember2Type(ContainHead2Type):
-    pass
+    member2: Optional[str] = field(
+        default=None,
+        metadata={
+            "name": "Member2",
+            "type": "Element",
+            "namespace": "urn:my-namespace",
+            "required": True,
+        }
+    )
 
 
 @dataclass

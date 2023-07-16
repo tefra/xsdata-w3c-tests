@@ -1,7 +1,5 @@
 {
-  "elem1": {
-    "foo": null
-  },
+  "elem1": {},
   "elem2": {
     "foo": null,
     "local_attributes": {},

@@ -45,6 +45,24 @@ class FooType(Foo):
     class Meta:
         name = "fooType"
 
+    my_ele1: Optional[str] = field(
+        default=None,
+        metadata={
+            "name": "myEle1",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
+    my_ele2: Optional[int] = field(
+        default=None,
+        metadata={
+            "name": "myEle2",
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
     other_attributes: Dict[str, str] = field(
         default_factory=dict,
         metadata={

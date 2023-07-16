@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Any
 
 
 @dataclass
@@ -20,6 +20,13 @@ class PersonName:
 class SimpleName(PersonName):
     class Meta:
         name = "simpleName"
+
+    title: Any = field(
+        init=False,
+        metadata={
+            "type": "Ignore",
+        }
+    )
 
 
 @dataclass

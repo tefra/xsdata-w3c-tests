@@ -44,6 +44,15 @@ class Treq(T):
     class Meta:
         name = "treq"
 
+    e: List[Decimal] = field(
+        default_factory=list,
+        metadata={
+            "type": "Element",
+            "namespace": "http://cta0002/",
+            "min_occurs": 1,
+        }
+    )
+
 
 @dataclass
 class Messages:

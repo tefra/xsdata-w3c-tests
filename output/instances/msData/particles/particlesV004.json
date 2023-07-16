@@ -1,48 +1,15 @@
 {
   "elem": {
-    "e1_or_e2": [
-      {
-        "qname": "e1",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      },
-      {
-        "qname": "e1",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      },
-      {
-        "qname": "e1",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      },
-      {
-        "qname": "e2",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      },
-      {
-        "qname": "e2",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      },
-      {
-        "qname": "e2",
-        "text": "",
-        "tail": null,
-        "children": [],
-        "attributes": {}
-      }
+    "e1_or_e2": [],
+    "e1": [
+      "",
+      "",
+      ""
+    ],
+    "e2": [
+      "",
+      "",
+      ""
     ]
   }
 }

@@ -42,7 +42,22 @@ class X:
 
 @dataclass
 class Y(X):
-    pass
+    a: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
+    b: Optional[str] = field(
+        default=None,
+        metadata={
+            "type": "Element",
+            "namespace": "",
+            "required": True,
+        }
+    )
 
 
 @dataclass

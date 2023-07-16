@@ -12,6 +12,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
         }
     )
 

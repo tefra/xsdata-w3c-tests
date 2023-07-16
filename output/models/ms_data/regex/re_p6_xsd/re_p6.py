@@ -12,6 +12,7 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"\s*\c\s?\c\s+\c\s*",
         }
     )

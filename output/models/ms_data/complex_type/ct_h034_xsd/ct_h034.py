@@ -50,6 +50,7 @@ class FooType(MyType):
             "name": "myElement4",
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
     attr1: Optional[object] = field(

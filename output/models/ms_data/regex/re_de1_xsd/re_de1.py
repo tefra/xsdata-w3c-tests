@@ -12,6 +12,7 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"\p{Nd}{4}-\d\d-\d\dT\d\d:\d\d:\d\d",
         }
     )

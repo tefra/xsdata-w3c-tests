@@ -29,5 +29,6 @@ class Doc:
         default=None,
         metadata={
             "type": "Element",
+            "required": True,
         }
     )

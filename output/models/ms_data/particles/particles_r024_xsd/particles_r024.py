@@ -52,6 +52,7 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "http://xsdtesting",
+            "required": True,
         }
     )
 
@@ -67,5 +68,6 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )

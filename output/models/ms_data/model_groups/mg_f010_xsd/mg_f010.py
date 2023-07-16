@@ -34,6 +34,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
     b_or_b2: Optional[object] = field(

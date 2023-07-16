@@ -37,6 +37,7 @@ class R:
         metadata={
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "max_occurs": 3,
         }
     )
@@ -53,5 +54,6 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )

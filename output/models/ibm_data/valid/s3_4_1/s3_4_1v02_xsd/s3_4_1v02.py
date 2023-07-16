@@ -43,6 +43,7 @@ class D:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
 

@@ -12,6 +12,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
+            "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
         }
@@ -21,6 +22,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
+            "min_occurs": 2,
             "max_occurs": 2,
             "sequence": 1,
         }

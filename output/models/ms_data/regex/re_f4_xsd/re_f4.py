@@ -12,6 +12,7 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"[^2-9a-x]{2}",
         }
     )

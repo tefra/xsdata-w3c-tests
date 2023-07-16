@@ -12,6 +12,7 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "min_occurs": 1,
             "pattern": r"([0-1]{4}|(0|1){8})",
             "format": "base64",
         }

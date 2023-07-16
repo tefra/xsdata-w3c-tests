@@ -13,6 +13,7 @@ class FooType:
             "name": "myElement",
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
 

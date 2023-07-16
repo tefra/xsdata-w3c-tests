@@ -52,6 +52,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
 

@@ -38,6 +38,7 @@ class R:
             "name": "impElem1",
             "type": "Element",
             "namespace": "foo",
+            "required": True,
         }
     )
 
@@ -53,5 +54,6 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )

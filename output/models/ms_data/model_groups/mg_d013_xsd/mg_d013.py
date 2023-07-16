@@ -39,5 +39,6 @@ class Root:
         default_factory=list,
         metadata={
             "type": "Element",
+            "min_occurs": 1,
         }
     )

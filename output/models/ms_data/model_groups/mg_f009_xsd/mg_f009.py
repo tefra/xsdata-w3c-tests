@@ -38,6 +38,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
     d: Optional[object] = field(

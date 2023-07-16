@@ -187,6 +187,7 @@ class Datafile:
             metadata={
                 "type": "Element",
                 "namespace": "",
+                "min_occurs": 1,
                 "min_length": 1,
                 "max_length": 4000,
             }

@@ -41,5 +41,6 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )

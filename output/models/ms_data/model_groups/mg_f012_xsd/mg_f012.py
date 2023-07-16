@@ -12,6 +12,7 @@ class Foo:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
     w3_org_1999_xhtml_element: List[object] = field(

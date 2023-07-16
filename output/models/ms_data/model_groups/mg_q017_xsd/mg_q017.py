@@ -12,6 +12,7 @@ class Bar:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
 

@@ -39,6 +39,7 @@ class Doc:
         metadata={
             "type": "Element",
             "namespace": "",
+            "required": True,
         }
     )
     x1: Optional[object] = field(

@@ -22,12 +22,5 @@ class Root:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-            "choices": (
-                {
-                    "name": "separator",
-                    "type": object,
-                    "namespace": "",
-                },
-            ),
         }
     )

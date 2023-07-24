@@ -15,13 +15,6 @@ class Mixed:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-            "choices": (
-                {
-                    "name": "foo",
-                    "type": object,
-                    "namespace": "",
-                },
-            ),
         }
     )
 

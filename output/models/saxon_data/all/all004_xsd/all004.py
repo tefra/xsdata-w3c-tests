@@ -14,23 +14,5 @@ class Doc:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-            "choices": (
-                {
-                    "name": "a",
-                    "type": object,
-                },
-                {
-                    "name": "b",
-                    "type": object,
-                },
-                {
-                    "name": "c",
-                    "type": object,
-                },
-                {
-                    "name": "d",
-                    "type": object,
-                },
-            ),
         }
     )

@@ -10,23 +10,6 @@ class B:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-            "choices": (
-                {
-                    "name": "a",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "b",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "c",
-                    "type": object,
-                    "namespace": "",
-                },
-            ),
         }
     )
 

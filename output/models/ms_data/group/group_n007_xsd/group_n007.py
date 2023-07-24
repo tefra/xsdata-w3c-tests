@@ -13,33 +13,6 @@ class Elem:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-            "choices": (
-                {
-                    "name": "a1",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "a2",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "a3",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "a4",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "a5",
-                    "type": object,
-                    "namespace": "",
-                },
-            ),
         }
     )
 

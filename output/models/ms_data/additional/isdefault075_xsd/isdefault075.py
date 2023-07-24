@@ -13,17 +13,5 @@ class Root:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-            "choices": (
-                {
-                    "name": "e1",
-                    "type": object,
-                    "namespace": "",
-                },
-                {
-                    "name": "e2",
-                    "type": object,
-                    "namespace": "",
-                },
-            ),
         }
     )

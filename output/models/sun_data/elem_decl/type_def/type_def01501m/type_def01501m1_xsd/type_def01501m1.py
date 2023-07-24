@@ -22,14 +22,6 @@ class Text:
             "type": "Wildcard",
             "namespace": "##any",
             "mixed": True,
-            "choices": (
-                {
-                    "name": "dot",
-                    "type": object,
-                    "namespace": "",
-                    "default": "",
-                },
-            ),
         }
     )
 

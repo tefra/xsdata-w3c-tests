@@ -1,9 +1,0 @@
-{
-  "myEle1": "string data",
-  "myEle2": 132456,
-  "myEle3": null,
-  "any_attributes": {
-    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctO003.xsd"
-  },
-  "myAttr": "restriction attribute"
-}

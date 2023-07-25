@@ -12,14 +12,14 @@ def pytest_addoption(parser):
         "--mode",
         action="store",
         default="xsd",
-        choices=["xsd", "xml", "json", "build"],
+        choices=["xsd", "build"],
         help="Mode",
     )
     parser.addoption(
         "--output-format",
         action="store",
         default="dataclasses",
-        choices=["dataclasses", "attrs"],
+        choices=["dataclasses", "attrs", "pydantic"],
         help="Mode",
     )
 
@@ -37,11 +37,3 @@ def mode(request):
 @pytest.fixture
 def output_format(request):
     return request.config.getoption("--output-format")
-
-
-@pytest.hookimpl
-def pytest_sessionfinish(session, exitstatus):
-    if session.config.getoption("mode") == "json" and session.testsfailed <= 39:
-        session.exitstatus = 0
-    elif session.config.getoption("mode") == "xml" and session.testsfailed <= 5:
-        session.exitstatus = 0

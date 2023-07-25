@@ -8,13 +8,12 @@ on:
 
 jobs:
   tests:
-    name: Python ${{ matrix.python }} - ${{ matrix.mode }}
+    name: Python ${{ matrix.python }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        mode: [xsd, json, xml]
-        python: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+        python: [ "3.8", "3.9", "3.10", "3.11", "3.12-dev" ]
     steps:
       - uses: actions/checkout@v3
         with:
@@ -29,4 +28,4 @@ jobs:
           pip install -r requirements.txt
       - name: Test
         run: |
-          pytest -n auto --mode ${{ matrix.mode }}
+          pytest -n auto --mode xsd

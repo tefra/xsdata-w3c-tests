@@ -1,6 +1,0 @@
-{
-  "any_attributes": {
-    "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://foobar wildO016.xsd http://foo wildO016a.xsd",
-    "{http://foo}name": "bar"
-  }
-}

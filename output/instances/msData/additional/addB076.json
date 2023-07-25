@@ -1,9 +1,0 @@
-{
-  "any_element": {
-    "qname": "{ns-b}abc",
-    "text": "",
-    "tail": null,
-    "children": [],
-    "attributes": {}
-  }
-}

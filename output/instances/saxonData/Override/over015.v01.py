@@ -1,6 +1,6 @@
-from output.models.saxon_data.override.over015_xsd.mod import Doc
-from output.models.saxon_data.override.over015_xsd.mod import NotaFooBar
-from output.models.saxon_data.override.over015_xsd.mod import StructuredDate
+from output.models.saxon_data.override.over015_xsd import Doc
+from output.models.saxon_data.override.over015_xsd import NotaFooBar
+from output.models.saxon_data.override.over015_xsd import StructuredDate
 
 
 obj = Doc(

@@ -1,9 +1,0 @@
-{
-  "other_element": {
-    "qname": "{ns_test1}date",
-    "text": "2002-04-29",
-    "tail": null,
-    "children": [],
-    "attributes": {}
-  }
-}

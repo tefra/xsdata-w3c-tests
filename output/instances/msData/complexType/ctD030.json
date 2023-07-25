@@ -1,8 +1,0 @@
-{
-  "value": "\n\tany string\n",
-  "any_attributes": {
-    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD030.xsd"
-  },
-  "myAttr": "test",
-  "myAttr2": "second attribute"
-}

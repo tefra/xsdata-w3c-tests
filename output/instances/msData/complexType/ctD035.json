@@ -1,7 +1,0 @@
-{
-  "value": "len=5",
-  "any_attributes": {
-    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctD035.xsd"
-  },
-  "myAttr": "attribute"
-}

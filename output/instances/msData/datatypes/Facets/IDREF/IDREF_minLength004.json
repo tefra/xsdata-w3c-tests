@@ -1,7 +1,0 @@
-{
-  "foo": {
-    "value": "special test for datatypes that are attribute only",
-    "attrTest": "foofo",
-    "id_attr": "foofo"
-  }
-}

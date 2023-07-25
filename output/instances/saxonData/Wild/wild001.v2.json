@@ -1,8 +1,0 @@
-{
-  "any_attributes": {
-    "adam": "m",
-    "eve": "f",
-    "{http://genesis.com/}cain": "m",
-    "{http://genesis.com/}abel": "m"
-  }
-}

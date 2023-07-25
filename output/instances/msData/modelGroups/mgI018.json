@@ -1,9 +1,0 @@
-{
-  "choice": {
-    "qname": "{http://n4}foo",
-    "text": "",
-    "tail": null,
-    "children": [],
-    "attributes": {}
-  }
-}

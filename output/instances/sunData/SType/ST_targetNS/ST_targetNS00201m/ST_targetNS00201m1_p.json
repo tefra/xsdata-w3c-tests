@@ -1,7 +1,0 @@
-{
-  "qname": "{ST_targetNS}test",
-  "value": {
-    "value": "2"
-  },
-  "type": "{ST_targetNS}Test"
-}

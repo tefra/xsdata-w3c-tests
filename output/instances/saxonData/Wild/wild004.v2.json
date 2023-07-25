@@ -1,9 +1,0 @@
-{
-  "any_element": {
-    "qname": "{http://eden.com/}adam",
-    "text": "eve",
-    "tail": null,
-    "children": [],
-    "attributes": {}
-  }
-}

@@ -1,22 +1,18 @@
-import contextlib
-import difflib
 import functools
 import logging
 import os
 from pathlib import Path
-from typing import Any
-from typing import Dict
-from typing import Optional
 
 import pytest
 import xmlschema
 from click.testing import CliRunner
 from lxml import etree
+from typing import Any
+from typing import Dict
+from typing import Optional
 from xsdata.cli import cli
 from xsdata.formats.dataclass.context import XmlContext
-from xsdata.formats.dataclass.parsers import JsonParser
 from xsdata.formats.dataclass.parsers import XmlParser
-from xsdata.formats.dataclass.serializers import JsonSerializer
 from xsdata.formats.dataclass.serializers import PycodeSerializer
 from xsdata.formats.dataclass.serializers import XmlSerializer
 from xsdata.formats.dataclass.serializers.config import SerializerConfig
@@ -44,18 +40,11 @@ def assert_bindings(
 ):
     __tracebackhide__ = True
 
-    if mode == "xml":
-        instance_path = Path(instance)
-        pck_arr = list(map(text.snake_case, instance_path.parts))
-        package = f"output.xml_models.{'.'.join(pck_arr)}"
-        instance_path = w3c.joinpath(instance_path)
-        source = str(instance_path)
-    else:
-        schema_path = Path(schema)
-        pck_arr = list(map(text.snake_case, schema_path.parts))
-        package = f"output.models.{'.'.join(pck_arr)}"
-        schema_path = w3c.joinpath(schema)
-        source = str(schema_path)
+    schema_path = Path(schema)
+    pck_arr = list(map(text.snake_case, schema_path.parts))
+    package = f"output.models.{'.'.join(pck_arr)}"
+    schema_path = w3c.joinpath(schema)
+    source = str(schema_path)
 
     clazz = generate_models(source, package, class_name, output_format, structure_style)
 
@@ -84,49 +73,15 @@ def assert_bindings(
         save_path = output.joinpath(instance)
         save_path.parent.mkdir(parents=True, exist_ok=True)
 
-    if mode == "json":
-        assert_json_bindings(context, obj, save_path)
-    else:
-        assert_xml_bindings(
-            context,
-            obj,
-            parser.ns_map,
-            schema_path,
-            instance_path,
-            save_path,
-            version,
-        )
-
-
-def assert_json_bindings(context: XmlContext, obj: Any, save_path: Optional[Path]):
-    __tracebackhide__ = True
-
-    serializer = JsonSerializer(context=context, config=config)
-    parser = JsonParser(context=context)
-    obj_json = serializer.render(obj)
-    obj_b = parser.from_string(obj_json, obj.__class__)
-
-    if save_path:
-        save_path.with_suffix(".json").write_text(obj_json)
-
-        xsdata_code = PycodeSerializer(context=context, config=config).render(obj)
-        save_path.with_suffix(".py").write_text(xsdata_code)
-
-        with contextlib.suppress(FileNotFoundError):
-            save_path.with_suffix(".diff").unlink()
-
-    if obj != obj_b:
-        obj_b_json = serializer.render(obj_b)
-
-        if obj_json == obj_b_json:
-            return
-
-        diff = "\n".join(difflib.ndiff(obj_json.splitlines(), obj_b_json.splitlines()))
-
-        if save_path:
-            save_path.with_suffix(".diff").write_text(diff)
-
-        raise AssertionError(f"JSON Round trip failed\n{diff}")
+    assert_xml_bindings(
+        context,
+        obj,
+        parser.ns_map,
+        schema_path,
+        instance_path,
+        save_path,
+        version,
+    )
 
 
 def assert_xml_bindings(
@@ -147,12 +102,9 @@ def assert_xml_bindings(
     try:
         xsdata_xml = XmlSerializer(context=context, config=config).render(obj, ns_map)
         if save_path:
-            json_document = JsonSerializer(context=context, config=config).render(obj)
             save_path.write_text(xsdata_xml)
-            save_path.with_suffix(".json").write_text(json_document)
-
-            xsdata_code = PycodeSerializer(context=context, config=config).render(obj)
-            save_path.with_suffix(".py").write_text(xsdata_code)
+            code = PycodeSerializer(context=context, config=config).render(obj)
+            save_path.with_suffix(".py").write_text(code)
 
         return assert_valid(schema_validator, xsdata_xml)
     except Exception as e:

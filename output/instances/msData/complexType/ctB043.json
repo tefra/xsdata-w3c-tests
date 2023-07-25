@@ -1,7 +1,0 @@
-{
-  "myElement": "group field",
-  "any_attributes": {
-    "{http://www.w3.org/2001/XMLSchema-instance}noNamespaceSchemaLocation": "ctB043.xsd",
-    "attrTest": "any attribute"
-  }
-}

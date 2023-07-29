@@ -1,64 +1,27 @@
+from output.models.ms_data.schema.sch_g7_a_xsd.sch_g7_a import E1
 from output.models.ms_data.schema.sch_g7_a_xsd.sch_g7_a import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
+from output.models.ms_data.schema.sch_g7_a_xsd.sch_g7_b import E1
+from output.models.ms_data.schema.sch_g7_a_xsd.sch_g7_c import E1
+from output.models.ms_data.schema.sch_g7_a_xsd.sch_g7_d import E1
 
 
 obj = Root(
     any_element=[
-        AnyElement(
-            qname="{ns-a}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="a1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="a2",
-                    text="true"
-                ),
-            ]
+        E1(
+            a1=123,
+            a2=True
         ),
-        AnyElement(
-            qname="{ns-b}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="a1",
-                    text="true"
-                ),
-                AnyElement(
-                    qname="a2",
-                    text="123"
-                ),
-            ]
+        E1(
+            a1=True,
+            a2=123
         ),
-        AnyElement(
-            qname="{ns-c}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="a1",
-                    text="123&#9;"
-                ),
-                AnyElement(
-                    qname="a2",
-                    text="123"
-                ),
-            ]
+        E1(
+            a1=123,
+            a2=123
         ),
-        AnyElement(
-            qname="{ns-d}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="a1",
-                    text="true"
-                ),
-                AnyElement(
-                    qname="a2",
-                    text="123"
-                ),
-            ]
+        E1(
+            a1="true",
+            a2="123"
         ),
     ]
 )

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testSet xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="S. Tsao, The Boeing Company + J. Zingoni, University of Bologna" name="BoeingXSDTestCases" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd">
+<testSet xmlns="http://www.w3.org/XML/2004/xml-schema-test-suite/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" contributor="S. Tsao, The Boeing Company + J. Zingoni, University of Bologna" name="BoeingXSDTestCases" xsi:schemaLocation="http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd">
   <annotation>
     <documentation>
 			All the following test cases are derived from examples given in the W3C XML Schema

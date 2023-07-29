@@ -34,6 +34,7 @@ class Zing:
         metadata={
             "type": "Wildcard",
             "namespace": "##local",
+            "process_contents": "skip",
         }
     )
 

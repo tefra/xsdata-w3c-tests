@@ -14,6 +14,7 @@ class Foo:
             "namespace": "##any",
             "max_occurs": 4,
             "sequence": 1,
+            "process_contents": "skip",
         }
     )
     e1: Optional[object] = field(

@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import NistschemaSvIvListIdEnumeration4
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import NistschemaSvIvListIdEnumeration4Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-4-NS}NISTSchema-SV-IV-list-ID-enumeration-4",
-        text="_the_medium-sized_ jand. _g.tool_libraries-match.needed.participate_manual-and-all_r gspecifications.of.use-for-computin ecriteria cof.object-automatic.issues.a_additionally-computer-si _the_or.formed-for_multidisciplinary-new. _base_the-b cand_tune-systems-on-a-chip_the.as.manipulation.deployed_of"
+    any_element=NistschemaSvIvListIdEnumeration4(
+        value=NistschemaSvIvListIdEnumeration4Type.THE_MEDIUM_SIZED_JAND_G_TOOL_LIBRARIES_MATCH_NEEDED_PARTICIPATE_MANUAL_AND_ALL_R_GSPECIFICATIONS_OF_USE_FOR_COMPUTIN_ECRITERIA_COF_OBJECT_AUTOMATIC_ISSUES_A_ADDITIONALLY_COMPUTER_SI_THE_OR_FORMED_FOR_MULTIDISCIPLINARY_NEW_BASE_THE_B_CAND_TUNE_SYSTEMS_ON_A_CHIP_THE_AS_MANIPULATION_DEPLOYED_OF
     )
 )

@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_3_xsd.nistschema_sv_iv_list_id_enumeration_3 import NistschemaSvIvListIdEnumeration3
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_3_xsd.nistschema_sv_iv_list_id_enumeration_3 import NistschemaSvIvListIdEnumeration3Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_3_xsd.nistschema_sv_iv_list_id_enumeration_3 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-3-NS}NISTSchema-SV-IV-list-ID-enumeration-3",
-        text="trepository_an.c icomputing_for-as.testing_make.software_of-international nretrieve-sense-to_their_sol xapplications-of.and_the-frameworks_the-specific-s.these_we-ret tsecond-generation.has-to.large.the_them.relat bcan-must ccompatibility_shift.g.as.partner tknown_for.with.system-areas.cho"
+    any_element=NistschemaSvIvListIdEnumeration3(
+        value=NistschemaSvIvListIdEnumeration3Type.TREPOSITORY_AN_C_ICOMPUTING_FOR_AS_TESTING_MAKE_SOFTWARE_OF_INTERNATIONAL_NRETRIEVE_SENSE_TO_THEIR_SOL_XAPPLICATIONS_OF_AND_THE_FRAMEWORKS_THE_SPECIFIC_S_THESE_WE_RET_TSECOND_GENERATION_HAS_TO_LARGE_THE_THEM_RELAT_BCAN_MUST_CCOMPATIBILITY_SHIFT_G_AS_PARTNER_TKNOWN_FOR_WITH_SYSTEM_AREAS_CHO
     )
 )

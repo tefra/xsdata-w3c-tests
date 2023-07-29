@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_3_xsd.nistschema_sv_iv_list_id_enumeration_3 import NistschemaSvIvListIdEnumeration3
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_3_xsd.nistschema_sv_iv_list_id_enumeration_3 import NistschemaSvIvListIdEnumeration3Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_3_xsd.nistschema_sv_iv_list_id_enumeration_3 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-3-NS}NISTSchema-SV-IV-list-ID-enumeration-3",
-        text="pled_and_these.among-reputation.full_an _recognition_and-indication.understand-industry-appl yan vcreation_means_tools_on.with_is.the_five_will_h nunbiased-result_from.our.generation-files_allow-r qboth-completion_processors-ri cf qto-embedded.any_effectively_areas_of."
+    any_element=NistschemaSvIvListIdEnumeration3(
+        value=NistschemaSvIvListIdEnumeration3Type.PLED_AND_THESE_AMONG_REPUTATION_FULL_AN_RECOGNITION_AND_INDICATION_UNDERSTAND_INDUSTRY_APPL_YAN_VCREATION_MEANS_TOOLS_ON_WITH_IS_THE_FIVE_WILL_H_NUNBIASED_RESULT_FROM_OUR_GENERATION_FILES_ALLOW_R_QBOTH_COMPLETION_PROCESSORS_RI_CF_QTO_EMBEDDED_ANY_EFFECTIVELY_AREAS_OF
     )
 )

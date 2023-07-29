@@ -538,6 +538,6 @@ obj = TestSet(
     contributor="S. Tsao, The Boeing Company + J. Zingoni, University of Bologna",
     name="BoeingXSDTestCases",
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
     }
 )

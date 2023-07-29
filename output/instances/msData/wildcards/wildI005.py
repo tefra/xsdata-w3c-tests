@@ -1,3 +1,4 @@
+from output.models.ms_data.wildcards.wild_i005_xsd.wild_i005 import Bar
 from output.models.ms_data.wildcards.wild_i005_xsd.wild_i005 import Foo
 from xsdata.formats.dataclass.models.generics import AnyElement
 
@@ -35,13 +36,11 @@ obj = Foo(
     ],
     target_namespace_element=AnyElement(
         children=[
-            AnyElement(
-                qname="bar",
-                text=""
+            Bar(
+
             ),
-            AnyElement(
-                qname="bar",
-                text=""
+            Bar(
+
             ),
             AnyElement(
                 qname="{http://foo}foo",

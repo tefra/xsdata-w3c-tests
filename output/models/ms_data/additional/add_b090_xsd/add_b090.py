@@ -13,6 +13,7 @@ class Base:
             "type": "Wildcard",
             "namespace": "foo",
             "max_occurs": 3,
+            "process_contents": "skip",
         }
     )
 

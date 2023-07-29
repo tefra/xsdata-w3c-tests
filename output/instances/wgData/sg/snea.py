@@ -1,5 +1,5 @@
+from output.models.wg_data.sg.snbranch_xsd.snbranch import E
 from output.models.wg_data.sg.snbranch_xsd.snbranch import Test
-from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
@@ -13,9 +13,8 @@ obj = Test(
             qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}n",
             value=""
         ),
-        AnyElement(
-            qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}e",
-            text=""
+        E(
+
         ),
         DerivedElement(
             qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}a",

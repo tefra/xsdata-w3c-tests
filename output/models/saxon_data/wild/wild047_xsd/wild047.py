@@ -21,6 +21,7 @@ class Computer1:
             "type": "Wildcard",
             "namespace": "##local",
             "max_occurs": 2,
+            "process_contents": "skip",
         }
     )
     extra_com_element: List[object] = field(
@@ -29,6 +30,7 @@ class Computer1:
             "type": "Wildcard",
             "namespace": "http://extra.com/",
             "max_occurs": 2,
+            "process_contents": "skip",
         }
     )
 

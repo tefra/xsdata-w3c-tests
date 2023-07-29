@@ -17,6 +17,7 @@ class SchemaType:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "process_contents": "skip",
         }
     )
     id: Optional[str] = field(

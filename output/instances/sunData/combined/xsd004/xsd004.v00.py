@@ -1,4 +1,7 @@
 from output.models.sun_data.combined.xsd004.xsd004_xsd.xsd004 import Root
+from output.models.sun_data.combined.xsd004.xsd004_xsd.xsd004a_xsdmod import C
+from output.models.sun_data.combined.xsd004.xsd004_xsd.xsd004b_xsdmod import B
+from output.models.sun_data.combined.xsd004.xsd004_xsd.xsd004b_xsdmod import C
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 
@@ -49,17 +52,14 @@ obj = Root(
         ),
         Root.StrictAny(
             any_element=[
-                AnyElement(
-                    qname="{bar}c",
-                    text=""
+                C(
+
                 ),
-                AnyElement(
-                    qname="{zot}b",
-                    text=""
+                B(
+
                 ),
-                AnyElement(
-                    qname="{zot}c",
-                    text=""
+                C(
+
                 ),
             ]
         ),
@@ -103,17 +103,14 @@ obj = Root(
         ),
         Root.StrictTarget(
             target_namespace_element=[
-                AnyElement(
-                    qname="{foo}root",
-                    text=""
+                Root(
+
                 ),
-                AnyElement(
-                    qname="{foo}root",
-                    text=""
+                Root(
+
                 ),
-                AnyElement(
-                    qname="{foo}root",
-                    text=""
+                Root(
+
                 ),
             ]
         ),

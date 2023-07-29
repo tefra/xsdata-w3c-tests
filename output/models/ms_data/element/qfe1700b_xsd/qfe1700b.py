@@ -35,5 +35,6 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "process_contents": "skip",
         }
     )

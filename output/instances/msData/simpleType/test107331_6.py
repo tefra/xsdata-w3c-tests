@@ -1,6 +1,6 @@
 from decimal import Decimal
+from output.models.ms_data.simple_type.test107331_a_xsd.test107331_a import Item
 from output.models.ms_data.simple_type.test107331_a_xsd.test107331_a import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.models.generics import DerivedElement
 from xsdata.models.datatype import XmlDate
 from xsdata.models.datatype import XmlDateTime
@@ -12,9 +12,8 @@ from xsdata.models.datatype import XmlTime
 
 obj = Root(
     choice=[
-        AnyElement(
-            qname="item",
-            text="abc"
+        Item(
+            value="abc"
         ),
         DerivedElement(
             qname="item",

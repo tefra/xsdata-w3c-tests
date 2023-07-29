@@ -1,13 +1,12 @@
+from output.models.ms_data.simple_type.test107331_d_xsd.test107331_d import A
 from output.models.ms_data.simple_type.test107331_d_xsd.test107331_d import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
     choice=[
-        AnyElement(
-            qname="a",
-            text="12"
+        A(
+            value="12"
         ),
         DerivedElement(
             qname="b",

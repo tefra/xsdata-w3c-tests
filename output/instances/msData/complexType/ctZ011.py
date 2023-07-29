@@ -1,4 +1,5 @@
 from output.models.ms_data.complex_type.ct_z011_xsd.ct_z011 import A
+from output.models.ms_data.complex_type.ct_z011_xsd.ct_z011 import B
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 
@@ -6,9 +7,8 @@ obj = A(
     any_element=AnyElement(
         text="&#10;1242&#10;        ",
         children=[
-            AnyElement(
-                qname="b",
-                text=""
+            B(
+
             ),
         ],
         attributes={

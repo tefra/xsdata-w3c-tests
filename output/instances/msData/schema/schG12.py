@@ -1,20 +1,19 @@
+from output.models.ms_data.schema.sch_g12_a_xsd.sch_g12_a import FooA
 from output.models.ms_data.schema.sch_g12_a_xsd.sch_g12_a import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
+from output.models.ms_data.schema.sch_g12_a_xsd.sch_g12_b import FooB
+from output.models.ms_data.schema.sch_g12_a_xsd.sch_g12_c import FooC
 
 
 obj = Root(
     any_element=[
-        AnyElement(
-            qname="{ns-a}foo_a",
-            text=""
+        FooA(
+
         ),
-        AnyElement(
-            qname="{ns-b}foo_b",
-            text=""
+        FooB(
+
         ),
-        AnyElement(
-            qname="{ns-b}foo_c",
-            text=""
+        FooC(
+
         ),
     ]
 )

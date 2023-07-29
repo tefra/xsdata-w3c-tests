@@ -1,18 +1,17 @@
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import A1
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import B1
+from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Item
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import RA1
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import Root
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import UnionA
 from output.models.ms_data.simple_type.test107331_c_xsd.test107331_c import UnionAb
-from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
 obj = Root(
     choice=[
-        AnyElement(
-            qname="item",
-            text="abc"
+        Item(
+            value="abc"
         ),
         5,
         10,

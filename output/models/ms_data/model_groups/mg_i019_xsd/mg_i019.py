@@ -16,21 +16,25 @@ class Foo:
                     "wildcard": True,
                     "type": object,
                     "namespace": "http://n1",
+                    "process_contents": "skip",
                 },
                 {
                     "wildcard": True,
                     "type": object,
                     "namespace": "http://n2",
+                    "process_contents": "skip",
                 },
                 {
                     "wildcard": True,
                     "type": object,
                     "namespace": "http://n3",
+                    "process_contents": "skip",
                 },
                 {
                     "wildcard": True,
                     "type": object,
                     "namespace": "http://n4",
+                    "process_contents": "skip",
                 },
                 {
                     "name": "e1",

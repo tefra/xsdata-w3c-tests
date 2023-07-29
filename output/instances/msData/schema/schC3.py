@@ -1,36 +1,17 @@
+from output.models.ms_data.schema.sch_c3_a_xsd.sch_c3_a import E1
 from output.models.ms_data.schema.sch_c3_a_xsd.sch_c3_a import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
+from output.models.ms_data.schema.sch_c3_a_xsd.sch_c3_b import E2
 
 
 obj = Root(
     any_element=[
-        AnyElement(
-            qname="e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="a1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="a2",
-                    text="true"
-                ),
-            ]
+        E1(
+            a1=123,
+            a2=True
         ),
-        AnyElement(
-            qname="e2",
-            text="",
-            children=[
-                AnyElement(
-                    qname="b1",
-                    text="true"
-                ),
-                AnyElement(
-                    qname="b2",
-                    text="123"
-                ),
-            ]
+        E2(
+            b1=True,
+            b2=123
         ),
     ]
 )

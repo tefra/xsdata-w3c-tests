@@ -22,6 +22,7 @@ class SkipContainerType:
         metadata={
             "type": "Wildcard",
             "namespace": "##other",
+            "process_contents": "skip",
         }
     )
 

@@ -20,6 +20,7 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "http://www.w3.org/1999/xhtml",
+            "process_contents": "skip",
         }
     )
     b_or_b2: Optional[object] = field(

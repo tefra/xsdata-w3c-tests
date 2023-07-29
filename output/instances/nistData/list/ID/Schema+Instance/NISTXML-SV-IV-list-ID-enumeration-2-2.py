@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_2_xsd.nistschema_sv_iv_list_id_enumeration_2 import NistschemaSvIvListIdEnumeration2
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_2_xsd.nistschema_sv_iv_list_id_enumeration_2 import NistschemaSvIvListIdEnumeration2Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_2_xsd.nistschema_sv_iv_list_id_enumeration_2 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-2-NS}NISTSchema-SV-IV-list-ID-enumeration-2",
-        text="edata_the.wireless csys _such.define-of.collaborating-vertic hin.discovery_ad-the-issues_information_the_issue dapproach.permitting.de gtwo.chairs-retrieves-opportunity_quality.is. uindustry-and_be-is-this-newco _daily.security_repository_many-a_global_loc"
+    any_element=NistschemaSvIvListIdEnumeration2(
+        value=NistschemaSvIvListIdEnumeration2Type.EDATA_THE_WIRELESS_CSYS_SUCH_DEFINE_OF_COLLABORATING_VERTIC_HIN_DISCOVERY_AD_THE_ISSUES_INFORMATION_THE_ISSUE_DAPPROACH_PERMITTING_DE_GTWO_CHAIRS_RETRIEVES_OPPORTUNITY_QUALITY_IS_UINDUSTRY_AND_BE_IS_THIS_NEWCO_DAILY_SECURITY_REPOSITORY_MANY_A_GLOBAL_LOC
     )
 )

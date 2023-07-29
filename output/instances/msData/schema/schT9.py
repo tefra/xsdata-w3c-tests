@@ -1,19 +1,15 @@
+from output.models.ms_data.schema.sch_t9_a_xsd.sch_t9_a import E2
 from output.models.ms_data.schema.sch_t9_a_xsd.sch_t9_a import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
+from output.models.ms_data.schema.sch_t9_a_xsd.sch_t9_b import BE1
 
 
 obj = Root(
     any_element=[
-        AnyElement(
-            qname="{ns-a}b-e1",
-            text="",
-            attributes={
-                "att1": "123",
-            }
+        BE1(
+            att1="123"
         ),
-        AnyElement(
-            qname="{ns-a}e2",
-            text="12"
+        E2(
+            value=12
         ),
     ]
 )

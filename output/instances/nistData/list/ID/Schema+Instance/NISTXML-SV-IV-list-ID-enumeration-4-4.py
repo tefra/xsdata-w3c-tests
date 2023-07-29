@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import NistschemaSvIvListIdEnumeration4
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import NistschemaSvIvListIdEnumeration4Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-4-NS}NISTSchema-SV-IV-list-ID-enumeration-4",
-        text="hwith.information_to_ap _technologies.languages-and-these-and-software.and_als tt olow-cost-that.tools-exchange.pervasive_of-tools_of-d ca-industry.discovery.unbiased_do mthe-compatibility.lan jrespect-life-engineering-with_a_and_ hdynamic_also.draft.technical_related."
+    any_element=NistschemaSvIvListIdEnumeration4(
+        value=NistschemaSvIvListIdEnumeration4Type.HWITH_INFORMATION_TO_AP_TECHNOLOGIES_LANGUAGES_AND_THESE_AND_SOFTWARE_AND_ALS_TT_OLOW_COST_THAT_TOOLS_EXCHANGE_PERVASIVE_OF_TOOLS_OF_D_CA_INDUSTRY_DISCOVERY_UNBIASED_DO_MTHE_COMPATIBILITY_LAN_JRESPECT_LIFE_ENGINEERING_WITH_A_AND_HDYNAMIC_ALSO_DRAFT_TECHNICAL_RELATED
     )
 )

@@ -15,5 +15,6 @@ class Foo:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
+            "process_contents": "skip",
         }
     )

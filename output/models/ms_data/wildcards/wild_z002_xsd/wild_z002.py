@@ -15,6 +15,7 @@ class A:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "process_contents": "skip",
         }
     )
 
@@ -30,6 +31,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace",
+            "process_contents": "skip",
         }
     )
 
@@ -45,6 +47,7 @@ class C:
         metadata={
             "type": "Wildcard",
             "namespace": "foo bar",
+            "process_contents": "skip",
         }
     )
 
@@ -60,6 +63,7 @@ class D:
         metadata={
             "type": "Wildcard",
             "namespace": "##targetNamespace foo",
+            "process_contents": "skip",
         }
     )
 

@@ -1,3 +1,4 @@
+from output.models.saxon_data.all.all006_xsd.all006 import C2
 from output.models.saxon_data.all.all006_xsd.all006 import Doc
 from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.models.datatype import XmlDate
@@ -9,9 +10,8 @@ obj = Doc(
     b=XmlTime(12, 0, 0, 0),
     target_namespace_element=AnyElement(
         children=[
-            AnyElement(
-                qname="c",
-                text="12:00:00"
+            C2(
+                value=XmlTime(12, 0, 0, 0)
             ),
             AnyElement(
                 qname="{http://other.ns/}d",

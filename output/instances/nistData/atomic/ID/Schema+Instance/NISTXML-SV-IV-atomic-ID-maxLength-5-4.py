@@ -1,10 +1,9 @@
+from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_id_max_length_5_xsd.nistschema_sv_iv_atomic_id_max_length_5 import NistschemaSvIvAtomicIdMaxLength5
 from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_id_max_length_5_xsd.nistschema_sv_iv_atomic_id_max_length_5 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-atomic-ID-maxLength-5-NS}NISTSchema-SV-IV-atomic-ID-maxLength-5",
-        text="_key.not.devices_software.of_is_including_for."
+    any_element=NistschemaSvIvAtomicIdMaxLength5(
+        value="_key.not.devices_software.of_is_including_for."
     )
 )

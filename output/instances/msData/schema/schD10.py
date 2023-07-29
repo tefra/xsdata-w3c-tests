@@ -1,17 +1,12 @@
+from output.models.ms_data.schema.sch_d10_a_xsd.sch_d10_a import E1
 from output.models.ms_data.schema.sch_d10_a_xsd.sch_d10_a import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
     any_element=[
-        AnyElement(
-            qname="{ns-a}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="c21",
-                    text="1"
-                ),
+        E1(
+            c21_or_c22=[
+                1,
             ]
         ),
     ]

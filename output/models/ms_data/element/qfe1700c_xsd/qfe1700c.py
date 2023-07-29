@@ -43,6 +43,7 @@ class Root:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "process_contents": "skip",
         }
     )
     e2: Optional[E2] = field(

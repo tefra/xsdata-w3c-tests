@@ -1,22 +1,13 @@
+from output.models.ms_data.schema.sch_a1_a_xsd.sch_a1_a import E1
 from output.models.ms_data.schema.sch_a1_a_xsd.sch_a1_a import Root
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
     any_element=[
-        AnyElement(
-            qname="{ns-a}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}a1",
-                    text="abc"
-                ),
-                AnyElement(
-                    qname="{ns-a}a2",
-                    text="abc"
-                ),
-            ]
+        E1(
+            a1="abc",
+            a2="abc"
         ),
         AnyElement(
             qname="{ns-b}e1",
@@ -46,19 +37,9 @@ obj = Root(
                 ),
             ]
         ),
-        AnyElement(
-            qname="{ns-a}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}a1",
-                    text="abc"
-                ),
-                AnyElement(
-                    qname="{ns-a}a2",
-                    text="abc"
-                ),
-            ]
+        E1(
+            a1="abc",
+            a2="abc"
         ),
         AnyElement(
             qname="{ns-b}e1",

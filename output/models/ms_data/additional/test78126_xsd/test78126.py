@@ -37,6 +37,7 @@ class AnyType:
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "process_contents": "skip",
         }
     )
 

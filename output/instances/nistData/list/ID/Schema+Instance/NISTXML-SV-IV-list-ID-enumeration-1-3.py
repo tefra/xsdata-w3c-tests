@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import NistschemaSvIvListIdEnumeration1
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import NistschemaSvIvListIdEnumeration1Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-1-NS}NISTSchema-SV-IV-list-ID-enumeration-1",
-        text="_defines.original.primary_ owide-object_to.and-its-sensors.robust.and_included_are.that-re efocusing_of.ident tother.test- bregistry-such_contribute.in.and-too mthe_prominent.recommending_performance_specific_from."
+    any_element=NistschemaSvIvListIdEnumeration1(
+        value=NistschemaSvIvListIdEnumeration1Type.DEFINES_ORIGINAL_PRIMARY_OWIDE_OBJECT_TO_AND_ITS_SENSORS_ROBUST_AND_INCLUDED_ARE_THAT_RE_EFOCUSING_OF_IDENT_TOTHER_TEST_BREGISTRY_SUCH_CONTRIBUTE_IN_AND_TOO_MTHE_PROMINENT_RECOMMENDING_PERFORMANCE_SPECIFIC_FROM
     )
 )

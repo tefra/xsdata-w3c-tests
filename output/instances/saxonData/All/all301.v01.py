@@ -1,4 +1,6 @@
+from output.models.saxon_data.all.all301_xsd.all301 import B
 from output.models.saxon_data.all.all301_xsd.all301 import Doc
+from output.models.saxon_data.all.all301_xsd.all301 import E
 
 
 obj = Doc(
@@ -9,8 +11,12 @@ obj = Doc(
         "",
     ],
     b=[
-        "",
-        "",
+        B(
+
+        ),
+        B(
+
+        ),
     ],
     c=[
         "",
@@ -18,7 +24,9 @@ obj = Doc(
         "",
     ],
     d="",
-    e="",
+    e=E(
+
+    ),
     f=[
         "",
         "",

@@ -1,10 +1,10 @@
+from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_id_enumeration_4_xsd.nistschema_sv_iv_atomic_id_enumeration_4 import NistschemaSvIvAtomicIdEnumeration4
+from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_id_enumeration_4_xsd.nistschema_sv_iv_atomic_id_enumeration_4 import NistschemaSvIvAtomicIdEnumeration4Type
 from output.models.nist_data.atomic.id.schema_instance.nistschema_sv_iv_atomic_id_enumeration_4_xsd.nistschema_sv_iv_atomic_id_enumeration_4 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-atomic-ID-enumeration-4-NS}NISTSchema-SV-IV-atomic-ID-enumeration-4",
-        text="iimpact-the.devices_templates_sy"
+    any_element=NistschemaSvIvAtomicIdEnumeration4(
+        value=NistschemaSvIvAtomicIdEnumeration4Type.IIMPACT_THE_DEVICES_TEMPLATES_SY
     )
 )

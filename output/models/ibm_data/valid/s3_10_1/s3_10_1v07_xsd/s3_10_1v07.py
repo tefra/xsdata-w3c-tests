@@ -14,6 +14,7 @@ class T:
         metadata={
             "type": "Wildcard",
             "namespace": "a",
+            "process_contents": "skip",
         }
     )
 

@@ -9,6 +9,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
+            "process_contents": "skip",
         }
     )
     a: List[object] = field(
@@ -49,6 +50,7 @@ class R(B):
         metadata={
             "type": "Wildcard",
             "namespace": "##any",
+            "process_contents": "skip",
         }
     )
 

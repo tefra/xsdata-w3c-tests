@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_2_xsd.nistschema_sv_iv_list_id_enumeration_2 import NistschemaSvIvListIdEnumeration2
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_2_xsd.nistschema_sv_iv_list_id_enumeration_2 import NistschemaSvIvListIdEnumeration2Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_2_xsd.nistschema_sv_iv_list_id_enumeration_2 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-2-NS}NISTSchema-SV-IV-list-ID-enumeration-2",
-        text="msensors-groups-measure_for_simplest_fr nlibraries_the_computing.with-second-gen _objective.the-for_by-language_has.the_conferences.is-in qlocation.the.qu cassuring_is.industry.utiliti von-our-an.versions.of-retrieve-infor ton-systems.assuring_documents-proces jfor_significant_discover.effective.registry.as_divisions-and cr"
+    any_element=NistschemaSvIvListIdEnumeration2(
+        value=NistschemaSvIvListIdEnumeration2Type.MSENSORS_GROUPS_MEASURE_FOR_SIMPLEST_FR_NLIBRARIES_THE_COMPUTING_WITH_SECOND_GEN_OBJECTIVE_THE_FOR_BY_LANGUAGE_HAS_THE_CONFERENCES_IS_IN_QLOCATION_THE_QU_CASSURING_IS_INDUSTRY_UTILITI_VON_OUR_AN_VERSIONS_OF_RETRIEVE_INFOR_TON_SYSTEMS_ASSURING_DOCUMENTS_PROCES_JFOR_SIGNIFICANT_DISCOVER_EFFECTIVE_REGISTRY_AS_DIVISIONS_AND_CR
     )
 )

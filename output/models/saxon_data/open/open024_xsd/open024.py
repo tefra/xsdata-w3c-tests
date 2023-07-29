@@ -31,6 +31,7 @@ class B:
         metadata={
             "type": "Wildcard",
             "namespace": "http://open.com/",
+            "process_contents": "skip",
         }
     )
 

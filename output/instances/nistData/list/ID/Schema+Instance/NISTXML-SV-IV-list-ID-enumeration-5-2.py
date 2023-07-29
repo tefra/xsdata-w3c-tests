@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_5_xsd.nistschema_sv_iv_list_id_enumeration_5 import NistschemaSvIvListIdEnumeration5
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_5_xsd.nistschema_sv_iv_list_id_enumeration_5 import NistschemaSvIvListIdEnumeration5Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_5_xsd.nistschema_sv_iv_list_id_enumeration_5 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-5-NS}NISTSchema-SV-IV-list-ID-enumeration-5",
-        text="ssimplest.for.and_regard.describes-developm _tools.significant.is-beta.digital.paradigm _specifications_of_a-vocabulary_foster_per lretrieve_partne vtestable-memory_meet- vweb.to_aspects. dinto_documents_offer_specifications_th paccelerate.available-software_becom"
+    any_element=NistschemaSvIvListIdEnumeration5(
+        value=NistschemaSvIvListIdEnumeration5Type.SSIMPLEST_FOR_AND_REGARD_DESCRIBES_DEVELOPM_TOOLS_SIGNIFICANT_IS_BETA_DIGITAL_PARADIGM_SPECIFICATIONS_OF_A_VOCABULARY_FOSTER_PER_LRETRIEVE_PARTNE_VTESTABLE_MEMORY_MEET_VWEB_TO_ASPECTS_DINTO_DOCUMENTS_OFFER_SPECIFICATIONS_TH_PACCELERATE_AVAILABLE_SOFTWARE_BECOM
     )
 )

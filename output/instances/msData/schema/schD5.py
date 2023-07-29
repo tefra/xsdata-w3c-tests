@@ -1,176 +1,64 @@
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import AE2
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import AE3
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import BE1
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import BE3
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import CE1
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import CE2
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import E1
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import E2
+from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import E3
 from output.models.ms_data.schema.sch_d5_a_xsd.ns_a import Root
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Root(
     any_element=[
-        AnyElement(
-            qname="{ns-a}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}a1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="{ns-a}a2",
-                    text="true"
-                ),
-            ]
+        E1(
+            a1=123,
+            a2=True
         ),
-        AnyElement(
-            qname="{ns-a}e2",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}b1",
-                    text="true"
-                ),
-                AnyElement(
-                    qname="{ns-a}b2",
-                    text="123"
-                ),
-            ]
+        E2(
+            b1=True,
+            b2=123
         ),
-        AnyElement(
-            qname="{ns-a}e3",
-            text="",
-            children=[
-                AnyElement(
-                    qname="c1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="c2",
-                    text="123"
-                ),
-            ]
+        E3(
+            c1=123,
+            c2=123
         ),
-        AnyElement(
-            qname="{ns-a}e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}a1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="{ns-a}a2",
-                    text="true"
-                ),
-            ]
+        E1(
+            a1=123,
+            a2=True
         ),
-        AnyElement(
-            qname="{ns-a}a-e2",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}b1",
-                    text="true"
-                ),
-                AnyElement(
-                    qname="{ns-a}b2",
-                    text="123"
-                ),
-            ]
+        AE2(
+            b1=True,
+            b2=123
         ),
-        AnyElement(
-            qname="{ns-a}a-e3",
-            text="",
-            children=[
-                AnyElement(
-                    qname="c1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="c2",
-                    text="123"
-                ),
-            ]
+        AE3(
+            c1=123,
+            c2=123
         ),
-        AnyElement(
-            qname="{ns-a}b-e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}a1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="{ns-a}a2",
-                    text="true"
-                ),
-            ]
+        BE1(
+            a1=123,
+            a2=True
         ),
-        AnyElement(
-            qname="{ns-a}a-e2",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}b1",
-                    text="true"
-                ),
-                AnyElement(
-                    qname="{ns-a}b2",
-                    text="123"
-                ),
-            ]
+        AE2(
+            b1=True,
+            b2=123
         ),
-        AnyElement(
-            qname="{ns-a}b-e3",
-            text="",
-            children=[
-                AnyElement(
-                    qname="c1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="c2",
-                    text="123"
-                ),
-            ]
+        BE3(
+            c1=123,
+            c2=123
         ),
-        AnyElement(
-            qname="{ns-a}c-e1",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}a1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="{ns-a}a2",
-                    text="true"
-                ),
-            ]
+        CE1(
+            a1=123,
+            a2=True
         ),
-        AnyElement(
-            qname="{ns-a}c-e2",
-            text="",
-            children=[
-                AnyElement(
-                    qname="{ns-a}b1",
-                    text="true"
-                ),
-                AnyElement(
-                    qname="{ns-a}b2",
-                    text="123"
-                ),
-            ]
+        CE2(
+            b1=True,
+            b2=123
         ),
-        AnyElement(
-            qname="{ns-a}e3",
-            text="",
-            children=[
-                AnyElement(
-                    qname="c1",
-                    text="123"
-                ),
-                AnyElement(
-                    qname="c2",
-                    text="123"
-                ),
-            ]
+        E3(
+            c1=123,
+            c2=123
         ),
     ]
 )

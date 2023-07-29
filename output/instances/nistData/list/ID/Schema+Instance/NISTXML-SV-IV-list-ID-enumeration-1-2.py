@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import NistschemaSvIvListIdEnumeration1
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import NistschemaSvIvListIdEnumeration1Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-1-NS}NISTSchema-SV-IV-list-ID-enumeration-1",
-        text="rany-of-the-to_specifications.match _the_less_the_the.the_devices-compatibility-who_ aindustry.primarily_offer.database vmanipulation.specific_of qdocuments.wireless-of.systems.be.tremendous-2000-fir rdistributed_the_specification_to_to.describes_chain-of_t"
+    any_element=NistschemaSvIvListIdEnumeration1(
+        value=NistschemaSvIvListIdEnumeration1Type.RANY_OF_THE_TO_SPECIFICATIONS_MATCH_THE_LESS_THE_THE_THE_DEVICES_COMPATIBILITY_WHO_AINDUSTRY_PRIMARILY_OFFER_DATABASE_VMANIPULATION_SPECIFIC_OF_QDOCUMENTS_WIRELESS_OF_SYSTEMS_BE_TREMENDOUS_2000_FIR_RDISTRIBUTED_THE_SPECIFICATION_TO_TO_DESCRIBES_CHAIN_OF_T
     )
 )

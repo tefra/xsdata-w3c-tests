@@ -33,6 +33,7 @@ class B:
             "type": "Wildcard",
             "namespace": "http://one.com/",
             "max_occurs": 2,
+            "process_contents": "skip",
         }
     )
 
@@ -61,6 +62,7 @@ class E(B):
             "type": "Wildcard",
             "namespace": "http://two.com/",
             "max_occurs": 2,
+            "process_contents": "skip",
         }
     )
 

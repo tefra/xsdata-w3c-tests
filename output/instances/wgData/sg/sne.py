@@ -1,5 +1,5 @@
+from output.models.wg_data.sg.snneg_xsd.snneg import E
 from output.models.wg_data.sg.snneg_xsd.snneg import Test
-from xsdata.formats.dataclass.models.generics import AnyElement
 from xsdata.formats.dataclass.models.generics import DerivedElement
 
 
@@ -10,9 +10,8 @@ obj = Test(
     ),
     n="",
     any_element=[
-        AnyElement(
-            qname="{http://www.w3.org/XML/2008/xsdl-exx/ns1}e",
-            text=""
+        E(
+
         ),
     ]
 )

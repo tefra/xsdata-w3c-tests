@@ -1,10 +1,9 @@
 from output.models.ms_data.wildcards.wild_g004_xsd.wild_g004 import Foo
-from xsdata.formats.dataclass.models.generics import AnyElement
+from output.models.ms_data.wildcards.wild_g004_xsd.wild_g004a import Bar
 
 
 obj = Foo(
-    other_element=AnyElement(
-        qname="{http://foo}bar",
-        text="foo bar"
+    other_element=Bar(
+        value="foo bar"
     )
 )

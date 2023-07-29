@@ -54,6 +54,7 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##any",
+                "process_contents": "skip",
             }
         )
 
@@ -84,6 +85,7 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "##other",
+                "process_contents": "skip",
             }
         )
 
@@ -114,5 +116,6 @@ class Root:
             metadata={
                 "type": "Wildcard",
                 "namespace": "bar",
+                "process_contents": "skip",
             }
         )

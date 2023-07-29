@@ -4477,6 +4477,10 @@ def test_target003_target003_v1_xml(mode, save_output, output_format):
     """
     Simple use of targetNamespace on a local attribute declaration Simple
     use of targetNamespace on a local attribute declaration
+    DocumentationReference(annotation=[], type=<TypeType.LOCATOR:
+    'locator'>,
+    href='../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-
+    TargNSOnAttrDecl', other_attributes={})
     """
     assert_bindings(
         schema="saxonData/TargetNS/target003.xsd",

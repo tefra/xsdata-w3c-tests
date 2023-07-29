@@ -16,6 +16,7 @@ class Foo:
                     "wildcard": True,
                     "type": object,
                     "namespace": "http://www.w3.org/1999/xhtml",
+                    "process_contents": "skip",
                 },
                 {
                     "name": "d",

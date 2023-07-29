@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import NistschemaSvIvListIdEnumeration4
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import NistschemaSvIvListIdEnumeration4Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_4_xsd.nistschema_sv_iv_list_id_enumeration_4 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-4-NS}NISTSchema-SV-IV-list-ID-enumeration-4",
-        text="sspe ksignatures_defines.further_conferences_portable-is.elect xreference-chain-and.management_portable_key.and- _e_and-capabilities-standards.work.lies.registry.to_the- pindustry-and_impact.primar nchallenges.and_these.a-to_the_and-of.ensure_transmit.addres xobject-more-and-processes.be.in"
+    any_element=NistschemaSvIvListIdEnumeration4(
+        value=NistschemaSvIvListIdEnumeration4Type.SSPE_KSIGNATURES_DEFINES_FURTHER_CONFERENCES_PORTABLE_IS_ELECT_XREFERENCE_CHAIN_AND_MANAGEMENT_PORTABLE_KEY_AND_E_AND_CAPABILITIES_STANDARDS_WORK_LIES_REGISTRY_TO_THE_PINDUSTRY_AND_IMPACT_PRIMAR_NCHALLENGES_AND_THESE_A_TO_THE_AND_OF_ENSURE_TRANSMIT_ADDRES_XOBJECT_MORE_AND_PROCESSES_BE_IN
     )
 )

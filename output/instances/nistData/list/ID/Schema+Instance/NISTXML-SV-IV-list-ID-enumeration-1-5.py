@@ -1,10 +1,10 @@
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import NistschemaSvIvListIdEnumeration1
+from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import NistschemaSvIvListIdEnumeration1Type
 from output.models.nist_data.list_pkg.id.schema_instance.nistschema_sv_iv_list_id_enumeration_1_xsd.nistschema_sv_iv_list_id_enumeration_1 import Out
-from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Out(
-    any_element=AnyElement(
-        qname="{NISTSchema-SV-IV-list-ID-enumeration-1-NS}NISTSchema-SV-IV-list-ID-enumeration-1",
-        text="fbuild.technical_information.pervasive.o _rigorous.to-an-defining_filter_and. lof.a_information_to_compute gand.target_and_d _visibly.by.computer-repository_can.compliant_softwar"
+    any_element=NistschemaSvIvListIdEnumeration1(
+        value=NistschemaSvIvListIdEnumeration1Type.FBUILD_TECHNICAL_INFORMATION_PERVASIVE_O_RIGOROUS_TO_AN_DEFINING_FILTER_AND_LOF_A_INFORMATION_TO_COMPUTE_GAND_TARGET_AND_D_VISIBLY_BY_COMPUTER_REPOSITORY_CAN_COMPLIANT_SOFTWAR
     )
 )

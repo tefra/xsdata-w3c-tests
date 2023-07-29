@@ -178,12 +178,8 @@ obj = TestSet(
                                     qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}Description",
                                     text="Simple use of targetNamespace on a local attribute declaration"
                                 ),
-                                AnyElement(
-                                    qname="{http://www.w3.org/XML/2004/xml-schema-test-suite/}documentationReference",
-                                    text="",
-                                    attributes={
-                                        "{http://www.w3.org/1999/xlink}href": "../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl",
-                                    }
+                                DocumentationReference(
+                                    href="../common/XSD1_1TestCategories.xml#xsd1_1-NewLocalDecl-TargNSOnAttrDecl"
                                 ),
                             ]
                         ),
@@ -388,6 +384,6 @@ obj = TestSet(
         KnownToken.VALUE_1_1,
     ],
     other_attributes={
-        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ AnnotatedTSSchema.xsd",
+        "{http://www.w3.org/2001/XMLSchema-instance}schemaLocation": "http://www.w3.org/XML/2004/xml-schema-test-suite/ ../common/xsts.xsd",
     }
 )

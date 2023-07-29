@@ -13,6 +13,7 @@ class Elem:
             "type": "Wildcard",
             "namespace": "##any",
             "max_occurs": 1000000,
+            "process_contents": "skip",
         }
     )
 

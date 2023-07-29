@@ -1,5 +1,5 @@
 from output.models.ms_data.particles.particles_z040_xsd.particles_z040 import Doc
-from xsdata.formats.dataclass.models.generics import AnyElement
+from output.models.ms_data.particles.particles_z040_xsd.particles_z040a import A1
 
 
 obj = Doc(
@@ -7,93 +7,71 @@ obj = Doc(
         "",
     ],
     other_element=[
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
-        AnyElement(
-            qname="{a}a1",
-            text=""
+        A1(
+
         ),
     ],
     b=[

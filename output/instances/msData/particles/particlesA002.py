@@ -4,7 +4,9 @@ from output.models.ms_data.particles.particles_a002_xsd.particles_a002 import El
 
 obj = Doc(
     elem=Elem(
-        elem="",
+        elem=Elem(
+
+        ),
         elem1=""
     ),
     elem1=""

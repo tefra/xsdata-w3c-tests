@@ -1,12 +1,12 @@
+from output.models.ms_data.wildcards.wild_g031_xsd.wild_g031 import Bar
 from output.models.ms_data.wildcards.wild_g031_xsd.wild_g031 import Foo
 from xsdata.formats.dataclass.models.generics import AnyElement
 
 
 obj = Foo(
     a_b_c_d_e_target_namespace_local_element=[
-        AnyElement(
-            qname="{http://foobar}bar",
-            text="foo bar"
+        Bar(
+            value="foo bar"
         ),
         AnyElement(
             qname="bar",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp import E2 as ImpE2
 from output.models.ms_data.particles.particles_q032_xsd.particles_q032_imp2 import E2 as Imp2E2
 
@@ -49,7 +49,7 @@ class R:
             "namespace": "",
         }
     )
-    choice: List[object] = field(
+    choice: List[Union[E2, ImpE2]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

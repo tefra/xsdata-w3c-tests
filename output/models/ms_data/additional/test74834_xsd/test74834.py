@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional
+from typing import List, Optional, Union
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "urn:myxsdschema"
@@ -95,7 +95,7 @@ class Datafile:
 
     @dataclass
     class Nonstringsection:
-        choice: List[object] = field(
+        choice: List[Union[int, Decimal, MySmallDateTime, float, MyDateTime]] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",

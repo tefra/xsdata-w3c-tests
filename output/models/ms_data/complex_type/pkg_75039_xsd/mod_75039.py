@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -56,7 +56,7 @@ class BagOfHeads:
     class Meta:
         name = "bagOfHeads"
 
-    complex2_or_complex1_or_subst_head: List[object] = field(
+    complex2_or_complex1_or_subst_head: List[Union[Complex1, SubstHead, Complex2]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

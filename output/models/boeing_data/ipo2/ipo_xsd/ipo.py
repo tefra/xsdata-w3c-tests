@@ -103,7 +103,7 @@ class ItemsType:
                 "required": True,
             }
         )
-        customer_comment_or_ship_comment_or_comment: List[object] = field(
+        customer_comment_or_ship_comment_or_comment: List[str] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",
@@ -162,7 +162,7 @@ class ItemsType:
 
 @dataclass
 class PurchaseOrderType:
-    ship_to_or_bill_to_or_single_address: List[object] = field(
+    ship_to_or_bill_to_or_single_address: List[AddressType] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -186,7 +186,7 @@ class PurchaseOrderType:
             "max_occurs": 2,
         }
     )
-    customer_comment_or_ship_comment_or_comment: Optional[object] = field(
+    customer_comment_or_ship_comment_or_comment: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

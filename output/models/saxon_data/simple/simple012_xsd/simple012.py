@@ -46,7 +46,7 @@ class Book:
         name = "book"
         namespace = "http://simple012.ly/"
 
-    subdoc_or_doc: List[object] = field(
+    subdoc_or_doc: List[Union[Doc, Subdoc]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

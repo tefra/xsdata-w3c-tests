@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
 
 @dataclass
 class B:
-    c1_or_c2: Optional[object] = field(
+    c1_or_c2: Optional[Union[object, str]] = field(
         default=None,
         metadata={
             "type": "Elements",

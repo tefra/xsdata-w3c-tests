@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "particles"
@@ -11,7 +11,7 @@ class A:
         name = "a"
         namespace = "particles"
 
-    date_or_marked: Optional[object] = field(
+    date_or_marked: Optional[Union[bool, XmlDate]] = field(
         default=None,
         metadata={
             "type": "Elements",

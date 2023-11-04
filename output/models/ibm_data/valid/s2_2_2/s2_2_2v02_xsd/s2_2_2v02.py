@@ -51,7 +51,7 @@ class RootType:
     class Meta:
         name = "rootType"
 
-    elem2_or_elem0: List[object] = field(
+    elem2_or_elem0: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

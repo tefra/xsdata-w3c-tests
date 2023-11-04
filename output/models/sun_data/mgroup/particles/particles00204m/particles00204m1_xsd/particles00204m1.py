@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Union
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "particles"
@@ -11,7 +11,7 @@ class A:
         name = "a"
         namespace = "particles"
 
-    date_or_marked_or_num: List[object] = field(
+    date_or_marked_or_num: List[Union[bool, int, XmlDate]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

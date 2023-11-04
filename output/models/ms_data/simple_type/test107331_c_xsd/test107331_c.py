@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 class A1(Enum):
@@ -148,7 +148,7 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[object] = field(
+    choice: List[Union[A1, UnionA, RA1, str, int, object, B1, UnionAb]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

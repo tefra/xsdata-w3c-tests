@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -56,7 +56,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    non_nillable_or_nillable1_or_nillable2: List[object] = field(
+    non_nillable_or_nillable1_or_nillable2: List[Union[int, NonNillable, Nillable1]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

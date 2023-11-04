@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
 @dataclass
 class T:
-    e_or_e1: Optional[object] = field(
+    e_or_e1: Optional[Union[int, str]] = field(
         default=None,
         metadata={
             "type": "Elements",

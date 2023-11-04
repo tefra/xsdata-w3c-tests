@@ -66,7 +66,7 @@ class Buyer:
     class Meta:
         name = "BUYER"
 
-    choice: List[object] = field(
+    choice: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

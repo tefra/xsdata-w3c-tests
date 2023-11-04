@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 
 @dataclass
 class T:
-    choice: List[object] = field(
+    choice: List[Union[object, str]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

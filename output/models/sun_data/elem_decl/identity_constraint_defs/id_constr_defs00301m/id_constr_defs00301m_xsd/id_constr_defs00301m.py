@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/identityConstraintDefs"
 
-    element_or_element_ref_or_element_refs: List[object] = field(
+    element_or_element_ref_or_element_refs: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

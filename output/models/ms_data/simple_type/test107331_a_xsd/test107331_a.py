@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional
+from typing import List, Optional, Union
 from xsdata.models.datatype import XmlDate, XmlDateTime, XmlDuration, XmlPeriod, XmlTime
 
 
@@ -202,7 +202,7 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[object] = field(
+    choice: List[Union[str, XmlDateTime, Decimal, int, float, bytes, bool, XmlPeriod, XmlDate, object, XmlTime, XmlDuration]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

@@ -76,7 +76,7 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    fe1_valid_or_fe_valid: Optional[object] = field(
+    fe1_valid_or_fe_valid: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

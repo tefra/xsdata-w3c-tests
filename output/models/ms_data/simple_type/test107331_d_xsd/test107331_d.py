@@ -66,7 +66,7 @@ class Root:
     class Meta:
         name = "root"
 
-    choice: List[object] = field(
+    choice: List[Union[object, bool, int, float]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

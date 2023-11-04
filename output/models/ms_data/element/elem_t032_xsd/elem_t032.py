@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -98,7 +98,7 @@ class Root:
     class Meta:
         name = "root"
 
-    s_a_or_test: Optional[object] = field(
+    s_a_or_test: Optional[Union[SA, int]] = field(
         default=None,
         metadata={
             "type": "Elements",

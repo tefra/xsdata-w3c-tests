@@ -48,7 +48,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    appendix_or_chap: List[object] = field(
+    appendix_or_chap: List[Union[Chap, Appendix]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

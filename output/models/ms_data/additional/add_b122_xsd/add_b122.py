@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type
+from typing import List, Optional, Type, Union
 
 
 @dataclass
@@ -158,7 +158,7 @@ class M5:
     class Meta:
         name = "m5"
 
-    e3_or_e4_or_e5: List[object] = field(
+    e3_or_e4_or_e5: List[Union["E5", E4, E3]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

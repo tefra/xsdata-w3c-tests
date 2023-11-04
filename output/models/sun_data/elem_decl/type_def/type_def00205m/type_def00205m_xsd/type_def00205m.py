@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "ElemDecl/typeDef"
 
@@ -38,7 +38,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/typeDef"
 
-    any_type_element_or_default_type_element: Optional[object] = field(
+    any_type_element_or_default_type_element: Optional[Union[AnyTypeElement, DefaultTypeElement]] = field(
         default=None,
         metadata={
             "type": "Elements",

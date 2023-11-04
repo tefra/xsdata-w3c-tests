@@ -6,7 +6,7 @@ __NAMESPACE__ = "http://www.w3.org/XML/2008/xsdl-exx/ns1"
 
 @dataclass
 class T:
-    s1_or_s: Optional[object] = field(
+    s1_or_s: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

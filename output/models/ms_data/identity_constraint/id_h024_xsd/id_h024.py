@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -45,7 +45,7 @@ class Root:
     class Meta:
         name = "root"
 
-    uid2_or_uid: List[object] = field(
+    uid2_or_uid: List[Union[Uid, Uid2]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

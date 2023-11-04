@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 
 @dataclass
@@ -42,7 +42,7 @@ class Zing:
             "process_contents": "skip",
         }
     )
-    a_or_a: Optional[object] = field(
+    a_or_a: Optional[Union[str, A1]] = field(
         default=None,
         metadata={
             "type": "Elements",

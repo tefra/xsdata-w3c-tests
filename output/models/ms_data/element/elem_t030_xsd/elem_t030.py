@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 class A(Enum):
@@ -85,7 +85,7 @@ class Root:
     class Meta:
         name = "root"
 
-    s_a_or_test: Optional[object] = field(
+    s_a_or_test: Optional[Union[SA, A]] = field(
         default=None,
         metadata={
             "type": "Elements",

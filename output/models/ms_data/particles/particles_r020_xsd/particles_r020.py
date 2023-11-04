@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 from output.models.ms_data.particles.particles_r020_xsd.particles_r020_imp import (
     ImpElem1,
     ImpElem2,
@@ -36,7 +36,7 @@ class R:
             "namespace": "",
         }
     )
-    imp_elem1_or_imp_elem2: Optional[object] = field(
+    imp_elem1_or_imp_elem2: Optional[Union[ImpElem1, ImpElem2]] = field(
         default=None,
         metadata={
             "type": "Elements",

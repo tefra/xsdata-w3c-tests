@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Type
+from typing import List, Type, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Node:
     class Meta:
         name = "node"
 
-    node_or_id_or_idref: List[object] = field(
+    node_or_id_or_idref: List[Union[str, "Node"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

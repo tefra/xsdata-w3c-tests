@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from enum import Enum
-from typing import List, Optional
+from typing import List, Optional, Union
 from xml.etree.ElementTree import QName
 
 
@@ -46,7 +46,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    para_or_bezzle: List[object] = field(
+    para_or_bezzle: List[Union[QName, StructuredDate]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

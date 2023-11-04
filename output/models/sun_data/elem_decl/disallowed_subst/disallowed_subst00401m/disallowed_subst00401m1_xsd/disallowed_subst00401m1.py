@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "ElemDecl/disallowedSubst"
 
@@ -52,7 +52,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member2_or_member1_or_head: List[object] = field(
+    member2_or_member1_or_head: List[Union[Head, Member2, Member1]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

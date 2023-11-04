@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 from xsdata.models.datatype import XmlPeriod
 
 __NAMESPACE__ = "ElemDecl/substGroupAffilation"
@@ -66,7 +66,7 @@ class BookStore:
     class Meta:
         namespace = "ElemDecl/substGroupAffilation"
 
-    magazine_or_book: List[object] = field(
+    magazine_or_book: List[Union[Magazine, Book]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

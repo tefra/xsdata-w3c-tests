@@ -34,7 +34,7 @@ class Testing(Base):
     class Meta:
         name = "testing"
 
-    e1_or_e2: Optional[object] = field(
+    e1_or_e2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

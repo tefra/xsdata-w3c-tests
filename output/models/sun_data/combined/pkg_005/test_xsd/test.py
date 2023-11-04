@@ -38,7 +38,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    item1_or_item2: List[object] = field(
+    item1_or_item2: List[B] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

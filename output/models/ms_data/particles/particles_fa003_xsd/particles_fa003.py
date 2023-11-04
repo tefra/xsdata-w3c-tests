@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -34,7 +34,7 @@ class Base:
     class Meta:
         name = "base"
 
-    e1_or_e2: Optional[object] = field(
+    e1_or_e2: Optional[Union[object, A]] = field(
         default=None,
         metadata={
             "type": "Elements",

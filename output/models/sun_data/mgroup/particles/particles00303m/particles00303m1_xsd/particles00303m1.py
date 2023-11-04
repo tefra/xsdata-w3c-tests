@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "particles"
 
@@ -10,7 +10,7 @@ class A:
         name = "a"
         namespace = "particles"
 
-    id_or_id_str: Optional[object] = field(
+    id_or_id_str: Optional[Union[int, str]] = field(
         default=None,
         metadata={
             "type": "Elements",
@@ -28,7 +28,7 @@ class A:
             ),
         }
     )
-    name_or_type: Optional[object] = field(
+    name_or_type: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

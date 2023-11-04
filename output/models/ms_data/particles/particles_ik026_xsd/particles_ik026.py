@@ -6,7 +6,7 @@ __NAMESPACE__ = "http://xsdtesting"
 
 @dataclass
 class B:
-    c1_or_c2: Optional[object] = field(
+    c1_or_c2: Optional[Union[object, int, str]] = field(
         default=None,
         metadata={
             "type": "Elements",

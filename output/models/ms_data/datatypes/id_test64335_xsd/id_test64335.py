@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List, Optional
+from typing import List, Optional, Union
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "urn:products"
@@ -140,7 +140,7 @@ class Dvd(MediaItem):
 
 @dataclass
 class ProductList:
-    choice: List[object] = field(
+    choice: List[Union[Apparel, Cd, Book, Dvd]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

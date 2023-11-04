@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "targetNS0"
@@ -10,7 +10,7 @@ class A1:
     class Meta:
         name = "A"
 
-    c_or_date: Optional[object] = field(
+    c_or_date: Optional[Union[XmlDate, int]] = field(
         default=None,
         metadata={
             "type": "Elements",

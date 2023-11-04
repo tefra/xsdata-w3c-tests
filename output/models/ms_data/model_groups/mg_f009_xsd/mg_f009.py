@@ -15,7 +15,7 @@ class Foo:
             "required": True,
         }
     )
-    b_or_b2: Optional[object] = field(
+    b_or_b2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

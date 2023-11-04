@@ -10,7 +10,7 @@ class Root:
         name = "root"
         namespace = "http://foo.com"
 
-    child1_or_child2: List[object] = field(
+    child1_or_child2: List[Union[str, bool]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

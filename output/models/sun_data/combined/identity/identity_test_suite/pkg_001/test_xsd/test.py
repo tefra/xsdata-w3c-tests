@@ -11,7 +11,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    key_or_ref: List[object] = field(
+    key_or_ref: List[Decimal] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

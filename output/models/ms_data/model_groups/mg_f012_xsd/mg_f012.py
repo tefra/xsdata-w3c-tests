@@ -23,7 +23,7 @@ class Foo:
             "process_contents": "skip",
         }
     )
-    b_or_b2: Optional[object] = field(
+    b_or_b2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

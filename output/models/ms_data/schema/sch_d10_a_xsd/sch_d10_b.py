@@ -9,7 +9,7 @@ class BCt:
     class Meta:
         name = "b-ct"
 
-    c21_or_c22: List[object] = field(
+    c21_or_c22: List[int] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

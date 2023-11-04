@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 from xsdata.models.datatype import XmlDate
 
 __NAMESPACE__ = "MGroup/annotation"
@@ -25,7 +25,7 @@ class TheType:
     class Meta:
         name = "theType"
 
-    c_or_date: Optional[object] = field(
+    c_or_date: Optional[Union[int, XmlDate]] = field(
         default=None,
         metadata={
             "type": "Elements",

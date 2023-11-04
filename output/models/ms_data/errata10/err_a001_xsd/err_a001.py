@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import List
+from typing import List, Union
 
 __NAMESPACE__ = "http://www.tempuri.org"
 
@@ -11,7 +11,7 @@ class Root:
         name = "root"
         namespace = "http://www.tempuri.org"
 
-    choice: List[object] = field(
+    choice: List[Union[int, Decimal]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type
+from typing import List, Optional, Type, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Doc:
     class Meta:
         name = "doc"
 
-    id_or_elem: List[object] = field(
+    id_or_elem: List[Union["Doc.Id", str]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

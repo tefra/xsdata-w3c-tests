@@ -13,7 +13,7 @@ class T:
             "namespace": "##any",
         }
     )
-    s1_or_s: Optional[object] = field(
+    s1_or_s: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

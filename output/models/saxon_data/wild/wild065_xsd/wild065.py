@@ -1,6 +1,6 @@
 from dataclasses import dataclass, field
 from decimal import Decimal
-from typing import Optional
+from typing import Optional, Union
 
 
 @dataclass
@@ -34,7 +34,7 @@ class Zing:
     class Meta:
         name = "zing"
 
-    g_or_e: Optional[object] = field(
+    g_or_e: Optional[Union[int, Decimal]] = field(
         default=None,
         metadata={
             "type": "Elements",

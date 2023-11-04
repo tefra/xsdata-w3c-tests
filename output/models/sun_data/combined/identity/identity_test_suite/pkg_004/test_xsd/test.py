@@ -10,7 +10,7 @@ class Scope:
         name = "scope"
         namespace = "foo"
 
-    key_or_ref: List[object] = field(
+    key_or_ref: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

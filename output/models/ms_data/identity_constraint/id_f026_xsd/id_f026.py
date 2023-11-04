@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -38,7 +38,7 @@ class T:
     class Meta:
         name = "t"
 
-    r2_or_r: Optional[object] = field(
+    r2_or_r: Optional[Union[R, R2]] = field(
         default=None,
         metadata={
             "type": "Elements",

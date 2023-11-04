@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "ns-a"
 
@@ -45,7 +45,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    a_or_abc: Optional[object] = field(
+    a_or_abc: Optional[Union[Abc, str]] = field(
         default=None,
         metadata={
             "type": "Elements",

@@ -6,7 +6,7 @@ __NAMESPACE__ = "urn:my-namespace"
 
 @dataclass
 class ContainHead2Type:
-    member2_or_head2: Optional[object] = field(
+    member2_or_head2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

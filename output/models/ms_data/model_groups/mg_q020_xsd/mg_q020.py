@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 
 @dataclass
@@ -22,7 +22,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    e1_or_e2: Optional[object] = field(
+    e1_or_e2: Optional[Union[Bar, str]] = field(
         default=None,
         metadata={
             "type": "Elements",

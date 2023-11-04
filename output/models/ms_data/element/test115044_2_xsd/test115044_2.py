@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -39,7 +39,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    e1_or_e: Optional[object] = field(
+    e1_or_e: Optional[Union[int, E]] = field(
         default=None,
         metadata={
             "type": "Elements",

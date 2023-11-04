@@ -65,7 +65,7 @@ class T:
     class Meta:
         name = "t"
 
-    d_or_b: Optional[object] = field(
+    d_or_b: Optional[int] = field(
         default=None,
         metadata={
             "type": "Elements",

@@ -415,7 +415,7 @@ class Annotation:
         name = "annotation"
         namespace = "http://www.w3.org/XML/2004/xml-schema-test-suite/"
 
-    appinfo_or_documentation: List[object] = field(
+    appinfo_or_documentation: List[Union[Appinfo, Documentation]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

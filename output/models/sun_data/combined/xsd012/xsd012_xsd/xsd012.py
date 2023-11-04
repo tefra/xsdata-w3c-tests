@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "foo"
 
@@ -55,7 +55,7 @@ class Root:
         name = "root"
         namespace = "foo"
 
-    mixed_or_element_only: List[object] = field(
+    mixed_or_element_only: List[Union["Root.ElementOnly", "Root.Mixed"]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -99,7 +99,7 @@ class Root:
 
     @dataclass
     class ElementOnly:
-        a_or_b_or_c: List[object] = field(
+        a_or_b_or_c: List[Union[C, B, A]] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",

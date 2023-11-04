@@ -52,7 +52,7 @@ class T:
     class Meta:
         name = "t"
 
-    r2_or_r: Optional[object] = field(
+    r2_or_r: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

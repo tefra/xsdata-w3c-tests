@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional, Type
+from typing import List, Optional, Type, Union
 
 __NAMESPACE__ = "http://example.org/ns/document"
 
@@ -274,7 +274,7 @@ class Doc:
             "type": "Element",
         }
     )
-    p_or_blockquote: List[object] = field(
+    p_or_blockquote: List[Union[Blockquote, P]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

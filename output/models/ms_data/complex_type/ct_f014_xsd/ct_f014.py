@@ -7,7 +7,7 @@ class MyType:
     class Meta:
         name = "myType"
 
-    my_element_or_my_element2: Optional[object] = field(
+    my_element_or_my_element2: Optional[str] = field(
         default=None,
         metadata={
             "type": "Elements",

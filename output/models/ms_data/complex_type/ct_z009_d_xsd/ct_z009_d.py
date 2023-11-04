@@ -19,7 +19,7 @@ class Root:
 
     @dataclass
     class Element1:
-        group2_element1_or_group2_element2: List[object] = field(
+        group2_element1_or_group2_element2: List[str] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",

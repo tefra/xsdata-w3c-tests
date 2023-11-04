@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "foo"
 
@@ -82,7 +82,7 @@ class Generic:
         name = "generic"
         namespace = "foo"
 
-    choice: List[object] = field(
+    choice: List[Union[Facet, YesNo, Long, Int]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -129,7 +129,7 @@ class Root:
 
     @dataclass
     class Restricted:
-        int_or_long: List[object] = field(
+        int_or_long: List[Union[Long, Int]] = field(
             default_factory=list,
             metadata={
                 "type": "Elements",

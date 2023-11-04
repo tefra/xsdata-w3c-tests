@@ -1,12 +1,12 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "foo"
 
 
 @dataclass
 class B:
-    choice: List[object] = field(
+    choice: List[Union[int, bool]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

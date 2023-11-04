@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "ElemDecl/substGroupAffilation"
 
@@ -52,7 +52,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/substGroupAffilation"
 
-    super_element_or_super_super_element: List[object] = field(
+    super_element_or_super_super_element: List[Union[SuperSuperElement, SuperElement]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

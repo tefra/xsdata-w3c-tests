@@ -36,7 +36,7 @@ class Root:
         name = "root"
         namespace = "ElemDecl/disallowedSubst"
 
-    member1_or_head: List[object] = field(
+    member1_or_head: List[str] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

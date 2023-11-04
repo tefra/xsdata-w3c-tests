@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 __NAMESPACE__ = "myNS.tempuri.org"
 
@@ -66,7 +66,7 @@ class Root:
         name = "root"
         namespace = "myNS.tempuri.org"
 
-    t_or_u: List[object] = field(
+    t_or_u: List[Union[U, T]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

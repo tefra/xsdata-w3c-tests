@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import Optional, Union
 
 __NAMESPACE__ = "http://xsdtesting"
 
@@ -72,7 +72,7 @@ class Root:
         name = "root"
         namespace = "http://xsdtesting"
 
-    fr1_valid_or_fr_valid: Optional[object] = field(
+    fr1_valid_or_fr_valid: Optional[Union[FrValid, Fr1Valid]] = field(
         default=None,
         metadata={
             "type": "Elements",

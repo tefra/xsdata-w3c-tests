@@ -41,7 +41,7 @@ class Doc:
         name = "doc"
         namespace = "http://id040.ly/"
 
-    chap_or_appx: List[object] = field(
+    chap_or_appx: List[Chap] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

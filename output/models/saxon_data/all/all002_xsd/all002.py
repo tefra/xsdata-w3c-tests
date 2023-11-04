@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, Union
 
 
 @dataclass
@@ -78,7 +78,7 @@ class Doc:
             "max_occurs": 5,
         }
     )
-    c_or_c: List[object] = field(
+    c_or_c: List[Union[C2, C1]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
@@ -94,7 +94,7 @@ class Doc:
             ),
         }
     )
-    d_or_d: Optional[object] = field(
+    d_or_d: Optional[Union[D2, D1]] = field(
         default=None,
         metadata={
             "type": "Elements",

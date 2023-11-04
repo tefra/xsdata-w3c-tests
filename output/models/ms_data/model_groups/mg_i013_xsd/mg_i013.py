@@ -1,5 +1,5 @@
 from dataclasses import dataclass, field
-from typing import List
+from typing import List, Union
 
 
 @dataclass
@@ -7,7 +7,7 @@ class Foo:
     class Meta:
         name = "foo"
 
-    choice: List[object] = field(
+    choice: List[Union[str, bool, int, object]] = field(
         default_factory=list,
         metadata={
             "type": "Elements",

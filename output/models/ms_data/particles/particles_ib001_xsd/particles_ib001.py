@@ -9,7 +9,7 @@ class Base:
     class Meta:
         name = "base"
 
-    foo_or_foo1: List[object] = field(
+    foo_or_foo1: List[bool] = field(
         default_factory=list,
         metadata={
             "type": "Elements",
